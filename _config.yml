@@ -1,66 +1,48 @@
 # Site settings
-title: Louis Rassaby
+title: Keanu Uchida
 description: |
-  Louis Rassaby is a NYC-based software engineer and entrepreneur currently at Google.
-  He's the founder of Wirefreight, a customer service platform for freight. Previously, Louis led the new products engineering team
-  at Phosphorus Genomics.
+  Tech enthusiat and dancer.
 
-url: http://rassaby.com
+url: https://ucheetah.github.io/
 
 about_title: About
 projects_title: Home
 
 # User settings
 user_description_appendix: |
-  I created this site to write about my interests: startups and entrepreneurship, design, data-intensive applications,
-  functional programming, AR/VR, and machine learning. I like to use computers to solve problems.
+  Latest projects and ideas.
 
-  I built this site in [Jekyll][jekyll], and it's hosted for free on [GitHub Pages][gh-pages]. It's open source, so if
+  This site was taken from Louis Rassaby's GitHub [Jekyll][jekyll], and it's hosted for free on [GitHub Pages][gh-pages]. It's open source, so if
   you like it, feel free to fork it on [GitHub][github] and make your own version.
 
-  [github]: https://github.com/lrassaby/lrassaby.github.io
+  [github]: https://github.com/ucheetah
   [gh-pages]: https://pages.github.com/
   [jekyll]: https://jekyllrb.com
 
 
-email: louis@rassaby.com
-linkedin: lrassaby
-github: lrassaby
-#angellist: rassaby
+email: kblairuchida@gmail.com
+linkedin: keanu-uchida
+github: ucheetah
 
-relevant_tags: ['projects', 'music', 'tech-blog']
+relevant_tags: ['projects', 'dance', 'data analysis', 'data science' 'tech-blog']
 
-resume_url: https://docs.google.com/document/d/1dJIboSF-ktdaP28DDu-gcuOW1SCCnkSdqtodJGwYkaA/export?format=pdf
-music_resume_url: https://docs.google.com/document/d/17F3g8jx2UHby77P7shJlsKAW2Efasuc1HuQ3Ro3v3zI/export?format=pdf
+#resume_url: https://docs.google.com/document/d/1dJIboSF-ktdaP28DDu-gcuOW1SCCnkSdqtodJGwYkaA/export?format=pdf
+# music_resume_url: https://docs.google.com/document/d/17F3g8jx2UHby77P7shJlsKAW2Efasuc1HuQ3Ro3v3zI/export?format=pdf
 
-author: Louis Rassaby
-author_title: Software Engineer
+author: Keanu Uchida
+author_title: Data Enthusiast
 author_photo: profile-photo.jpg
 user_description_short: |
-  I'm a Brooklyn-based software engineer and entrepreneur currently at Google.
-  
-  I've founded a [couple][wirefreight] of [things][ppp]. Previously, I led the new products team engineering team at
-  Phosphorus Genomics, analyzing genetic data and educating tens of thousands of people on their risks of developing or
-  passing on genetic diseases.
-
-  Away from the keyboard, I make food and music. I'm half of a band called [Cellolele][cellolele] and I once played in
-  an ad for [Versace][versace].
-
-  [scala]: https://www.scala-lang.org/
-  [couple]: https://wirefreight.com/
-  [cellolele]: /cellolele-toxic/
-  [wirefreight]: http://wirefreight.com/
-  [ppp]: http://postpartumproject.com/
-  [versace]: /versace-eyewear
+  Tech enthusiast and recent University of Toronto Physics grad. Dancer and choreographer. Passionate about advocacy and community building.
 
 
 ## Disqus
-disqus_identifier: rassaby
+# disqus_identifier: rassaby
 
 ## Tracker
-google_analytics_id: UA-109461282-1
+# google_analytics_id: UA-109461282-1
 
-keywords: 'software,engineer,design,scala,cello,music,louis rassaby,rassaby'
+keywords: 'data, dance, performance, physics, tech'
 
 ## URLs
 permalink: ':title/'
@@ -72,6 +54,11 @@ about_url: '/about'
 
 plugins:
   - jekyll-feed
+
+
+include: [_pages]
+exclude: ['package.json', 'src' , 'node_modules', 'Gemfile', 'LICENSE', 'gulpfile.js', 'README.md']
+
 
 
 include: [_pages]
