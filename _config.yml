@@ -1,7 +1,7 @@
 # Site settings
-title: Keanu Uchida
+title: KBU
 description: |
-  Tech enthusiat and dancer.
+  Tech enthusiat
 
 url: https://ucheetah.github.io/
 
@@ -20,8 +20,8 @@ user_description_appendix: |
   [jekyll]: https://jekyllrb.com
 
 
-email: kblairuchida@gmail.com
-linkedin: keanu-uchida
+email: kb@gmail.com
+linkedin: 
 github: ucheetah
 
 relevant_tags: ['projects', 'dance', 'tech']
@@ -29,11 +29,11 @@ relevant_tags: ['projects', 'dance', 'tech']
 #resume_url: https://docs.google.com/document/d/1dJIboSF-ktdaP28DDu-gcuOW1SCCnkSdqtodJGwYkaA/export?format=pdf
 # music_resume_url: https://docs.google.com/document/d/17F3g8jx2UHby77P7shJlsKAW2Efasuc1HuQ3Ro3v3zI/export?format=pdf
 
-author: Keanu Uchida
+author: KU
 author_title: Data Enthusiast
-author_photo: profile-photo.jpg
+author_photo: 
 user_description_short: |
-  Tech enthusiast and recent University of Toronto Physics grad. Dancer and choreographer. Passionate about advocacy and community building.
+
 
 
 ## Disqus
