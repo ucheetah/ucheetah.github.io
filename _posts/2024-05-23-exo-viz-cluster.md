@@ -6,10 +6,6 @@ tags: [projects, tech, data, visualization]
 image: exoplanet_distance_histogram.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
-
-
-# Visualization and Clustering with NASA Exoplanet Data
-
 This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html), a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the **[Planetary Systems](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)** dataset, which provides in-depth data on every confirmed exoplanet known to astronomists to date. The table contains one row per planet per reference and collects data such as its radius and mass, distance, stellar systems.
 
 <ul>
@@ -30,7 +26,7 @@ I have a few goals associated with this project:
 </p>
 
 
-## Collecting and cleaning
+### Collecting and cleaning
 
 From the parameter table documentation for this dataset I chose a small set of values from the dataset that are likely to be of biggest interest. The variable in parentheses indicate it's name in the original table:
 
@@ -39,7 +35,7 @@ From the parameter table documentation for this dataset I chose a small set of v
 *   **Star characteristics**: Stellar Effective Temperature [K] (`st_teff`), Stellar Radius [Solar Radius] (`st_rad`)
 *   **Discovery**: Discovery Year (`disc_year`)
 
-### Querying data
+#### Querying data
 
 To query this data we use the industry standard **Table Access Protocol (TAP)** which uses **AQDL (Astronomical Query Data Language)** - akin to SQL for astronomical databases - as queries.
 
@@ -61,13 +57,13 @@ To fit it into a [TAP protocol](https://exoplanetarchive.ipac.caltech.edu/docs/T
           f.write(request_csv.text)
 ```
 
-### Missing value analysis and outlier handling
+#### Missing value analysis and outlier handling
 
 I started with tracking missing values in the columns I've grabbed.
 
 
 <p align="center">
-  <img src="https://github.com/ucheetah/ucheetah.github.io/assets/img/2024-05-24-exoplanets-1" width = "550" height = "400" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
+  <img src="https://github.com/ucheetah/ucheetah.github.io/assets/img/2024-05-24-exoplanets-1.png" width = "550" height = "400" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
 </p>
 
 
