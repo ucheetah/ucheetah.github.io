@@ -22,7 +22,7 @@ I have a few goals associated with this project:
 </ol>
 
 <p align="center">
-  <img src="https://github.com/ucheetah/exoplanet-viz-cluster/blob/main/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
+  <img src="https://github.com/ucheetah/ucheetah.github.io/main/src/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
 </p>
 
 
@@ -63,7 +63,7 @@ I started with tracking missing values in the columns I've grabbed.
 
 
 <p align="center">
-  <img src="https://github.com/ucheetah/ucheetah.github.io/assets/img/2024-05-24-exoplanets-1.png" width = "550" height = "400" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
+  <img src="https://github.com/ucheetah/ucheetah.github.io/main/src/img/2024-05-24-exoplanets-1.png" width = "550" height = "400" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
 </p>
 
 
