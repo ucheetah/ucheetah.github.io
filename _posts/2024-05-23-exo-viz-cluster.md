@@ -6,7 +6,9 @@ tags: [projects, tech, data, visualization]
 image: exoplanet_distance_histogram.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
-This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html), a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the **[Planetary Systems](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)** dataset, which provides in-depth data on every confirmed exoplanet known to astronomists to date. The table contains one row per planet per reference and collects data such as its radius and mass, distance, stellar systems.
+This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html), a collaboration between Caltech and NASA under its Exoplanet Exploration Program. 
+
+I'm drawing from the **[Planetary Systems](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)** dataset, which provides in-depth data on every confirmed exoplanet known to astronomists to date. The table contains one row per planet per reference and collects data such as its radius and mass, distance, stellar systems.
 
 <ul>
   <li> <strong>Languages and packages</strong>: one humble SQL query, Python (pandas, matplotlib, seaborn, scikit-learn)</li>
@@ -22,7 +24,7 @@ I have a few goals associated with this project:
 </ol>
 
 <p align="center">
-  <img src="https://github.com/ucheetah/ucheetah.github.io/main/src/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
+  <img src="https://github.com/ucheetah/ucheetah.github.io/blob/master/src/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
 </p>
 
 
@@ -63,7 +65,7 @@ I started with tracking missing values in the columns I've grabbed.
 
 
 <p align="center">
-  <img src="https://github.com/ucheetah/ucheetah.github.io/main/src/img/2024-05-24-exoplanets-1.png" width = "550" height = "400" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
+  <img src="https://github.com/ucheetah/ucheetah.github.io/blob/master/src/img/2024-05-24-exoplanets-1.png" width = "800" height = "400" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
 </p>
 
 
