@@ -68,8 +68,8 @@ I started with tracking missing values in the columns I've grabbed.
 ---
 <div style="height: 20px;"></div>
 <p align="center">
-<a href="/assets/img/2024-05-24-exoplanets-1.png">
-  <img src="/assets/img/2024-05-24-exoplanets-1.png" width = "800" height = "400" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
+<a href="/assets/img/exoplanet_count.png">
+  <img src="/assets/img/2024-05-24-exoplanets-1.png" width = "800" height = "600" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
 </a>
 </p>
 
