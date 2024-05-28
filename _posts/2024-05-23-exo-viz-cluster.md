@@ -67,7 +67,7 @@ I started with tracking missing values in the columns I've grabbed.
 
 ---
 
-<div class="center-text">
+<div align="center">
     <h5>Graph - Missing values [Barplot]</h5>
   </div>
 <div style="height: 20px;"></div>
