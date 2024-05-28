@@ -67,7 +67,9 @@ I started with tracking missing values in the columns I've grabbed.
 
 ###### Graph - Missing values [Barplot]
 <p align="center">
+<a href="graph_1.jpg" data-lightbox="single" data-title="Caption for image">
   <img src="/assets/img/2024-05-24-exoplanets-1.png" width = "800" height = "400" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
+</a>
 </p>
 
 ###### Graph -  Known vs. unknown radius [Histograms]
