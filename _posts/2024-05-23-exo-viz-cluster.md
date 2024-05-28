@@ -86,7 +86,7 @@ I started with tracking missing values in the columns I've grabbed.
 
 ###### Graph - Exoplanet radius vs. mass [Scatterplot]
 <p align="center">
-<img src="/assets/img/2024-05-24-exoplanets-3.png" width = "1000" height = "600" alt="NASA Homepage" style="border: 2px solid darkgray; border-radius: 5px;">
+<img src="/assets/img/2024-05-24-exoplanets-3.png" width = "1000" height = "600" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
 </p>
 
 
@@ -106,7 +106,7 @@ We next track exoplanet distance from Earth. We'll generate a histogram and cumu
 ###### Graph - Distance from Earth [Histogram]
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-4.png">
-  <img src="/assets/img/2024-05-24-exoplanets-4.png" width = "800" height = "500" alt="NASA Homepage" style="border: 2px solid darkgray; border-radius: 5px;">
+  <img src="/assets/img/2024-05-24-exoplanets-4.png" width = "800" height = "500" alt="NASA Homepage" style="border: 5px solid darkgray; border-radius: 3px;">
   </a>
 </p>
 
@@ -118,7 +118,7 @@ We next track exoplanet distance from Earth. We'll generate a histogram and cumu
 Plotting a CDF of exolanet distance from Earth, allowing us to better evaluate how planet distances compare to one another. 
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-5.png">
-  <img src="/assets/img/2024-05-24-exoplanets-5.png" width = "800" height = "500" alt="NASA Homepage" style="border: 2px solid darkgray; border-radius: 5px;">
+  <img src="/assets/img/2024-05-24-exoplanets-5.png" width = "800" height = "500" alt="NASA Homepage" style="border: 6px solid darkgray; border-radius: 3px;">
   </a>
 </p>
 
