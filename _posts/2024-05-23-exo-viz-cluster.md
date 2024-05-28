@@ -86,9 +86,7 @@ I started with tracking missing values in the columns I've grabbed.
 
 ###### Graph - Exoplanet radius vs. mass [Scatterplot]
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-3.png">
 <img src="/assets/img/2024-05-24-exoplanets-3.png" width = "1000" height = "600" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
-  </a>
 </p>
 
 Observations:
