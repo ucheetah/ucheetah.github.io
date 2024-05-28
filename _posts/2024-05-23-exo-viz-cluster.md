@@ -67,14 +67,16 @@ I started with tracking missing values in the columns I've grabbed.
 
 ---
 
-###### Graph - Missing values [Barplot]
+##### Graph - Missing values [Barplot]
+
 <p align="center">
 <a href="/assets/img/2024-05-24-exoplanets-1.png">
   <img src="/assets/img/2024-05-24-exoplanets-1.png" width = "800" height = "400" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
 </a>
 </p>
 
-###### Graph -  Known vs. unknown radius [Histograms]
+##### Graph -  Known vs. unknown radius [Histograms]
+
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-2.png">
 <img src="/assets/img/2024-05-24-exoplanets-2.png" width = "900" height = "450" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
@@ -84,7 +86,8 @@ I started with tracking missing values in the columns I've grabbed.
 ---
 #### Comparing radius and mass
 
-###### Graph - Exoplanet radius vs. mass [Scatterplot]
+##### Graph - Exoplanet radius vs. mass [Scatterplot]
+
 <p align="center">
 <img src="/assets/img/2024-05-24-exoplanets-3.png" width = "1000" height = "600" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
 </p>
@@ -103,7 +106,8 @@ Howver planets differ greatly in their compositions and densities so we would ex
 
 We next track exoplanet distance from Earth. We'll generate a histogram and cumulative distribution function to observe the distribution of values.
 
-###### Graph - Distance from Earth [Histogram]
+##### Graph - Distance from Earth [Histogram]
+
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-4.png">
   <img src="/assets/img/2024-05-24-exoplanets-4.png" width = "800" height = "500" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
@@ -114,13 +118,15 @@ We next track exoplanet distance from Earth. We'll generate a histogram and cumu
 - Notice that close to 90% of known exoplanets are within the ten thousand light year range.
 - Significant drop around the 4000 light year mark.
 
-###### Graph - Distance from Earth [CDF]
-Plotting a CDF of exolanet distance from Earth, allowing us to better evaluate how planet distances compare to one another. 
+##### Graph - Distance from Earth [CDF]
+
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-5.png">
   <img src="/assets/img/2024-05-24-exoplanets-5.png" width = "800" height = "500" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
+
+Plotting a CDF of exolanet distance from Earth, allowing us to better evaluate how planet distances compare to one another.
 
 **Observations:**
 - Highly asymptotic behavior - small number as the distance surpasses 4000 light years.
