@@ -1,6 +1,6 @@
 ---
 layout: post
-title: _Worlds Beyond Our Own_ - Visualization, Clustering and Analysis of NASA Exoplanet Archive Data
+title: Beyond our World - Visualization, Clustering and Analysis of NASA Exoplanet Archive Data
 date: 2024-05-23
 tags: [projects, tech, data, visualization]
 image: 2024-05-24-exoplanets-3.png
@@ -26,7 +26,7 @@ I have a few goals associated with this project:
 </ol>
 
 <p align="center">
-  <img src="/src/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 2px solid darkgray; border-radius: 5px;">
+  <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
 </p>
 
 
@@ -67,7 +67,9 @@ I started with tracking missing values in the columns I've grabbed.
 
 ---
 
-##### Graph - Missing values [Barplot]
+<div class="center-text">
+    <h5>Graph - Missing values [Barplot]</h5>
+  </div>
 <div style="height: 20px;"></div>
 <p align="center">
 <a href="/assets/img/2024-05-24-exoplanets-1.png">
@@ -76,7 +78,7 @@ I started with tracking missing values in the columns I've grabbed.
 </p>
 
 ##### Graph -  Known vs. unknown radius [Histograms]
-
+<div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-2.png">
 <img src="/assets/img/2024-05-24-exoplanets-2.png" width = "900" height = "450" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
@@ -87,7 +89,7 @@ I started with tracking missing values in the columns I've grabbed.
 #### Comparing radius and mass
 
 ##### Graph - Exoplanet radius vs. mass [Scatterplot]
-
+<div style="height: 20px;"></div>
 <p align="center">
 <img src="/assets/img/2024-05-24-exoplanets-3.png" width = "1000" height = "600" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
 </p>
@@ -107,7 +109,7 @@ Howver planets differ greatly in their compositions and densities so we would ex
 We next track exoplanet distance from Earth. We'll generate a histogram and cumulative distribution function to observe the distribution of values.
 
 ##### Graph - Distance from Earth [Histogram]
-
+<div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-4.png">
   <img src="/assets/img/2024-05-24-exoplanets-4.png" width = "800" height = "500" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
@@ -119,7 +121,7 @@ We next track exoplanet distance from Earth. We'll generate a histogram and cumu
 - Significant drop around the 4000 light year mark.
 
 ##### Graph - Distance from Earth [CDF]
-
+<div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-5.png">
   <img src="/assets/img/2024-05-24-exoplanets-5.png" width = "800" height = "500" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
