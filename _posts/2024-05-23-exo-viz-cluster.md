@@ -26,7 +26,7 @@ I have a few goals associated with this project:
 </ol>
 
 <p align="center">
-  <img src="/src/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
+  <img src="/src/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 2px solid darkgray; border-radius: 5px;">
 </p>
 
 
@@ -70,14 +70,14 @@ I started with tracking missing values in the columns I've grabbed.
 ###### Graph - Missing values [Barplot]
 <p align="center">
 <a href="/assets/img/2024-05-24-exoplanets-1.png">
-  <img src="/assets/img/2024-05-24-exoplanets-1.png" width = "800" height = "400" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
+  <img src="/assets/img/2024-05-24-exoplanets-1.png" width = "800" height = "400" alt="NASA Homepage" style="border: 2px solid darkgray; border-radius: 5px;">
 </a>
 </p>
 
 ###### Graph -  Known vs. unknown radius [Histograms]
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-2.png">
-<img src="/assets/img/2024-05-24-exoplanets-2.png" width = "900" height = "450" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
+<img src="/assets/img/2024-05-24-exoplanets-2.png" width = "900" height = "450" alt="NASA Homepage" style="border: 2px solid darkgray; border-radius: 5px;">
   </a>
 </p>
 
@@ -86,8 +86,10 @@ I started with tracking missing values in the columns I've grabbed.
 
 ###### Graph - Exoplanet radius vs. mass [Scatterplot]
 <p align="center">
-<img src="/assets/img/2024-05-24-exoplanets-3.png" width = "1000" height = "600" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
+<img src="/assets/img/2024-05-24-exoplanets-3.png" width = "1000" height = "600" alt="NASA Homepage" style="border: 2px solid darkgray; border-radius: 5px;">
 </p>
+
+
 
 Observations:
 - Linear relationship between planet mass and the log of planet radius.
@@ -104,7 +106,7 @@ We next track exoplanet distance from Earth. We'll generate a histogram and cumu
 ###### Graph - Distance from Earth [Histogram]
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-4.png">
-  <img src="/assets/img/2024-05-24-exoplanets-4.png" width = "800" height = "500" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
+  <img src="/assets/img/2024-05-24-exoplanets-4.png" width = "800" height = "500" alt="NASA Homepage" style="border: 2px solid darkgray; border-radius: 5px;">
   </a>
 </p>
 
@@ -116,7 +118,7 @@ We next track exoplanet distance from Earth. We'll generate a histogram and cumu
 Plotting a CDF of exolanet distance from Earth, allowing us to better evaluate how planet distances compare to one another. 
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-5.png">
-  <img src="/assets/img/2024-05-24-exoplanets-5.png" width = "800" height = "500" alt="NASA Homepage" style="border: 2px solid black; border-radius: 5px;">
+  <img src="/assets/img/2024-05-24-exoplanets-5.png" width = "800" height = "500" alt="NASA Homepage" style="border: 2px solid darkgray; border-radius: 5px;">
   </a>
 </p>
 
