@@ -3,7 +3,7 @@ layout: post
 title: NASA Exoplanet - Visualization and Clustering
 date: 2024-05-23
 tags: [projects, tech, data, visualization]
-image: exoplanet_distance_histogram.png
+image: 2024-05-24-exoplanets-3.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
 This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html), a collaboration between Caltech and NASA under its Exoplanet Exploration Program. 
@@ -46,8 +46,8 @@ To query this data we use the industry standard **Table Access Protocol (TAP)** 
 *   Use Python's `requests` package to access NASA data using TAP protocol. I've written a short SQL (technically AQDL) queries which paired with `requests` grabs these columns:
 
 ```
-          SELECT pl_name, sy_dist, sy_snum, sy_pnum, disc_year, pl_rade,pl_masse,st_teff, st_rad
-          FROM ps
+  SELECT pl_name, sy_dist, sy_snum, sy_pnum, disc_year, pl_rade,pl_masse,st_teff, st_rad
+  FROM ps
 ```
 To fit it into a [TAP protocol](https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html) we simply need to make a few adjustments such as remove additional spacing, add `+` between the major SQL statements. Full procedure:
 
