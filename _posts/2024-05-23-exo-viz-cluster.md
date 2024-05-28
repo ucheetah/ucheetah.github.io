@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NASA Exoplanet - Visualization and Clustering
+title: _Worlds Beyond Our Own_ - Visualization, Clustering and Analysis of NASA Exoplanet Archive Data
 date: 2024-05-23
 tags: [projects, tech, data, visualization]
 image: 2024-05-24-exoplanets-3.png
