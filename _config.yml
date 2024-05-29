@@ -1,5 +1,5 @@
 # Site settings
-title: KBU
+title: Keanu Uchida
 description: |
   Tech enthusiat
 
@@ -24,13 +24,13 @@ email: kb@gmail.com
 linkedin: 
 github: ucheetah
 
-relevant_tags: ['projects', 'dance', 'tech']
+relevant_tags: ['projects', 'tech']
 
-#resume_url: https://docs.google.com/document/d/1dJIboSF-ktdaP28DDu-gcuOW1SCCnkSdqtodJGwYkaA/export?format=pdf
-# music_resume_url: https://docs.google.com/document/d/17F3g8jx2UHby77P7shJlsKAW2Efasuc1HuQ3Ro3v3zI/export?format=pdf
+#resume_url: 
+# music_resume_url:
 
-author: KU
-author_title: Data Enthusiast
+author: Keanu Uchida
+author_title: Data 
 author_photo: 
 user_description_short: |
 
