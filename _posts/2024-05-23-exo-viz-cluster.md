@@ -3,7 +3,7 @@ layout: post
 title: Beyond our World - Visualization, Clustering and Analysis of NASA Exoplanet Archive Data
 date: 2024-05-23
 tags: [projects, tech, data, visualization]
-image: 2024-05-24-exoplanets-3.png
+image: 2024-05-24-exoplanets-D.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
 This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html), a collaboration between Caltech and NASA under its Exoplanet Exploration Program. 
@@ -35,9 +35,6 @@ I have a few goals associated with this project:
 From the parameter table documentation for this dataset I chose a small set of values from the dataset that are likely to be of biggest interest. The variable in parentheses indicate it's name in the original table:
 
 *   **Exoplanet characteristics**: Planet name (`pl_name`), Planet Radius [Earth Radius] (`pl_rade`), Planet Mass [Earth Mass] (`pl_masse`), Distance [pc] (Distance to the planetary system in units of parsecs) (`sy_dist`)
-*   **Stellar system**: Number of Stars in system (`sy_snum`), Number of Planets (in the planetary system) (`sy_pnum`)
-*   **Star characteristics**: Stellar Effective Temperature [K] (`st_teff`), Stellar Radius [Solar Radius] (`st_rad`)
-*   **Discovery**: Discovery Year (`disc_year`)
 
 #### Querying data
 
@@ -137,7 +134,7 @@ The main takeaway is perhaps expected - planet taper off with distance. This is 
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-A.png">
-  <img src="/assets/img/2024-05-24-exoplanets-A.png" width="960" height="360" alt="Graph A" style="border: 4px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-A.png" width="320" height="120" alt="Graph A" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
 
@@ -151,21 +148,21 @@ The main takeaway is perhaps expected - planet taper off with distance. This is 
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-C.png">
-  <img src="/assets/img/2024-05-24-exoplanets-C.png" width="960" height="360" alt="Graph C" style="border: 4px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-C.png" width="320" height="120" alt="Graph C" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
 
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-D.png">
-  <img src="/assets/img/2024-05-24-exoplanets-D.png" width="600" height="300" alt="Graph D" style="border: 4px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-D.png" width="1200" height="600" alt="Graph D" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
 
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-E.png">
-  <img src="/assets/img/2024-05-24-exoplanets-E.png" width="600" height="300" alt="Graph E" style="border: 4px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-E.png" width="1200" height="600" alt="Graph E" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
 
@@ -179,7 +176,7 @@ The main takeaway is perhaps expected - planet taper off with distance. This is 
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-G.png">
-  <img src="/assets/img/2024-05-24-exoplanets-G.png" width="960" height="360" alt="Graph G" style="border: 4px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-G.png" width="320" height="120" alt="Graph G" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
 
