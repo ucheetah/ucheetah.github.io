@@ -134,6 +134,69 @@ The main takeaway is perhaps expected - planet taper off with distance. This is 
 - there are less planers further - unlikely
 
 
+<div style="height: 20px;"></div>
+<p align="center">
+  <a href="/assets/img/2024-05-24-exoplanets-1.png">
+  <img src="/assets/img/2024-05-24-exoplanets-1.png" width="960" height="360" alt="Graph A" style="border: 4px solid darkgray; border-radius: 3px;">
+  </a>
+</p>
+
+<div style="height: 20px;"></div>
+<p align="center">
+  <a href="/assets/img/2024-05-24-exoplanets-2.png">
+  <img src="/assets/img/2024-05-24-exoplanets-2.png" width="1440" height="720" alt="Graph B" style="border: 4px solid darkgray; border-radius: 3px;">
+  </a>
+</p>
+
+<div style="height: 20px;"></div>
+<p align="center">
+  <a href="/assets/img/2024-05-24-exoplanets-3.png">
+  <img src="/assets/img/2024-05-24-exoplanets-3.png" width="960" height="360" alt="Graph C" style="border: 4px solid darkgray; border-radius: 3px;">
+  </a>
+</p>
+
+<div style="height: 20px;"></div>
+<p align="center">
+  <a href="/assets/img/2024-05-24-exoplanets-4.png">
+  <img src="/assets/img/2024-05-24-exoplanets-4.png" width="600" height="300" alt="Graph D" style="border: 4px solid darkgray; border-radius: 3px;">
+  </a>
+</p>
+
+<div style="height: 20px;"></div>
+<p align="center">
+  <a href="/assets/img/2024-05-24-exoplanets-5.png">
+  <img src="/assets/img/2024-05-24-exoplanets-5.png" width="600" height="300" alt="Graph E" style="border: 4px solid darkgray; border-radius: 3px;">
+  </a>
+</p>
+
+<div style="height: 20px;"></div>
+<p align="center">
+  <a href="/assets/img/2024-05-24-exoplanets-6.png">
+  <img src="/assets/img/2024-05-24-exoplanets-6.png" width="910.65" height="720" alt="Graph F" style="border: 4px solid darkgray; border-radius: 3px;">
+  </a>
+</p>
+
+<div style="height: 20px;"></div>
+<p align="center">
+  <a href="/assets/img/2024-05-24-exoplanets-7.png">
+  <img src="/assets/img/2024-05-24-exoplanets-7.png" width="960" height="360" alt="Graph G" style="border: 4px solid darkgray; border-radius: 3px;">
+  </a>
+</p>
+
+<div style="height: 20px;"></div>
+<p align="center">
+  <a href="/assets/img/2024-05-24-exoplanets-8.png">
+  <img src="/assets/img/2024-05-24-exoplanets-8.png" width="910.65" height="720" alt="Graph H" style="border: 4px solid darkgray; border-radius: 3px;">
+  </a>
+</p>
+
+<div style="height: 20px;"></div>
+<p align="center">
+  <a href="/assets/img/2024-05-24-exoplanets-9.png">
+  <img src="/assets/img/2024-05-24-exoplanets-9.png" width="768" height="576" alt="Graph I" style="border: 4px solid darkgray; border-radius: 3px;">
+  </a>
+</p>
+
 
 
     
