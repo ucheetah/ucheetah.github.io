@@ -58,92 +58,8 @@ To fit it into a [TAP protocol](https://exoplanetarchive.ipac.caltech.edu/docs/T
           f.write(request_csv.text)
 ```
 
-#### Missing value analysis and outlier handling
 
-I started with tracking missing values in the columns I've grabbed.
-
----
-<div style="height: 20px;"></div>
-<p align="center">
-<a href="/assets/img/exoplanet_count.png">
-  <img src="/assets/img/2024-05-24-exoplanets-1.png" width="600" height="450" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
-</a>
-</p>
-
-<div style="height: 20px;"></div>
----
-<div style="height: 20px;"></div>
-
-<p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-2.png">
-<img src="/assets/img/2024-05-24-exoplanets-2.png" width = "900" height = "450" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
-  </a>
-</p>
-
----
-#### Comparing radius and mass
-
-<div style="height: 20px;"></div>
-<p align="center">
-<img src="/assets/img/2024-05-24-exoplanets-3.png" width = "1000" height = "600" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
-</p>
-
-
-
-Observations:
-- Linear relationship between planet mass and the log of planet radius.
-
-This is sensible - 
-Howver planets differ greatly in their compositions and densities so we would expect there to be quite a bit of fluctuation. 
-
----
-
-#### Distance from Earth
-
-We next track exoplanet distance from Earth. We'll generate a histogram and cumulative distribution function to observe the distribution of values.
-
-<div style="height: 20px;"></div>
-<p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-4.png">
-  <img src="/assets/img/2024-05-24-exoplanets-4.png" width = "800" height = "500" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
-  </a>
-</p>
-
-**Observations:**
-- Notice that close to 90% of known exoplanets are within the ten thousand light year range.
-- Significant drop around the 4000 light year mark.
-
-<div style="height: 20px;"></div>
-<p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-5.png">
-  <img src="/assets/img/2024-05-24-exoplanets-5.png" width = "800" height = "500" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
-  </a>
-</p>
-
-Plotting a CDF of exolanet distance from Earth, allowing us to better evaluate how planet distances compare to one another.
-
-**Observations:**
-- Highly asymptotic behavior - small number as the distance surpasses 4000 light years.
-
-The main takeaway is perhaps expected - planet taper off with distance. This is likely due to a few reasons:
-- perhaps there is a significant drop in measurement devices.
-- sampling bias - closer planets are given more priority
-- there are less planers further - unlikely
-
-
-<div style="height: 20px;"></div>
-<p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-A.png">
-  <img src="/assets/img/2024-05-24-exoplanets-A.png" width="320" height="120" alt="Graph A" style="border: 4px solid darkgray; border-radius: 3px;">
-  </a>
-</p>
-
-<div style="height: 20px;"></div>
-<p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-B.png">
-  <img src="/assets/img/2024-05-24-exoplanets-B.png" width="1440" height="720" alt="Graph B" style="border: 4px solid darkgray; border-radius: 3px;">
-  </a>
-</p>
+After removing the first few columns we obtain a preliminary look at our first data points.
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -152,12 +68,29 @@ The main takeaway is perhaps expected - planet taper off with distance. This is 
   </a>
 </p>
 
+#### Missing value analysis and outlier handling
+
+I started with tracking missing values in the columns I've grabbed.
+
+---
+
+<div style="height: 20px;"></div>
+
+
+#### Distance from Earth
+
+We next track exoplanet distance from Earth. We can first generate a histogram (technically this is a lollipop plot) of exoplanets respective distance to Earth:
+
+<div style="height: 20px;"></div>
+
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-D.png">
   <img src="/assets/img/2024-05-24-exoplanets-D.png" width="1200" height="600" alt="Graph D" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
+
+Plotting a CDF of exolanet distance from Earth, allowing us to better evaluate how planet distances compare to one another.
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -166,6 +99,21 @@ The main takeaway is perhaps expected - planet taper off with distance. This is 
   </a>
 </p>
 
+**Observations:**
+- Close to 90% of known exoplanets are within the ten thousand light year range.
+- In the CDF we notice a highly asymptotic behavior - small number as the distance surpasses 4000 light years.
+- A small number of planets have been accessed beyond 10,000 light years remarkably.
+
+<div style="height: 20px;"></div>
+
+The main takeaway is perhaps expected - planet taper off with distance. This is likely due to a few reasons:
+- perhaps there is a significant drop in measurement devices.
+- sampling bias - closer planets are given more priority
+- there are less planers further - unlikely
+
+
+#### Comparing planet mass and radius
+
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-F.png">
@@ -173,10 +121,20 @@ The main takeaway is perhaps expected - planet taper off with distance. This is 
   </a>
 </p>
 
+**Observations:**
+- Linear relationship between planet mass and the log of planet radius.
+
+This is sensible - 
+However planets differ greatly in their compositions and densities so we would expect there to be quite a bit of fluctuation. 
+
+#### Machine learning model - clustering
+
+To determine the number of categories (clusters) we want to develop, we require ____. 
+
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-G.png">
-  <img src="/assets/img/2024-05-24-exoplanets-G.png" width="320" height="120" alt="Graph G" style="border: 4px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-G.png" width="640" height="240" alt="Graph G" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
 
@@ -191,6 +149,24 @@ The main takeaway is perhaps expected - planet taper off with distance. This is 
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-I.png">
   <img src="/assets/img/2024-05-24-exoplanets-I.png" width="768" height="576" alt="Graph I" style="border: 4px solid darkgray; border-radius: 3px;">
+  </a>
+</p>
+
+
+
+
+
+<div style="height: 20px;"></div>
+<p align="center">
+  <a href="/assets/img/2024-05-24-exoplanets-A.png">
+  <img src="/assets/img/2024-05-24-exoplanets-A.png" width="320" height="120" alt="Graph A" style="border: 4px solid darkgray; border-radius: 3px;">
+  </a>
+</p>
+
+<div style="height: 20px;"></div>
+<p align="center">
+  <a href="/assets/img/2024-05-24-exoplanets-B.png">
+  <img src="/assets/img/2024-05-24-exoplanets-B.png" width="1440" height="720" alt="Graph B" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
 
