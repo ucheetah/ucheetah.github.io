@@ -3,7 +3,7 @@ layout: post
 title: Beyond our World - Visualization, Clustering and Analysis of NASA Exoplanet Archive Data
 date: 2024-05-23
 tags: [projects, tech, data, visualization]
-image: 2024-05-24-exoplanets-D.png
+image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
 This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html), a collaboration between Caltech and NASA under its Exoplanet Exploration Program. 
