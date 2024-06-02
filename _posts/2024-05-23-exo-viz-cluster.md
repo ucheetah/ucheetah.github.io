@@ -8,6 +8,8 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
 This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html), a collaboration between Caltech and NASA under its Exoplanet Exploration Program. 
 
+This is the first of my new website where I look forward to sharing more of my work in data science and data analysis.
+
 I'm drawing from the **[Planetary Systems](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)** dataset, which provides in-depth data on every confirmed exoplanet known to astronomists to date. The table contains one row per planet per reference and collects data such as its radius and mass, distance, stellar systems.
 
 [video link](https://youtu.be/iWowJBRMtpc?t=90s)
@@ -43,7 +45,7 @@ To query this data we use the industry standard **Table Access Protocol (TAP)** 
 *   Use Python's `requests` package to access NASA data using TAP protocol. I've written a short SQL (technically AQDL) queries which paired with `requests` grabs these columns:
 
 ```
-  SELECT pl_name, sy_dist, sy_snum, sy_pnum, disc_year, pl_rade,pl_masse,st_teff, st_rad
+  SELECT pl_name, sy_dist, pl_rade, pl_masse
   FROM ps
 ```
 To fit it into a [TAP protocol](https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html) we simply need to make a few adjustments such as remove additional spacing, add `+` between the major SQL statements. Full procedure:
@@ -72,10 +74,9 @@ After removing the first few columns we obtain a preliminary look at our first d
 
 I started with tracking missing values in the columns I've grabbed.
 
----
-
 <div style="height: 20px;"></div>
 
+---
 
 #### Distance from Earth
 
@@ -111,6 +112,7 @@ The main takeaway is perhaps expected - planet taper off with distance. This is 
 - sampling bias - closer planets are given more priority
 - there are less planers further - unlikely
 
+---
 
 #### Comparing planet mass and radius
 
@@ -127,9 +129,11 @@ The main takeaway is perhaps expected - planet taper off with distance. This is 
 This is sensible - 
 However planets differ greatly in their compositions and densities so we would expect there to be quite a bit of fluctuation. 
 
+---
+
 #### Machine learning model - clustering
 
-To determine the number of categories (clusters) we want to develop, we require ____. 
+To determine the number of categories (clusters) we want to develop, we will use the silhouette score method. You may consult my script for a better understanding of this method. The following returns the silhouette score. High scores indicate good clustering results, bad scores indicate bad results.
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -138,12 +142,21 @@ To determine the number of categories (clusters) we want to develop, we require 
   </a>
 </p>
 
+**Observation(s):**
+- Clearly the most favorable score is 4, so we will divide our exoplanet data into four categories in attempts to match them with existing categories.
+
+We run a kmeans model using scikit learn and add the clusters it has generate to our data. In the following graph we display those results, with each cluster differing in color and 
+
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-H.png">
   <img src="/assets/img/2024-05-24-exoplanets-H.png" width="910.65" height="720" alt="Graph H" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
+**Observation(s):**
+- Clearly the most favorable score is 4, so we will divide our exoplanet data into four categories in attempts to match them with existing categories.
+
+
 
 <div style="height: 20px;"></div>
 <p align="center">
