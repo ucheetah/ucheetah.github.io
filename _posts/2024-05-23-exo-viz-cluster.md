@@ -6,7 +6,7 @@ tags: [projects, tech, data, visualization]
 image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
-This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html), a collaboration between Caltech and NASA under its Exoplanet Exploration Program. 
+This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html){:target="_blank"}, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. 
 
 This is the first of my new website where I look forward to sharing more of my work in data science and data analysis.
 
@@ -85,20 +85,24 @@ We next track exoplanet distance from Earth. We can first generate a histogram (
 <div style="height: 20px;"></div>
 
 <div style="height: 20px;"></div>
+---
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-D.png">
   <img src="/assets/img/2024-05-24-exoplanets-D.png" width="1200" height="600" alt="Graph D" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
+---
 
 Plotting a CDF of exolanet distance from Earth, allowing us to better evaluate how planet distances compare to one another.
 
 <div style="height: 20px;"></div>
+---
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-E.png">
   <img src="/assets/img/2024-05-24-exoplanets-E.png" width="1200" height="600" alt="Graph E" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
+---
 
 **Observations:**
 - Close to 90% of known exoplanets are within the ten thousand light year range.
@@ -115,18 +119,23 @@ The main takeaway is perhaps expected - planet taper off with distance. This is 
 ---
 
 #### Comparing planet mass and radius
-
 <div style="height: 20px;"></div>
+Observing the disparity of planet size and mass can allow us to create a better demographic picture of the planets in our observed universe. Next we will take a look at exoplanet radius and mass. The following is a scatterplot of mass and radius. Note that the scatterplot colors are defined in terms of mass, and the mass is in a logarithmic scale.
+---
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-F.png">
   <img src="/assets/img/2024-05-24-exoplanets-F.png" width="910.65" height="720" alt="Graph F" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
+---
 
 **Observations:**
 - Linear relationship between planet mass and the log of planet radius.
+- Appear to be two main groups of data, one with smaller radius and mass, another with larger.
+- A few outliers on the ends.
+- radius and mass appear to correlate. 
+- Significant fluctuations in planet mass and radius - the heaviest planet is ______x heavier than Earth. This may be understood by the fact that radius and mass 
 
-This is sensible - 
 However planets differ greatly in their compositions and densities so we would expect there to be quite a bit of fluctuation. 
 
 ---
