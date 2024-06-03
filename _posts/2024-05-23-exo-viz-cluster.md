@@ -11,15 +11,15 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 
 ---
 
-Exoplanet are interesting because their study is the gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade astronomy has seen an explosion in new planets. With the introduction the James Webb Telescope,the most complex and largest that NASA has ever launched into space, and it's allocation a significant portion of it's study to the discovery of exoplanets, the results are expected to be seismic.  
+Exoplanet are interesting because their study is the gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade astronomy has seen an explosion in new planets. With the introduction the James Webb Telescope - the most complex and largest telescope launched into space - allocating a significant portion of it's study to the discovery of exoplanets, the results on our knowledge of exoplanets are expected to be seismic. 
 
-This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html){:target="_blank"}, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. 
+In this project I grab a few key characteristics known of planets nearby and perform visualization and a k-means clustering algorithm.
 
-I'm drawing from the **[Planetary Systems](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)** dataset, which provides in-depth data on every confirmed exoplanet known to astronomists to date. The table contains one row per planet per reference and collects data such as its radius and mass, distance, stellar systems.
+This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html){:target="_blank"}, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the **[Planetary Systems](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)** dataset which records every confirmed exoplanet known to astronomists to date.
 
 <ul>
-  <li> <strong>Languages and packages</strong>: Python (pandas, matplotlib, seaborn, scikit-learn)</li>, SQL (one humble query)
-  <li> <strong>Techniques </strong>: data querying, data cleaning, missing value detection, outlier handling, visualization, machine learning (clustering)</li>
+  <li> <strong>Languages and packages</strong>: Python (pandas, numpy, matplotlib, seaborn, scikit-learn)</li>, SQL (one humble query)
+  <li> <strong>Techniques </strong>: data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning (clustering)</li>
 </ul>
 
 I have a few goals associated with this project:
@@ -29,29 +29,38 @@ I have a few goals associated with this project:
   <li>Employ a clustering algorithm on the exoplanets using <strong><code>scikit-learn</code></strong> in hopes of generating groups that resemble existing exoplanet classifications (gas giants, terrestrials);</li>
   <li>Explore planet habitability using accepted astronomical science, such as stellar luminosity and star-planet distance.</li>
 </ol>
-
+<br>
+<div style="height: 20px;"></div>
 <p align="center">
+  <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html">
   <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
+  </a>
 </p>
+<div style="height: 20px;"></div>
 
-
-### Collecting and cleaning
+<h3>Data collection and cleaning</h3> 
+<div style="height: 20px;"></div>
 
 From the parameter table documentation for this dataset I chose a small set of values from the dataset that are likely to be of biggest interest. The variable in parentheses indicate it's name in the original table:
 
-*   **Exoplanet characteristics**: Planet name (`pl_name`), Planet Radius [Earth Radius] (`pl_rade`), Planet Mass [Earth Mass] (`pl_masse`), Distance [pc] (Distance to the planetary system in units of parsecs) (`sy_dist`)
+<ul>
+  <li><strong>Exoplanet characteristics</strong>: Planet name (`pl_name`), Planet Radius [Earth Radius] (`pl_rade`), Planet Mass [Earth Mass] (`pl_masse`), Distance [pc] (Distance to the planetary system in units of parsecs) (`sy_dist`)</li>
+</ul> 
 
-#### Querying data
+<div style="height: 20px;"></div>
+<h4>Querying data</h4>
+<div style="height: 20px;"></div>
 
 To query this data we use the industry standard **Table Access Protocol (TAP)** which uses **AQDL (Astronomical Query Data Language)** - akin to SQL for astronomical databases - as queries.
 
 *   Use Python's `requests` package to access NASA data using TAP protocol. I've written a short SQL (technically AQDL) queries which paired with `requests` grabs these columns:
 
-```
+<code>
   SELECT pl_name, sy_dist, pl_rade, pl_masse
   FROM ps
-```
+</code>
 To fit it into a [TAP protocol](https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html) we simply need to make a few adjustments such as remove additional spacing, add `+` between the major SQL statements. Full procedure:
+
 
 *   Write data as a CSV into MyDrive.
 *   Call CSV into notebook.
@@ -64,7 +73,7 @@ To fit it into a [TAP protocol](https://exoplanetarchive.ipac.caltech.edu/docs/T
 ```
 
 
-After removing the first few columns we obtain a preliminary look at our first data points.
+After removing the first few columns we obtain a preliminary look at our first data points. The format of these tables is drawn from _____ and _____
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -72,9 +81,11 @@ After removing the first few columns we obtain a preliminary look at our first d
   <img src="/assets/img/2024-05-24-exoplanets-C.png" width="320" height="120" alt="Graph C" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
+<div style="height: 20px;"></div>
 
+<h4>Discovery method</h4>
+<div style="height: 20px;"></div>
 
-#### Discovery method
 For this I must credit the __ from in a recent lecture who interestingly expressed how the growth of discovery of the planets is comparable to the rapid development of internet technology and telephones. So as a domain, exoplanet science is progressing at an extremely rapid pace, and this graph demonstrates this progress.
 
 I've calculated and graphed the thre most successful exoplanet discovery methods there is. 
@@ -93,31 +104,32 @@ I've calculated and graphed the thre most successful exoplanet discovery methods
   <li>The **transit method** is clearly the most successful discovery method. It exploits the occurence of a planet passing between a star and the observer (Earth). The light from the star will be altereted by the planet's presense. The amount of dimming occured can be used to make conclusions about the planet's characeristics like mass, radiius and eve atmospheric conditions.
 </li>
 
-#### Distance from Earth
+<div style="height: 20px;"></div>
+
+<h4>Distance from Earth</h4>
+<div style="height: 20px;"></div>
 
 We next track exoplanet distance from Earth. We can first generate a histogram (technically this is a lollipop plot) of exoplanets respective distance to Earth:
 
 <div style="height: 20px;"></div>
 
 <div style="height: 20px;"></div>
----
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-D.png">
   <img src="/assets/img/2024-05-24-exoplanets-D.png" width="1200" height="600" alt="Graph D" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
----
+<div style="height: 20px;"></div>
 
 Plotting a CDF of exolanet distance from Earth, allowing us to better evaluate how planet distances compare to one another.
 
 <div style="height: 20px;"></div>
----
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-E.png">
   <img src="/assets/img/2024-05-24-exoplanets-E.png" width="1200" height="600" alt="Graph E" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
----
+<div style="height: 20px;"></div>
 
 <strong>Observations:</strong>
 <ul>
@@ -132,19 +144,20 @@ Unsurprisingly known planets taper off with distance. This is likely due to a fe
 - sampling bias - closer planets are given more priority
 - there are less planers further - unlikely
 
----
+<div style="height: 20px;"></div>
 
 <h4> Comparing planet mass and radius </h4>
 
 <div style="height: 20px;"></div>
 Observing the disparity of planet size and mass can allow us to create a better demographic picture of the planets in our observed universe. Next we will take a look at exoplanet radius and mass. The following is a scatterplot of mass and radius. Note that the scatterplot colors are defined in terms of mass, and the mass is in a logarithmic scale.
----
+
+<div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-F.png">
   <img src="/assets/img/2024-05-24-exoplanets-F.png" width="910.65" height="720" alt="Graph F" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
----
+<div style="height: 20px;"></div>
 
 <strong>Observations:</strong>
 
@@ -158,7 +171,7 @@ Observing the disparity of planet size and mass can allow us to create a better 
 
 However planets differ greatly in their compositions and densities so we would expect there to be quite a bit of fluctuation. 
 
----
+<div style="height: 20px;"></div>
 
 <h4> Machine learning - K-means clustering with `scikit-learn`</h4>
 
