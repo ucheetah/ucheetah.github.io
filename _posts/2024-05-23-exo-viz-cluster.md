@@ -32,7 +32,7 @@ I have a few goals associated with this project:
 <br>
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html">
+  <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target=”_blank”>
   <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
@@ -77,7 +77,7 @@ After removing the first few columns we obtain a preliminary look at our first d
 
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-C.png">
+  <a href="/assets/img/2024-05-24-exoplanets-C.png" target=”_blank”>
   <img src="/assets/img/2024-05-24-exoplanets-C.png" width="320" height="120" alt="Graph C" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
@@ -92,7 +92,7 @@ I've calculated and graphed the thre most successful exoplanet discovery methods
 
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-J.png">
+  <a href="/assets/img/2024-05-24-exoplanets-J.png" target=”_blank”>
   <img src="/assets/img/2024-05-24-exoplanets-J.png" width="1440" height="960" alt="Graph J" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 <div style="height: 20px;"></div>
@@ -115,7 +115,7 @@ We next track exoplanet distance from Earth. We can first generate a histogram (
 
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-D.png">
+  <a href="/assets/img/2024-05-24-exoplanets-D.png" target=”_blank”>
   <img src="/assets/img/2024-05-24-exoplanets-D.png" width="1200" height="600" alt="Graph D" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
@@ -125,7 +125,7 @@ Plotting a CDF of exolanet distance from Earth, allowing us to better evaluate h
 
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-E.png">
+  <a href="/assets/img/2024-05-24-exoplanets-E.png" target=”_blank”>
   <img src="/assets/img/2024-05-24-exoplanets-E.png" width="1200" height="600" alt="Graph E" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
@@ -153,7 +153,7 @@ Observing the disparity of planet size and mass can allow us to create a better 
 
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-F.png">
+  <a href="/assets/img/2024-05-24-exoplanets-F.png" target=”_blank”>
   <img src="/assets/img/2024-05-24-exoplanets-F.png" width="910.65" height="720" alt="Graph F" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
@@ -179,7 +179,7 @@ To determine the number of categories (clusters) we want to develop, we will use
 
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-G.png">
+  <a href="/assets/img/2024-05-24-exoplanets-G.png" target=”_blank”>
   <img src="/assets/img/2024-05-24-exoplanets-G.png" width="640" height="240" alt="Graph G" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
@@ -194,7 +194,7 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-H.png">
+  <a href="/assets/img/2024-05-24-exoplanets-H.png" target=”_blank”>
   <img src="/assets/img/2024-05-24-exoplanets-H.png" width="910.65" height="720" alt="Graph H" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
@@ -205,7 +205,7 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-I.png">
+  <a href="/assets/img/2024-05-24-exoplanets-I.png" target=”_blank”>
   <img src="/assets/img/2024-05-24-exoplanets-I.png" width="768" height="576" alt="Graph I" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
@@ -214,7 +214,7 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-F.svg">
+  <a href="/assets/img/2024-05-24-exoplanets-F.svg" target=”_blank”>
   <img src="/assets/img/2024-05-24-exoplanets-F.svg" width="910.65" height="720" alt="Graph F" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 <div style="height: 20px;"></div>
