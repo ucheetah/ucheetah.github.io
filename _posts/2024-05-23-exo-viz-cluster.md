@@ -7,7 +7,9 @@ image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
 
-This is the first of my new website where I look forward to sharing more of my work in data science and data analysis.
+<em> This is the first of my new website where I look forward to sharing more of my work in data science and data analysis. </em>
+
+---
 
 Exoplanet are interesting because their study is the gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade astronomy has seen an explosion in new planets. With the introduction the James Webb Telescope,the most complex and largest that NASA has ever launched into space, and it's allocation a significant portion of it's study to the discovery of exoplanets, the results are expected to be seismic.  
 
@@ -185,34 +187,3 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
   <img src="/assets/img/2024-05-24-exoplanets-I.png" width="768" height="576" alt="Graph I" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
-
-
-
-
-
-
-
-
-<div style="height: 20px;"></div>
-<p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-A.png">
-  <img src="/assets/img/2024-05-24-exoplanets-A.png" width="320" height="120" alt="Graph A" style="border: 4px solid darkgray; border-radius: 3px;">
-  </a>
-</p>
-
-<div style="height: 20px;"></div>
-<p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-B.png">
-  <img src="/assets/img/2024-05-24-exoplanets-B.png" width="1440" height="720" alt="Graph B" style="border: 4px solid darkgray; border-radius: 3px;">
-  </a>
-</p>
-
-
-    
-
-
-
-
-
-
-
