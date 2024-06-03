@@ -83,9 +83,10 @@ I've calculated and graphed the thre most successful exoplanet discovery methods
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-J.png">
   <img src="/assets/img/2024-05-24-exoplanets-J.png" width="1440" height="960" alt="Graph J" style="border: 4px solid darkgray; border-radius: 3px;">
+  </a>
 <div style="height: 20px;"></div>
 
-<em> Observations </em>
+<strong> Observations </strong>
 <ul>
   <li>There is clearly a ____ increase in discoveries.</li>
   <li> Some years, such as 2016, have been enormous years for exoplanet discoveries. </li>
@@ -118,21 +119,23 @@ Plotting a CDF of exolanet distance from Earth, allowing us to better evaluate h
 </p>
 ---
 
-**Observations:**
-- Close to 90% of known exoplanets are within the ten thousand light year range.
-- In the CDF we notice a highly asymptotic behavior - small number as the distance surpasses 4000 light years.
-- A small number of planets have been accessed beyond 10,000 light years remarkably.
-
+<strong>Observations:</strong>
+<ul>
+  <li> Close to 90% of known exoplanets are within the ten thousand light year range. </li>
+  <li> In the CDF we notice a highly asymptotic behavior - small number as the distance surpasses 4000 light years. </li>
+  <li> A small number of planets have been accessed beyond 10,000 light years remarkably. </li>
+</ul>
 <div style="height: 20px;"></div>
 
-The main takeaway is perhaps expected - planet taper off with distance. This is likely due to a few reasons:
+Unsurprisingly known planets taper off with distance. This is likely due to a few reasons:
 - perhaps there is a significant drop in measurement devices.
 - sampling bias - closer planets are given more priority
 - there are less planers further - unlikely
 
 ---
 
-#### Comparing planet mass and radius
+<h4> Comparing planet mass and radius </h4>
+
 <div style="height: 20px;"></div>
 Observing the disparity of planet size and mass can allow us to create a better demographic picture of the planets in our observed universe. Next we will take a look at exoplanet radius and mass. The following is a scatterplot of mass and radius. Note that the scatterplot colors are defined in terms of mass, and the mass is in a logarithmic scale.
 ---
@@ -143,18 +146,21 @@ Observing the disparity of planet size and mass can allow us to create a better 
 </p>
 ---
 
-**Observations:**
-- Linear relationship between planet mass and the log of planet radius.
-- Appear to be two main groups of data, one with smaller radius and mass, another with larger.
-- A few outliers on the ends.
-- radius and mass appear to correlate. 
-- Significant fluctuations in planet mass and radius - the heaviest planet is ______x heavier than Earth. This may be understood by the fact that radius and mass 
+<strong>Observations:</strong>
+
+<ul>
+<li> Linear relationship between planet mass and the log of planet radius.</li>
+<li> Appear to be two main groups of data, one with smaller radius and mass, another with larger.</li>
+<li> A few outliers on the ends.</li>
+<li> radius and mass appear to correlate.</li>
+<li> Significant fluctuations in planet mass and radius - the heaviest planet is ______x heavier than Earth. This may be understood by the fact that radius and mass. </li>
+</ul>
 
 However planets differ greatly in their compositions and densities so we would expect there to be quite a bit of fluctuation. 
 
 ---
 
-#### Machine learning model - clustering
+<h4> Machine learning - K-means clustering with `scikit-learn`</h4>
 
 To determine the number of categories (clusters) we want to develop, we will use the silhouette score method. You may consult my script for a better understanding of this method. The following returns the silhouette score. High scores indicate good clustering results, bad scores indicate bad results.
 
@@ -164,9 +170,12 @@ To determine the number of categories (clusters) we want to develop, we will use
   <img src="/assets/img/2024-05-24-exoplanets-G.png" width="640" height="240" alt="Graph G" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
+<div style="height: 20px;"></div>
 
-**Observation(s):**
-- Clearly the most favorable score is 4, so we will divide our exoplanet data into four categories in attempts to match them with existing categories.
+<strong>Observation(s): </strong>
+<ul>
+<li>Clearly the most favorable score is 4, so we will divide our exoplanet data into four categories in attempts to match them with existing categories.</li>
+</ul>
 
 We run a kmeans model using scikit learn and add the clusters it has generate to our data. In the following graph we display those results, with each cluster differing in color and 
 
@@ -176,10 +185,10 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
   <img src="/assets/img/2024-05-24-exoplanets-H.png" width="910.65" height="720" alt="Graph H" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
-**Observation(s):**
-- Clearly the most favorable score is 4, so we will divide our exoplanet data into four categories in attempts to match them with existing categories.
-
-
+<strong>Observation(s):</strong>
+<ul>
+<li>Clearly the most favorable score is 4, so we will divide our exoplanet data into four categories in attempts to match them with existing categories.</li>
+</ul>
 
 <div style="height: 20px;"></div>
 <p align="center">
