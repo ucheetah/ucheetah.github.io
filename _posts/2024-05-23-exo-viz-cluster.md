@@ -6,16 +6,17 @@ tags: [projects, tech, data, visualization]
 image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
-This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html){:target="_blank"}, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. 
 
 This is the first of my new website where I look forward to sharing more of my work in data science and data analysis.
 
+Exoplanet are interesting because their study is the gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade astronomy has seen an explosion in new planets. With the introduction the James Webb Telescope,the most complex and largest that NASA has ever launched into space, and it's allocation a significant portion of it's study to the discovery of exoplanets, the results are expected to be seismic.  
+
+This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html){:target="_blank"}, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. 
+
 I'm drawing from the **[Planetary Systems](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)** dataset, which provides in-depth data on every confirmed exoplanet known to astronomists to date. The table contains one row per planet per reference and collects data such as its radius and mass, distance, stellar systems.
 
-[video link](https://youtu.be/iWowJBRMtpc?t=90s)
-
 <ul>
-  <li> <strong>Languages and packages</strong>: one humble SQL query, Python (pandas, matplotlib, seaborn, scikit-learn)</li>
+  <li> <strong>Languages and packages</strong>: Python (pandas, matplotlib, seaborn, scikit-learn)</li>, SQL (one humble query)
   <li> <strong>Techniques </strong>: data querying, data cleaning, missing value detection, outlier handling, visualization, machine learning (clustering)</li>
 </ul>
 
@@ -70,13 +71,16 @@ After removing the first few columns we obtain a preliminary look at our first d
   </a>
 </p>
 
-#### Missing value analysis and outlier handling
 
-I started with tracking missing values in the columns I've grabbed.
+#### Discovery method
+For this I must credit the __ which, inrestingly expressed how the growth of discovery of the planets is comparable to the rapid development of internet technology and telephones. So as a domain, exoplanet science is progressing at an extrmeely rapid pace, and this graph demonstrates this progress.
+
+The transit method is clearly the most successful discovery method. It exploits the occurence of a planet passing between a star and the observer (Earth). The light from the star will be altereted by the planet's presense. The amount of dimming occured can be used to make conclusions about the planet's characeristics like mass, radiius and eve atmospheric conditions.
 
 <div style="height: 20px;"></div>
-
----
+<p align="center">
+  <a href="/assets/img/2024-05-24-exoplanets-J.png">
+  <img src="/assets/img/2024-05-24-exoplanets-J.png" width="1440" height="960" alt="Graph J" style="border: 4px solid darkgray; border-radius: 3px;">
 
 #### Distance from Earth
 
@@ -173,6 +177,9 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
   <img src="/assets/img/2024-05-24-exoplanets-I.png" width="768" height="576" alt="Graph I" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
+
+
+
 
 
 
