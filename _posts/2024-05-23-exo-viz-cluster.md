@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Worlds Beyond - Visualization and Clustering of NASA Exoplanet Data
+title: Worlds Beyond - Visualization and Clustering with NASA Exoplanet Data
 date: 2024-05-23
 tags: [projects, tech, data, visualization]
 image: 2024-05-24-exoplanets-cover.png
@@ -73,14 +73,22 @@ After removing the first few columns we obtain a preliminary look at our first d
 
 
 #### Discovery method
-For this I must credit the __ which, inrestingly expressed how the growth of discovery of the planets is comparable to the rapid development of internet technology and telephones. So as a domain, exoplanet science is progressing at an extrmeely rapid pace, and this graph demonstrates this progress.
+For this I must credit the __ from in a recent lecture who interestingly expressed how the growth of discovery of the planets is comparable to the rapid development of internet technology and telephones. So as a domain, exoplanet science is progressing at an extremely rapid pace, and this graph demonstrates this progress.
 
-The transit method is clearly the most successful discovery method. It exploits the occurence of a planet passing between a star and the observer (Earth). The light from the star will be altereted by the planet's presense. The amount of dimming occured can be used to make conclusions about the planet's characeristics like mass, radiius and eve atmospheric conditions.
+I've calculated and graphed the thre most successful exoplanet discovery methods there is. 
 
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-J.png">
   <img src="/assets/img/2024-05-24-exoplanets-J.png" width="1440" height="960" alt="Graph J" style="border: 4px solid darkgray; border-radius: 3px;">
+<div style="height: 20px;"></div>
+
+<em> Observations </em>
+<ul>
+  <li>There is clearly a ____ increase in discoveries.</li>
+  <li> Some years, such as 2016, have been enormous years for exoplanet discoveries. </li>
+  <li>The **transit method** is clearly the most successful discovery method. It exploits the occurence of a planet passing between a star and the observer (Earth). The light from the star will be altereted by the planet's presense. The amount of dimming occured can be used to make conclusions about the planet's characeristics like mass, radiius and eve atmospheric conditions.
+</li>
 
 #### Distance from Earth
 
