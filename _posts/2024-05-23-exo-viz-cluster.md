@@ -215,7 +215,7 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-F.svg">
-  <img src="/assets/img/2024-05-24-exoplanets-F.svg" width="1440" height="960" alt="Graph F" style="border: 4px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-F.svg" width="910.65" height="720" alt="Graph F" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 <div style="height: 20px;"></div>
 
