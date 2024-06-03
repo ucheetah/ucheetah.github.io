@@ -25,7 +25,7 @@ This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchi
 I have a few goals associated with this project:
 <ol>
   <li>Query and collect current data from NASA exoplanet archive's API;</li>
-  <li>Perform exploratory data analysis on select exoplanet features and visualize them for analysis using <strong><code>matplotlib</code></strong> and <strong><code>seaborn</code></strong> ;</li>
+  <li>Perform exploratory data analysis on select exoplanet features and visualize them for analysis using <strong><code>matplotlib</code></strong> and <code>seaborn</code> ;</li>
   <li>Employ a clustering algorithm on the exoplanets using <strong><code>scikit-learn</code></strong> in hopes of generating groups that resemble existing exoplanet classifications (gas giants, terrestrials);</li>
   <li>Explore planet habitability using accepted astronomical science, such as stellar luminosity and star-planet distance.</li>
 </ol>
