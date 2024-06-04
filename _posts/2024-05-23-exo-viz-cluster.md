@@ -17,10 +17,20 @@ In this project I grab a few key characteristics known of planets nearby and per
 
 This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html){:target="_blank"}, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the **[Planetary Systems](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)** dataset which records every confirmed exoplanet known to astronomists to date.
 
-<ul>
-  <li> <strong>Languages and packages</strong>: Python (pandas, numpy, matplotlib, seaborn, scikit-learn)</li>, SQL (one humble query)
-  <li> <strong>Techniques </strong>: data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning (clustering)</li>
-</ul>
+
+<table>
+  <caption>
+    <strong> Project summary </strong>
+  </caption>
+  <tr>
+    <td>Language and packages</td>
+    <td>Python (pandas, numpy, matplotlib, seaborn, scikit-learn)</li>, SQL (one humble query)</td>
+  </tr>
+  <tr>
+    <td>Techniques</td>
+    <td>Data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning (clustering)</td>
+  </tr>
+</table>
 
 I have a few goals associated with this project:
 <ol>
