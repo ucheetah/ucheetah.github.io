@@ -15,7 +15,7 @@ Exoplanet are interesting because their study is the gateway to discovering and 
 
 In this project I grab a few key characteristics known of planets nearby and perform visualization and a k-means clustering algorithm.
 
-This project grabs from the [**NASA exoplanets archive**](https://exoplanetarchive.ipac.caltech.edu/index.html){:target="_blank"}, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the **[Planetary Systems](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)** dataset which records every confirmed exoplanet known to astronomists to date.
+This project grabs from the <a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">NASA exoplanets archive</a>, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the **[Planetary Systems](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)** dataset which records every confirmed exoplanet known to astronomists to date.
 
 
 <table>
