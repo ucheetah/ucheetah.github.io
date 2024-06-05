@@ -15,7 +15,8 @@ Exoplanet are interesting because their study is the gateway to discovering and 
 
 In this project I grab a few key characteristics known of planets nearby and perform visualization and a k-means clustering algorithm.
 
-This project grabs from the <a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">NASA exoplanets archive</a>, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the **[Planetary Systems](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)** dataset which records every confirmed exoplanet known to astronomists to date.
+This project grabs from the <a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a>, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the <a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a>
+ dataset which records every confirmed exoplanet known to astronomists to date.
 
 
 <table>
@@ -35,8 +36,8 @@ This project grabs from the <a href="https://exoplanetarchive.ipac.caltech.edu/i
 I have a few goals associated with this project:
 <ol>
   <li>Query and collect current data from NASA exoplanet archive's API;</li>
-  <li>Perform exploratory data analysis on select exoplanet features and visualize them for analysis using <strong><code>matplotlib</code></strong> and <code>seaborn</code> ;</li>
-  <li>Employ a clustering algorithm on the exoplanets using <strong><code>scikit-learn</code></strong> in hopes of generating groups that resemble existing exoplanet classifications (gas giants, terrestrials);</li>
+  <li>Perform exploratory data analysis on select exoplanet features and visualize them for analysis using <strong><code style="color: black;">matplotlib</code></strong> and <code style="color: black;">seaborn</code> ;</li>
+  <li>Employ a clustering algorithm on the exoplanets using <strong><code style="color: black;">scikit-learn</code></strong> in hopes of generating groups that resemble existing exoplanet classifications (gas giants, terrestrials);</li>
   <li>Explore planet habitability using accepted astronomical science, such as stellar luminosity and star-planet distance.</li>
 </ol>
 <br>
@@ -66,7 +67,7 @@ To query this data we use the industry standard **Table Access Protocol (TAP)** 
 *   Use Python's `requests` package to access NASA data using TAP protocol. I've written a short SQL (technically AQDL) queries which paired with `requests` grabs these columns:
 
 <p>
-  <code>
+  <code style="color: black;">
   SELECT pl_name, sy_dist, pl_rade, pl_masse <br>
   FROM ps
 </code>
@@ -74,7 +75,7 @@ To query this data we use the industry standard **Table Access Protocol (TAP)** 
 
 To fit it into a [TAP protocol](https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html) we simply need to make a few adjustments such as remove additional spacing, add `+` between the major SQL statements. In my process I ingested the data as a CSV into MyDrive to then call it into my notebook.
 
- <code style="color: darkgrey;">
+ <code style="color: black;">
 request_csv = requests.get("https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,sy_dist,sy_snum,sy_pnum,disc_year,pl_rade,pl_masse,st_teff,st_rad+from+ps&format=csv") <br>
 with open('/content/gdrive/MyDrive/exoplanet_data.csv', 'w') as f:
 f.write(request_csv.text)
