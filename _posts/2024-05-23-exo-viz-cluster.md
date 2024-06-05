@@ -7,18 +7,17 @@ image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
 
-
 <style>
 body {
  font-size: 1.2rem; /* Set the font size to 1.2 times the root font size */
 }
 </style>
 
-<p style="font-size: 1.2rem"> <em> This is the first of my new website where I look forward to sharing more of my work in data science and data analysis. </em> </p>
+<p> <em> This post marks the beginning of my new personal website, where I'm excited to share more about my work in data science, data analysis and  ideas at large that inspire me.</em> </p>
 
 <hr>
 
-Exoplanet are interesting because their study is the gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade astronomy has seen an explosion in new planets. With the introduction the James Webb Telescope - the most complex and largest telescope launched into space - allocating a significant portion of it's study to the discovery of exoplanets, the results on our knowledge of exoplanets are expected to be seismic. 
+This project focuses on Exoplanet are interesting because their study is the gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade astronomy has seen an explosion in new planets. With the introduction the James Webb Telescope - the most complex and largest telescope launched into space - allocating a significant portion of it's study to the discovery of exoplanets, the results on our knowledge of exoplanets are expected to be seismic. 
 
 In this project I grab a few key characteristics known of planets nearby and perform visualization and a k-means clustering algorithm.
 
@@ -234,6 +233,6 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-I.png" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-I.png" width="1200" alt="Graph I" style="border: 4px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-I.png" width="1050" alt="Graph I" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
