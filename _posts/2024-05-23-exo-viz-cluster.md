@@ -88,7 +88,7 @@ After removing the first few columns we obtain a preliminary look at our first d
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-C.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-C.svg"  width="600" alt="Graph C" style="border: 4px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-C.svg"  width="800" alt="Graph C" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
 <div style="height: 20px;"></div>
