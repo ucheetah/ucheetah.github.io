@@ -199,6 +199,7 @@ However planets differ greatly in their compositions and densities so we would e
 <div style="height: 20px;"></div>
 
 <h4> Machine learning - K-means clustering with `scikit-learn`</h4>
+<div style="height: 20px;"></div>
 
 To determine the number of categories (clusters) we want to develop, we will use the silhouette score method. You may consult my script for a better understanding of this method. The following returns the silhouette score. High scores indicate good clustering results, bad scores indicate bad results.
 
@@ -224,6 +225,8 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
   <img src="/assets/img/2024-05-24-exoplanets-H.svg" width="910.65" height="720" alt="Graph H" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
+
+<div style="height: 20px;"></div>
 <strong>Observation(s):</strong>
 <ul>
 <li>Clearly the most favorable score is 4, so we will divide our exoplanet data into four categories in attempts to match them with existing categories.</li>
@@ -233,6 +236,15 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-I.png" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-I.png" width="1050" alt="Graph I" style="border: 4px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-I.png" width="900" alt="Graph I" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
+<div style="height: 20px;"></div>
+
+<strong>Observation(s):</strong>
+<ul>
+<li>There doesn't appear to be a strong correlation between mass/radius and distance. This makes sense - we wouldn't expect composition and components of the planets to depend on their distance from Earth</li>
+</ul>
+
+If worked has piqued your interest, here are a few resources I appreciate to keep reading on the matter:
+
