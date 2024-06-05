@@ -38,15 +38,13 @@ I have a few goals associated with this project:
   <li>Explore planet habitability using accepted astronomical science, such as stellar luminosity and star-planet distance.</li>
 </ol>
 <br>
-<div style="height: 20px;"></div>
-<p align="center">
-  <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">
-  <figure>
+
+<figure style="text-align: center;">
+   <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">
       <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
-      <figcaption>NASA Exoplanet Archive Website</figcaption>
-  </figure>
-  </a>
-</p>
+    </a>
+      <figcaption>NASA Exoplanet Archive Website</figcaption> 
+</figure>
 <div style="height: 20px;"></div>
 
 <h3>Data collection and cleaning</h3> 
