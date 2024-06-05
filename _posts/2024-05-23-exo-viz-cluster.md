@@ -55,8 +55,13 @@ I have a few goals associated with this project:
 From the parameter table documentation for this dataset I chose a small set of values from the dataset that are likely to be of biggest interest. The variable in parentheses indicate it's name in the original table:
 
 <ul>
-  <li><strong>Exoplanet characteristics</strong>: Planet name (`pl_name`), Planet Radius [Earth Radius] (`pl_rade`), Planet Mass [Earth Mass] (`pl_masse`), Distance [pc] (Distance to the planetary system in units of parsecs) (`sy_dist`)</li>
-</ul> 
+  <li><strong>Planet name</strong> as <code>pl_name</code></li>
+  <li><strong>Planet Radius [Earth Radius]</strong> as <code>pl_rade</code></li>
+  <li><strong>Planet Mass [Earth Mass]</strong> as <code>pl_masse</code></li>
+  <li><strong>Distance [pc]</strong> (Distance to the planetary system in units of parsecs) as <code>sy_dist</code></li>
+ <li><strong>Discovery method</strong> as <code>pl_masse</code></li>
+  <li><strong>Discovery year</strong> as <code>disc_year</code></li>
+</ul>
 
 <div style="height: 20px;"></div>
 <h4>Querying data</h4>
@@ -73,7 +78,7 @@ To query this data we use the industry standard **Table Access Protocol (TAP)** 
 </code>
 </p>
 
-To fit it into a [TAP protocol](https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html) we simply need to make a few adjustments such as remove additional spacing, add `+` between the major SQL statements. In my process I ingested the data as a CSV into MyDrive to then call it into my notebook.
+To fit it into a <a href="https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html" target="_blank" style="color: #573259;">TAP protocol</a> we simply need to make a few adjustments such as remove additional spacing, add `+` between the major SQL statements. In my process I ingested the data as a CSV into MyDrive to then call it into my notebook.
 
  <code style="color: black;">
 request_csv = requests.get("https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,sy_dist,sy_snum,sy_pnum,disc_year,pl_rade,pl_masse,st_teff,st_rad+from+ps&format=csv") <br>
@@ -82,7 +87,7 @@ f.write(request_csv.text)
 </code>
 
 
-After removing the first few columns we obtain a preliminary look at our first data points. The format of these tables is drawn from _____ and _____
+After removing the first few columns we obtain a preliminary look at our first data points. The format of these tables is drawn from <a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank" style="color: #573259;">Beautiful Tables in Matplotlib, a Tutorial</a> and <a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank" style="color: #573259;">How to create custom tables</a>.
 
 <div style="height: 20px;"></div>
 <p align="center">
