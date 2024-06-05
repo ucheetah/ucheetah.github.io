@@ -43,7 +43,7 @@ I have a few goals associated with this project:
 <div style="height: 20px;"></div>
 <p align="center">
   <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">
-  <img src="/assets/img/nasa_exoplanet_homepage.svg" width = "550" height = "400" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
 <div style="height: 20px;"></div>
