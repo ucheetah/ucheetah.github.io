@@ -75,12 +75,12 @@ To fit it into a [TAP protocol](https://exoplanetarchive.ipac.caltech.edu/docs/T
 *   Write data as a CSV into MyDrive.
 *   Call CSV into notebook.
 
- ```
-        request_csv = requests.get("https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,sy_dist,sy_snum,sy_pnum,disc_year,pl_rade,pl_masse,st_teff,st_rad+from+ps&format=csv")
+ <code>
+request_csv = requests.get("https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,sy_dist,sy_snum,sy_pnum,disc_year,pl_rade,pl_masse,st_teff,st_rad+from+ps&format=csv")
 
-        with open('/content/gdrive/MyDrive/exoplanet_data.csv', 'w') as f:
-          f.write(request_csv.text)
-```
+with open('/content/gdrive/MyDrive/exoplanet_data.csv', 'w') as f:
+f.write(request_csv.text)
+</code>
 
 
 After removing the first few columns we obtain a preliminary look at our first data points. The format of these tables is drawn from _____ and _____
@@ -88,7 +88,7 @@ After removing the first few columns we obtain a preliminary look at our first d
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-C.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-C.svg" width="320" height="120" alt="Graph C" style="border: 4px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-C.svg"  width="600" alt="Graph C" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
 <div style="height: 20px;"></div>
