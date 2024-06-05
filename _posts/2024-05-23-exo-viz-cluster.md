@@ -19,22 +19,39 @@ This project grabs from the <strong><a href="https://exoplanetarchive.ipac.calte
  dataset which records every confirmed exoplanet known to astronomists to date.
 
 <h6> Project summary </h6>
-<table style="border: 1px solid black;">
+<style>
+    table {
+        border-collapse: collapse; /* Collapse borders into a single border */
+        width: 100%; /* Full width of the container */
+    }
+    th, td {
+        border: 1px solid black; /* Add border to cells */
+        padding: 8px; /* Add padding around the content */
+        text-align: left; /* Align text to the left */
+    }
+    th {
+        background-color: #f2f2f2; /* Light gray background for headers */
+    }
+</style>
+
+<table>
   <tr>
-    <td style="border: 1px solid black;">  <strong>Language and packages</strong>  </td>
-    <td style="border: 1px solid black;">  Python (pandas, numpy, matplotlib, seaborn, scikit-learn), SQL (one humble query)  </td>
+    <td><strong>Language and packages</strong></td>
+    <td>Python (pandas, numpy, matplotlib, seaborn, scikit-learn), SQL (one humble query)</td>
   </tr>
   <tr>
-    <td style="border: 1px solid black;">  <strong>Techniques</strong>  </td>
-    <td style="border: 1px solid black;">  Data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning (clustering)  </td>
+    <td><strong>Techniques</strong></td>
+    <td>Data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning (clustering)</td>
   </tr>
 </table>
+
+
 <br>
 I have a few goals associated with this project:
 <ol>
   <li>Query and collect current data from NASA exoplanet archive's API;</li>
-  <li>Perform exploratory data analysis on select exoplanet features and visualize them for analysis using <strong><code style="color: black; font-size: smaller;">matplotlib</code></strong> and <strong><code style="color: black; font-size: 0.8rem;">seaborn</code></strong>;</li>
-  <li>Employ a clustering algorithm on the exoplanets using <strong><code style="color: black;">scikit-learn</code></strong> in hopes of generating groups that resemble existing exoplanet classifications (gas giants, terrestrials);</li>
+  <li>Perform exploratory data analysis on select exoplanet features and visualize them for analysis using <strong><code style="color: black; font-size: smaller;">matplotlib</code></strong> and <strong><code style="color: black; font-size: smaller;">seaborn</code></strong>;</li>
+  <li>Employ a clustering algorithm on the exoplanets using <strong><code style="color: black; font-size: smaller;">scikit-learn</code></strong> in hopes of generating groups that resemble existing exoplanet classifications (gas giants, terrestrials);</li>
   <li>Explore planet habitability using accepted astronomical science, such as stellar luminosity and star-planet distance.</li>
 </ol>
 <br>
@@ -53,24 +70,22 @@ I have a few goals associated with this project:
 From the parameter table documentation for this dataset I chose a small set of values from the dataset that are likely to be of biggest interest. The variable in parentheses indicate it's name in the original table:
 
 <ul>
-  <li><strong>Planet name</strong> as <code style="color: black;">pl_name</code></li>
-  <li><strong>Planet Radius [Earth Radius]</strong> as <code style="color: black;">pl_rade</code></li>
-  <li><strong>Planet Mass [Earth Mass]</strong> as <code style="color: black;">pl_masse</code></li>
-  <li><strong>Distance [pc]</strong> (Distance to the planetary system in units of parsecs) as <code style="color: black;">sy_dist</code></li>
- <li><strong>Discovery method</strong> as <code style="color: black;">pl_masse</code></li>
-  <li><strong>Discovery year</strong> as <code style="color: black;">disc_year</code></li>
+  <li><strong>Planet name</strong> as <code style="color: black; font-size: smaller;">pl_name</code></li>
+  <li><strong>Planet Radius [Earth Radius]</strong> as <code style="color: black; font-size: smaller;">pl_rade</code></li>
+  <li><strong>Planet Mass [Earth Mass]</strong> as <code style="color: black; font-size: smaller;">pl_masse</code></li>
+  <li><strong>Distance [pc]</strong> (Distance to the planetary system in units of parsecs) as <code style="color: black; font-size: smaller;">sy_dist</code></li>
+ <li><strong>Discovery method</strong> as <code style="color: black; font-size: smaller;">pl_masse</code></li>
+  <li><strong>Discovery year</strong> as <code style="color: black; font-size: smaller;">disc_year</code></li>
 </ul>
 
 <div style="height: 20px;"></div>
 <h4>Querying data</h4>
 <div style="height: 20px;"></div>
 
-To query this data we use the industry standard **Table Access Protocol (TAP)** which uses **AQDL (Astronomical Query Data Language)** - akin to SQL for astronomical databases - as queries.
+To query this data we use the industry standard **Table Access Protocol (TAP)** which uses **AQDL (Astronomical Query Data Language)** - akin to SQL for astronomical databases - as queries. Use Python's `requests` package to access NASA data using TAP protocol. I've written a short SQL (technically AQDL) queries which paired with `requests` grabs these columns:
 
-*   Use Python's `requests` package to access NASA data using TAP protocol. I've written a short SQL (technically AQDL) queries which paired with `requests` grabs these columns:
-
-<p>
-  <code style="color: black;">
+<p align="center">
+  <code style="color: black; font-size: smaller;">
   SELECT pl_name, sy_dist, pl_rade, pl_masse <br>
   FROM ps
 </code>
