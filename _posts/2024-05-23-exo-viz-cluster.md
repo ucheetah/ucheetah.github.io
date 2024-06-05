@@ -18,17 +18,15 @@ In this project I grab a few key characteristics known of planets nearby and per
 This project grabs from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong>, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong>
  dataset which records every confirmed exoplanet known to astronomists to date.
 
+<h6> Project summary </h6>
 <table style="border: 1px solid black;">
-  <caption>
-    <strong> Project summary </strong>
-  </caption>
   <tr>
-    <td style="border: 1px solid black;">Language and packages</td>
-    <td style="border: 1px solid black;">Python (pandas, numpy, matplotlib, seaborn, scikit-learn), SQL (one humble query)</td>
+    <td style="border: 1px solid black;">  <strong>Language and packages</strong>  </td>
+    <td style="border: 1px solid black;">  Python (pandas, numpy, matplotlib, seaborn, scikit-learn), SQL (one humble query)  </td>
   </tr>
   <tr>
-    <td style="border: 1px solid black;">Techniques</td>
-    <td style="border: 1px solid black;">Data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning (clustering)</td>
+    <td style="border: 1px solid black;">  <strong>Techniques</strong>  </td>
+    <td style="border: 1px solid black;">  Data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning (clustering)  </td>
   </tr>
 </table>
 
@@ -43,7 +41,10 @@ I have a few goals associated with this project:
 <div style="height: 20px;"></div>
 <p align="center">
   <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">
-  <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
+  <figure>
+      <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 4px solid darkgray; border-radius: 3px;">
+      <figcaption>NASA Exoplanet Archive Website</figcaption>
+  </figure>
   </a>
 </p>
 <div style="height: 20px;"></div>
