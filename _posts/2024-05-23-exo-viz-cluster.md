@@ -7,6 +7,13 @@ image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
 
+
+<style>
+body {
+ font-size: 1.2rem; /* Set the font size to 1.2 times the root font size */
+}
+</style>
+
 <p style="font-size: 1.2rem"> <em> This is the first of my new website where I look forward to sharing more of my work in data science and data analysis. </em> </p>
 
 <hr>
@@ -65,7 +72,7 @@ I have a few goals associated with this project:
 </figure>
 <div style="height: 20px;"></div>
 
-<h3>Data collection and cleaning</h3> 
+<h4>Data collection and cleaning</h4> 
 <div style="height: 20px;"></div>
 
 From the parameter table documentation for this dataset I chose a small set of values from the dataset that are likely to be of biggest interest. The variable in parentheses indicate it's name in the original table:
@@ -87,14 +94,13 @@ To query this data we use the industry standard **Table Access Protocol (TAP)** 
 
 <p align="center">
   <code style="color: black; font-size: smaller;">
-  SELECT pl_name, sy_dist, pl_rade, pl_masse <br>
-  FROM ps
+  <strong>SELECT pl_name, sy_dist, pl_rade, pl_masse <br> FROM ps</strong>
 </code>
 </p>
 
-To fit it into a <a href="https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html" target="_blank" style="color: #573259;">TAP protocol</a> we simply need to make a few adjustments such as remove additional spacing, add `+` between the major SQL statements. In my process I ingested the data as a CSV into MyDrive to then call it into my notebook.
+To fit it into a <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html" target="_blank" style="color: #573259;">TAP protocol</a></strong> we simply need to make a few adjustments such as remove additional spacing, add `+` between the major SQL statements. In my process I ingested the data as a CSV into MyDrive to then call it into my notebook.
 
-After removing the first few columns we obtain a preliminary look at our first data points. The format of these tables is drawn from <a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank" style="color: #573259;">Beautiful Tables in Matplotlib, a Tutorial</a> and <a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank" style="color: #573259;">How to create custom tables</a>.
+After removing the first few columns we obtain a preliminary look at our first data points. The format of these tables is drawn from <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank" style="color: #573259;"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank" style="color: #573259;">How to create custom tables</a></strong>.
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -231,4 +237,3 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
   <img src="/assets/img/2024-05-24-exoplanets-I.png" width="1200" alt="Graph I" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
-
