@@ -9,34 +9,33 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 
 <em> This is the first of my new website where I look forward to sharing more of my work in data science and data analysis. </em>
 
----
+<hr>
 
 Exoplanet are interesting because their study is the gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade astronomy has seen an explosion in new planets. With the introduction the James Webb Telescope - the most complex and largest telescope launched into space - allocating a significant portion of it's study to the discovery of exoplanets, the results on our knowledge of exoplanets are expected to be seismic. 
 
 In this project I grab a few key characteristics known of planets nearby and perform visualization and a k-means clustering algorithm.
 
-This project grabs from the <a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a>, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the <a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a>
+This project grabs from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong>, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong>
  dataset which records every confirmed exoplanet known to astronomists to date.
 
-
-<table>
+<table style="border: 1px solid black;">
   <caption>
     <strong> Project summary </strong>
   </caption>
   <tr>
-    <td>Language and packages</td>
-    <td>Python (pandas, numpy, matplotlib, seaborn, scikit-learn)</li>, SQL (one humble query)</td>
+    <td style="border: 1px solid black;">Language and packages</td>
+    <td style="border: 1px solid black;">Python (pandas, numpy, matplotlib, seaborn, scikit-learn), SQL (one humble query)</td>
   </tr>
   <tr>
-    <td>Techniques</td>
-    <td>Data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning (clustering)</td>
+    <td style="border: 1px solid black;">Techniques</td>
+    <td style="border: 1px solid black;">Data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning (clustering)</td>
   </tr>
 </table>
 
 I have a few goals associated with this project:
 <ol>
   <li>Query and collect current data from NASA exoplanet archive's API;</li>
-  <li>Perform exploratory data analysis on select exoplanet features and visualize them for analysis using <strong><code style="color: black;">matplotlib</code></strong> and <code style="color: black;">seaborn</code> ;</li>
+  <li>Perform exploratory data analysis on select exoplanet features and visualize them for analysis using <strong><code style="color: black;">matplotlib</code></strong> and <strong><code style="color: black;">seaborn</code></strong>;</li>
   <li>Employ a clustering algorithm on the exoplanets using <strong><code style="color: black;">scikit-learn</code></strong> in hopes of generating groups that resemble existing exoplanet classifications (gas giants, terrestrials);</li>
   <li>Explore planet habitability using accepted astronomical science, such as stellar luminosity and star-planet distance.</li>
 </ol>
