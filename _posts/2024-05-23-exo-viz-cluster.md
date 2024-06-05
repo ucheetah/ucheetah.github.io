@@ -65,19 +65,17 @@ To query this data we use the industry standard **Table Access Protocol (TAP)** 
 
 *   Use Python's `requests` package to access NASA data using TAP protocol. I've written a short SQL (technically AQDL) queries which paired with `requests` grabs these columns:
 
-<code>
-  SELECT pl_name, sy_dist, pl_rade, pl_masse
+<p>
+  <code>
+  SELECT pl_name, sy_dist, pl_rade, pl_masse <br>
   FROM ps
 </code>
-To fit it into a [TAP protocol](https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html) we simply need to make a few adjustments such as remove additional spacing, add `+` between the major SQL statements. Full procedure:
+</p>
 
+To fit it into a [TAP protocol](https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html) we simply need to make a few adjustments such as remove additional spacing, add `+` between the major SQL statements. In my process I ingested the data as a CSV into MyDrive to then call it into my notebook.
 
-*   Write data as a CSV into MyDrive.
-*   Call CSV into notebook.
-
- <code>
-request_csv = requests.get("https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,sy_dist,sy_snum,sy_pnum,disc_year,pl_rade,pl_masse,st_teff,st_rad+from+ps&format=csv")
-
+ <code style="color: darkgrey;">
+request_csv = requests.get("https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,sy_dist,sy_snum,sy_pnum,disc_year,pl_rade,pl_masse,st_teff,st_rad+from+ps&format=csv") <br>
 with open('/content/gdrive/MyDrive/exoplanet_data.csv', 'w') as f:
 f.write(request_csv.text)
 </code>
