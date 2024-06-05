@@ -109,11 +109,10 @@ I've calculated and graphed the thre most successful exoplanet discovery methods
 <ul>
   <li>There is clearly a ____ increase in discoveries.</li>
   <li> Some years, such as 2016, have been enormous years for exoplanet discoveries. </li>
-  <li>The **transit method** is clearly the most successful discovery method. It exploits the occurence of a planet passing between a star and the observer (Earth). The light from the star will be altereted by the planet's presense. The amount of dimming occured can be used to make conclusions about the planet's characeristics like mass, radiius and eve atmospheric conditions.
-</li>
+  <li>The **transit method** is clearly the most successful discovery method. It exploits the occurence of a planet passing between a star and the observer (Earth). The light from the star will be altereted by the planet's presense. The amount of dimming occured can be used to make conclusions about the planet's characeristics like mass, radiius and eve atmospheric conditions. </li>
+</ul>
 
 <div style="height: 20px;"></div>
-
 <h4>Distance from Earth</h4>
 <div style="height: 20px;"></div>
 
@@ -197,6 +196,7 @@ To determine the number of categories (clusters) we want to develop, we will use
 <ul>
 <li>Clearly the most favorable score is 4, so we will divide our exoplanet data into four categories in attempts to match them with existing categories.</li>
 </ul>
+<div style="height: 20px;"></div>
 
 We run a kmeans model using scikit learn and add the clusters it has generate to our data. In the following graph we display those results, with each cluster differing in color and 
 
@@ -210,6 +210,7 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 <ul>
 <li>Clearly the most favorable score is 4, so we will divide our exoplanet data into four categories in attempts to match them with existing categories.</li>
 </ul>
+
 
 <div style="height: 20px;"></div>
 <p align="center">
