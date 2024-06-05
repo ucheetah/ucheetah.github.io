@@ -29,11 +29,11 @@ This project grabs from the <strong><a href="https://exoplanetarchive.ipac.calte
     <td style="border: 1px solid black;">  Data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning (clustering)  </td>
   </tr>
 </table>
-
+<br>
 I have a few goals associated with this project:
 <ol>
   <li>Query and collect current data from NASA exoplanet archive's API;</li>
-  <li>Perform exploratory data analysis on select exoplanet features and visualize them for analysis using <strong><code style="color: black;">matplotlib</code></strong> and <strong><code style="color: black;">seaborn</code></strong>;</li>
+  <li>Perform exploratory data analysis on select exoplanet features and visualize them for analysis using <strong><code style="color: black; font-size: smaller;">matplotlib</code></strong> and <strong><code style="color: black; font-size: 0.8rem;">seaborn</code></strong>;</li>
   <li>Employ a clustering algorithm on the exoplanets using <strong><code style="color: black;">scikit-learn</code></strong> in hopes of generating groups that resemble existing exoplanet classifications (gas giants, terrestrials);</li>
   <li>Explore planet habitability using accepted astronomical science, such as stellar luminosity and star-planet distance.</li>
 </ol>
