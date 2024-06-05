@@ -2,7 +2,7 @@
 layout: post
 title: Worlds Beyond - Visualization and Clustering with NASA Exoplanet Data
 date: 2024-05-23
-tags: [projects, tech, data, visualization]
+tags: [projects, tech, data science, visualization, machine learning, kmeans]
 image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
@@ -13,7 +13,7 @@ body {
 }
 </style>
 
-<p> <em> This post marks the beginning of my new personal website, where I'm excited to share more about my work in data science, data analysis and  ideas at large that inspire me.</em> </p>
+<p align="center"> <em> This post marks the beginning of my new personal website, where I'm excited to share more about my work in data science, data analysis and  ideas at large that inspire me.</em> </p>
 
 <hr>
 
@@ -236,7 +236,7 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-I.png" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-I.png" width="900" alt="Graph I" style="border: 4px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-I.png" width="700" alt="Graph I" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
 <div style="height: 20px;"></div>
@@ -246,5 +246,8 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 <li>There doesn't appear to be a strong correlation between mass/radius and distance. This makes sense - we wouldn't expect composition and components of the planets to depend on their distance from Earth</li>
 </ul>
 
-If worked has piqued your interest, here are a few resources I appreciate to keep reading on the matter:
+If worked has piqued your interest on exoplanet science, here are a few resources I appreciate to keep reading on the matter:
+<ul>
+<li><a href="https://www.quantamagazine.org/the-best-neighborhoods-for-starting-a-life-in-the-galaxy-20240124/">The Best Neighborhoods for Starting a Life in the Galaxy</a></li>
+</ul>
 
