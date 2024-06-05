@@ -190,7 +190,7 @@ To determine the number of categories (clusters) we want to develop, we will use
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-G.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-G.svg" width="640" height="240" alt="Graph G" style="border: 4px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-G.svg" width="800" alt="Graph G" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
 <div style="height: 20px;"></div>
