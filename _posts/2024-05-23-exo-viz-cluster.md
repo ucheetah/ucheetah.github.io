@@ -7,7 +7,7 @@ image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
 
-<em> This is the first of my new website where I look forward to sharing more of my work in data science and data analysis. </em>
+<p style="font-size: 1.2rem"> <em> This is the first of my new website where I look forward to sharing more of my work in data science and data analysis. </em> </p>
 
 <hr>
 
@@ -18,7 +18,8 @@ In this project I grab a few key characteristics known of planets nearby and per
 This project grabs from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong>, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong>
  dataset which records every confirmed exoplanet known to astronomists to date.
 
-<h6> Project summary </h6>
+<h6> Project summary:</h6>
+<br>
 <style>
     table {
         border-collapse: collapse; /* Collapse borders into a single border */
@@ -34,7 +35,7 @@ This project grabs from the <strong><a href="https://exoplanetarchive.ipac.calte
     }
 </style>
 
-<table>
+<table align="center">
   <tr>
     <td><strong>Language and packages</strong></td>
     <td>Python (pandas, numpy, matplotlib, seaborn, scikit-learn), SQL (one humble query)</td>
