@@ -13,6 +13,7 @@ body {
 }
 </style>
 
+ <div class="post">
 <p align="center"> <em> This post marks the beginning of my new personal website, where I'm excited to share more about my work in data science, data analysis and  ideas at large that inspire me.</em> </p>
 
 <hr>
@@ -250,4 +251,6 @@ If worked has piqued your interest on exoplanet science, here are a few resource
 <ul>
 <li><a href="https://www.quantamagazine.org/the-best-neighborhoods-for-starting-a-life-in-the-galaxy-20240124/">The Best Neighborhoods for Starting a Life in the Galaxy</a></li>
 </ul>
+
+</div>
 
