@@ -175,10 +175,6 @@
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
-article {
-  background-color: rgba(26, 26, 26, 0.6);
-}
-
 html{
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100%;
@@ -222,11 +218,6 @@ hr{
   box-sizing:content-box;
   height:0;
   overflow:visible
-}
-
-ul {
-  margin: 0;
-  padding-left: 20px;
 }
 
 code,
