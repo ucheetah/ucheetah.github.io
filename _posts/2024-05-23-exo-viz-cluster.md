@@ -121,7 +121,7 @@ Taking a look at how are planets are discovered reveals a lot about the underlyi
 
 <p> The <strong>transit method</strong> exploits the occurence of a planet passing between a star and the observer (Earth). The light from the star will be altereted by the planet's presense. The amount of dimming occured can be used to make conclusions about the planet's characeristics like mass, radiius and eve atmospheric conditions.</p> 
 
-<p> Observational cosmologist Chris Impey mentioned in a recent <a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">lecture</a> that the growth of discovery of the planets is comparable to the development of internet technology and telephones seen during the Dotcom bubble. As a domain, exoplanet science is progressing at a very rapid pace.</p> 
+<p> Observational cosmologist Chris Impey mentioned in a recent <a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank" style="color: #573259;">lecture</a> that the growth of discovery of the planets is comparable to the development of internet technology and telephones seen during the Dotcom bubble. As a domain, exoplanet science is progressing at a very rapid pace.</p> 
 
 <div style="height: 20px;"></div>
 <h4>Distance from Earth</h4>
@@ -190,8 +190,9 @@ Observing the disparity of planet size and mass can allow us to create a better 
 <li> Appear to be two main groups of data, one with smaller radius and mass, another with larger.</li>
 <li> A few outliers on the ends.</li>
 <li> radius and mass appear to correlate.</li>
-<li> Significant fluctuations in planet mass and radius - the heaviest planet is ______x heavier than Earth. This may be understood by the fact that radius and mass. </li>
+<li> Significant fluctuations in planet mass and radius - the heaviest planet is 10000x heavier than Earth. This may be understood by the fact that mass increases exponentially with respect to radius. </li>
 </ul>
+<div style="height: 20px;"></div>
 
 However planets differ greatly in their compositions and densities so we would expect there to be quite a bit of fluctuation. 
 
@@ -247,6 +248,6 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 
 If worked has piqued your interest on exoplanet science, here are a few resources I appreciate to keep reading on the matter:
 <ul>
-<li><a href="https://www.quantamagazine.org/the-best-neighborhoods-for-starting-a-life-in-the-galaxy-20240124/">The Best Neighborhoods for Starting a Life in the Galaxy</a></li>
+<li><a href="https://www.quantamagazine.org/the-best-neighborhoods-for-starting-a-life-in-the-galaxy-20240124/" target="_blank" style="color: #573259;">The Best Neighborhoods for Starting a Life in the Galaxy</a></li>
 </ul>
 
