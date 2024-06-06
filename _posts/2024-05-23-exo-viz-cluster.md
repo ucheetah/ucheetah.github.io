@@ -119,9 +119,9 @@ Taking a look at how are planets are discovered reveals a lot about the underlyi
   <li>The <strong>transit method</strong> is clearly the most successful discovery method.</li>
 </ul>
 
-The <strong>transit method</strong> exploits the occurence of a planet passing between a star and the observer (Earth). The light from the star will be altereted by the planet's presense. The amount of dimming occured can be used to make conclusions about the planet's characeristics like mass, radiius and eve atmospheric conditions.
+<p> The <strong>transit method</strong> exploits the occurence of a planet passing between a star and the observer (Earth). The light from the star will be altereted by the planet's presense. The amount of dimming occured can be used to make conclusions about the planet's characeristics like mass, radiius and eve atmospheric conditions.</p> 
 
-Observational cosmologist Chris Impey mentioned in a recent <a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">lecture</a> that the growth of discovery of the planets is comparable to the development of internet technology and telephones seen during the Dotcom bubble. As a domain, exoplanet science is progressing at a very rapid pace.
+<p> Observational cosmologist Chris Impey mentioned in a recent <a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">lecture</a> that the growth of discovery of the planets is comparable to the development of internet technology and telephones seen during the Dotcom bubble. As a domain, exoplanet science is progressing at a very rapid pace.</p> 
 
 <div style="height: 20px;"></div>
 <h4>Distance from Earth</h4>
@@ -138,14 +138,15 @@ We next track exoplanet distance from Earth. We can first generate a histogram (
   </a>
 </p>
 <div style="height: 20px;"></div>
-<strong>Observations:</strong>
+
+<strong>Observation(s):</strong>
 <ul>
-  <li> The distribution is predicatble where the most planets are closer.
-  <li> Fairly significant findings of planets up to 3500 light years.
-  <li> A small number of planets have still been been accessed at 10,000 light years away remarkably. </li>
+  <li> The distribution is predicatble where the most planets are closer.</li>
+  <li> Fairly significant findings of planets up to 3500 light years.</li>
+  <li> A small number of planets have still been been accessed at 10,000 light years away remarkably.</li>
 </ul>
 
-Plotting a CDF of exolanet distance from Earth, allowing us to better evaluate how planet distances compare to one another.
+<p> We can also better evaluate the distribution of planets as a whole through a cumulative distribution function (CDF):</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -155,7 +156,7 @@ Plotting a CDF of exolanet distance from Earth, allowing us to better evaluate h
 </p>
 <div style="height: 20px;"></div>
 
-<strong>Observations:</strong>
+<strong>Observation(s):</strong>
 <ul>
   <li> Close to 90% of known exoplanets are within the ten thousand light year range. </li>
   <li> In the CDF we notice a highly asymptotic behavior - small number as the distance surpasses 4000 light years. </li>
@@ -182,7 +183,7 @@ Observing the disparity of planet size and mass can allow us to create a better 
 </p>
 <div style="height: 20px;"></div>
 
-<strong>Observations:</strong>
+<strong>Observation(s):</strong>
 
 <ul>
 <li> Linear relationship between planet mass and the log of planet radius.</li>
