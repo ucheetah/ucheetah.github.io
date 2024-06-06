@@ -21,8 +21,9 @@ This project peers into exoplanet science through the lens of data. I grab from 
 
 <table align="center">
   <tr>
-    <td><strong> Goals </strong> </td>
+    <td align="center"><strong> Goals </strong> </td>
     <td>
+      <br>
     <ul>
       <li>Query and collect data from NASA exoplanet archive;</li>
       <li>Perform exploratory data analysis on exoplanet features and visualize them for analysis; and</li>
@@ -37,6 +38,10 @@ This project peers into exoplanet science through the lens of data. I grab from 
   <tr>
     <td><strong>Techniques</strong></td>
     <td>Data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning (clustering)</td>
+  </tr>
+  <tr>
+    <td><strong>Project GitHub</strong></td>
+    <td> <a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main">GitHub Repo - exoplanet-viz-cluster</a> </td>
   </tr>
 </table>
 
@@ -94,13 +99,11 @@ After removing the first few columns we obtain a preliminary look at our first d
 <div style="height: 20px;"></div>
 
 <h3>Visualization and Analysis</h3>
-
+<div style="height: 20px;"></div>
 <h4>Discovery method</h4>
 <div style="height: 20px;"></div>
 
-For this I must credit the __ from in a recent lecture who interestingly expressed how the growth of discovery of the planets is comparable to the rapid development of internet technology and telephones. So as a domain, exoplanet science is progressing at an extremely rapid pace, and this graph demonstrates this progress.
-
-I've calculated and graphed the thre most successful exoplanet discovery methods there is. 
+Taking a look at how are planets are discovered reveals a lot about the underlying science. Exoplanets are discovered in many ways but a few ways dominate in their success. I've tracked the growrth of the three most successful exoplanet discovery methods graphed since the start of the century.
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -111,10 +114,14 @@ I've calculated and graphed the thre most successful exoplanet discovery methods
 
 <strong> Observations </strong>
 <ul>
-  <li>There is clearly a ____ increase in discoveries.</li>
-  <li> Some years, such as 2016, have been enormous years for exoplanet discoveries. </li>
-  <li>The **transit method** is clearly the most successful discovery method. It exploits the occurence of a planet passing between a star and the observer (Earth). The light from the star will be altereted by the planet's presense. The amount of dimming occured can be used to make conclusions about the planet's characeristics like mass, radiius and eve atmospheric conditions. </li>
+  <li>There's a clear increase in discoveries over the past ten years.</li>
+  <li>Certain years, such as 2016, have seen enormous numbers of exoplanet discoveries. </li>
+  <li>The <strong>transit method</strong> is clearly the most successful discovery method.</li>
 </ul>
+
+The <strong>transit method</strong> exploits the occurence of a planet passing between a star and the observer (Earth). The light from the star will be altereted by the planet's presense. The amount of dimming occured can be used to make conclusions about the planet's characeristics like mass, radiius and eve atmospheric conditions.
+
+Observational cosmologist Chris Impey mentioned in a recent <a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">lecture</a> that the growth of discovery of the planets is comparable to the development of internet technology and telephones seen during the Dotcom bubble. As a domain, exoplanet science is progressing at a very rapid pace.
 
 <div style="height: 20px;"></div>
 <h4>Distance from Earth</h4>
@@ -131,6 +138,12 @@ We next track exoplanet distance from Earth. We can first generate a histogram (
   </a>
 </p>
 <div style="height: 20px;"></div>
+<strong>Observations:</strong>
+<ul>
+  <li> The distribution is predicatble where the most planets are closer.
+  <li> Fairly significant findings of planets up to 3500 light years.
+  <li> A small number of planets have still been been accessed at 10,000 light years away remarkably. </li>
+</ul>
 
 Plotting a CDF of exolanet distance from Earth, allowing us to better evaluate how planet distances compare to one another.
 
@@ -146,7 +159,6 @@ Plotting a CDF of exolanet distance from Earth, allowing us to better evaluate h
 <ul>
   <li> Close to 90% of known exoplanets are within the ten thousand light year range. </li>
   <li> In the CDF we notice a highly asymptotic behavior - small number as the distance surpasses 4000 light years. </li>
-  <li> A small number of planets have been accessed beyond 10,000 light years remarkably. </li>
 </ul>
 <div style="height: 20px;"></div>
 
@@ -187,7 +199,7 @@ However planets differ greatly in their compositions and densities so we would e
 <h3> K-means clustering</h3>
 <div style="height: 20px;"></div>
 
-To determine the number of categories (clusters) we want to develop, we will use the silhouette score method. You may consult my script for a better understanding of this method. The following returns the silhouette score. High scores indicate good clustering results, bad scores indicate bad results.
+To determine the number of categories (clusters) we want to develop, we will use the <strong>silhouette score</strong> method. You may consult my script for a better understanding of this method. High scores indicate good clustering results, bad scores indicate bad results.
 
 <div style="height: 20px;"></div>
 <p align="center">
