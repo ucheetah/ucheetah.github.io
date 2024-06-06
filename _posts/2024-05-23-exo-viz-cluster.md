@@ -34,8 +34,8 @@ The study of exoplanets is the gateway to discovering and confirming the existen
 I have a few goals associated with this project:
 <ol>
   <li>Query and collect current data from NASA exoplanet archive's API;</li>
-  <li>Perform exploratory data analysis on select exoplanet features and visualize them for analysis using <strong><code style="color: black; font-size: smaller;">matplotlib</code></strong> and <strong><code style="color: black; font-size: smaller;">seaborn</code></strong>;</li>
-  <li>Employ a clustering algorithm on the exoplanets using <strong><code style="color: black; font-size: smaller;">scikit-learn</code></strong> in hopes of generating groups that resemble existing exoplanet classifications (gas giants, terrestrials);</li>
+  <li>Perform exploratory data analysis on select exoplanet features and visualize them for analysis using <strong><code>matplotlib</code></strong> and <strong><code>seaborn</code></strong>;</li>
+  <li>Employ a clustering algorithm on the exoplanets using <strong><code>scikit-learn</code></strong> in hopes of generating groups that resemble existing exoplanet classifications (gas giants, terrestrials);</li>
   <li>Explore planet habitability using accepted astronomical science, such as stellar luminosity and star-planet distance.</li>
 </ol>
 <br>
@@ -54,22 +54,22 @@ I have a few goals associated with this project:
 From the parameter table documentation for this dataset I chose a small set of values from the dataset that are likely to be of biggest interest. The variable in parentheses indicate it's name in the original table:
 
 <ul>
-  <li><strong>Planet name</strong> as <code style="color: black; font-size: smaller;">pl_name</code></li>
-  <li><strong>Planet Radius [Earth Radius]</strong> as <code style="color: black; font-size: smaller;">pl_rade</code></li>
-  <li><strong>Planet Mass [Earth Mass]</strong> as <code style="color: black; font-size: smaller;">pl_masse</code></li>
-  <li><strong>Distance [pc]</strong> (Distance to the planetary system in units of parsecs) as <code style="color: black; font-size: smaller;">sy_dist</code></li>
- <li><strong>Discovery method</strong> as <code style="color: black; font-size: smaller;">pl_masse</code></li>
-  <li><strong>Discovery year</strong> as <code style="color: black; font-size: smaller;">disc_year</code></li>
+  <li><strong>Planet name</strong> as <code>pl_name</code></li>
+  <li><strong>Planet Radius [Earth Radius]</strong> as <code>pl_rade</code></li>
+  <li><strong>Planet Mass [Earth Mass]</strong> as <code>pl_masse</code></li>
+  <li><strong>Distance [pc]</strong> (Distance to the planetary system in units of parsecs) as <code>sy_dist</code></li>
+ <li><strong>Discovery method</strong> as <code>pl_masse</code></li>
+  <li><strong>Discovery year</strong> as <code>disc_year</code></li>
 </ul>
 
 <div style="height: 20px;"></div>
 <h4>Querying data</h4>
 <div style="height: 20px;"></div>
 
-To query this data we use the industry standard **Table Access Protocol (TAP)** which uses **AQDL (Astronomical Query Data Language)** - akin to SQL for astronomical databases - as queries. Use Python's `requests` package to access NASA data using TAP protocol. I've written a short SQL (technically AQDL) queries which paired with `requests` grabs these columns:
+To query this data we use the industry standard **Table Access Protocol (TAP)** which uses **AQDL (Astronomical Query Data Language)** - akin to SQL for astronomical databases - as queries. Use Python's <code>requests</code> package to access NASA data using TAP protocol. I've written a short SQL (technically AQDL) queries which paired with <code>requests</code> grabs these columns:
 
 <p align="center">
-  <code style="color: black; font-size: smaller;">
+  <code>
   <strong>SELECT pl_name, sy_dist, pl_rade, pl_masse <br> FROM ps</strong>
 </code>
 </p>
