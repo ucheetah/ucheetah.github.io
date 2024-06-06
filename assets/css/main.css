@@ -232,6 +232,11 @@ samp{
   font-size:1em
 }
 
+code{
+  color: black; 
+  font-size: smaller
+}
+
 a{
   background-color:transparent;
   -webkit-text-decoration-skip:objects;
