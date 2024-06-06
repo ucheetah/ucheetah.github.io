@@ -14,8 +14,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 
 The study of exoplanets is the gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade astronomy has seen an explosion in new planets. For instance, the new James Webb Telescope - the most complex and largest telescope launched into space - allocates a significant portion of it's study to the discovery of exoplanets. Results on our knowledge of exoplanets are expected to be seismic. 
 
-This project grabs from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong>, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong> and perform visualization and a k-means clustering algorithm.
-This project involves using Python and SQL for querying, cleaning, visualizing, and clustering exoplanet data from NASA's archive to explore planetary features and habitability.
+This project grabs from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong>. I'm drawing from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong> and perform visualization and a k-means clustering algorithm.
 
 <h5 align="center"> Project summary</h5>
 <div style="height: 10px;"></div>
@@ -24,11 +23,11 @@ This project involves using Python and SQL for querying, cleaning, visualizing, 
   <tr>
     <td><strong> Project goals </strong> </td>
     <td>
-    <ol>
+    <ul>
       <li>Query and collect data from NASA exoplanet archive;</li>
       <li>Perform exploratory data analysis on exoplanet features and visualize them for analysis;</li>
       <li>Employ kmeans clustering on the exoplanets comparing these to existing exoplanet classifications (gas giants, terrestrials) </li>
-    </ol>
+    </ul>
     </td>
   </tr>
   <tr>
@@ -54,6 +53,7 @@ This project involves using Python and SQL for querying, cleaning, visualizing, 
 <h4>Data collection and cleaning</h4> 
 <div style="height: 20px;"></div>
 
+I will draw data from the NASA exoplanets archive, a collaboration between Caltech and NASA under its Exoplanet Exploration Program.
 From the parameter table documentation for this dataset I chose a small set of values from the dataset that are likely to be of biggest interest. The variable in parentheses indicate it's name in the original table:
 
 <ul>
