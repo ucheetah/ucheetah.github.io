@@ -16,7 +16,7 @@ This project grabs from the <strong><a href="https://exoplanetarchive.ipac.calte
 
 The study of exoplanets is the gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade astronomy has seen an explosion in new planets. With the introduction the James Webb Telescope - the most complex and largest telescope launched into space - allocating a significant portion of it's study to the discovery of exoplanets, the results on our knowledge of exoplanets are expected to be seismic. This project peers into the existing information known about...
 
-<h6 align="center"> Project summary</h6>
+<h5 align="center"> Project summary</h5>
 
 <table align="center">
   <tr>
