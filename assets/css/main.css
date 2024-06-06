@@ -175,6 +175,10 @@
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
+article{
+  background-color:#666666
+}
+
 html{
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100%;
