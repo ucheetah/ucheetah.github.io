@@ -176,7 +176,8 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 article{
-  background-color:#1a1a1a
+  background-color:#1a1a1a;
+  opacity: 0.6
 }
 
 html{
