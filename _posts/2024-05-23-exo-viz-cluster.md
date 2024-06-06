@@ -6,15 +6,24 @@ tags: [projects, tech, data science, visualization, machine learning, kmeans]
 image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
-
+<style>
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    margin: 0;
+    padding: 0;
+  }
+</style>
 <p align="center"> <em> This post marks the beginning of my new personal website, where I'm excited to share more about my work in data science, data analysis and  ideas at large that inspire me.</em> </p>
 
 <hr>
 <div style="height: 20px;"></div>
 
-The study of exoplanets is the gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade astronomy has seen an explosion in new planets. For instance, the new James Webb Telescope - the most complex and largest telescope launched into space - allocates a significant portion of it's study to the discovery of exoplanets. Results on our knowledge of exoplanets are expected to be seismic. 
+The study of exoplanets - planets beyond our Solar System - is a crucial gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade the scientific community has seen an explosion in our capabilities to gather fine-grained data on the observable universe, thanks to advancements into astronomical science like the James Webb Telescope - the most complex and largest telescope launched into space - which began it's work in 2021. Many of these new technologies, including the James Webb, are used to discovery of exoplanets. As such the discussion and interest on exoplanets is only expected grow in the coming years. 
 
-This project grabs from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong>. I'm drawing from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong> and perform visualization and a k-means clustering algorithm.
+This project peers into exoplanet science through the lens of data. I grab from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong> dataset provided by the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong> on which I'll visualize and conduct a k-means clustering algorithm.
 
 <h5 align="center"> Project summary</h5>
 <div style="height: 10px;"></div>
@@ -73,7 +82,7 @@ To query this data we use the industry standard **Table Access Protocol (TAP)** 
 
 <p align="center">
   <code>
-  <strong>SELECT pl_name, sy_dist, pl_rade, pl_masse <br> FROM ps</strong>
+  <strong>SELECT pl_name, sy_dist, pl_rade, pl_masse FROM ps</strong>
 </code>
 </p>
 
@@ -178,7 +187,7 @@ However planets differ greatly in their compositions and densities so we would e
 
 <div style="height: 20px;"></div>
 
-<h4> Machine learning - K-means clustering with `scikit-learn`</h4>
+<h4> K-means clustering</h4>
 <div style="height: 20px;"></div>
 
 To determine the number of categories (clusters) we want to develop, we will use the silhouette score method. You may consult my script for a better understanding of this method. The following returns the silhouette score. High scores indicate good clustering results, bad scores indicate bad results.
