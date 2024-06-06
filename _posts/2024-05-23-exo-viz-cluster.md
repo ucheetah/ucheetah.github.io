@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Worlds Beyond - Visualization and Clustering with NASA Exoplanet Data
+title: Worlds Beyond - Visualization and Clustering of NASA Exoplanet Data
 date: 2024-05-23
 tags: [projects, tech, data science, visualization, machine learning, kmeans]
 image: 2024-05-24-exoplanets-cover.png
@@ -12,29 +12,11 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 <hr>
 <div style="height: 20px;"></div>
 
-This project focuses on Exoplanet are interesting because their study is the gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade astronomy has seen an explosion in new planets. With the introduction the James Webb Telescope - the most complex and largest telescope launched into space - allocating a significant portion of it's study to the discovery of exoplanets, the results on our knowledge of exoplanets are expected to be seismic. 
+This project grabs from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong>, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong> and perform visualization and a k-means clustering algorithm.
 
-In this project I grab a few key characteristics known of planets nearby and perform visualization and a k-means clustering algorithm.
-
-This project grabs from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong>, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong>
- dataset which records every confirmed exoplanet known to astronomists to date.
+The study of exoplanets is the gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade astronomy has seen an explosion in new planets. With the introduction the James Webb Telescope - the most complex and largest telescope launched into space - allocating a significant portion of it's study to the discovery of exoplanets, the results on our knowledge of exoplanets are expected to be seismic. This project peers into the existing information known about...
 
 <h6 align="center"> Project summary</h6>
-<style>
-    table {
-        border-collapse: collapse; /* Collapse borders into a single border */
-        width: 100%; /* Full width of the container */
-    }
-    th, td {
-        border: 1px solid black;
-        padding: 8px;
-        font-size: 18px;
-        text-align: left;
-    }
-    th {
-        background-color: #f2f2f2; /* Light gray background for headers */
-    }
-</style>
 
 <table align="center">
   <tr>
