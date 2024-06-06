@@ -185,10 +185,14 @@ body{
   font-family:'PT Sans',sans-serif;
   color:#3e3e40;
   margin:0;
-  background-color:#c4c4c4;
+  background-color:#fff;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale; 
   font-size: 16px
+}
+
+.post{
+  background-color: #C4C4C4
 }
 
 article,
