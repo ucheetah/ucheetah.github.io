@@ -9,11 +9,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 <style>
   ul {
     margin: 0;
-    padding: 0;
-  }
-  li {
-    margin: 0;
-    padding: 0;
+    padding-left: 20px;
   }
 </style>
 <p align="center"> <em> This post marks the beginning of my new personal website, where I'm excited to share more about my work in data science, data analysis and  ideas at large that inspire me.</em> </p>
