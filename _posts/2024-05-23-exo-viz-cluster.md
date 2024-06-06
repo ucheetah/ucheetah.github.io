@@ -19,16 +19,17 @@ In this project I grab a few key characteristics known of planets nearby and per
 This project grabs from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong>, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong>
  dataset which records every confirmed exoplanet known to astronomists to date.
 
-<h6> Project summary:</h6>
+<h6 align="center"> Project summary</h6>
 <style>
     table {
         border-collapse: collapse; /* Collapse borders into a single border */
         width: 100%; /* Full width of the container */
     }
     th, td {
-        border: 1px solid black; /* Add border to cells */
-        padding: 8px; /* Add padding around the content */
-        text-align: left; /* Align text to the left */
+        border: 1px solid black;
+        padding: 8px;
+        font-size: 18px;
+        text-align: left;
     }
     th {
         background-color: #f2f2f2; /* Light gray background for headers */
