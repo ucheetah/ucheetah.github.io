@@ -10,6 +10,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 <p align="center"> <em> This post marks the beginning of my new personal website, where I'm excited to share more about my work in data science, data analysis and  ideas at large that inspire me.</em> </p>
 
 <hr>
+<div style="height: 20px;"></div>
 
 This project focuses on Exoplanet are interesting because their study is the gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade astronomy has seen an explosion in new planets. With the introduction the James Webb Telescope - the most complex and largest telescope launched into space - allocating a significant portion of it's study to the discovery of exoplanets, the results on our knowledge of exoplanets are expected to be seismic. 
 
@@ -19,7 +20,6 @@ This project grabs from the <strong><a href="https://exoplanetarchive.ipac.calte
  dataset which records every confirmed exoplanet known to astronomists to date.
 
 <h6> Project summary:</h6>
-<br>
 <style>
     table {
         border-collapse: collapse; /* Collapse borders into a single border */
