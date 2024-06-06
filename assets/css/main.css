@@ -176,7 +176,7 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 article{
-  background-color:#000000
+  background-color:#1a1a1a
 }
 
 html{
@@ -573,7 +573,7 @@ pre code{border:0;padding-right:0;padding-left:0}
 .page-content{
   margin-top:-80px;
   margin-bottom:60px;
-  background-color:#c4c4c4;
+  background-color:#ffffff;
   padding:70px;
   box-shadow:0 0 20px 0 rgba(0,0,0,.1)
 }
