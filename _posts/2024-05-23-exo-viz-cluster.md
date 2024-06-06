@@ -23,12 +23,7 @@ This project peers into exoplanet science through the lens of data. I grab from 
   <tr>
     <td align="center"><strong> Goals </strong> </td>
     <td>
-      <br>
-    <ul>
-      <li>Query and collect data from NASA exoplanet archive;</li>
-      <li>Perform exploratory data analysis on exoplanet features and visualize them for analysis; and</li>
-      <li>Employ kmeans clustering on the exoplanets comparing these to existing exoplanet classifications.</li>
-    </ul>
+    Query and clean data from NASA exoplanet archive; perform exploratory data analysis and visualize planet features; and employ k-means clustering comparing groups to existing exoplanet classifications.
     </td>
   </tr>
   <tr>
@@ -41,9 +36,17 @@ This project peers into exoplanet science through the lens of data. I grab from 
   </tr>
   <tr>
     <td><strong>Project GitHub</strong></td>
-    <td> <a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main">GitHub Repo - exoplanet-viz-cluster</a> </td>
+    <td> <a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main" target="_blank" style="color: #573259;">GitHub Repo - exoplanet-viz-cluster</a> </td>
   </tr>
 </table>
+
+<div style="height: 20px;"></div>
+
+<h3>Data collection and cleaning</h3> 
+<div style="height: 20px;"></div>
+
+I will draw data from the NASA exoplanets archive, a collaboration between Caltech and NASA under its Exoplanet Exploration Program.
+From the parameter table documentation for this dataset I chose a small set of values from the dataset that are likely to be of biggest interest. 
 
 <br>
 
@@ -53,13 +56,8 @@ This project peers into exoplanet science through the lens of data. I grab from 
     </a>
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
-<div style="height: 20px;"></div>
-
-<h3>Data collection and cleaning</h3> 
-<div style="height: 20px;"></div>
-
-I will draw data from the NASA exoplanets archive, a collaboration between Caltech and NASA under its Exoplanet Exploration Program.
-From the parameter table documentation for this dataset I chose a small set of values from the dataset that are likely to be of biggest interest. The variable in parentheses indicate it's name in the original table:
+<br>
+The following are the variables I've taken:
 
 <ul>
   <li><strong>Planet name</strong> as <code>pl_name</code></li>
@@ -74,7 +72,7 @@ From the parameter table documentation for this dataset I chose a small set of v
 <h5>Querying data</h5>
 <div style="height: 20px;"></div>
 
-To query this data we use the industry standard **Table Access Protocol (TAP)** which uses **AQDL (Astronomical Query Data Language)** - akin to SQL for astronomical databases - as queries. Use Python's <code>requests</code> package to access NASA data using TAP protocol. I've written a short SQL (technically AQDL) queries which paired with <code>requests</code> grabs these columns:
+To query this data we use the industry standard <strong>Table Access Protocol (TAP)</strong> which uses <strong>AQDL (Astronomical Query Data Language)</strong> - akin to SQL for astronomical databases - as queries. Use Python's <code>requests</code> package to access NASA data using TAP protocol. I've written a short SQL (technically AQDL) queries which paired with <code>requests</code> grabs these columns:
 
 <p align="center">
   <code>
@@ -82,7 +80,7 @@ To query this data we use the industry standard **Table Access Protocol (TAP)** 
 </code>
 </p>
 
-To fit it into a <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html" target="_blank" style="color: #573259;">TAP protocol</a></strong> we simply need to make a few adjustments such as remove additional spacing, add `+` between the major SQL statements. In my process I ingested the data as a CSV into MyDrive to then call it into my notebook.
+To fit it into a <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html" target="_blank" style="color: #573259;">TAP protocol</a></strong> we simply need to make a few adjustments such as remove additional spacing, add <code>+</code> between the major SQL statements. In my process I ingested the data as a CSV into MyDrive to then call it into my notebook.
 
 <div style="height: 20px;"></div>
 <h5>Raw data summary</h5>
@@ -103,7 +101,7 @@ After removing the first few columns we obtain a preliminary look at our first d
 <h4>Discovery method</h4>
 <div style="height: 20px;"></div>
 
-Taking a look at how are planets are discovered reveals a lot about the underlying science. Exoplanets are discovered in many ways but a few ways dominate in their success. I've tracked the growrth of the three most successful exoplanet discovery methods graphed since the start of the century.
+Examining the methods used to discover planets provides valuable insights into the underlying science. While exoplanets can be discovered in various ways, certain methods have been particularly successful. I have tracked the growth of the three most successful exoplanet discovery methods graphed since the start of the century.
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -127,7 +125,7 @@ Taking a look at how are planets are discovered reveals a lot about the underlyi
 <h4>Distance from Earth</h4>
 <div style="height: 20px;"></div>
 
-We next track exoplanet distance from Earth. We can first generate a histogram (technically this is a lollipop plot) of exoplanets respective distance to Earth:
+We next track exoplanet distance from Earth; I've generated a histogram (lollipop plot) tracking exoplanets respective to their distance from Earth:
 
 <div style="height: 20px;"></div>
 
@@ -141,9 +139,9 @@ We next track exoplanet distance from Earth. We can first generate a histogram (
 
 <strong>Observation(s):</strong>
 <ul>
-  <li> The distribution is predicatble where the most planets are closer.</li>
-  <li> Fairly significant findings of planets up to 3500 light years.</li>
-  <li> A small number of planets have still been been accessed at 10,000 light years away remarkably.</li>
+  <li> More planets have been closer to Earth.</li>
+  <li> Fairly consistent amount of planets found to 3500 light years away.</li>
+  <li> Remarkably, a small number of planets have still been been accessed at 10,000 light years away.</li>
 </ul>
 
 <p> We can also better evaluate the distribution of planets as a whole through a cumulative distribution function (CDF):</p>
