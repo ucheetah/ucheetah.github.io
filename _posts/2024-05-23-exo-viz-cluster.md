@@ -21,12 +21,12 @@ This project grabs from the <strong><a href="https://exoplanetarchive.ipac.calte
 
 <table align="center">
   <tr>
-    <td><strong> Project goals </strong> </td>
+    <td><strong> Goals </strong> </td>
     <td>
     <ul>
       <li>Query and collect data from NASA exoplanet archive;</li>
-      <li>Perform exploratory data analysis on exoplanet features and visualize them for analysis;</li>
-      <li>Employ kmeans clustering on the exoplanets comparing these to existing exoplanet classifications (gas giants, terrestrials) </li>
+      <li>Perform exploratory data analysis on exoplanet features and visualize them for analysis; and</li>
+      <li>Employ kmeans clustering on the exoplanets comparing these to existing exoplanet classifications.</li>
     </ul>
     </td>
   </tr>
