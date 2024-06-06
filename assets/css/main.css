@@ -549,7 +549,13 @@ pre code{border:0;padding-right:0;padding-left:0}
 
 .page-image .cover-image{height:100%;width:100%}
 
-.page-content{margin-top:-80px;margin-bottom:60px;background-color:#fff;padding:70px;box-shadow:0 0 20px 0 rgba(0,0,0,.1)}
+.page-content{
+  margin-top:-80px;
+  margin-bottom:60px;
+  background-color:#c4c4c4;
+  padding:70px;
+  box-shadow:0 0 20px 0 rgba(0,0,0,.1)
+}
 
 .header-page,.page-content .captioned-image,.page-content .highlighter-rouge,.page-content video{margin-bottom:30px}
 
