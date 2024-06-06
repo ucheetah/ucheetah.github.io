@@ -453,7 +453,13 @@ pre code{border:0;padding-right:0;padding-left:0}
 
 .content{flex-grow:1}
 
-.wrapper{width:950px;max-width:95%;margin:0 auto;position:relative}
+.wrapper{
+  width:950px;
+  max-width:95%;
+  margin:0 auto;
+  position:relative;
+  background-color:#666666
+}
 
 ::-moz-selection{background:rgba(49,30,62,.7);color:#fff}
 
