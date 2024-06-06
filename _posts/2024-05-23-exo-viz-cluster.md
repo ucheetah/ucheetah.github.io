@@ -12,20 +12,22 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 <hr>
 <div style="height: 20px;"></div>
 
-The study of exoplanets is the gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade astronomy has seen an explosion in new planets. For instance, the new James Webb Telescope - the most complex and largest telescope launched into space - allocates a significant portion of it's study to the discovery of exoplanets. Results on our knowledge of exoplanets are expected to be seismic. This project grabs from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong>, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong> and perform visualization and a k-means clustering algorithm.
+The study of exoplanets is the gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade astronomy has seen an explosion in new planets. For instance, the new James Webb Telescope - the most complex and largest telescope launched into space - allocates a significant portion of it's study to the discovery of exoplanets. Results on our knowledge of exoplanets are expected to be seismic. 
+
+This project grabs from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong>, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. I'm drawing from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong> and perform visualization and a k-means clustering algorithm.
 This project involves using Python and SQL for querying, cleaning, visualizing, and clustering exoplanet data from NASA's archive to explore planetary features and habitability.
 
 <h5 align="center"> Project summary</h5>
+<div style="height: 10px;"></div>
 
 <table align="center">
   <tr>
     <td><strong> Project goals </strong> </td>
     <td>
     <ol>
-      <li>Query and collect current data from NASA exoplanet archive's API;</li>
-      <li>Perform exploratory data analysis on select exoplanet features and visualize them for analysis using <strong>  <code>matplotlib</code></strong> and <strong><code>seaborn</code></strong>;</li>
-      <li>Employ a clustering algorithm on the exoplanets using <strong><code>scikit-learn</code></strong> and determine whether these  groups that resemble existing exoplanet classifications (gas giants, terrestrials);</li>
-      <li>Explore planet habitability using accepted astronomical science, such as stellar luminosity and star-planet distance.</li>
+      <li>Query and collect data from NASA exoplanet archive;</li>
+      <li>Perform exploratory data analysis on exoplanet features and visualize them for analysis;</li>
+      <li>Employ kmeans clustering on the exoplanets comparing these to existing exoplanet classifications (gas giants, terrestrials) </li>
     </ol>
     </td>
   </tr>
@@ -38,8 +40,6 @@ This project involves using Python and SQL for querying, cleaning, visualizing, 
     <td>Data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning (clustering)</td>
   </tr>
 </table>
-
-<br>
 
 <br>
 
