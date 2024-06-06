@@ -50,7 +50,7 @@ This project peers into exoplanet science through the lens of data. I grab from 
 </figure>
 <div style="height: 20px;"></div>
 
-<h4>Data collection and cleaning</h4> 
+<h3>Data collection and cleaning</h3> 
 <div style="height: 20px;"></div>
 
 I will draw data from the NASA exoplanets archive, a collaboration between Caltech and NASA under its Exoplanet Exploration Program.
@@ -58,15 +58,15 @@ From the parameter table documentation for this dataset I chose a small set of v
 
 <ul>
   <li><strong>Planet name</strong> as <code>pl_name</code></li>
-  <li><strong>Planet Radius [Earth Radius]</strong> as <code>pl_rade</code></li>
-  <li><strong>Planet Mass [Earth Mass]</strong> as <code>pl_masse</code></li>
-  <li><strong>Distance [pc]</strong> (Distance to the planetary system in units of parsecs) as <code>sy_dist</code></li>
+  <li><strong>Planet radius</strong> as <code>pl_rade</code></li>
+  <li><strong>Planet mass</strong> as <code>pl_masse</code></li>
+  <li><strong>Distance from Earth</strong> as <code>sy_dist</code></li>
  <li><strong>Discovery method</strong> as <code>pl_masse</code></li>
   <li><strong>Discovery year</strong> as <code>disc_year</code></li>
 </ul>
 
 <div style="height: 20px;"></div>
-<h4>Querying data</h4>
+<h5>Querying data</h5>
 <div style="height: 20px;"></div>
 
 To query this data we use the industry standard **Table Access Protocol (TAP)** which uses **AQDL (Astronomical Query Data Language)** - akin to SQL for astronomical databases - as queries. Use Python's <code>requests</code> package to access NASA data using TAP protocol. I've written a short SQL (technically AQDL) queries which paired with <code>requests</code> grabs these columns:
@@ -79,15 +79,21 @@ To query this data we use the industry standard **Table Access Protocol (TAP)** 
 
 To fit it into a <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html" target="_blank" style="color: #573259;">TAP protocol</a></strong> we simply need to make a few adjustments such as remove additional spacing, add `+` between the major SQL statements. In my process I ingested the data as a CSV into MyDrive to then call it into my notebook.
 
+<div style="height: 20px;"></div>
+<h5>Raw data summary</h5>
+<div style="height: 20px;"></div>
+
 After removing the first few columns we obtain a preliminary look at our first data points. The format of these tables is drawn from <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank" style="color: #573259;"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank" style="color: #573259;">How to create custom tables</a></strong>.
 
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-C.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-C.svg"  width="800" alt="Graph C" style="border: 4px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-C.svg"  width="600" alt="Graph C" style="border: 4px solid darkgray; border-radius: 3px;">
   </a>
 </p>
 <div style="height: 20px;"></div>
+
+<h3>Visualization and Analysis</h3>
 
 <h4>Discovery method</h4>
 <div style="height: 20px;"></div>
@@ -178,7 +184,7 @@ However planets differ greatly in their compositions and densities so we would e
 
 <div style="height: 20px;"></div>
 
-<h4> K-means clustering</h4>
+<h3> K-means clustering</h3>
 <div style="height: 20px;"></div>
 
 To determine the number of categories (clusters) we want to develop, we will use the silhouette score method. You may consult my script for a better understanding of this method. The following returns the silhouette score. High scores indicate good clustering results, bad scores indicate bad results.
