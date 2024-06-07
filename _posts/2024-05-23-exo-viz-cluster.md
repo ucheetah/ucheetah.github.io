@@ -7,27 +7,6 @@ image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
 
-<style>
-  .container {
-    display: flex;
-    height: 100%;
-}
-
-.left-half, .right-half {
-    width: 50%;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.left-half {
-    background-color: #f0f0f0;
-}
-
-.right-half {
-    background-color: #d0d0d0;
-}
-</style>
-
 <p align="center"> <em> This post marks the beginning of my new personal website, where I'm excited to share more about my work in data science, data analysis and  ideas at large that inspire me.</em> </p>
 
 <hr>
@@ -345,17 +324,16 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 </ul>
 
 
-
 <h4>Analysis</h4>
 
-<div class="container">
-        <div class="left-half">
+<div class="container-table">
+        <div class="left-half-table">
             <!-- Content for the left half goes here -->
             <h1>Left Half</h1>
           <img src="/assets/img/2024-05-24-exoplanets-H.svg" width="300"  alt="Graph H" style="border: 4px solid darkgray; border-radius: 3px;">
             <p>This is the left half of the article.</p>
         </div>
-        <div class="right-half">
+        <div class="right-half-table">
             <!-- Content for the right half goes here -->
             <h1>Right Half</h1>
             <p>This is the right half of the article.</p>
