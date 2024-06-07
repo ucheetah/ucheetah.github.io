@@ -323,8 +323,13 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 <li>There doesn't appear to be a strong correlation between mass/radius and distance. This makes sense - we wouldn't expect composition and components of the planets to depend on their distance from Earth</li>
 </ul>
 
+<div style="height: 20px;"></div>
 
 <h4>Analysis</h4>
+<div style="height: 20px;"></div>
+
+Let's take a look at how our clusters compared to existing exoplanet groupings.
+<div style="height: 20px;"></div>
 
 <div class="container-table">
     <div class="left-half-table">
