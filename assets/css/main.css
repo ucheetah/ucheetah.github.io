@@ -675,14 +675,19 @@ pre code{border:0;padding-right:0;padding-left:0}
 
 @keyframes fadeInDown{0%{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
 
+
+
 @media only screen and (max-width:768px){.main-header .logo a{font-size:24px}
                                          .page-content{margin-top:-50px;padding:30px}
                                          .post-card-box li{width:100%;margin-bottom:20px}
                                          .post-card-box li:last-child{margin-bottom:0}
                                          .recent-box .recent-list .recent-item{position:relative;display:inline-block;width:48.9%;height:150px;margin-left:.5%;margin-bottom:.5%}
                                          .recent-box .recent-list .recent-item span{position:absolute;font-size:12px;left:2.5%;bottom:10%;color:#fff}
-                                         .about-container{width:400px}}
-
+                                         .about-container{width:400px}
+                                         .container-table {display: block;}
+                                         .left-half-table,
+                                         .right-half-table {width: 100%;}
+                                        }
 @media only screen and (max-width:480px){.blog-tags .btn{padding:.25rem .5rem;font-size:.875rem;line-height:1.5;border-radius:.2rem}
                                          .about-container{width:100%}
                                          .wrapper{max-width:95%}
@@ -699,4 +704,7 @@ pre code{border:0;padding-right:0;padding-left:0}
                                          .author-box .author-left,.author-box .author-right h2{margin:0 0 10px}
                                          .author-box .author-img{height:100px;min-width:100px}
                                          .author-box .author-right p{margin:0 0 15px}
+                                         .container-table {display: block;}
+                                         .left-half-table,
+                                         .right-half-table {width: 100%;}
                                         }
