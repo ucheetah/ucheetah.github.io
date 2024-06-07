@@ -81,22 +81,22 @@ From the parameter table documentation for this dataset I chose a small set of v
 </figure>
 <div style="height: 20px;"></div>
 
-The following are the variables I've taken:
+<div style="height: 20px;"></div>
+<h5>Querying data</h5>
+<div style="height: 20px;"></div>
+
+To query this data we use the industry standard <strong>Table Access Protocol (TAP)</strong> which uses <strong>AQDL (Astronomical Query Data Language)</strong> - akin to SQL for astronomical databases - as queries. Use Python's <code>requests</code> package to access NASA data using TAP protocol. The following are the variables I've taken:
 
 <ul>
   <li><strong>Planet name</strong> as <code>pl_name</code></li>
   <li><strong>Planet radius</strong> as <code>pl_rade</code></li>
   <li><strong>Planet mass</strong> as <code>pl_masse</code></li>
   <li><strong>Distance from Earth</strong> as <code>sy_dist</code></li>
- <li><strong>Discovery method</strong> as <code>pl_masse</code></li>
+ <li><strong>Discovery method</strong> as <code>discoverymethod</code></li>
   <li><strong>Discovery year</strong> as <code>disc_year</code></li>
 </ul>
 
-<div style="height: 20px;"></div>
-<h5>Querying data</h5>
-<div style="height: 20px;"></div>
-
-To query this data we use the industry standard <strong>Table Access Protocol (TAP)</strong> which uses <strong>AQDL (Astronomical Query Data Language)</strong> - akin to SQL for astronomical databases - as queries. Use Python's <code>requests</code> package to access NASA data using TAP protocol. I've written a short SQL (technically AQDL) queries which paired with <code>requests</code> grabs these columns:
+I've written a short SQL (technically AQDL) queries which paired with <code>requests</code> grabs these columns:
 
 <p align="center">
   <code>
@@ -148,10 +148,14 @@ I've opted for this project to use <code>matplotlib</code> and <code>seaborn</co
 
 <p> Examining the methods used to discover planets provides valuable insights into the underlying science. While exoplanets can be discovered in various ways, certain methods have been particularly successful. </p>
 
-<p> The discovery of planets in themselves is an interesting subject because exoplanets are fundamentally harder to detect than other celestial objects such as stars. Scientists have needed to develop complex indirect methods to track exoplanets. The <strong>transit method</strong> - tracking shifts in light as a planet passes in front of its host star. The <strong>radial velocity method</strong> - tracking of gravity induced shifts in a star's position caused by the planet's gravitational pull. Most of these method require a high level of spectroscopic data to infer the composition or size of planets.</p>
+The discovery of planets in themselves is an interesting subject because exoplanets are fundamentally harder to detect than other celestial objects such as stars. Scientists have needed to develop complex indirect methods to track exoplanets. 
 
-I have tracked the growth of the three most successful exoplanet discovery methods graphed since the start of the century.
-
+<ul>
+  <li>The <strong>transit method</strong> exploits the shifts in light as a planet passes in front of its host star. The amount of dimming can be used to make conclusions about the planet's characeristics like mass, radiius and eve atmospheric conditions.</li>
+  <li>The <strong>radial velocity method</strong> - tracking of gravity induced shifts in a star's position caused by the planet's gravitational pull. </li>
+  <li>The <strong>microlensing</strong> technique tracks the bending of light as large exoplanets pass in front of a star.</li>
+    
+All of these methods require a rich level of spectroscopic data to infer the composition or size of planets. As science progresses, the ability to gather and conduct analysis on this data improves. I have tracked the growth of the three most successful exoplanet discovery methods mentioned above, graphed since the start of the century.
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -162,14 +166,12 @@ I have tracked the growth of the three most successful exoplanet discovery metho
 
 <strong> Observations </strong>
 <ul>
-  <li>There's a clear increase in discoveries over the past ten years.</li>
-  <li>Certain years, such as 2016, have seen enormous numbers of exoplanet discoveries. </li>
+  <li>There's a clear increase in discoveries over the past decade.</li>
+  <li>Some years, such as 2016, have seen enormous numbers of exoplanet discoveries. </li>
   <li>The <strong>transit method</strong> is clearly the most successful discovery method.</li>
 </ul>
 
-<p> The <strong>transit method</strong> exploits the occurence of a planet passing between a star and the observer (Earth). The light from the star will be altereted by the planet's presense. The amount of dimming occured can be used to make conclusions about the planet's characeristics like mass, radiius and eve atmospheric conditions.</p> 
-
-<p> Observational cosmologist Chris Impey mentioned in a recent <a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank" style="color: #573259;">lecture</a> that the growth of discovery of the planets is comparable to the development of internet technology and telephones seen during the Dotcom bubble. As a domain, exoplanet science is progressing at a very rapid pace.</p> 
+<p> Observational cosmologist Chris Impey mentioned in a recent <a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank" style="color: #573259;">lecture</a> that the growth of discovery of the planets is comparable to the development of internet technology and telephones seen during the Dotcom bubble. So we can easily glean that exoplanet science is progressing at a very rapid pace.</p> 
 
 <div style="height: 20px;"></div>
 <h4>Distance from Earth</h4>
@@ -267,6 +269,10 @@ However planets differ greatly in their compositions and densities so we would e
 
 <p>With this in mind I will be conducting a k-means algoirthm using the features of exoplanet radius and exoplanet mass alone using <code>scikit-learn</code>.</p>
 
+<div style="height: 20px;"></div>
+<h4> Silhouette score calculation</h3>
+<div style="height: 20px;"></div>
+
 <p> To determine the number of categories (clusters) we want to develop, we will use the <strong>silhouette score</strong> method. You may consult my script for a better understanding of this method. High scores indicate good clustering results, bad scores indicate bad results.</p>
 
 <div style="height: 20px;"></div>
@@ -281,6 +287,10 @@ However planets differ greatly in their compositions and densities so we would e
 <ul>
 <li>Clearly the most favorable score is 4, so we will divide our exoplanet data into four categories in attempts to match them with existing categories.</li>
 </ul>
+<div style="height: 20px;"></div>
+
+<div style="height: 20px;"></div>
+<h4> Apply k-means </h4>
 <div style="height: 20px;"></div>
 
 We run a kmeans model using scikit learn and add the clusters it has generate to our data. In the following graph we display those results, with each cluster differing in color and 
