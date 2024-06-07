@@ -75,7 +75,7 @@ From the parameter table documentation for this dataset I chose a small set of v
 
 <figure style="text-align: center;">
    <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">
-      <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 2px solid #573259; border-radius: 3px;">
+      <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 3px solid #573259; border-radius: 3px;">
     </a>
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
@@ -161,7 +161,7 @@ All of these methods require a rich level of spectroscopic data to infer the com
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-J.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-J.svg" width="1440" height="960" alt="Graph J" style="border: 2px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-J.svg" width="1440" height="960" alt="Graph J" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 <div style="height: 20px;"></div>
 
@@ -202,7 +202,7 @@ We next track exoplanet distance from Earth; I've generated a histogram (lollipo
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-E.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-E.svg" width="1200" height="600" alt="Graph E" style="border: 2px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-E.svg" width="1200" height="600" alt="Graph E" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
 <div style="height: 20px;"></div>
@@ -229,7 +229,7 @@ Observing the disparity of planet size and mass can allow us to create a better 
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-F.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-F.svg" width="910.65" height="720" alt="Graph F" style="border: 2px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-F.svg" width="910.65" height="720" alt="Graph F" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
 <div style="height: 20px;"></div>
@@ -279,7 +279,7 @@ However planets differ greatly in their compositions and densities so we would e
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-G.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-G.svg" width="800" alt="Graph G" style="border: 2px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-G.svg" width="800" alt="Graph G" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
 <div style="height: 20px;"></div>
@@ -299,7 +299,7 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-H.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-H.svg" width="910.65" height="720" alt="Graph H" style="border: 2px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-H.svg" width="910.65" height="720" alt="Graph H" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
 
@@ -313,7 +313,7 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-I.png" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-I.png" width="700" alt="Graph I" style="border: 2px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-I.png" width="700" alt="Graph I" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
 <div style="height: 20px;"></div>
@@ -331,7 +331,7 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 Let's take a look at how our clusters compared to existing exoplanet groupings.
 <div style="height: 20px;"></div>
 
-<h5>Cluster 1 - </h5>
+<h5 align="center">Cluster 1 - </h5>
 <div class="container-table">
     <div class="left-half-table">
         <!-- Content for the left half goes here -->
@@ -345,7 +345,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 </div>
 <div style="height: 20px;"></div>
 
-<h5>Cluster 2 - </h5>
+<h5 align="center">Cluster 2 - </h5>
 <div class="container-table">
     <div class="left-half-table">
         <!-- Image for the left half goes here -->
@@ -358,7 +358,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 </div>
 <div style="height: 20px;"></div>
 
-<h5>Cluster 3 - </h5>
+<h5 align="center">Cluster 3 - </h5>
 <div class="container-table">
     <div class="left-half-table">
         <!-- Content for the left half goes here -->
@@ -371,7 +371,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 </div>
 <div style="height: 20px;"></div>
 
-<h5>Cluster 4 - </h5>
+<h5 align="center">Cluster 4 - </h5>
 <div class="container-table">
     <div class="left-half-table">
         <!-- Image for the left half goes here -->
