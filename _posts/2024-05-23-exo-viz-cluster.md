@@ -45,21 +45,20 @@ This project peers into exoplanet science through the lens of data. I grab from 
 <h3 align="center">Background</h3> 
 <div style="height: 20px;"></div>
 
-<p> Exoplanet science is younger than most other astronomical sciences This is because, for one, we've known about exoplanets for little time, the first exoplanet discovery was in 1992, and exoplanets are fundamentally harder to detect than other space objects such as stars. scientists have needed to develop complex indirect methods to track exoplanets such as the <strong>transit method</strong> - tracking shifts in light as a planet passes in front of its host star - or the <strong>radial velocity method</strong> - tracking of gravity induced shifts in a star's position caused by the planet's gravitational pull.</p>
-
+<p>Since exoplanet science is younger than most other astronomical sciences This is because, for one, we've known about exoplanets for little time, the first exoplanet discovery was in 1992. Many recent projects have upped the research on exoplanets: </p>
 <ul>
-Many recent projects have upped the research on exoplanets:
+
   <li>
-    At NASA, the James Webb Telescope brings in tools capable of exoplanet detection through high-precision spectroscopic observations.
+    At NASA, the <strong>James Webb Telescope</strong> brings in tools capable of exoplanet detection through high-precision spectroscopic observations.
   </li>
   <li>
-    In 2027, NASA's Nancy Grace Roman Telescope is expected to introduce new exoplanet capabilities using a state-of-the-art coronagraph—a device that can block light from stars to observe neighboring bodies.
+    In 2027, NASA's <strong>Nancy Grace Roman Telescope</strong> is expected to introduce new exoplanet capabilities using a state-of-the-art coronagraph—a device that can block light from stars to observe neighboring bodies.
   </li>
   <li>
-    Further down the horizon, the Habitable Worlds Observatory—a projected ultraviolet telescope—is being designed specifically to study habitable exoplanets.
+    Further down the horizon, NASA is also working on a flagship project called the <strong>Habitable Worlds Observatory</strong> an  ultraviolet telescope being designed specifically to study habitable exoplanets.
   </li>
   <li>
-    Contributions elsewhere include China's Earth 2.0 Space mission, which will also focus on planet habitability.
+    Contributions elsewhere include <strong>China's Earth 2.0 Space mission</strong>, which will also focus on planet habitability.
   </li>
 </ul>
 <p></p>With the relative youth of the domain paired with the rapid technological advances, our discovery exoplanets sees new heights every year. </p>
@@ -147,7 +146,12 @@ I've opted for this project to use <code>matplotlib</code> and <code>seaborn</co
 <h4>Discovery method</h4>
 <div style="height: 20px;"></div>
 
-Examining the methods used to discover planets provides valuable insights into the underlying science. While exoplanets can be discovered in various ways, certain methods have been particularly successful. I have tracked the growth of the three most successful exoplanet discovery methods graphed since the start of the century.
+<p> Examining the methods used to discover planets provides valuable insights into the underlying science. While exoplanets can be discovered in various ways, certain methods have been particularly successful. </p>
+
+<p> The discovery of planets in themselves is an interesting subject because exoplanets are fundamentally harder to detect than other celestial objects such as stars. Scientists have needed to develop complex indirect methods to track exoplanets. The <strong>transit method</strong> - tracking shifts in light as a planet passes in front of its host star. The <strong>radial velocity method</strong> - tracking of gravity induced shifts in a star's position caused by the planet's gravitational pull. Most of these method require a high level of spectroscopic data to infer the composition or size of planets.</p>
+
+I have tracked the growth of the three most successful exoplanet discovery methods graphed since the start of the century.
+
 
 <div style="height: 20px;"></div>
 <p align="center">
