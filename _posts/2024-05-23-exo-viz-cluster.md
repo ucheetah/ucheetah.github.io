@@ -333,7 +333,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 
 <h5 align="center">Cluster 1: Super-Earths, Sub-Neptunes and Super-Neptunes</h5>
 <div class="container-table">
-    <div class="left-half-table">
+    <div class="left-half-table text-content">
         <!-- Content for the left half goes here -->
       <p>This cluster appears to host planets from at least two groups</p>
         <ul>
@@ -342,7 +342,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
             <li><strong>Super-Neptune</strong> includes planets around 2 to 6 Earth radii and 10 to 50 Earth masses.</li>
         </ul>
     </div>
-    <div class="right-half-table">
+    <div class="right-half-table photo">
         <!-- Image for the right half goes here -->
         <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="450" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
@@ -353,10 +353,10 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 
 <h5 align="center">Cluster 2: Super-Neptunes/Super-Jupiters</h5>
 <div class="container-table">
-    <div class="left-half-table">
+    <div class="left-half-table photo">
         <a href="/assets/img/2024-05-24-exoplanets-H2.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H2.svg" width="450" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
-    <div class="right-half-table">
+    <div class="right-half-table text-content">
         <!-- Content for the right half goes here -->
        <p>These planets exceed both Neptune and Jupiter size and mass. These are extremely large planets.</p>
                 
@@ -366,24 +366,26 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 
 <h5 align="center">Cluster 3: Super-Jupyters and potential Brown-Dwarfs </h5>
 <div class="container-table">
-    <div class="left-half-table">
+    <div class="left-half-table text-content">
         <!-- Content for the left half goes here -->
-       <p>These have extremely large masses and radii which correspond to gas giants. Planets in this extreme range are. Most of these planets fall in the regime of Brown-Dwarfs, mass to Earth ratio ranging from 4,000 to 25,000. The minimum exoplanet in this cluster has a mass of 4,767. </p>
+       <p>This cluster contains exoplanets with enormous masses and radii. In fact, they are so big that the entire cluster falls in the regime of <strong>Brown-Dwarfs</strong>, whose tend to have a mass-to-Earth ratio between 4,000 to 25,000. The minimum exoplanet in this cluster has a mass of 4,767.</p>
     </div>
-    <div class="right-half-table">
+    <div class="right-half-table photo">
         <!-- Image for the right half goes here -->
         <a href="/assets/img/2024-05-24-exoplanets-H3.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H3.svg" width="450" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
 </div>
+
+<p>Brown dwarfs are particularly fascinating because they lie in an area of classification between planets and stars by exhibiting properties of both. Usually brown dwarfs are born like stars, large enough to collapse under their own gravity, but usually fail to become large enough to sustain the nuclear fusion of hydrogen. For this reason they're often a hotly debated topic in terms of classification.</p>
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 4 - ... also Super-Jupiters</h5>
+<h5 align="center">Cluster 4:... also Super-Jupiters</h5>
 <div class="container-table">
-    <div class="left-half-table">
+    <div class="left-half-table photo">
         <!-- Image for the left half goes here -->
         <a href="/assets/img/2024-05-24-exoplanets-H4.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H4.svg" width="450" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
-    <div class="right-half-table">
+    <div class="right-half-table text-content">
         <!-- Content for the right half goes here -->
         <p>This also appears to fall into the Super-Jupiter category. The maximum just touches on the Brown-Dwarf category. So these may be considered as Super-Jupiters. </p>
     </div>
