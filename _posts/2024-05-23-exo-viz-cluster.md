@@ -98,6 +98,8 @@ After removing the first few columns we obtain a preliminary look at our first d
 
 <h3>Visualization and Analysis</h3>
 <div style="height: 20px;"></div>
+Next we will move to visualizing the data we have. Some processing has been omitted here and can be see nin my notebooks. I've opted for this project to use <code>matplotlib</code> and <code>seaborn</code>, tools which are sometimes portrayed as lacking in complexity or aesthetic quality. I wanted to develop graphs that still feel dynamic and engaging. I also employed lesser used matplotlib tools such as 3D graphs, tables and style sheets.
+
 <h4>Discovery method</h4>
 <div style="height: 20px;"></div>
 
@@ -141,7 +143,7 @@ We next track exoplanet distance from Earth; I've generated a histogram (lollipo
 <ul>
   <li> More planets have been closer to Earth.</li>
   <li> Fairly consistent amount of planets found to 3500 light years away.</li>
-  <li> Remarkably, a small number of planets have still been been accessed at 10,000 light years away.</li>
+  <li> Remarkably, a small number of planets have still been been accessed at 10,000 light years away. Recall, one light year is 9,461,000,000,000 km!</li>
 </ul>
 
 <p> We can also better evaluate the distribution of planets as a whole through a cumulative distribution function (CDF):</p>
