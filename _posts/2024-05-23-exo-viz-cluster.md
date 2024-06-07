@@ -325,7 +325,7 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 
 <div style="height: 20px;"></div>
 
-<h4>Analysis</h4>
+<h4>Cluster Analysis</h4>
 <div style="height: 20px;"></div>
 
 Let's take a look at how our clusters compared to existing exoplanet groupings.
@@ -342,6 +342,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
         <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="450"></a>
     </div>
 </div>
+<div style="height: 20px;"></div>
 
 <div class="container-table">
     <div class="left-half-table">
@@ -354,6 +355,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
         <p>This is the right half of the article.</p>
     </div>
 </div>
+<div style="height: 20px;"></div>
 
 <div class="container-table">
     <div class="left-half-table">
@@ -366,6 +368,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
         <a href="/assets/img/2024-05-24-exoplanets-H3.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H3.svg" width="450"></a>
     </div>
 </div>
+<div style="height: 20px;"></div>
 
 <div class="container-table">
     <div class="left-half-table">
