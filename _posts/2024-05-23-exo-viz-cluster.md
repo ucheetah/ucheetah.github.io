@@ -344,7 +344,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 </div>
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 2 - Super-Earths and sub-Neptunes</h5>
+<h5 align="center">Cluster 2 - Super-Earths, Sub-Neptunes and Super-Neptunes</h5>
 <div class="container-table">
     <div class="left-half-table">
         <a href="/assets/img/2024-05-24-exoplanets-H2.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H2.svg" width="450" style="border: 3px solid #573259; border-radius: 3px;"></a>
@@ -354,8 +354,10 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
         <p>This cluster appears to host planets from at least two groups
         <ul>
           <li><strong>Super-Earths</strong>, strictly defined as twice the size of Earth and up to 10 times its mass.</li>
-          <li><strongSub-Neptune></strong>, planets smaller than Neptune's radius by </li>
+          <li><strongSub-Neptune></strong>, planets smaller than Neptune's radius (3.88 Earth radius) even though it may have a larger mass. </li>
+            <li><strong>Super-Neptune</strong> includes planets around 2 to 6 Earth radii and 10 to 50 Earth masses.</li>
         </ul></p>
+            This appears to be an extremely large grouping of exoplanets, particularly with respect to mass from 0.2 to 1000 times Earth's mass. There's reason to be suspicious of this grouping.
     </div>
 </div>
 <div style="height: 20px;"></div>
@@ -390,7 +392,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 
 <p>One option could be adding more features. Adding orbital-related features could help, since it is well-known that the distance of planets from their host stars often correlates with the planet's geologic properties.</p>
 
-<p>Another perspective takes a larger scope - why are planet classifications so important? Scientists agree consistently on what a planet even is, and the most we discover the diversity of exoplanets the less neatly things fit into categories. One criticism is also that by using categories like super-Earths or sub-neptunes, we base planets on our heliocentric conception of the universe. </p>
+<p>Another perspective takes a larger scope - why are planet classifications so important? Scientists agree consistently on what a planet even is, and the most we discover the diversity of exoplanets the less neatly things fit into categories. One criticism is also that by using categories like Super-Earths or Sub-Neptunes, we base planets on our heliocentric conception of the universe. </p>
 
 
 <h3 align="center">Resources</h3>
