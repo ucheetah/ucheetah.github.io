@@ -271,7 +271,7 @@ However planets differ greatly in their compositions and densities so we would e
 <p>With this in mind I will be conducting a k-means algoirthm using the features of exoplanet radius and exoplanet mass alone using <code>scikit-learn</code>.</p>
 
 <div style="height: 20px;"></div>
-<h4> Silhouette score calculation</h3>
+<h4> Silhouette score calculation</h4>
 <div style="height: 20px;"></div>
 
 <p> To determine the number of categories (clusters) we want to develop, we will use the <strong>silhouette score</strong> method. You may consult my script for a better understanding of this method. High scores indicate good clustering results, bad scores indicate bad results.</p>
