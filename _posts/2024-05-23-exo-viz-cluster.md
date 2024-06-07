@@ -334,14 +334,14 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
     </div>
     <div class="right-half-table">
         <!-- Image for the right half goes here -->
-        <a href="2024-05-24-exoplanets-H1.svg" target="_blank"><img src="2024-05-24-exoplanets-H1.svg" width="450"></a>
+        <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="2024-05-24-exoplanets-H1.svg" width="450"></a>
     </div>
 </div>
 
 <div class="container-table">
     <div class="left-half-table">
         <!-- Image for the left half goes here -->
-        <a href="2024-05-24-exoplanets-H2.svg" target="_blank"><img src="2024-05-24-exoplanets-H2.svg" width="450"></a>
+        <a href="/assets/img/2024-05-24-exoplanets-H2.svg" target="_blank"><img src="2024-05-24-exoplanets-H2.svg" width="450"></a>
     </div>
     <div class="right-half-table">
         <!-- Content for the right half goes here -->
@@ -358,14 +358,14 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
     </div>
     <div class="right-half-table">
         <!-- Image for the right half goes here -->
-        <a href="2024-05-24-exoplanets-H3.svg" target="_blank"><img src="2024-05-24-exoplanets-H3.svg" width="450"></a>
+        <a href="/assets/img/2024-05-24-exoplanets-H3.svg" target="_blank"><img src="2024-05-24-exoplanets-H3.svg" width="450"></a>
     </div>
 </div>
 
 <div class="container-table">
     <div class="left-half-table">
         <!-- Image for the left half goes here -->
-        <a href="2024-05-24-exoplanets-H4.svg" target="_blank"><img src="2024-05-24-exoplanets-H4.svg" width="450"></a>
+        <a href="/assets/img/2024-05-24-exoplanets-H4.svg" target="_blank"><img src="2024-05-24-exoplanets-H4.svg" width="450"></a>
     </div>
     <div class="right-half-table">
         <!-- Content for the right half goes here -->
