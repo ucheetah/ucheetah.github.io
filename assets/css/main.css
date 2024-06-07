@@ -310,6 +310,14 @@ table th:first-child {
     box-sizing: border-box;
 }
 
+.container-table {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; /* Full screen height */
+    overflow-x: auto; /* Horizontal scroll */
+}
+
+
 audio,
 canvas,
 video{
@@ -687,6 +695,8 @@ pre code{border:0;padding-right:0;padding-left:0}
                                          .container-table {display: block;}
                                          .left-half-table,
                                          .right-half-table {width: 100%;}
+                                         .photo {order: 1;}
+                                         .text-content {order: 2;}
                                         }
 @media only screen and (max-width:480px){.blog-tags .btn{padding:.25rem .5rem;font-size:.875rem;line-height:1.5;border-radius:.2rem}
                                          .about-container{width:100%}
@@ -707,4 +717,6 @@ pre code{border:0;padding-right:0;padding-left:0}
                                          .container-table {display: block;}
                                          .left-half-table,
                                          .right-half-table {width: 100%;}
+                                         .photo {order: 1;}
+                                         .text-content {order: 2;}
                                         }
