@@ -185,7 +185,7 @@ We next track exoplanet distance from Earth; I've generated a histogram (lollipo
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-D.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-D.svg" width="1200" height="600" alt="Graph D" style="border: 3px solid darkgray; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-D.svg" width="1200" height="600" alt="Graph D" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
 <div style="height: 20px;"></div>
