@@ -317,6 +317,19 @@ table th:first-child {
     overflow-x: auto; /* Horizontal scroll */
 }
 
+.photo{
+  order:1;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.text-content{
+  order:2;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
 
 audio,
 canvas,
@@ -695,8 +708,6 @@ pre code{border:0;padding-right:0;padding-left:0}
                                          .container-table {display: block;}
                                          .left-half-table,
                                          .right-half-table {width: 100%;}
-                                         .photo {order: 1;}
-                                         .text-content {order: 2;}
                                         }
 @media only screen and (max-width:480px){.blog-tags .btn{padding:.25rem .5rem;font-size:.875rem;line-height:1.5;border-radius:.2rem}
                                          .about-container{width:100%}
@@ -717,6 +728,4 @@ pre code{border:0;padding-right:0;padding-left:0}
                                          .container-table {display: block;}
                                          .left-half-table,
                                          .right-half-table {width: 100%;}
-                                         .photo {order: 1;}
-                                         .text-content {order: 2;}
                                         }
