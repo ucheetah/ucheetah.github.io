@@ -154,7 +154,8 @@ The discovery of planets in themselves is an interesting subject because exoplan
   <li>The <strong>transit method</strong> exploits the shifts in light as a planet passes in front of its host star. The amount of dimming can be used to make conclusions about the planet's characeristics like mass, radiius and eve atmospheric conditions.</li>
   <li>The <strong>radial velocity method</strong> - tracking of gravity induced shifts in a star's position caused by the planet's gravitational pull. </li>
   <li>The <strong>microlensing</strong> technique tracks the bending of light as large exoplanets pass in front of a star.</li>
-    
+</ul>
+
 All of these methods require a rich level of spectroscopic data to infer the composition or size of planets. As science progresses, the ability to gather and conduct analysis on this data improves. I have tracked the growth of the three most successful exoplanet discovery methods mentioned above, graphed since the start of the century.
 
 <div style="height: 20px;"></div>
