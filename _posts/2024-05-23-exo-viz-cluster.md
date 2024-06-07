@@ -331,29 +331,31 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 Let's take a look at how our clusters compared to existing exoplanet groupings.
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 1 - </h5>
+<h5 align="center">Cluster 1 - Gas giants</h5>
 <div class="container-table">
     <div class="left-half-table">
         <!-- Content for the left half goes here -->
-        <h4>H1</h4>
-        <p>This is the left half of the article.</p>
+        <p>These have extremely large masses and radii which correspond to gas giants.</p>
     </div>
     <div class="right-half-table">
         <!-- Image for the right half goes here -->
-        <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="450"></a>
+        <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="450" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
 </div>
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 2 - </h5>
+<h5 align="center">Cluster 2 - Super-Earths and sub-Neptunes</h5>
 <div class="container-table">
     <div class="left-half-table">
-        <!-- Image for the left half goes here -->
-        <a href="/assets/img/2024-05-24-exoplanets-H2.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H2.svg" width="450"></a>
+        <a href="/assets/img/2024-05-24-exoplanets-H2.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H2.svg" width="450" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
     <div class="right-half-table">
         <!-- Content for the right half goes here -->
-        <p>This is the right half of the article.</p>
+        <p>This cluster appears to host planets from at least two groups
+        <ul>
+          <li><strong>Super-Earths</strong>, strictly defined as twice the size of Earth and up to 10 times its mass.</li>
+          <li><strongSub-Neptune></strong>, planets smaller than Neptune's radius by </li>
+        </ul></p>
     </div>
 </div>
 <div style="height: 20px;"></div>
@@ -366,7 +368,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
     </div>
     <div class="right-half-table">
         <!-- Image for the right half goes here -->
-        <a href="/assets/img/2024-05-24-exoplanets-H3.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H3.svg" width="450"></a>
+        <a href="/assets/img/2024-05-24-exoplanets-H3.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H3.svg" width="450" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
 </div>
 <div style="height: 20px;"></div>
@@ -375,7 +377,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 <div class="container-table">
     <div class="left-half-table">
         <!-- Image for the left half goes here -->
-        <a href="/assets/img/2024-05-24-exoplanets-H4.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H4.svg" width="450"></a>
+        <a href="/assets/img/2024-05-24-exoplanets-H4.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H4.svg" width="450" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
     <div class="right-half-table">
         <!-- Content for the right half goes here -->
@@ -383,6 +385,13 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
     </div>
 </div>
 <div style="height: 20px;"></div>
+
+<p>I would say that this was not as successful as I'd hoped. </p>
+
+<p>One option could be adding more features. Adding orbital-related features could help, since it is well-known that the distance of planets from their host stars often correlates with the planet's geologic properties.</p>
+
+<p>Another perspective takes a larger scope - why are planet classifications so important? Scientists agree consistently on what a planet even is, and the most we discover the diversity of exoplanets the less neatly things fit into categories. One criticism is also that by using categories like super-Earths or sub-neptunes, we base planets on our heliocentric conception of the universe. </p>
+
 
 <h3 align="center">Resources</h3>
 <div style="height: 20px;"></div>
