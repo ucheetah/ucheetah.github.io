@@ -351,13 +351,13 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
     </div>
     <div class="right-half-table">
         <!-- Content for the right half goes here -->
-        <p>This cluster appears to host planets from at least two groups
+        <p>This cluster appears to host planets from at least two groups</p>
         <ul>
           <li><strong>Super-Earths</strong>, strictly defined as twice the size of Earth and up to 10 times its mass.</li>
-          <li><strongSub-Neptune></strong>, planets smaller than Neptune's radius (3.88 Earth radius) even though it may have a larger mass. </li>
+          <li><strong>Sub-Neptune></strong>, planets smaller than Neptune's radius (3.88 Earth radius) even though it may have a larger mass. </li>
             <li><strong>Super-Neptune</strong> includes planets around 2 to 6 Earth radii and 10 to 50 Earth masses.</li>
-        </ul></p>
-            This appears to be an extremely large grouping of exoplanets, particularly with respect to mass from 0.2 to 1000 times Earth's mass. There's reason to be suspicious of this grouping.
+        </ul>
+<p>This appears to be an extremely large grouping of exoplanets, particularly with respect to mass from 0.2 to 1000 times Earth's mass. There's reason to be suspicious of this grouping.</p>
     </div>
 </div>
 <div style="height: 20px;"></div>
