@@ -7,6 +7,27 @@ image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
 
+<style>
+  .container {
+    display: flex;
+    height: 100%;
+}
+
+.left-half, .right-half {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-half {
+    background-color: #f0f0f0;
+}
+
+.right-half {
+    background-color: #d0d0d0;
+}
+</style>
+
 <p align="center"> <em> This post marks the beginning of my new personal website, where I'm excited to share more about my work in data science, data analysis and  ideas at large that inspire me.</em> </p>
 
 <hr>
@@ -323,6 +344,25 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 <li>There doesn't appear to be a strong correlation between mass/radius and distance. This makes sense - we wouldn't expect composition and components of the planets to depend on their distance from Earth</li>
 </ul>
 
+
+
+<h4>Analysis</h4>
+
+<div class="container">
+        <div class="left-half">
+            <!-- Content for the left half goes here -->
+            <h1>Left Half</h1>
+          <img src="/assets/img/2024-05-24-exoplanets-H.svg" width="300"  alt="Graph H" style="border: 4px solid darkgray; border-radius: 3px;">
+            <p>This is the left half of the article.</p>
+        </div>
+        <div class="right-half">
+            <!-- Content for the right half goes here -->
+            <h1>Right Half</h1>
+            <p>This is the right half of the article.</p>
+        </div>
+    </div>
+
+<h3 align="center">Resources</h3>
 If worked has piqued your interest on exoplanet science, here are a few resources I appreciate to keep reading on the matter:
 <ul>
 <li><a href="https://www.quantamagazine.org/the-best-neighborhoods-for-starting-a-life-in-the-galaxy-20240124/" target="_blank" style="color: #573259;">The Best Neighborhoods for Starting a Life in the Galaxy</a></li>
