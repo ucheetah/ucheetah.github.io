@@ -12,7 +12,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 <hr>
 <div style="height: 20px;"></div>
 
-The study of exoplanets - planets beyond our Solar System - is a crucial gateway to discovering and confirming the existence of extraterrestrial life. Over the past decade the scientific community has seen an explosion in our capabilities to gather fine-grained data on the observable universe, thanks to advancements into astronomical science like the James Webb Telescope - the most complex and largest telescope launched into space - which began it's work in 2021. Many of these new technologies, including the James Webb, are used to discovery of exoplanets. As such the discussion and interest on exoplanets is only expected grow in the coming years. 
+When we talk about space, we usually think of the night sky, stars light up. We don't usually think of planets beyond our Solar System. But the study of exoplanets - planets beyond our Solar System - is a crucial gateway to discovering and confirming the existence of extraterrestrial life. 
 
 This project peers into exoplanet science through the lens of data. I grab from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong> dataset provided by the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong> on which I'll visualize and conduct a k-means clustering algorithm.
 
@@ -39,6 +39,15 @@ This project peers into exoplanet science through the lens of data. I grab from 
     <td> <a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main" target="_blank" style="color: #573259;">GitHub Repo - exoplanet-viz-cluster</a> </td>
   </tr>
 </table>
+
+<div style="height: 20px;"></div>
+
+<h3>Background</h3> 
+<div style="height: 20px;"></div>
+
+Over the past decade the scientific community has seen an explosion in our capabilities to gather increasingly sophisticated data on exoplanet. At NASA, the James Webb Telescope brings in tools capable of exoplanet detections high-precision spectroscopic observations. Very soon the Nancy Grace Roman Telescope will be launched in 2027. It's is expected to introduce new exoplanet capabilities using a state-of-the-art coronagraph - a device can block light from stars to observe neighbouring bodies. And even further down the horizon  the Habitable Worlds Observatory - a projected ultraviolet telescope - is being designed specifically to study habitable exoplanet. This is not to mention contributions elsewhere, such as China's Earth 2.0 Space mission which will also focus on planet habitability. As such the discussion and interest on exoplanets is only expected grow in the coming years. 
+
+
 
 <div style="height: 20px;"></div>
 
@@ -200,6 +209,10 @@ However planets differ greatly in their compositions and densities so we would e
 
 <h3> K-means clustering</h3>
 <div style="height: 20px;"></div>
+
+But as NASA puts it, with radius and mass alone "we can see compositions ranging from rocky (like Earth and Venus) to gas-rich (like Jupiter and Saturn)". So those two features alone can play a signfiicant role in classifications, particularly since a planet's mass and size will correlate with its actual geologic properties. 
+
+With this in mind I will be conducting a k-means algoirthm using the features of exoplanet radius and exoplanet mass alone.
 
 To determine the number of categories (clusters) we want to develop, we will use the <strong>silhouette score</strong> method. You may consult my script for a better understanding of this method. High scores indicate good clustering results, bad scores indicate bad results.
 
