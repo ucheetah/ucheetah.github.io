@@ -45,15 +45,24 @@ This project peers into exoplanet science through the lens of data. I grab from 
 <h3 align="center">Background</h3> 
 <div style="height: 20px;"></div>
 
-<p> Exoplanet science is younger than most other astronomical sciences This is because, for one, we've known about exoplanets for little time - the first exoplanet discovery was in 1992 - and exoplanets are fundamentally harder to detect than other space objects such as stars. scientists have needed to develop complex indirect methods to track exoplanets, usually invoving the stars their orbit. </p>
+<p> Exoplanet science is younger than most other astronomical sciences This is because, for one, we've known about exoplanets for little time, the first exoplanet discovery was in 1992, and exoplanets are fundamentally harder to detect than other space objects such as stars. scientists have needed to develop complex indirect methods to track exoplanets such as the <strong>transit method</strong> - tracking shifts in light as a planet passes in front of its host star - or the <strong>radial velocity method</strong> - tracking of gravity induced shifts in a star's position caused by the planet's gravitational pull.</p>
 
-
-Over the past decade our capabilities to gather sophisticated data on exoplanets has significantly improved. 
-
-At NASA, the James Webb Telescope brings in tools capable of exoplanet detections high-precision spectroscopic observations. Very soon the Nancy Grace Roman Telescope will be launched in 2027. It's is expected to introduce new exoplanet capabilities using a state-of-the-art coronagraph - a device can block light from stars to observe neighbouring bodies. And even further down the horizon  the Habitable Worlds Observatory - a projected ultraviolet telescope - is being designed specifically to study habitable exoplanet. This is not to mention contributions elsewhere, such as China's Earth 2.0 Space mission which will also focus on planet habitability. 
-
-As such the discussion and interest on exoplanets is only expected grow in the coming years. 
-
+<ul>
+Many recent projects have upped the research on exoplanets:
+  <li>
+    At NASA, the James Webb Telescope brings in tools capable of exoplanet detection through high-precision spectroscopic observations.
+  </li>
+  <li>
+    In 2027, NASA's Nancy Grace Roman Telescope is expected to introduce new exoplanet capabilities using a state-of-the-art coronagraph—a device that can block light from stars to observe neighboring bodies.
+  </li>
+  <li>
+    Further down the horizon, the Habitable Worlds Observatory—a projected ultraviolet telescope—is being designed specifically to study habitable exoplanets.
+  </li>
+  <li>
+    Contributions elsewhere include China's Earth 2.0 Space mission, which will also focus on planet habitability.
+  </li>
+</ul>
+<p></p>With the relative youth of the domain paired with the rapid technological advances, our discovery exoplanets sees new heights every year. </p>
 
 <div style="height: 20px;"></div>
 
