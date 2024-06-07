@@ -42,22 +42,28 @@ This project peers into exoplanet science through the lens of data. I grab from 
 
 <div style="height: 20px;"></div>
 
-<h3>Background</h3> 
+<h3 align="center">Background</h3> 
 <div style="height: 20px;"></div>
 
-Over the past decade the scientific community has seen an explosion in our capabilities to gather increasingly sophisticated data on exoplanet. At NASA, the James Webb Telescope brings in tools capable of exoplanet detections high-precision spectroscopic observations. Very soon the Nancy Grace Roman Telescope will be launched in 2027. It's is expected to introduce new exoplanet capabilities using a state-of-the-art coronagraph - a device can block light from stars to observe neighbouring bodies. And even further down the horizon  the Habitable Worlds Observatory - a projected ultraviolet telescope - is being designed specifically to study habitable exoplanet. This is not to mention contributions elsewhere, such as China's Earth 2.0 Space mission which will also focus on planet habitability. As such the discussion and interest on exoplanets is only expected grow in the coming years. 
+<p> Exoplanet science is younger than most other astronomical sciences This is because, for one, we've known about exoplanets for little time - the first exoplanet discovery was in 1992 - and exoplanets are fundamentally harder to detect than other space objects such as stars. scientists have needed to develop complex indirect methods to track exoplanets, usually invoving the stars their orbit. </p>
 
+
+Over the past decade our capabilities to gather sophisticated data on exoplanets has significantly improved. 
+
+At NASA, the James Webb Telescope brings in tools capable of exoplanet detections high-precision spectroscopic observations. Very soon the Nancy Grace Roman Telescope will be launched in 2027. It's is expected to introduce new exoplanet capabilities using a state-of-the-art coronagraph - a device can block light from stars to observe neighbouring bodies. And even further down the horizon  the Habitable Worlds Observatory - a projected ultraviolet telescope - is being designed specifically to study habitable exoplanet. This is not to mention contributions elsewhere, such as China's Earth 2.0 Space mission which will also focus on planet habitability. 
+
+As such the discussion and interest on exoplanets is only expected grow in the coming years. 
 
 
 <div style="height: 20px;"></div>
 
-<h3>Data collection and cleaning</h3> 
+<h3 align="center">Data collection and cleaning</h3> 
 <div style="height: 20px;"></div>
 
 I will draw data from the NASA exoplanets archive, a collaboration between Caltech and NASA under its Exoplanet Exploration Program.
 From the parameter table documentation for this dataset I chose a small set of values from the dataset that are likely to be of biggest interest. 
 
-<br>
+<div style="height: 20px;"></div>
 
 <figure style="text-align: center;">
    <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">
@@ -65,7 +71,8 @@ From the parameter table documentation for this dataset I chose a small set of v
     </a>
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
-<br>
+<div style="height: 20px;"></div>
+
 The following are the variables I've taken:
 
 <ul>
@@ -105,9 +112,28 @@ After removing the first few columns we obtain a preliminary look at our first d
 </p>
 <div style="height: 20px;"></div>
 
-<h3>Visualization and Analysis</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 align="center">Visualization and Analysis</h3>
 <div style="height: 20px;"></div>
-Next we will move to visualizing the data we have. Some processing has been omitted here and can be see nin my notebooks. I've opted for this project to use <code>matplotlib</code> and <code>seaborn</code>, tools which are sometimes portrayed as lacking in complexity or aesthetic quality. I wanted to develop graphs that still feel dynamic and engaging. I also employed lesser used matplotlib tools such as 3D graphs, tables and style sheets.
+Next we will move to visualizing the data we have. Some processing has been omitted here and can be see nin my notebooks. 
+
+I've opted for this project to use <code>matplotlib</code> and <code>seaborn</code>, tools which are sometimes portrayed as lacking in complexity or aesthetic quality. I wanted to develop graphs that still feel dynamic and engaging. I also employed lesser used matplotlib tools such as 3D graphs, tables and style sheets.
 
 <h4>Discovery method</h4>
 <div style="height: 20px;"></div>
@@ -179,7 +205,7 @@ Unsurprisingly known planets taper off with distance. This is likely due to a fe
 
 <div style="height: 20px;"></div>
 
-<h4> Comparing planet mass and radius </h4>
+<h4> Planet mass and radius </h4>
 
 <div style="height: 20px;"></div>
 Observing the disparity of planet size and mass can allow us to create a better demographic picture of the planets in our observed universe. Next we will take a look at exoplanet radius and mass. The following is a scatterplot of mass and radius. Note that the scatterplot colors are defined in terms of mass, and the mass is in a logarithmic scale.
@@ -207,14 +233,28 @@ However planets differ greatly in their compositions and densities so we would e
 
 <div style="height: 20px;"></div>
 
-<h3> K-means clustering</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 align="center"> Machine Learning Classification</h3>
 <div style="height: 20px;"></div>
 
-But as NASA puts it, with radius and mass alone "we can see compositions ranging from rocky (like Earth and Venus) to gas-rich (like Jupiter and Saturn)". So those two features alone can play a signfiicant role in classifications, particularly since a planet's mass and size will correlate with its actual geologic properties. 
+<p>But as NASA puts it, with radius and mass alone "we can see compositions ranging from rocky (like Earth and Venus) to gas-rich (like Jupiter and Saturn)". So those two features alone can play a signfiicant role in classifications, particularly since a planet's mass and size will correlate with its actual geologic properties. </p>
 
-With this in mind I will be conducting a k-means algoirthm using the features of exoplanet radius and exoplanet mass alone.
+<p>With this in mind I will be conducting a k-means algoirthm using the features of exoplanet radius and exoplanet mass alone using <code>scikit-learn</code>.</p>
 
-To determine the number of categories (clusters) we want to develop, we will use the <strong>silhouette score</strong> method. You may consult my script for a better understanding of this method. High scores indicate good clustering results, bad scores indicate bad results.
+<p> To determine the number of categories (clusters) we want to develop, we will use the <strong>silhouette score</strong> method. You may consult my script for a better understanding of this method. High scores indicate good clustering results, bad scores indicate bad results.</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
