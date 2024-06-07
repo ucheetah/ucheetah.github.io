@@ -382,8 +382,11 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
         <p>This is the right half of the article.</p>
     </div>
 </div>
+<div style="height: 20px;"></div>
 
 <h3 align="center">Resources</h3>
+<div style="height: 20px;"></div>
+
 If worked has piqued your interest on exoplanet science, here are a few resources I appreciate to keep reading on the matter:
 <ul>
 <li><a href="https://www.quantamagazine.org/the-best-neighborhoods-for-starting-a-life-in-the-galaxy-20240124/" target="_blank" style="color: #573259;">The Best Neighborhoods for Starting a Life in the Galaxy</a></li>
