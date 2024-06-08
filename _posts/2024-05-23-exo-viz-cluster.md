@@ -40,6 +40,7 @@ This project peers into exoplanet science through the lens of data. I grab from 
 
 <div style="height: 20px;"></div>
 <h3 align="center"> Background</h3>
+<div style="height: 20px;"></div>
 
 <p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic and all, but for as long there's been life on Earth, we've gazed at the night sky. Stars are an intrinsic part of our societies, woven into our religions, and even fill out the awkward dinner conversation. </p>
 
