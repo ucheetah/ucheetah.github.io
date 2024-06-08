@@ -304,7 +304,7 @@ table th:first-child {
     height: 100%;
 }
 
-.left-half-table, .right-half-table {
+.half-table {
     width: 50%;
     padding: 20px;
     box-sizing: border-box;
@@ -317,19 +317,6 @@ table th:first-child {
     overflow-x: auto; /* Horizontal scroll */
 }
 
-.photo{
-  order:1;
-  display: flex; 
-  justify-content: center; 
-  align-items: center;
-}
-
-.text-content{
-  order:2;
-  display: flex; 
-  justify-content: center; 
-  align-items: center;
-}
 
 audio,
 canvas,
@@ -706,8 +693,7 @@ pre code{border:0;padding-right:0;padding-left:0}
                                          .recent-box .recent-list .recent-item span{position:absolute;font-size:12px;left:2.5%;bottom:10%;color:#fff}
                                          .about-container{width:400px}
                                          .container-table {display: block;}
-                                         .left-half-table,
-                                         .right-half-table {width: 100%;}
+                                         .half-table {width: 100%;}
                                         }
 @media only screen and (max-width:480px){.blog-tags .btn{padding:.25rem .5rem;font-size:.875rem;line-height:1.5;border-radius:.2rem}
                                          .about-container{width:100%}
@@ -726,6 +712,5 @@ pre code{border:0;padding-right:0;padding-left:0}
                                          .author-box .author-img{height:100px;min-width:100px}
                                          .author-box .author-right p{margin:0 0 15px}
                                          .container-table {display: block;}
-                                         .left-half-table,
-                                         .right-half-table {width: 100%;}
+                                         .half-table {width: 100%;}
                                         }
