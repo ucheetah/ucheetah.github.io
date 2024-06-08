@@ -325,7 +325,6 @@ audio:not([controls]){
 img{
   border-style:none;
   height:auto;
-  width:100%
 }
 
 svg:not(:root){
