@@ -291,7 +291,7 @@ However planets differ greatly in their compositions and densities so we would e
 <div style="height: 20px;"></div>
 
 <div style="height: 20px;"></div>
-<h4> Apply k-means </h4>
+<h4> Apply k-means clustering</h4>
 <div style="height: 20px;"></div>
 
 We run a kmeans model using scikit learn and add the clusters it has generate to our data. In the following graph we display those results, with each cluster differing in color and 
@@ -331,7 +331,7 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 Let's take a look at how our clusters compared to existing exoplanet groupings.
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 1: Super-Earths, Sub-Neptunes and Super-Neptunes</h5>
+<h4 align="center">Cluster 1: Super-Earths, Sub-Neptunes and Super-Neptunes</h4>
 <div class="container-table">
     <div class="half-table">
         <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
@@ -350,7 +350,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 2: Super-Neptunes/Super-Jupiters</h5>
+<h4 align="center">Cluster 2: Super-Neptunes/Super-Jupiters</h4>
 <div class="container-table">
     <div class="half-table">
         <a href="/assets/img/2024-05-24-exoplanets-H2.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H2.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
@@ -366,7 +366,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 </div>
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 3: Super-Jupiters and potential Brown-Dwarfs </h5>
+<h4 align="center">Cluster 3: Super-Jupiters and Brown-Dwarfs </h4>
 <div class="container-table">
     <div class="half-table">
         <!-- Image for the right half goes here -->
@@ -386,7 +386,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 <p>Brown dwarfs are particularly fascinating because they lie in an area of classification between planets and stars by exhibiting properties of both. Usually brown dwarfs are born like stars, large enough to collapse under their own gravity, but usually fail to become large enough to sustain the nuclear fusion of hydrogen. For this reason they're often a hotly debated topic in terms of classification.</p>
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 4: Super-Jupiters</h5>
+<h4 align="center">Cluster 4: Super-Jupiters</h4>
 
 <div style="height: 20px;"></div>
 <div class="container-table">
