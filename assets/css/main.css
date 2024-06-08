@@ -299,11 +299,6 @@ table th:first-child {
 }
 
 
-.container-table {
-    display: flex;
-    height: 100%;
-}
-
 .half-table {
     width: 50%;
     padding: 20px;
