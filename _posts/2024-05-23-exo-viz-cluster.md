@@ -14,7 +14,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 
 When we talk about space, we usually think of the night sky, stars light up. We don't usually think of planets beyond our Solar System. But the study of exoplanets - planets beyond our Solar System - is a crucial gateway to discovering and confirming the existence of extraterrestrial life. 
 
-This project peers into exoplanet science through the lens of data. I grab from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong> dataset provided by the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong> on which I'll visualize and conduct a k-means clustering algorithm.
+This project peers into exoplanet science through the lens of data. I grab from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong> dataset provided by the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong> on which I'll visualize and perform unsupervised learning through a k-means clustering algorithm.
 
 <h5 align="center"> Project summary</h5>
 <div style="height: 10px;"></div>
@@ -268,6 +268,8 @@ However planets differ greatly in their compositions and densities so we would e
 
 <p>But as NASA puts it, with radius and mass alone "we can see compositions ranging from rocky (like Earth and Venus) to gas-rich (like Jupiter and Saturn)". So those two features alone can play a signfiicant role in classifications, particularly since a planet's mass and size will correlate with its actual geologic properties. </p>
 
+<p>Since this dataset does not provide existing classifications of planets, I will be performing unsupervised learning.</p>
+
 <p>With this in mind I will be conducting a k-means algoirthm using the features of exoplanet radius and exoplanet mass alone using <code>scikit-learn</code>.</p>
 
 <div style="height: 20px;"></div>
@@ -408,15 +410,20 @@ These appear to contain a large amount of relatively moderately-sized planets. A
 
 <p>I would also take note the amount of range in this cluster, like cluster three. I would be surprised to expect Planets with radii of 3 and 35 to share many inherent qualities. This also appears to fall into the Super-Jupiter category. The maximum just touches on the Brown-Dwarf category. So these may be considered as Super-Jupiters.</p>
 
-<h4>Reflection and final observations</h4>
-
+<h3>Reflection and final observations</h3>
+<p>A few points in </p>
 <ul>
-  <li><strong>Some relevant patterns, no neat classifications</strong> - Perhaps aside form planets near brown dwarfs, there were no clean categories.</li>
-  <li><strong>Clustering could have benefited from more features</strong> - Adding orbital-related features could help, since it is well-known that the distance of planets from their host stars often correlates with the planet's geologic properties.</li>
-  <li><strong>Weak pattersn could be due to flawed existing categories</strong> Another perspective takes a larger scope - why are planet classifications so important? Scientists agree consistently on what a planet even is, and the most we discover the diversity of exoplanets the less neatly things fit into categories.</li>
+  <li><strong>Some relevant patterns, no neat classifications</strong> - Aside from the very-large brown dwarfs, no cluster created distinct categories.</li>
+  <li><strong>Clustering could have benefited from more features</strong> - Adding features exoplanet orbitals or host star tempearture and size could have siphoned off clearer groups</li>
+  <li><strong>Clustering is difficult for badly defined categories</strong> - There are some quntitative metrics for planet categories, but most exoplanets do not fit into neat categories.</li>
 </ul>
 
-To expand on this last point, the criticism is also that by using categories like Super-Earths or Sub-Neptunes, we base planets on our heliocentric conception of the universe. Classifying a planet based on the ones in our Solar System doesn't lead to categories that actually reflect statistical trends in the universe. Our current categorizations don' take into account the vast diversity in planets that exceed Jupiter's size. 
+<h4>Are exoplanet categorizations even scientific?</h4>
+<p>Expanding on this last point, there's criticism to be had on the way in which we base planet categorizations on known objects in our Solar System. This in essence a type of heliocentrism; we group planets in the Universe based on historical observations and our local knowledge of the Universe, not fundamental qualities possessed by planets. In this sense, there a fundamental astronomical difference between a Sub-Neptune and a Super-Neptune aside from it's relative size to Neptune? There is reason to take issues with these groups on scientific grounds. </p>
+
+
+Super-Earths or Sub-Neptunes, we base planets on our
+Classifying a planet based on the ones in our Solar System doesn't lead to categories that actually reflect statistical trends in the universe. Our current categorizations don' take into account the vast diversity in planets that exceed Jupiter's size. On a level deeper, the idea of what a planet even is is a political matter among astronomists.
 
 
 <h3 align="center">Resources</h3>
