@@ -72,7 +72,20 @@ From the parameter table documentation for this dataset I chose a small set of v
 <h5>Querying data</h5>
 <div style="height: 20px;"></div>
 
-To query this data we use the industry standard <strong>Table Access Protocol (TAP)</strong> which uses <strong>AQDL (Astronomical Query Data Language)</strong> - akin to SQL for astronomical databases - as queries. Use Python's <code>requests</code> package to access NASA data using TAP protocol. The following are the variables I've taken:
+To query this data we use the NASA's <strong>Table Access Protocol (TAP)</strong>. I've written a short SQL (technically AQDL) queries which paired with Python's <code>requests</code> package grabs these columns:
+
+<p align="center">
+  <code>
+  <strong>SELECT pl_name, sy_dist, pl_rade, pl_masse FROM ps</strong>
+</code>
+</p>
+
+You may consult my notebook for the full process.
+<div style="height: 20px;"></div>
+<h5>Raw data summary</h5>
+<div style="height: 20px;"></div>
+
+ I've grabbed the following planet features:
 
 <ul>
   <li><strong>Planet name</strong> as <code>pl_name</code></li>
@@ -82,21 +95,6 @@ To query this data we use the industry standard <strong>Table Access Protocol (T
  <li><strong>Discovery method</strong> as <code>discoverymethod</code></li>
   <li><strong>Discovery year</strong> as <code>disc_year</code></li>
 </ul>
-
-I've written a short SQL (technically AQDL) queries which paired with <code>requests</code> grabs these columns:
-
-<p align="center">
-  <code>
-  <strong>SELECT pl_name, sy_dist, pl_rade, pl_masse FROM ps</strong>
-</code>
-</p>
-
-To fit it into a <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html" target="_blank" style="color: #573259;">TAP protocol</a></strong> we simply need to make a few adjustments such as remove additional spacing, add <code>+</code> between the major SQL statements. In my process I ingested the data as a CSV into MyDrive to then call it into my notebook.
-
-<div style="height: 20px;"></div>
-<h5>Raw data summary</h5>
-<div style="height: 20px;"></div>
-
 After removing the first few columns we obtain a preliminary look at our first data points. The format of these tables is drawn from <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank" style="color: #573259;"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank" style="color: #573259;">How to create custom tables</a></strong>.
 
 <div style="height: 20px;"></div>
@@ -149,7 +147,7 @@ All of these methods require a rich level of spectroscopic data to infer the com
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-J.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-J.svg" width="1440" height="960" alt="Graph J" style="border: 3px solid #573259; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-J.svg" width="1000" alt="Graph J" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 <div style="height: 20px;"></div>
 
