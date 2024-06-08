@@ -14,7 +14,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 
 This project peers into exoplanet science through the lens of data. I grab from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong> dataset provided by the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong> on which I'll visualize and perform unsupervised learning through a k-means clustering algorithm.
 
-<h5 align="center"> Project summary</h5>
+<h3 align="center"> Project summary</h3>
 <div style="height: 10px;"></div>
 
 <table align="center">
