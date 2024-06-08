@@ -333,6 +333,10 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 
 <h5 align="center">Cluster 1: Super-Earths, Sub-Neptunes and Super-Neptunes</h5>
 <div class="container-table">
+      <div class="half-table">
+        <!-- Image for the right half goes here -->
+        <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="450" style="border: 3px solid #573259; border-radius: 3px;"></a>
+    </div>
     <div class="half-table">
         <!-- Content for the left half goes here -->
       <p>This cluster appears to host planets from at least two groups</p>
@@ -341,10 +345,6 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
           <li><strong>Sub-Neptune></strong>, planets smaller than Neptune's radius (3.88 Earth radius) even though it may have a larger mass. </li>
             <li><strong>Super-Neptune</strong> includes planets around 2 to 6 Earth radii and 10 to 50 Earth masses.</li>
         </ul>
-    </div>
-    <div class="half-table">
-        <!-- Image for the right half goes here -->
-        <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="450" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
 </div>
 <p>This appears to be an extremely large collection of exoplanets, particularly with respect to mass from 0.2 to 1000 times Earth's mass. They include most planets under 10 radius, but that includes a wide-range of planets.</p>
