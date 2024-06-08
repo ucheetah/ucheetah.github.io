@@ -410,11 +410,13 @@ These appear to contain a large amount of relatively moderately-sized planets. A
 
 <h4>Reflection and final observations</h4>
 
-<p>I would say that though the clustering cleary identified some relevant patterns, it did not create a neat categorization. But perhaps it was unrealistic to expect such a classification.</p>
+<ul>
+  <li><strong>Some relevant patterns, no neat classifications</strong> - Perhaps aside form planets near brown dwarfs, there were no clean categories.</li>
+  <li><strong>Clustering could have benefited from more features</strong> - Adding orbital-related features could help, since it is well-known that the distance of planets from their host stars often correlates with the planet's geologic properties.</li>
+  <li><strong>Weak pattersn could be due to flawed existing categories</strong> Another perspective takes a larger scope - why are planet classifications so important? Scientists agree consistently on what a planet even is, and the most we discover the diversity of exoplanets the less neatly things fit into categories.</li>
+</ul>
 
-<p>One option could be adding more features. Adding orbital-related features could help, since it is well-known that the distance of planets from their host stars often correlates with the planet's geologic properties.</p>
-
-<p>Another perspective takes a larger scope - why are planet classifications so important? Scientists agree consistently on what a planet even is, and the most we discover the diversity of exoplanets the less neatly things fit into categories. One criticism is also that by using categories like Super-Earths or Sub-Neptunes, we base planets on our heliocentric conception of the universe. Classifying a planet based on the ones in our Solar System doesn't lead to categories that actually reflect statistical trends in the universe. Our current categorizations don' take into account the vast diversity in planets that exceed Jupiter's size.</p>
+To expand on this last point, the criticism is also that by using categories like Super-Earths or Sub-Neptunes, we base planets on our heliocentric conception of the universe. Classifying a planet based on the ones in our Solar System doesn't lead to categories that actually reflect statistical trends in the universe. Our current categorizations don' take into account the vast diversity in planets that exceed Jupiter's size. 
 
 
 <h3 align="center">Resources</h3>
