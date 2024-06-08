@@ -333,8 +333,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 
 <h5 align="center">Cluster 1: Super-Earths, Sub-Neptunes and Super-Neptunes</h5>
 <div class="container-table">
-      <div class="half-table">
-        <!-- Image for the right half goes here -->
+    <div class="half-table">
         <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="450" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
     <div class="half-table">
@@ -358,13 +357,16 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
     </div>
     <div class="half-table">
         <!-- Content for the right half goes here -->
-       <p>These planets exceed both Neptune and Jupiter size and mass. These are extremely large planets.</p>
-                
+       <p>Most probably these contain:</p>
+       <ul>
+         <li><strong>Super Jupiters</strong>: A Super-Jupiter has a mass exceeding that of Jupiter, typically greater than 1.5 times Jupiter's mass (approximately 1.9 x 10^27 kg).</li>
+         <li><strong>Super Neptunes</strong>: A Super-Neptune has mass ranging from about 10 to 20 times that of Earth, larger than Neptune but less massive than Super Jupiters.</li>
+       </ul>   
     </div>
 </div>
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 3: Super-Jupyters and potential Brown-Dwarfs </h5>
+<h5 align="center">Cluster 3: Super-Jupiters and potential Brown-Dwarfs </h5>
 <div class="container-table">
     <div class="half-table">
         <!-- Image for the right half goes here -->
@@ -372,9 +374,14 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
     </div>
   <div class="half-table">
         <!-- Content for the left half goes here -->
-       <p>This cluster contains exoplanets with enormous masses and radii. In fact, they are so big that the entire cluster falls in the regime of <strong>Brown-Dwarfs</strong>, whose tend to have a mass-to-Earth ratio between 4,000 to 25,000. The minimum exoplanet in this cluster has a mass of 4,767.</p>
+       <p>This cluster contains exoplanets with enormous masses and radii. These could be:</p>
+    <ul>
+      <li><strong>Super-Jupiters</strong></li> given their clear superior size to Jupiter.
+      <li> <strong>Brown-Dwarfs</strong>, whose tend to have a mass-to-Earth ratio between 4,000 to 25,000. In fact, the the entire cluster falls in this regime.</li>
+    </ul>
     </div>
 </div>
+<div style="height: 20px;"></div>
 
 <p>Brown dwarfs are particularly fascinating because they lie in an area of classification between planets and stars by exhibiting properties of both. Usually brown dwarfs are born like stars, large enough to collapse under their own gravity, but usually fail to become large enough to sustain the nuclear fusion of hydrogen. For this reason they're often a hotly debated topic in terms of classification.</p>
 <div style="height: 20px;"></div>
