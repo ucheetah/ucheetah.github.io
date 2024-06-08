@@ -131,7 +131,7 @@ All of these methods require a rich level of spectroscopic data to infer the com
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-J.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-J.svg" width="1000" alt="Graph J" style="border: 3px solid #573259; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-J.svg" width="850" alt="Graph J" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 <div style="height: 20px;"></div>
 
@@ -155,7 +155,7 @@ We next track exoplanet distance from Earth; I've generated a histogram (lollipo
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-D.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-D.svg" width="1200" height="600" alt="Graph D" style="border: 3px solid #573259; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-D.svg" width="850" alt="Graph D" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
 <div style="height: 20px;"></div>
@@ -172,7 +172,7 @@ We next track exoplanet distance from Earth; I've generated a histogram (lollipo
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-E.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-E.svg" width="1200" height="600" alt="Graph E" style="border: 3px solid #573259; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-E.svg" width="850" alt="Graph E" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
 <div style="height: 20px;"></div>
@@ -199,7 +199,7 @@ Observing the disparity of planet size and mass can allow us to create a better 
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-F.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-F.svg" width="910.65" height="720" alt="Graph F" style="border: 3px solid #573259; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-F.svg" width="850" alt="Graph F" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
 <div style="height: 20px;"></div>
@@ -271,7 +271,7 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-H.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-H.svg" width="910.65" height="720" alt="Graph H" style="border: 3px solid #573259; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-H.svg" width="850" alt="Graph H" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
 
