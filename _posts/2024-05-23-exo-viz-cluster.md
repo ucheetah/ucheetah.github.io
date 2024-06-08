@@ -364,6 +364,8 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
        </ul>   
     </div>
 </div>
+
+These appear to contain a large amount of relatively moderately-sized planets. A large number of planets can be found in this categorization.
 <div style="height: 20px;"></div>
 
 <h4 align="center">Cluster 3: Super-Jupiters and Brown-Dwarfs </h4>
@@ -376,7 +378,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
         <!-- Content for the left half goes here -->
        <p>This cluster contains exoplanets with enormous masses and radii. These could be:</p>
     <ul>
-      <li><strong>Super-Jupiters</strong></li> given their clear superior size to Jupiter.
+      <li><strong>Super-Jupiters</strong> given their clear superior size to Jupiter.</li>
       <li> <strong>Brown-Dwarfs</strong>, whose tend to have a mass-to-Earth ratio between 4,000 to 25,000. In fact, the the entire cluster falls in this regime.</li>
     </ul>
     </div>
@@ -384,11 +386,11 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 <div style="height: 20px;"></div>
 
 <p>Brown dwarfs are particularly fascinating because they lie in an area of classification between planets and stars by exhibiting properties of both. Usually brown dwarfs are born like stars, large enough to collapse under their own gravity, but usually fail to become large enough to sustain the nuclear fusion of hydrogen. For this reason they're often a hotly debated topic in terms of classification.</p>
+
 <div style="height: 20px;"></div>
 
 <h4 align="center">Cluster 4: Super-Jupiters</h4>
 
-<div style="height: 20px;"></div>
 <div class="container-table">
     <div class="half-table">
         <!-- Image for the left half goes here -->
@@ -396,16 +398,23 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
     </div>
     <div class="half-table">
         <!-- Content for the right half goes here -->
-        <p>This also appears to fall into the Super-Jupiter category. The maximum just touches on the Brown-Dwarf category. So these may be considered as Super-Jupiters. </p>
+        <p>Most likely these are: </p>
+      <ul>
+        <li><strong>Super-Jupiters</strong> given their clear superior size to Jupiter.</li>
+      </ul>
     </div>
 </div>
 <div style="height: 20px;"></div>
+
+<p>I would also take note the amount of range in this cluster, like cluster three. I would be surprised to expect Planets with radii of 3 and 35 to share many inherent qualities. This also appears to fall into the Super-Jupiter category. The maximum just touches on the Brown-Dwarf category. So these may be considered as Super-Jupiters.</p>
+
+<h4>Reflection and final observations</h4>
 
 <p>I would say that though the clustering cleary identified some relevant patterns, it did not create a neat categorization. But perhaps it was unrealistic to expect such a classification.</p>
 
 <p>One option could be adding more features. Adding orbital-related features could help, since it is well-known that the distance of planets from their host stars often correlates with the planet's geologic properties.</p>
 
-<p>Another perspective takes a larger scope - why are planet classifications so important? Scientists agree consistently on what a planet even is, and the most we discover the diversity of exoplanets the less neatly things fit into categories. One criticism is also that by using categories like Super-Earths or Sub-Neptunes, we base planets on our heliocentric conception of the universe. Our current categorizations don' take into account the vast diversity in planets that exceed Jupiter's size.</p>
+<p>Another perspective takes a larger scope - why are planet classifications so important? Scientists agree consistently on what a planet even is, and the most we discover the diversity of exoplanets the less neatly things fit into categories. One criticism is also that by using categories like Super-Earths or Sub-Neptunes, we base planets on our heliocentric conception of the universe. Classifying a planet based on the ones in our Solar System doesn't lead to categories that actually reflect statistical trends in the universe. Our current categorizations don' take into account the vast diversity in planets that exceed Jupiter's size.</p>
 
 
 <h3 align="center">Resources</h3>
