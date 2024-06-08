@@ -308,8 +308,6 @@ table th:first-child {
 .container-table {
     display: flex;
     flex-direction: row;
-    height: 100vh; /* Full screen height */
-    overflow-x: auto; /* Horizontal scroll */
 }
 
 
