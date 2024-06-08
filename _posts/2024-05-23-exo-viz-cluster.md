@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Worlds Beyond - Visualization and Clustering of NASA Exoplanet Data
+title: Worlds Beyond - Visualizing and Clustering NASA Exoplanet Data
 date: 2024-05-23
 tags: [projects, tech, data science, visualization, machine learning, kmeans]
 image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
 
-<p align="center"> <em> This post marks the beginning of my new personal website, where I'm excited to share more about my work in data science, data analysis and  ideas at large that inspire me.</em> </p>
+<p align="center"> <em> This post marks the beginning of my new personal website, where I'll to share more about my ventures in data science and analysis and ideas at large that inspire me.</em> </p>
 
 <hr>
 <div style="height: 20px;"></div>
@@ -43,25 +43,15 @@ This project peers into exoplanet science through the lens of data. I grab from 
 <h3 align="center">Background</h3> 
 <div style="height: 20px;"></div>
 
-<p>When we talk about space, we usually think of the night sky, stars light up. We don't usually think of planets beyond our Solar System. But the study of exoplanets - planets beyond our Solar System - is a crucial gateway to discovering and confirming the existence of extraterrestrial life. And advances in this field are only just gearing up</p>
+Our popular conception of space is dominated by stars. Understandably though. Not to get poetic and all, but for as long there's been life on Earth, we've gazed at the night sky. Stars are an intrinsic part of our societies, woven into our religions, and even fill out the awkward dinner conversation. </p>
 
-<p>Exoplanet science is younger than most other astronomical sciences because, for one, we've known about exoplanets for little time, the first exoplanet discovery was in 1992. Many recent projects have upped the research on exoplanets: </p>
-<ul>
+<p>Planets, on the other hand, just don't get the same notoriety The nine we know well certainly do. But the planets outside our Solar System, what are called <strong>exoplanets</strong> or <strong>extrasolar planets</strong>, do not (aside from the odd [Vulcan](https://earthsky.org/space/vulcan-hd-26965-b-exoplanets-star-trek/) reference.)</p>
 
-  <li>
-    At NASA, the <strong>James Webb Telescope</strong> brings in tools capable of exoplanet detection through high-precision spectroscopic observations.
-  </li>
-  <li>
-    In 2027, NASA's <strong>Nancy Grace Roman Telescope</strong> is expected to introduce new exoplanet capabilities using a state-of-the-art coronagraph—a device that can block light from stars to observe neighboring bodies.
-  </li>
-  <li>
-    Further down the horizon, NASA is also working on a flagship project called the <strong>Habitable Worlds Observatory</strong> an  ultraviolet telescope being designed specifically to study habitable exoplanets.
-  </li>
-  <li>
-    Contributions elsewhere include <strong>China's Earth 2.0 Space mission</strong>, which will also focus on planet habitability.
-  </li>
-</ul>
-<p></p>With the relative youth of the domain paired with the rapid technological advances, our discovery exoplanets sees new heights every year. </p>
+<p>I would argue that this view is changing, though. Most astronomers recognize something invaluable that the study of exoplanets could offer - confirming the existence of extraterrestrial life. Many experts would say we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique. But it's one thing to know the probability of extraterrestrial life, and another to confirm; ask the (U.S. Congress)[https://www.nytimes.com/2023/07/26/us/politics/ufo-hearing.html].
+  
+Projects such as <strong>China's Earth 2.0 Space mission</strong> or NASA's projected 2040 <strong>Habitable Worlds Observatory</strong> focus squarely on this mission - investigating exoplanets that could host life. Whether these inquiries are driven by pure curiosity or deep-rooted cynicism about our own survivability on this planet, Earth 1.0, is a question for another day.</p>
+
+<p> With the relative youth of the domain paired with the amount, our discovery exoplanets sees new heights every year. This projects leans into this curiosity.</p>
 
 <div style="height: 20px;"></div>
 
@@ -120,6 +110,7 @@ After removing the first few columns we obtain a preliminary look at our first d
 </p>
 <div style="height: 20px;"></div>
 
+Exoplanet science is young in comparison to most other astronomical sciences. For one, we've known about exoplanets for little time the first exoplanet discovery being in 1992,
 
 
 
