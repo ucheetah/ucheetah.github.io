@@ -68,24 +68,7 @@ From the parameter table documentation for this dataset I chose a small set of v
 </figure>
 <div style="height: 20px;"></div>
 
-<div style="height: 20px;"></div>
-<h5>Querying data</h5>
-<div style="height: 20px;"></div>
-
-To query this data we use the NASA's <strong>Table Access Protocol (TAP)</strong>. I've written a short SQL (technically AQDL) queries which paired with Python's <code>requests</code> package grabs these columns:
-
-<p align="center">
-  <code>
-  <strong>SELECT pl_name, sy_dist, pl_rade, pl_masse FROM ps</strong>
-</code>
-</p>
-
-You may consult my notebook for the full process.
-<div style="height: 20px;"></div>
-<h5>Raw data summary</h5>
-<div style="height: 20px;"></div>
-
- I've grabbed the following planet features:
+You may consult my notebook for the full process. To query this data we use the NASA's <strong>Table Access Protocol (TAP)</strong>. I've written a short SQL (technically AQDL) queries which paired with Python's <code>requests</code> package grabs these columns. I've extracted the following features:
 
 <ul>
   <li><strong>Planet name</strong> as <code>pl_name</code></li>
@@ -95,6 +78,7 @@ You may consult my notebook for the full process.
  <li><strong>Discovery method</strong> as <code>discoverymethod</code></li>
   <li><strong>Discovery year</strong> as <code>disc_year</code></li>
 </ul>
+
 After removing the first few columns we obtain a preliminary look at our first data points. The format of these tables is drawn from <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank" style="color: #573259;"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank" style="color: #573259;">How to create custom tables</a></strong>.
 
 <div style="height: 20px;"></div>
@@ -105,7 +89,7 @@ After removing the first few columns we obtain a preliminary look at our first d
 </p>
 <div style="height: 20px;"></div>
 
-Exoplanet science is young in comparison to most other astronomical sciences. For one, we've known about exoplanets for little time the first exoplanet discovery being in 1992,
+Exoplanet science is young in comparison to most other astronomical sciences. For one, we've known about exoplanets for little time the first exoplanet discovery being in 1992.
 
 
 
@@ -125,7 +109,7 @@ Exoplanet science is young in comparison to most other astronomical sciences. Fo
 
 <h3 align="center">Visualization and Analysis</h3>
 <div style="height: 20px;"></div>
-Next we will move to visualizing the data we have. Some processing has been omitted here and can be see nin my notebooks. 
+Next we will move to visualizing the data we have. Some processing has been omitted here and can be seen in my notebooks. 
 
 I've opted for this project to use <code>matplotlib</code> and <code>seaborn</code>, tools which are sometimes portrayed as lacking in complexity or aesthetic quality. I wanted to develop graphs that still feel dynamic and engaging. I also employed lesser used matplotlib tools such as 3D graphs, tables and style sheets.
 
