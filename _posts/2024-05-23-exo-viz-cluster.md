@@ -20,8 +20,6 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
   
 <p>Projects such as <strong>China's Earth 2.0 Space mission</strong> or NASA's projected 2040 <strong>Habitable Worlds Observatory</strong> focus squarely on this mission - investigating exoplanets that could host life. Whether these inquiries are driven by pure curiosity or deep-rooted cynicism about our own survivability on this planet, Earth 1.0, is a question for another day.</p>
 
-<p> With the relative youth of the domain paired with the amount, our discovery exoplanets sees new heights every year. This projects leans into this curiosity.</p>
-
 This project peers into exoplanet science through the lens of data. I grab from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong> dataset provided by the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong> on which I'll visualize and perform unsupervised learning through a k-means clustering algorithm.
 
 <h5 align="center"> Project summary</h5>
