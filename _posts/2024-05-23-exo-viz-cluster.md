@@ -334,7 +334,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 <h5 align="center">Cluster 1: Super-Earths, Sub-Neptunes and Super-Neptunes</h5>
 <div class="container-table">
     <div class="half-table">
-        <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="450" style="border: 3px solid #573259; border-radius: 3px;"></a>
+        <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
     <div class="half-table">
         <!-- Content for the left half goes here -->
@@ -353,7 +353,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 <h5 align="center">Cluster 2: Super-Neptunes/Super-Jupiters</h5>
 <div class="container-table">
     <div class="half-table">
-        <a href="/assets/img/2024-05-24-exoplanets-H2.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H2.svg" width="450" style="border: 3px solid #573259; border-radius: 3px;"></a>
+        <a href="/assets/img/2024-05-24-exoplanets-H2.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H2.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
     <div class="half-table">
         <!-- Content for the right half goes here -->
@@ -370,7 +370,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 <div class="container-table">
     <div class="half-table">
         <!-- Image for the right half goes here -->
-        <a href="/assets/img/2024-05-24-exoplanets-H3.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H3.svg" width="450" style="border: 3px solid #573259; border-radius: 3px;"></a>
+        <a href="/assets/img/2024-05-24-exoplanets-H3.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H3.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
   <div class="half-table">
         <!-- Content for the left half goes here -->
@@ -387,10 +387,12 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 <div style="height: 20px;"></div>
 
 <h5 align="center">Cluster 4: Super-Jupiters</h5>
+
+<div style="height: 20px;"></div>
 <div class="container-table">
-    <div class="left-half">
+    <div class="half-table">
         <!-- Image for the left half goes here -->
-        <a href="/assets/img/2024-05-24-exoplanets-H4.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H4.svg" width="450" style="border: 3px solid #573259; border-radius: 3px;"></a>
+        <a href="/assets/img/2024-05-24-exoplanets-H4.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H4.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
     <div class="half-table">
         <!-- Content for the right half goes here -->
