@@ -12,8 +12,6 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 <hr>
 <div style="height: 20px;"></div>
 
-When we talk about space, we usually think of the night sky, stars light up. We don't usually think of planets beyond our Solar System. But the study of exoplanets - planets beyond our Solar System - is a crucial gateway to discovering and confirming the existence of extraterrestrial life. 
-
 This project peers into exoplanet science through the lens of data. I grab from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong> dataset provided by the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong> on which I'll visualize and perform unsupervised learning through a k-means clustering algorithm.
 
 <h5 align="center"> Project summary</h5>
@@ -45,7 +43,9 @@ This project peers into exoplanet science through the lens of data. I grab from 
 <h3 align="center">Background</h3> 
 <div style="height: 20px;"></div>
 
-<p>Since exoplanet science is younger than most other astronomical sciences This is because, for one, we've known about exoplanets for little time, the first exoplanet discovery was in 1992. Many recent projects have upped the research on exoplanets: </p>
+<p>When we talk about space, we usually think of the night sky, stars light up. We don't usually think of planets beyond our Solar System. But the study of exoplanets - planets beyond our Solar System - is a crucial gateway to discovering and confirming the existence of extraterrestrial life. And advances in this field are only just gearing up</p>
+
+<p>Exoplanet science is younger than most other astronomical sciences because, for one, we've known about exoplanets for little time, the first exoplanet discovery was in 1992. Many recent projects have upped the research on exoplanets: </p>
 <ul>
 
   <li>
@@ -418,7 +418,9 @@ These appear to contain a large amount of relatively moderately-sized planets. A
   <li><strong>Clustering is difficult for badly defined categories</strong> - There are some quntitative metrics for planet categories, but most exoplanets do not fit into neat categories.</li>
 </ul>
 
-<h4>Are exoplanet categorizations even scientific?</h4>
+<h4>Questioning our existing categorizations</h4>
+<div style="height: 20px;"></div>
+
 <p>Expanding on this last point, there's criticism to be had on the way in which we base planet categorizations on known objects in our Solar System. This in essence a type of heliocentrism; we group planets in the Universe based on historical observations and our local knowledge of the Universe, not fundamental qualities possessed by planets. In this sense, there a fundamental astronomical difference between a Sub-Neptune and a Super-Neptune aside from it's relative size to Neptune? There is reason to take issues with these groups on scientific grounds. </p>
 
 
