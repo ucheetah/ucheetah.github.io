@@ -7,10 +7,20 @@ image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
 
-<p align="center"> <em> This post marks the beginning of my new personal website, where I'll to share more about my ventures in data science and analysis and ideas at large that inspire me.</em> </p>
+<p align="center"> <em> This post marks the beginning of my new personal website, where I'll be share my ventures in data science, tech and their intersection with everything else. Hope to share ideas at large that inspire me.</em> </p>
 
 <hr>
 <div style="height: 20px;"></div>
+
+<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic and all, but for as long there's been life on Earth, we've gazed at the night sky. Stars are an intrinsic part of our societies, woven into our religions, and even fill out the awkward dinner conversation. </p>
+
+<p>Planets, on the other hand, just don't get the same notoriety The nine we know well certainly do. But the planets outside our Solar System, what are called <strong>exoplanets</strong> or <strong>extrasolar planets</strong>, do not (aside from the odd <a href="https://earthsky.org/space/vulcan-hd-26965-b-exoplanets-star-trek/">Vulcan</a> reference.)</p>
+
+<p>I would argue that this view is changing, though. Most astronomers recognize something invaluable that the study of exoplanets could offer - confirming the existence of extraterrestrial life. Many experts would say we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique. But it's one thing to know the probability of extraterrestrial life, and another to confirm; ask <a href="https://www.nytimes.com/2023/07/26/us/politics/ufo-hearing.html">U.S. Congress</a>.</p>
+  
+<p>Projects such as <strong>China's Earth 2.0 Space mission</strong> or NASA's projected 2040 <strong>Habitable Worlds Observatory</strong> focus squarely on this mission - investigating exoplanets that could host life. Whether these inquiries are driven by pure curiosity or deep-rooted cynicism about our own survivability on this planet, Earth 1.0, is a question for another day.</p>
+
+<p> With the relative youth of the domain paired with the amount, our discovery exoplanets sees new heights every year. This projects leans into this curiosity.</p>
 
 This project peers into exoplanet science through the lens of data. I grab from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong> dataset provided by the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong> on which I'll visualize and perform unsupervised learning through a k-means clustering algorithm.
 
@@ -40,18 +50,6 @@ This project peers into exoplanet science through the lens of data. I grab from 
 
 <div style="height: 20px;"></div>
 
-<h3 align="center">Background</h3> 
-<div style="height: 20px;"></div>
-
-Our popular conception of space is dominated by stars. Understandably though. Not to get poetic and all, but for as long there's been life on Earth, we've gazed at the night sky. Stars are an intrinsic part of our societies, woven into our religions, and even fill out the awkward dinner conversation. </p>
-
-<p>Planets, on the other hand, just don't get the same notoriety The nine we know well certainly do. But the planets outside our Solar System, what are called <strong>exoplanets</strong> or <strong>extrasolar planets</strong>, do not (aside from the odd [Vulcan](https://earthsky.org/space/vulcan-hd-26965-b-exoplanets-star-trek/) reference.)</p>
-
-<p>I would argue that this view is changing, though. Most astronomers recognize something invaluable that the study of exoplanets could offer - confirming the existence of extraterrestrial life. Many experts would say we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique. But it's one thing to know the probability of extraterrestrial life, and another to confirm; ask the (U.S. Congress)[https://www.nytimes.com/2023/07/26/us/politics/ufo-hearing.html].
-  
-Projects such as <strong>China's Earth 2.0 Space mission</strong> or NASA's projected 2040 <strong>Habitable Worlds Observatory</strong> focus squarely on this mission - investigating exoplanets that could host life. Whether these inquiries are driven by pure curiosity or deep-rooted cynicism about our own survivability on this planet, Earth 1.0, is a question for another day.</p>
-
-<p> With the relative youth of the domain paired with the amount, our discovery exoplanets sees new heights every year. This projects leans into this curiosity.</p>
 
 <div style="height: 20px;"></div>
 
