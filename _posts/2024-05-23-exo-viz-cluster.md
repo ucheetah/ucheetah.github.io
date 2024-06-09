@@ -115,15 +115,15 @@ I've used <strong><code>matplotlib</code></strong> and <strong><code>seaborn</co
 <h4>Discovery method</h4>
 <div style="height: 20px;"></div>
 
-<p>The discovery of exoplanets in itself is interesting. Since exoplanets are fundamentally harder to detect than other bodies like stars, it's required the development of complex methods using rich spectroscopic data to find new exoplanets:</p>
+<p>The discovery of exoplanets in itself is interesting. Since exoplanets are fundamentally harder to detect than other bodies like stars, finding them has required the development of complex methods using fine-grained spectroscopic data:</p>
 
 <ul>
-  <li>The <strong>transit method</strong> tracks the shift in light as an exoplanet crosses a visible star, created a "mini-eclipse" with Earth.</li>
+  <li>The <strong>transit method</strong> tracks the shift in light as an exoplanet crosses a visible star, creating a "mini-eclipse" with the Earth.</li>
   <li>The <strong>radial velocity method</strong> tracks shifts in a star's motion due to the gravitational pull of an orbiting exoplanet.</li>
-  <li>The <strong>microlensing</strong> technique tracks distorsions of light as large exoplanets pass in front of a star.</li>
+  <li>The <strong>microlensing</strong> method tracks distorsions of light as large exoplanets pass in front of a star.</li>
 </ul>
 
-<p>I've tracked the growth of exoplanet discoveries since the first in 1992. Observational cosmologist <a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">Chris Impey</a> stated that that the growth of discovery of the planets is comparable to internet technology during the Dotcom bubble. Here that growth is on full display:</p> 
+<p>I've tracked the evolution in exoplanet discoveries since the first in 1992. Along the lines of observational cosmologist <strong><a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">Chris Impey's</a></strong> perspective, the rapid discovery of exoplanets is comparable to the explosive growth of internet technology during the Dotcom bubble, and that growth is on full display:</p> 
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -138,8 +138,6 @@ I've used <strong><code>matplotlib</code></strong> and <strong><code>seaborn</co
   <li>Some years, such as 2016, have seen enormous numbers of exoplanet discoveries. </li>
   <li>The transit method is clearly the most successful discovery method.</li>
 </ul>
-
-
 
 <div style="height: 20px;"></div>
 <h4>Distance from Earth</h4>
