@@ -7,12 +7,12 @@ image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
 
-<p align="center"> <em> This post and projects marks the beginning of my new personal website. I'll be sharing ideas and creations in data science that drive me. My first project is purely created out my curiosity for astronomical science and to hone some core data science toolkit skills.</em> </p>
+<p align="center"> <em> This post and projects marks the beginning of my new personal website. I'll be sharing ideas and creations in data science that drive me. My first project was created purely out my curiosity for astronomical science and to, as always, hone my skills as a data scientist.</em> </p>
 
 <hr>
 <div style="height: 20px;"></div>
 
-This project peers into exoplanet science through the lens of data. I grab from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank"> Planetary Systems</a></strong> dataset provided by the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">NASA exoplanets archive</a> </strong> on which I'll visualize and perform unsupervised learning through a k-means clustering algorithm.
+<p>This project peers into exoplanet science through the lens of data. I grab a dataset from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">NASA exoplanets archive</a> </strong> on which I'll explore, visualize and perform unsupervised learning through a k-means clustering algorithm.</p>
 
 <h3 align="center"> Project summary</h3>
 <div style="height: 10px;"></div>
@@ -30,7 +30,7 @@ This project peers into exoplanet science through the lens of data. I grab from 
   </tr>
   <tr>
     <td width=150><strong>Techniques</strong></td>
-    <td>Data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning (clustering)</td>
+    <td>Data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning, unsupervised learning, k-means clustering,</td>
   </tr>
   <tr>
     <td width=150><strong>Project GitHub</strong></td>
@@ -38,7 +38,7 @@ This project peers into exoplanet science through the lens of data. I grab from 
   </tr>
     <tr>
     <td width=150><strong>Personal Goals</strong></td>
-    <td> Practice communicating insights from a complex scientific domain. Enhance visualization techniques and aesthetic sensibility. Work with unsupervised learning methodologies. Hone GitHub workflow. Create this website.</td>
+    <td> Exercise communicating insights from a complex scientific domain. Enhance visualization techniques and aesthetic sensibility. Work with unsupervised learning methodologies. Hone GitHub workflow. Create GitHub Pages website.</td>
   </tr>
 </table>
 
@@ -46,19 +46,18 @@ This project peers into exoplanet science through the lens of data. I grab from 
 <h3 align="center"> Background</h3>
 <div style="height: 20px;"></div>
 
-<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. The nine we know well certainly do. But the planets outside our Solar System, <strong>extrasolar planets</strong> or more commonly <strong>exoplanets</strong> tend not to</p>
+<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. The nine we know well certainly do. But the planets outside our Solar System, extrasolar planets, or more commonly <strong>exoplanets</strong>, tend not to</p>
 
-<p>I would argue that this view is changing though. Most astronomers recognize something invaluable that the study of exoplanets could offer - confirming the existence of extraterrestrial life. Many experts would say we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique. Projects such as <strong>China's Earth 2.0 Space mission</strong> or NASA's projected 2040 <strong>Habitable Worlds Observatory</strong> focus squarely on this mission. Whether these inquiries are driven by pure curiosity or deep-rooted cynicism about our own survivability on this planet, Earth 1.0, is a question for another day.</p>
+<p>I would argue that this view is changing though. Most astronomers recognize something invaluable that exoplanet offers offers - confirming the existence of extraterrestrial life. Many physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique. Exoplanet projects such as <strong>China's Earth 2.0 Space mission</strong> or NASA's projected 2040 <strong>Habitable Worlds Observatory</strong> focus squarely on this mission. Whether these inquiries are driven by pure curiosity or deep-rooted cynicism about our own survivability on this planet, Earth 1.0, is a question for another day.</p>
 
-<p>I decided to inquire into this sub-domain by investigating the existing data. I'll be performing some exploratory data analysis on an exoplanet dataset provided by NASA. I wanted to challenge myself on the visualization front - rendering graphs that are dynamic and give big picture takeaways. I'll also be conducting a k-means clustering algorithm on the data allowing me to explore and reflect on unsupervised learning. Lastly, to explore astronomical science - as a physics background I never got much 'astro' in, so perhaps this is a ______.</p>
+<p>This project investigates the existing data on exoplanets. I'll <strong>perform exploratory data analysis</strong> on an exoplanet dataset provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that are dynamic and give big picture takeaways. Then, I'll <strong>conduct unsupervised learning</strong> - a k-means clustering algorithm - on the data and compare it to existing exoplanet classifications.</p>
 
 <div style="height: 20px;"></div>
 
 <h3 align="center">Data collection and cleaning</h3> 
 <div style="height: 20px;"></div>
 
-I will draw data from the NASA exoplanets archive, a collaboration between Caltech and NASA under its Exoplanet Exploration Program.
-From the parameter table documentation for this dataset I chose a small set of values from the dataset that are likely to be of biggest interest. 
+<p>I will work with the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank"> Planetary Systems</a></strong> dataset from the NASA exoplanets archive, a collaboration between Caltech and NASA under its Exoplanet Exploration Program.From the parameter table documentation for this dataset I chose a small set of values from the dataset that are likely to be of biggest interest. </p>
 
 <div style="height: 20px;"></div>
 
@@ -70,7 +69,7 @@ From the parameter table documentation for this dataset I chose a small set of v
 </figure>
 <div style="height: 20px;"></div>
 
-You may consult my notebook for the full process. To query this data we use the NASA's <strong>Table Access Protocol (TAP)</strong>. I've written a short SQL (technically AQDL) queries which paired with Python's <strong><code>requests</code></strong> package grabs these columns. I've extracted the following features:
+You may consult my notebook for the full process. To query this data we use the NASA's <strong>Table Access Protocol (TAP)</strong>. I've written a short SQL (technically AQDL) queries that I've used with Python's <strong><code>requests</code></strong>s. I've extracted the following features:
 
 <ul>
   <li><strong>Planet name</strong> as <code>pl_name</code></li>
@@ -91,7 +90,7 @@ After removing the first few columns we obtain a preliminary look at our first d
 </p>
 <div style="height: 20px;"></div>
 
-Exoplanet science is young in comparison to most other astronomical sciences. For one, we've known about exoplanets for little time the first exoplanet discovery being in 1992.
+We can observe that there are 5638 confirmed exoplanets. The first exoplanet discovery being in 1992 - exoplanet science is young compared to most other astronomical sciences. There is an enormous diversity in distance (4 to 25k light years), mass (0.4 to 10k times Earth's mass) and radius (0.3 to 77.3 times Earth's radius).
 
 
 
@@ -111,22 +110,22 @@ Exoplanet science is young in comparison to most other astronomical sciences. Fo
 
 <h3 align="center">Visualization and Analysis</h3>
 <div style="height: 20px;"></div>
-Next we will move to visualizing the data we have. Some processing has been omitted here and can be seen in my notebooks. 
+Next I'll visualize the data. Here I show outputs - for pre-processing and graphs consult my notebook and/or scripts. 
 
-I've opted for this project to use <strong><code>matplotlib</code></strong> and <strong><code>seaborn</code></strong>, tools which are sometimes portrayed as lacking in complexity or aesthetic quality. I wanted to develop graphs that still feel dynamic and engaging. I also employed lesser-used tools such as 3D graphs, matplotlib tables and stylesheets.
+I've used <strong><code>matplotlib</code></strong> and <strong><code>seaborn</code></strong>. These are at times criticized as lacking in complexity or aesthetic quality. I wanted to develop graphs that still feel dynamic and engaging and employ lesser-used tools such as 3D graphs, matplotlib tables and stylesheets.
 
 <h4>Discovery method</h4>
 <div style="height: 20px;"></div>
 
-<p>The discovery of planets in themselves is an interesting subject because exoplanets are fundamentally harder to detect than other celestial objects such as stars. Scientists have needed to develop complex indirect methods requiring a rich spectroscopic data to find their targets:</p>
+<p>The discovery of exoplanets in itself is interesting. Since exoplanets are fundamentally harder to detect than other bodies like stars, it's required the development of complex methods using rich spectroscopic data to find new exoplanets:</p>
 
 <ul>
-  <li>The <strong>transit method</strong> tracks the shift in light exoplanet crosses a star's rays from our line of vision.</li>
-  <li>The <strong>radial velocity method</strong> - tracks the gravity-induced shifts of a star from it's surrounding planets.</li>
-  <li>The <strong>microlensing</strong> technique tracks the bending of light as large exoplanets pass in front of a star.</li>
+  <li>The <strong>transit method</strong> tracks the shift in light as an exoplanet crosses a visible star, created a "mini-eclipse" with Earth.</li>
+  <li>The <strong>radial velocity method</strong> tracks shifts in a star's motion due to the gravitational pull of an orbiting exoplanet.</li>
+  <li>The <strong>microlensing</strong> technique tracks distorsions of light as large exoplanets pass in front of a star.</li>
 </ul>
 
-I've tracked the growth of exoplanet discoveries - highlighting the three most successful - since the first discovery.
+<p>I've tracked the growth of exoplanet discoveries - highlighting the three most successful - since the first discovery. Observational cosmologist <a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">Chris Impey</a> stated that that the growth of discovery of the planets is comparable to internet technology during the Dotcom bubble. Here that growth is on full display:</p> 
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -139,10 +138,10 @@ I've tracked the growth of exoplanet discoveries - highlighting the three most s
 <ul>
   <li>There's a clear increase in discoveries over the past decade.</li>
   <li>Some years, such as 2016, have seen enormous numbers of exoplanet discoveries. </li>
-  <li>The <strong>transit method</strong> is clearly the most successful discovery method.</li>
+  <li>The transit method is clearly the most successful discovery method.</li>
 </ul>
 
-<p> Observational cosmologist Chris Impey mentioned in a recent <a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">lecture</a> that the growth of discovery of the planets is comparable to the development of internet technology and telephones seen during the Dotcom bubble.</p> 
+
 
 <div style="height: 20px;"></div>
 <h4>Distance from Earth</h4>
@@ -237,6 +236,8 @@ However planets differ greatly in their compositions and densities so we would e
 <div style="height: 20px;"></div>
 
 <p>To better assess the influx of planets we're finding, a number of different categorizations exist for ... With radius and mass alone "we can see compositions ranging from rocky (like Earth and Venus) to gas-rich (like Jupiter and Saturn)".</p>
+
+<p>We group data based on their features in to a number of categories. We call it unsupervised because have no prior data on how to categorize the data. This method is most powerful when we do not have existing data to train the model on how to classify</p>
 
 <p>I Since this dataset does not provide existing classifications of planets, I will be performing unsupervised learning.</p>
 
