@@ -74,7 +74,7 @@ You may consult my notebook for the full process. I've queried data from NASA's 
 </figure>
 <div style="height: 10px;"></div>
 
-Here's a preliminary summary of this data (note that 25%, 50% and 75% refer to percentiles): 
+Here's a preliminary summary of this data. The table lists counts of each column (counts below 5638 indicates missing data), minimum and maximum values, and 25th, 50th and 75th percentiles: 
 
 <div style="height: 10px;"></div>
 <p align="center">
