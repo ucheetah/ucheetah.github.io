@@ -44,7 +44,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 
 <p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. The nine we know well certainly do. But the planets outside our Solar System, extrasolar planets, or more commonly <strong>exoplanets</strong>, tend not to</p>
 
-<p>I would argue that this view is changing though. Most astronomers recognize something invaluable that exoplanet offers offers - confirming the existence of extraterrestrial life. Many physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique. Exoplanet projects such as <strong>China's Earth 2.0 Space mission</strong> or NASA's projected 2040 <strong>Habitable Worlds Observatory</strong> focus squarely on this mission. Whether these inquiries are driven by pure curiosity or deep-rooted cynicism about our own survivability on this planet, Earth 1.0, is a question for another day.</p>
+<p>I would argue that this view is changing though. Most astronomers recognize something invaluable that exoplanet offers offers - confirming the existence of extraterrestrial life. Many physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique.</p>
 
 <p>This project investigates the existing data on exoplanets. I'll <strong>perform exploratory data analysis</strong> on an exoplanet dataset provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that are dynamic and give big picture takeaways. Then, I'll <strong>conduct unsupervised learning</strong> - a k-means clustering algorithm - on the data and compare it to existing exoplanet classifications.</p>
 
@@ -65,18 +65,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 </figure>
 <div style="height: 10px;"></div>
 
-You may consult my notebook for the full process. To query this data I've used used SQL and Python's <strong><code>requests</code></strong> to grab from the NASA's <strong>Table Access Protocol (TAP)</strong> (essentially NASA's API). I've extracted the following features:
-
-<ul>
-  <li><strong>Planet name</strong> as <code>pl_name</code></li>
-  <li><strong>Planet radius</strong> as <code>pl_rade</code></li>
-  <li><strong>Planet mass</strong> as <code>pl_masse</code></li>
-  <li><strong>Distance from Earth</strong> as <code>sy_dist</code></li>
- <li><strong>Discovery method</strong> as <code>discoverymethod</code></li>
-  <li><strong>Discovery year</strong> as <code>disc_year</code></li>
-</ul>
-
-After removing the first few columns we obtain a preliminary summary of the data. Note that 25%, 50% and 75% refer to percentiles: 
+You may consult my notebook for the full process. To query this data I've used used SQL and Python's <strong><code>requests</code></strong> to grab from the NASA's <strong>Table Access Protocol (TAP)</strong> (essentially NASA's API). Because there were so many to chose from I extracted <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters to explore. After some pre-processing we obtain a preliminary summary of the data. Note that 25%, 50% and 75% refer to percentiles: 
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -88,8 +77,9 @@ After removing the first few columns we obtain a preliminary summary of the data
 
 <strong>Observation(s):</strong>
 <ul>
-  <li>The first exoplanet was found in 1992. - Exoplanet science is still in it's infancy</li>
-  <li>There is a remarkable diversity in planet characteristics - distance (4 to 25k light years), mass (0.4 to 10k times Earth's mass) and radius (0.3 to 77.3 times Earth's radius).</li>
+  <li>Exoplanet science is young - the first exoplanet was found in 1992. Interestingly though, only an exoplanet discovery three years later would snatch a <a href="https://www.insidescience.org/news/all-exoplanets-came-1995">Nobel Prize (it's always political)</a>
+</li>
+  <li>There is a surreal amount of diversity in planet characteristics - planets from 4 to 25k light years, 0.4 to 10k times Earth's mass and 0.3 to 77.3 times Earth's radius.</li>
 </ul>
 With this first glimpse let's dive in deeper.
 
@@ -108,9 +98,9 @@ With this first glimpse let's dive in deeper.
 <div style="height: 20px;"></div>
 <h3 align="center">Visualization and Analysis</h3>
 <div style="height: 20px;"></div>
-Next I'll visualize the data. I'll only be showing outputs, for pre-processing details and graph construction consult my notebook and/or scripts. 
+Next I'll visualize the data. I'll only be showing outputs. For pre-processing details and graph construction consult my notebook and/or scripts. 
 
-I've used <strong><code>matplotlib</code></strong> and <strong><code>seaborn</code></strong>. I wanted to challenge the notion that these packages lack in complexity or aesthetic quality by developing graphs that still feel dynamic and engaging, and employ lesser-used tools such as 3D graphs, matplotlib tables and stylesheets.
+I've used <strong><code>matplotlib</code></strong> and <strong><code>seaborn</code></strong>. I wanted to challenge the notion that these packages lack in complexity or aesthetic quality by developing graphs that still feel dynamic and engaging, and employing lesser-used tools such as 3D graphs, matplotlib tables and stylesheets.
 
 <div style="height: 20px;"></div>
 <h4>Discovery method</h4>
@@ -124,7 +114,7 @@ I've used <strong><code>matplotlib</code></strong> and <strong><code>seaborn</co
   <li>The <strong>microlensing</strong> technique tracks distorsions of light as large exoplanets pass in front of a star.</li>
 </ul>
 
-<p>I've tracked the growth of exoplanet discoveries - highlighting the three most successful - since the first discovery. Observational cosmologist <a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">Chris Impey</a> stated that that the growth of discovery of the planets is comparable to internet technology during the Dotcom bubble. Here that growth is on full display:</p> 
+<p>I've tracked the growth of exoplanet discoveries since the first in 1992. Observational cosmologist <a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">Chris Impey</a> stated that that the growth of discovery of the planets is comparable to internet technology during the Dotcom bubble. Here that growth is on full display:</p> 
 
 <div style="height: 20px;"></div>
 <p align="center">
