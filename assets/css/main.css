@@ -239,6 +239,10 @@ a{
   color:#573259;  
 }
 
+a:hover {
+  color: #4a538a; /* Change to the color you want */
+}
+
 abbr[title]{
   border-bottom:none;
   text-decoration:underline dotted
