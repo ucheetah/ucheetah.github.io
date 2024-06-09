@@ -55,25 +55,32 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 
 <p>I will work with the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank"> Planetary Systems</a></strong> dataset from the NASA exoplanets archive, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. The dataset records data on each of the 5638 confirmed exoplanets.</p>
 
-<div style="height: 10px;"></div>
-
 <figure style="text-align: center;">
    <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">
       <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" alt="NASA Homepage">
     </a>
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
+
+You may consult my notebook for the full process. To query this data I've used used SQL and Python's <strong><code>requests</code></strong> to grab from the NASA's <strong>Table Access Protocol (TAP)</strong> (essentially NASA's API). Because there were so many to chose from I extracted <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters to explore. After some basic pre-processing here's an unvarnished look at our raw data:
+
+<div style="height: 10px;"></div>
+<p align="center">
+  <a href="/assets/img/exoplanet-raw-table.png" target="_blank">
+  <img src="/assets/img/exoplanet-raw-table.png"  width="600" alt="Exoplanet raw dataset">
+  </a>
+</p>
 <div style="height: 10px;"></div>
 
-You may consult my notebook for the full process. To query this data I've used used SQL and Python's <strong><code>requests</code></strong> to grab from the NASA's <strong>Table Access Protocol (TAP)</strong> (essentially NASA's API). Because there were so many to chose from I extracted <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters to explore. After some pre-processing we obtain a preliminary summary of the data. Note that 25%, 50% and 75% refer to percentiles: 
+Here's a preliminary summary of this data (note that 25%, 50% and 75% refer to percentiles): 
 
-<div style="height: 20px;"></div>
+<div style="height: 10px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-C.svg" target="_blank">
   <img src="/assets/img/2024-05-24-exoplanets-C.svg"  width="600" alt="Graph C">
   </a>
 </p>
-<div style="height: 20px;"></div>
+<div style="height: 10px;"></div>
 
 <strong>Observation(s):</strong>
 <ul>
