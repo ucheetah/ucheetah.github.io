@@ -46,11 +46,11 @@ This project peers into exoplanet science through the lens of data. I grab from 
 <h3 align="center"> Background</h3>
 <div style="height: 20px;"></div>
 
-<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic and all, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety The nine we know well certainly do. But the planets outside our Solar System, what are called <strong>exoplanets</strong> or <strong>extrasolar planets</strong>, tend not to</p>
+<p>Our popular conception of space is dominated by stars. Understandably though. Not to get all poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. The nine we know well certainly do. But the planets outside our Solar System, <strong>extrasolar planets</strong> or more commonly <strong>exoplanets</strong> tend not to</p>
 
-<p>I would argue that this view is changing though. Most astronomers recognize something invaluable that the study of exoplanets could offer - confirming the existence of extraterrestrial life. Many experts would say we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique. Projects such as <strong>China's Earth 2.0 Space mission</strong> or NASA's projected 2040 <strong>Habitable Worlds Observatory</strong> focus squarely on this mission - investigating exoplanets that could host life. Whether these inquiries are driven by pure curiosity or deep-rooted cynicism about our own survivability on this planet, Earth 1.0, is a question for another day.</p>
+<p>I would argue that this view is changing though. Most astronomers recognize something invaluable that the study of exoplanets could offer - confirming the existence of extraterrestrial life. Many experts would say we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique. Projects such as <strong>China's Earth 2.0 Space mission</strong> or NASA's projected 2040 <strong>Habitable Worlds Observatory</strong> focus squarely on this mission. Whether these inquiries are driven by pure curiosity or deep-rooted cynicism about our own survivability on this planet, Earth 1.0, is a question for another day.</p>
 
-<p>I decided to inquire into this sub-domain by investigating the existing data. I'll be performing some exploratory data analysis on an exoplanet dataset provided by NASA. I wanted to challenge myself on the visualization front - rendering graphs that are dynamic and convey a ___. I also wanted to explore and reflect on unsupervised learning, and will be conducting a k-means clustering algorithm on the data.</p>
+<p>I decided to inquire into this sub-domain by investigating the existing data. I'll be performing some exploratory data analysis on an exoplanet dataset provided by NASA. I wanted to challenge myself on the visualization front - rendering graphs that are dynamic and give big picture takeaways. I'll also be conducting a k-means clustering algorithm on the data allowing me to explore and reflect on unsupervised learning.</p>
 
 <div style="height: 20px;"></div>
 
@@ -70,7 +70,7 @@ From the parameter table documentation for this dataset I chose a small set of v
 </figure>
 <div style="height: 20px;"></div>
 
-You may consult my notebook for the full process. To query this data we use the NASA's <strong>Table Access Protocol (TAP)</strong>. I've written a short SQL (technically AQDL) queries which paired with Python's <code>requests</code> package grabs these columns. I've extracted the following features:
+You may consult my notebook for the full process. To query this data we use the NASA's <strong>Table Access Protocol (TAP)</strong>. I've written a short SQL (technically AQDL) queries which paired with Python's <strong><code>requests</code></strong> package grabs these columns. I've extracted the following features:
 
 <ul>
   <li><strong>Planet name</strong> as <code>pl_name</code></li>
@@ -113,22 +113,20 @@ Exoplanet science is young in comparison to most other astronomical sciences. Fo
 <div style="height: 20px;"></div>
 Next we will move to visualizing the data we have. Some processing has been omitted here and can be seen in my notebooks. 
 
-I've opted for this project to use <code>matplotlib</code> and <code>seaborn</code>, tools which are sometimes portrayed as lacking in complexity or aesthetic quality. I wanted to develop graphs that still feel dynamic and engaging. I also employed lesser used matplotlib tools such as 3D graphs, tables and style sheets.
+I've opted for this project to use <strong><code>matplotlib</code></strong> and <strong><code>seaborn</code></strong>, tools which are sometimes portrayed as lacking in complexity or aesthetic quality. I wanted to develop graphs that still feel dynamic and engaging. I also employed lesser-used tools such as 3D graphs, matplotlib tables and stylesheets.
 
 <h4>Discovery method</h4>
 <div style="height: 20px;"></div>
 
-<p> Examining the methods used to discover planets provides valuable insights into the underlying science. While exoplanets can be discovered in various ways, certain methods have been particularly successful. </p>
-
-The discovery of planets in themselves is an interesting subject because exoplanets are fundamentally harder to detect than other celestial objects such as stars. Scientists have needed to develop complex indirect methods to track exoplanets. 
+<p>The discovery of planets in themselves is an interesting subject because exoplanets are fundamentally harder to detect than other celestial objects such as stars. Scientists have needed to develop complex indirect methods requiring a rich spectroscopic data to find their targets:</p>
 
 <ul>
-  <li>The <strong>transit method</strong> exploits the shifts in light as a planet passes in front of its host star. The amount of dimming can be used to make conclusions about the planet's characeristics like mass, radiius and eve atmospheric conditions.</li>
-  <li>The <strong>radial velocity method</strong> - tracking of gravity induced shifts in a star's position caused by the planet's gravitational pull. </li>
+  <li>The <strong>transit method</strong> tracks the shift in light exoplanet crosses a star's rays from our line of vision.</li>
+  <li>The <strong>radial velocity method</strong> - tracks the gravity-induced shifts of a star from it's surrounding planets.</li>
   <li>The <strong>microlensing</strong> technique tracks the bending of light as large exoplanets pass in front of a star.</li>
 </ul>
 
-All of these methods require a rich level of spectroscopic data to infer the composition or size of planets. As science progresses, the ability to gather and conduct analysis on this data improves. I have tracked the growth of the three most successful exoplanet discovery methods mentioned above, graphed since the start of the century.
+I've tracked the growth of exoplanet discoveries - highlighting the three most successful - since the first discovery.
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -144,7 +142,7 @@ All of these methods require a rich level of spectroscopic data to infer the com
   <li>The <strong>transit method</strong> is clearly the most successful discovery method.</li>
 </ul>
 
-<p> Observational cosmologist Chris Impey mentioned in a recent <a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">lecture</a> that the growth of discovery of the planets is comparable to the development of internet technology and telephones seen during the Dotcom bubble. So we can easily glean that exoplanet science is progressing at a very rapid pace.</p> 
+<p> Observational cosmologist Chris Impey mentioned in a recent <a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">lecture</a> that the growth of discovery of the planets is comparable to the development of internet technology and telephones seen during the Dotcom bubble.</p> 
 
 <div style="height: 20px;"></div>
 <h4>Distance from Earth</h4>
