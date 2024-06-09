@@ -64,7 +64,7 @@ From the parameter table documentation for this dataset I chose a small set of v
 
 <figure style="text-align: center;">
    <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">
-      <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage">
+      <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" alt="NASA Homepage">
     </a>
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
@@ -398,11 +398,31 @@ Super-Earths or Sub-Neptunes, we base planets on our
 Classifying a planet based on the ones in our Solar System doesn't lead to categories that actually reflect statistical trends in the universe. Our current categorizations don' take into account the vast diversity in planets that exceed Jupiter's size. On a level deeper, the idea of what a planet even is is a political matter among astronomists.
 
 
+
+
 <h3 align="center">Resources</h3>
 <div style="height: 20px;"></div>
 
 If worked has piqued your interest on exoplanet science, here are a few resources I appreciate to keep reading on the matter:
 <ul>
-<li><a href="https://www.quantamagazine.org/the-best-neighborhoods-for-starting-a-life-in-the-galaxy-20240124/" target="_blank">The Best Neighborhoods for Starting a Life in the Galaxy</a></li>
+<li>
+  
+</li>
 </ul>
+
+<ul>
+<li>
+<a href="https://matplotlib.org/stable/users/explain/customizing.html" target="_blank">Customizing Matplotlib with style sheets and rcParams</a> - Sometimes direct from the source is best. Great demo on customizing sheets and understanding the underlying rcParams function in Matplotlib, which I used to make my own style sheet.
+</li>
+<li>
+<a href="https://python-graph-gallery.com/lollipop-plot/">Lollipop chart | Python & Matplotlib examples | The Python Graph Gallery</a> - Short intro to lollipop plots. This was my first time using one; usually they're used for barplots (categorical data) but they can also be appropriate for histograms given the context. Great to avoid [Moiré patterns](https://en.wikipedia.org/wiki/Moir%C3%A9_pattern)
+</li>
+<li>
+ <a href="https://jekyllrb.com/docs/github-pages/">GitHub Pages</a> - Glad I made my website using GitHub Pages. It's a great middle-ground between full out website creation from scratch and simpler options with little room for personalization.
+</li>
+</ul>
+
+
+
+
 
