@@ -62,13 +62,13 @@ From the parameter table documentation for this dataset I chose a small set of v
 
 <div style="height: 20px;"></div>
 
-<figure text-align: center;">
+<figure style="text-align: center;">
    <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">
       <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage">
     </a>
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
-<div height: 20px;"></div>
+<div style="height: 20px;"></div>
 
 You may consult my notebook for the full process. To query this data we use the NASA's <strong>Table Access Protocol (TAP)</strong>. I've written a short SQL (technically AQDL) queries which paired with Python's <code>requests</code> package grabs these columns. I've extracted the following features:
 
@@ -81,15 +81,15 @@ You may consult my notebook for the full process. To query this data we use the 
   <li><strong>Discovery year</strong> as <code>disc_year</code></li>
 </ul>
 
-After removing the first few columns we obtain a preliminary look at our first data points. The format of these tables is drawn from <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank" color: #573259;"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank" color: #573259;">How to create custom tables</a></strong>.
+After removing the first few columns we obtain a preliminary look at our first data points. The format of these tables is drawn from <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank"> How to create custom tables</a></strong>.
 
-<div height: 20px;"></div>
+<div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-C.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-C.svg"  width="600" alt="Graph C" border: 2px solid #573259; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-C.svg"  width="600" alt="Graph C">
   </a>
 </p>
-<div height: 20px;"></div>
+<div style="height: 20px;"></div>
 
 Exoplanet science is young in comparison to most other astronomical sciences. For one, we've known about exoplanets for little time the first exoplanet discovery being in 1992.
 
@@ -110,13 +110,13 @@ Exoplanet science is young in comparison to most other astronomical sciences. Fo
 
 
 <h3 align="center">Visualization and Analysis</h3>
-<div height: 20px;"></div>
+<div style="height: 20px;"></div>
 Next we will move to visualizing the data we have. Some processing has been omitted here and can be seen in my notebooks. 
 
 I've opted for this project to use <code>matplotlib</code> and <code>seaborn</code>, tools which are sometimes portrayed as lacking in complexity or aesthetic quality. I wanted to develop graphs that still feel dynamic and engaging. I also employed lesser used matplotlib tools such as 3D graphs, tables and style sheets.
 
 <h4>Discovery method</h4>
-<div height: 20px;"></div>
+<div style="height: 20px;"></div>
 
 <p> Examining the methods used to discover planets provides valuable insights into the underlying science. While exoplanets can be discovered in various ways, certain methods have been particularly successful. </p>
 
