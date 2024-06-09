@@ -418,7 +418,7 @@ If worked has piqued your interest on exoplanet science, here are a few resource
 <strong><a href="https://matplotlib.org/stable/users/explain/customizing.html" target="_blank">Customizing Matplotlib with style sheets and rcParams</a></strong> - Sometimes direct from the source is best. Great demo on customizing sheets and understanding the underlying rcParams function in Matplotlib, which I used to make my own style sheet.
 </li>
 <li>
-<strong><a href="https://python-graph-gallery.com/lollipop-plot/">Lollipop chart | Python & Matplotlib examples | The Python Graph Gallery</a></strong> - Short intro to lollipop plots. This was my first time using one; usually they're used for barplots (categorical data) but they can also be appropriate for histograms given the context. Great to avoid [Moiré patterns](https://en.wikipedia.org/wiki/Moir%C3%A9_pattern)
+<strong><a href="https://python-graph-gallery.com/lollipop-plot/">Lollipop chart | Python & Matplotlib examples | The Python Graph Gallery</a></strong> - Short intro to lollipop plots. This was my first time using one; usually they're used for barplots (categorical data) but they can also be appropriate for histograms given the context. Great to avoid <a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern">Moiré patterns</a>
 </li>
 <li>
 <strong><a href="https://jekyllrb.com/docs/github-pages/">GitHub Pages</a></strong> - Glad I made my website using GitHub Pages. It's a great middle-ground between full out website creation from scratch and simpler options with little room for personalization.
