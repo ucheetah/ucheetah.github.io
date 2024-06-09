@@ -326,6 +326,8 @@ img{
   border-style:none;
   height:auto;
   max-width:100%;
+  border: 3px solid #573259; 
+  border-radius: 3px;
 }
 
 svg:not(:root){
