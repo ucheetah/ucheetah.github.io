@@ -7,12 +7,12 @@ image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
 
-<p align="center"> <em> This post marks the beginning of my new personal website, where I'll be share my ventures in data science, tech and their intersection with everything else. Hope to share ideas at large that inspire me.</em> </p>
+<p align="center"> <em> This post marks the beginning of my new personal website, where I'll be sharing ideas and creations in data science that drive me. My first project is purely created out my curiosity for astronomy. Though I have aphysics background but never got to dive into astronomical science as much as I'd hoped.</em> </p>
 
 <hr>
 <div style="height: 20px;"></div>
 
-This project peers into exoplanet science through the lens of data. I grab from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank" style="color: #573259;"> Planetary Systems</a></strong> dataset provided by the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank" style="color: #573259;">NASA exoplanets archive</a> </strong> on which I'll visualize and perform unsupervised learning through a k-means clustering algorithm.
+This project peers into exoplanet science through the lens of data. I grab from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank"> Planetary Systems</a></strong> dataset provided by the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">NASA exoplanets archive</a> </strong> on which I'll visualize and perform unsupervised learning through a k-means clustering algorithm.
 
 <h3 align="center"> Project summary</h3>
 <div style="height: 10px;"></div>
@@ -34,7 +34,7 @@ This project peers into exoplanet science through the lens of data. I grab from 
   </tr>
   <tr>
     <td><strong>Project GitHub</strong></td>
-    <td> <a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main" target="_blank" style="color: #573259;">GitHub Repo - exoplanet-viz-cluster</a> </td>
+    <td> <a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main" target="_blank">GitHub Repo - exoplanet-viz-cluster</a> </td>
   </tr>
 </table>
 
@@ -42,13 +42,11 @@ This project peers into exoplanet science through the lens of data. I grab from 
 <h3 align="center"> Background</h3>
 <div style="height: 20px;"></div>
 
-<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic and all, but for as long there's been life on Earth, we've gazed at the night sky. Stars are an intrinsic part of our societies, woven into our religions, and even fill out the awkward dinner conversation. </p>
+<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic and all, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety The nine we know well certainly do. But the planets outside our Solar System, what are called <strong>exoplanets</strong> or <strong>extrasolar planets</strong>, tend not to</p>
 
-<p>Planets, on the other hand, just don't get the same notoriety The nine we know well certainly do. But the planets outside our Solar System, what are called <strong>exoplanets</strong> or <strong>extrasolar planets</strong>, do not (aside from the odd <a href="https://earthsky.org/space/vulcan-hd-26965-b-exoplanets-star-trek/">Vulcan</a> reference.)</p>
+<p>I would argue that this view is changing though. Most astronomers recognize something invaluable that the study of exoplanets could offer - confirming the existence of extraterrestrial life. Many experts would say we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique. Projects such as <strong>China's Earth 2.0 Space mission</strong> or NASA's projected 2040 <strong>Habitable Worlds Observatory</strong> focus squarely on this mission - investigating exoplanets that could host life. Whether these inquiries are driven by pure curiosity or deep-rooted cynicism about our own survivability on this planet, Earth 1.0, is a question for another day.</p>
 
-<p>I would argue that this view is changing, though. Most astronomers recognize something invaluable that the study of exoplanets could offer - confirming the existence of extraterrestrial life. Many experts would say we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique. But it's one thing to know the probability of extraterrestrial life, and another to confirm; ask <a href="https://www.nytimes.com/2023/07/26/us/politics/ufo-hearing.html">U.S. Congress</a>.</p>
-  
-<p>Projects such as <strong>China's Earth 2.0 Space mission</strong> or NASA's projected 2040 <strong>Habitable Worlds Observatory</strong> focus squarely on this mission - investigating exoplanets that could host life. Whether these inquiries are driven by pure curiosity or deep-rooted cynicism about our own survivability on this planet, Earth 1.0, is a question for another day.</p>
+<p>I decided to inquire into this sub-domain by investigating the existing data. I'll be performing some exploratory data analysis on an exoplanet dataset provided by NASA. I wanted to challenge myself on the visualization front - rendering graphs that are dynamic and convey a ___. I also wanted to explore and reflect on unsupervised learning, and will be conducting a k-means clustering algorithm on the data.</p>
 
 <div style="height: 20px;"></div>
 
@@ -60,13 +58,13 @@ From the parameter table documentation for this dataset I chose a small set of v
 
 <div style="height: 20px;"></div>
 
-<figure style="text-align: center;">
+<figure text-align: center;">
    <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">
-      <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" style="border: 3px solid #573259; border-radius: 3px;">
+      <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" border: 3px solid #573259; border-radius: 3px;">
     </a>
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
-<div style="height: 20px;"></div>
+<div height: 20px;"></div>
 
 You may consult my notebook for the full process. To query this data we use the NASA's <strong>Table Access Protocol (TAP)</strong>. I've written a short SQL (technically AQDL) queries which paired with Python's <code>requests</code> package grabs these columns. I've extracted the following features:
 
@@ -79,15 +77,15 @@ You may consult my notebook for the full process. To query this data we use the 
   <li><strong>Discovery year</strong> as <code>disc_year</code></li>
 </ul>
 
-After removing the first few columns we obtain a preliminary look at our first data points. The format of these tables is drawn from <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank" style="color: #573259;"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank" style="color: #573259;">How to create custom tables</a></strong>.
+After removing the first few columns we obtain a preliminary look at our first data points. The format of these tables is drawn from <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank" color: #573259;"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank" color: #573259;">How to create custom tables</a></strong>.
 
-<div style="height: 20px;"></div>
+<div height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-C.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-C.svg"  width="600" alt="Graph C" style="border: 2px solid #573259; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-C.svg"  width="600" alt="Graph C" border: 2px solid #573259; border-radius: 3px;">
   </a>
 </p>
-<div style="height: 20px;"></div>
+<div height: 20px;"></div>
 
 Exoplanet science is young in comparison to most other astronomical sciences. For one, we've known about exoplanets for little time the first exoplanet discovery being in 1992.
 
@@ -108,13 +106,13 @@ Exoplanet science is young in comparison to most other astronomical sciences. Fo
 
 
 <h3 align="center">Visualization and Analysis</h3>
-<div style="height: 20px;"></div>
+<div height: 20px;"></div>
 Next we will move to visualizing the data we have. Some processing has been omitted here and can be seen in my notebooks. 
 
 I've opted for this project to use <code>matplotlib</code> and <code>seaborn</code>, tools which are sometimes portrayed as lacking in complexity or aesthetic quality. I wanted to develop graphs that still feel dynamic and engaging. I also employed lesser used matplotlib tools such as 3D graphs, tables and style sheets.
 
 <h4>Discovery method</h4>
-<div style="height: 20px;"></div>
+<div height: 20px;"></div>
 
 <p> Examining the methods used to discover planets provides valuable insights into the underlying science. While exoplanets can be discovered in various ways, certain methods have been particularly successful. </p>
 
@@ -142,7 +140,7 @@ All of these methods require a rich level of spectroscopic data to infer the com
   <li>The <strong>transit method</strong> is clearly the most successful discovery method.</li>
 </ul>
 
-<p> Observational cosmologist Chris Impey mentioned in a recent <a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank" style="color: #573259;">lecture</a> that the growth of discovery of the planets is comparable to the development of internet technology and telephones seen during the Dotcom bubble. So we can easily glean that exoplanet science is progressing at a very rapid pace.</p> 
+<p> Observational cosmologist Chris Impey mentioned in a recent <a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">lecture</a> that the growth of discovery of the planets is comparable to the development of internet technology and telephones seen during the Dotcom bubble. So we can easily glean that exoplanet science is progressing at a very rapid pace.</p> 
 
 <div style="height: 20px;"></div>
 <h4>Distance from Earth</h4>
@@ -403,6 +401,6 @@ Classifying a planet based on the ones in our Solar System doesn't lead to categ
 
 If worked has piqued your interest on exoplanet science, here are a few resources I appreciate to keep reading on the matter:
 <ul>
-<li><a href="https://www.quantamagazine.org/the-best-neighborhoods-for-starting-a-life-in-the-galaxy-20240124/" target="_blank" style="color: #573259;">The Best Neighborhoods for Starting a Life in the Galaxy</a></li>
+<li><a href="https://www.quantamagazine.org/the-best-neighborhoods-for-starting-a-life-in-the-galaxy-20240124/" target="_blank">The Best Neighborhoods for Starting a Life in the Galaxy</a></li>
 </ul>
 
