@@ -205,6 +205,10 @@ section{
   display:block
 }
 
+figcaption{
+  font-size:0.8em;
+}
+
 h1{
   font-size:2em;
   margin:.67em 0
