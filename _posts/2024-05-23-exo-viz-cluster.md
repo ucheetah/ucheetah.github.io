@@ -19,25 +19,25 @@ This project peers into exoplanet science through the lens of data. I grab from 
 
 <table align="center">
   <tr>
-    <td align="center"><strong> Project Goals </strong> </td>
+    <td align="center" width=200><strong> Project Goals </strong> </td>
     <td>
     Query and clean data from NASA exoplanet archive; perform exploratory data analysis and visualize planet features; and employ k-means clustering comparing groups to existing exoplanet classifications.
     </td>
   </tr>
   <tr>
-    <td><strong>Languages</strong></td>
+    <td width=200><strong>Languages</strong></td>
     <td>Python (pandas, numpy, matplotlib, seaborn, scikit-learn), SQL (one humble query)</td>
   </tr>
   <tr>
-    <td><strong>Techniques</strong></td>
+    <td width=200><strong>Techniques</strong></td>
     <td>Data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning (clustering)</td>
   </tr>
   <tr>
-    <td><strong>Project GitHub</strong></td>
+    <td width=200><strong>Project GitHub</strong></td>
     <td> <a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main" target="_blank">GitHub Repo - exoplanet-viz-cluster</a> </td>
   </tr>
     <tr>
-    <td><strong>Personal Goals</strong></td>
+    <td width=200><strong>Personal Goals</strong></td>
     <td> Practice communicating insights from a complex scientific domain. Enhance visualization techniques and aesthetic sensibility. Work with unsupervised learning methodologies. Hone GitHub workflow. Create this website.</td>
   </tr>
 </table>
