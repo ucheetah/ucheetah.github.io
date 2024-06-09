@@ -64,7 +64,7 @@ From the parameter table documentation for this dataset I chose a small set of v
 
 <figure text-align: center;">
    <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">
-      <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage" border: 3px solid #573259; border-radius: 3px;">
+      <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" height = "400" alt="NASA Homepage">
     </a>
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
