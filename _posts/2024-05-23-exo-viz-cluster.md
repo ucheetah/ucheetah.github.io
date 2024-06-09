@@ -12,7 +12,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 <hr>
 <div style="height: 20px;"></div>
 
-<p>This project peers into exoplanet science through the lens of data. I grab a dataset from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">NASA exoplanets archive</a> </strong> on which I'll explore, visualize and perform unsupervised learning through a k-means clustering algorithm.</p>
+<p>This project peers into exoplanet science through the lens of data. I grab a dataset from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">NASA exoplanets archive</a></strong> on which I'll explore, visualize and perform unsupervised learning through a k-means clustering algorithm.</p>
 
 <h3 align="center"> Project summary</h3>
 <div style="height: 10px;"></div>
@@ -29,17 +29,12 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
     <td>Python (pandas, numpy, matplotlib, seaborn, scikit-learn), SQL (one humble query)</td>
   </tr>
   <tr>
-    <td width=150><strong>Techniques</strong></td>
-    <td>Data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning, unsupervised learning, k-means clustering,</td>
+    <td width=150><strong>Techniques and skills</strong></td>
+    <td>Data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning, unsupervised learning, k-means clustering, communicating scientific insights, </td>
   </tr>
   <tr>
     <td width=150><strong>Project GitHub</strong></td>
-    <td> <a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main" target="_blank">GitHub Repo - exoplanet-viz-cluster</a> </td>
-  </tr>
-    <tr>
-    <td width=150><strong>Personal Goals</strong></td>
-    <td> Exercise communicating insights from a complex scientific domain. Enhance visualization techniques and aesthetic sensibility. Work with unsupervised learning methodologies. Hone GitHub workflow. Create GitHub Pages website.</td>
-  </tr>
+    <td> <strong><a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main" target="_blank">GitHub Repo - exoplanet-viz-cluster</a></strong> </td>
 </table>
 
 <div style="height: 20px;"></div>
@@ -69,7 +64,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 </figure>
 <div style="height: 20px;"></div>
 
-You may consult my notebook for the full process. To query this data we use the NASA's <strong>Table Access Protocol (TAP)</strong>. I've written a short SQL (technically AQDL) queries that I've used with Python's <strong><code>requests</code></strong>s. I've extracted the following features:
+You may consult my notebook for the full process. To query this data I've used used SQL and Python's <strong><code>requests</code></strong>s to grab from the NASA's <strong>Table Access Protocol (TAP)</strong> (essentially NASA's API). I've extracted the following features:
 
 <ul>
   <li><strong>Planet name</strong> as <code>pl_name</code></li>
@@ -80,7 +75,7 @@ You may consult my notebook for the full process. To query this data we use the 
   <li><strong>Discovery year</strong> as <code>disc_year</code></li>
 </ul>
 
-After removing the first few columns we obtain a preliminary look at our first data points. The format of these tables is drawn from <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank"> How to create custom tables</a></strong>.
+After removing the first few columns we obtain a preliminary look at our first data points.
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -90,10 +85,13 @@ After removing the first few columns we obtain a preliminary look at our first d
 </p>
 <div style="height: 20px;"></div>
 
-We can observe that there are 5638 confirmed exoplanets. The first exoplanet discovery being in 1992 - exoplanet science is young compared to most other astronomical sciences. There is an enormous diversity in distance (4 to 25k light years), mass (0.4 to 10k times Earth's mass) and radius (0.3 to 77.3 times Earth's radius).
-
-
-
+<strong>Observation(s):</strong>
+<ul>
+  <li>There are 5638 confirmed exoplanets.</li>
+  <li>Exoplanet science is still in it's infancy - the first planet was found in 1992.</li>
+  <li>There is a remarkable diversity in planet characteristics - distance (4 to 25k light years), mass (0.4 to 10k times Earth's mass) and radius (0.3 to 77.3 times Earth's radius).</li>
+</ul>
+With this first glimpse let's dive in deeper.
 
 
 
@@ -110,9 +108,9 @@ We can observe that there are 5638 confirmed exoplanets. The first exoplanet dis
 
 <h3 align="center">Visualization and Analysis</h3>
 <div style="height: 20px;"></div>
-Next I'll visualize the data. Here I show outputs - for pre-processing and graphs consult my notebook and/or scripts. 
+Next I'll visualize the data. I'll only be showing outputs, for pre-processing details and graph construction consult my notebook and/or scripts. 
 
-I've used <strong><code>matplotlib</code></strong> and <strong><code>seaborn</code></strong>. These are at times criticized as lacking in complexity or aesthetic quality. I wanted to develop graphs that still feel dynamic and engaging and employ lesser-used tools such as 3D graphs, matplotlib tables and stylesheets.
+I've used <strong><code>matplotlib</code></strong> and <strong><code>seaborn</code></strong>. I wanted to challenge the notion that these packages lack in complexity or aesthetic quality by developing graphs that still feel dynamic and engaging, and employ lesser-used tools such as 3D graphs, matplotlib tables and stylesheets.
 
 <h4>Discovery method</h4>
 <div style="height: 20px;"></div>
@@ -412,14 +410,17 @@ If worked has piqued your interest on exoplanet science, here are a few resource
 </ul>
 
 <ul>
+  <li>
+    The format of these tables is drawn from <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank"> How to create custom tables</a></strong>.
+  </li>
 <li>
-<a href="https://matplotlib.org/stable/users/explain/customizing.html" target="_blank">Customizing Matplotlib with style sheets and rcParams</a> - Sometimes direct from the source is best. Great demo on customizing sheets and understanding the underlying rcParams function in Matplotlib, which I used to make my own style sheet.
+<strong><a href="https://matplotlib.org/stable/users/explain/customizing.html" target="_blank">Customizing Matplotlib with style sheets and rcParams</a></strong> - Sometimes direct from the source is best. Great demo on customizing sheets and understanding the underlying rcParams function in Matplotlib, which I used to make my own style sheet.
 </li>
 <li>
-<a href="https://python-graph-gallery.com/lollipop-plot/">Lollipop chart | Python & Matplotlib examples | The Python Graph Gallery</a> - Short intro to lollipop plots. This was my first time using one; usually they're used for barplots (categorical data) but they can also be appropriate for histograms given the context. Great to avoid [Moiré patterns](https://en.wikipedia.org/wiki/Moir%C3%A9_pattern)
+<strong><a href="https://python-graph-gallery.com/lollipop-plot/">Lollipop chart | Python & Matplotlib examples | The Python Graph Gallery</a></strong> - Short intro to lollipop plots. This was my first time using one; usually they're used for barplots (categorical data) but they can also be appropriate for histograms given the context. Great to avoid [Moiré patterns](https://en.wikipedia.org/wiki/Moir%C3%A9_pattern)
 </li>
 <li>
- <a href="https://jekyllrb.com/docs/github-pages/">GitHub Pages</a> - Glad I made my website using GitHub Pages. It's a great middle-ground between full out website creation from scratch and simpler options with little room for personalization.
+<strong><a href="https://jekyllrb.com/docs/github-pages/">GitHub Pages</a></strong> - Glad I made my website using GitHub Pages. It's a great middle-ground between full out website creation from scratch and simpler options with little room for personalization.
 </li>
 </ul>
 
