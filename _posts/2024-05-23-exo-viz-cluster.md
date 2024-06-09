@@ -7,7 +7,7 @@ image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 ---
 
-<p align="center"> <em> This post marks the beginning of my new personal website, where I'll be sharing ideas and creations in data science that drive me. My first project is purely created out my curiosity for astronomy. Though I have aphysics background but never got to dive into astronomical science as much as I'd hoped.</em> </p>
+<p align="center"> <em> This post and projects marks the beginning of my new personal website. I'll be sharing ideas and creations in data science that drive me. My first project is purely created out my curiosity for astronomical science and to hone some core data science toolkit skills.</em> </p>
 
 <hr>
 <div style="height: 20px;"></div>
@@ -50,7 +50,7 @@ This project peers into exoplanet science through the lens of data. I grab from 
 
 <p>I would argue that this view is changing though. Most astronomers recognize something invaluable that the study of exoplanets could offer - confirming the existence of extraterrestrial life. Many experts would say we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique. Projects such as <strong>China's Earth 2.0 Space mission</strong> or NASA's projected 2040 <strong>Habitable Worlds Observatory</strong> focus squarely on this mission. Whether these inquiries are driven by pure curiosity or deep-rooted cynicism about our own survivability on this planet, Earth 1.0, is a question for another day.</p>
 
-<p>I decided to inquire into this sub-domain by investigating the existing data. I'll be performing some exploratory data analysis on an exoplanet dataset provided by NASA. I wanted to challenge myself on the visualization front - rendering graphs that are dynamic and give big picture takeaways. I'll also be conducting a k-means clustering algorithm on the data allowing me to explore and reflect on unsupervised learning.</p>
+<p>I decided to inquire into this sub-domain by investigating the existing data. I'll be performing some exploratory data analysis on an exoplanet dataset provided by NASA. I wanted to challenge myself on the visualization front - rendering graphs that are dynamic and give big picture takeaways. I'll also be conducting a k-means clustering algorithm on the data allowing me to explore and reflect on unsupervised learning. Lastly, to explore astronomical science - as a physics background I never got much 'astro' in, so perhaps this is a ______.</p>
 
 <div style="height: 20px;"></div>
 
