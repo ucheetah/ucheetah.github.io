@@ -46,7 +46,7 @@ This project peers into exoplanet science through the lens of data. I grab from 
 <h3 align="center"> Background</h3>
 <div style="height: 20px;"></div>
 
-<p>Our popular conception of space is dominated by stars. Understandably though. Not to get all poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. The nine we know well certainly do. But the planets outside our Solar System, <strong>extrasolar planets</strong> or more commonly <strong>exoplanets</strong> tend not to</p>
+<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. The nine we know well certainly do. But the planets outside our Solar System, <strong>extrasolar planets</strong> or more commonly <strong>exoplanets</strong> tend not to</p>
 
 <p>I would argue that this view is changing though. Most astronomers recognize something invaluable that the study of exoplanets could offer - confirming the existence of extraterrestrial life. Many experts would say we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique. Projects such as <strong>China's Earth 2.0 Space mission</strong> or NASA's projected 2040 <strong>Habitable Worlds Observatory</strong> focus squarely on this mission. Whether these inquiries are driven by pure curiosity or deep-rooted cynicism about our own survivability on this planet, Earth 1.0, is a question for another day.</p>
 
@@ -236,9 +236,9 @@ However planets differ greatly in their compositions and densities so we would e
 <h3 align="center"> Machine Learning Classification</h3>
 <div style="height: 20px;"></div>
 
-<p>But as NASA puts it, with radius and mass alone "we can see compositions ranging from rocky (like Earth and Venus) to gas-rich (like Jupiter and Saturn)". So those two features alone can play a signfiicant role in classifications, particularly since a planet's mass and size will correlate with its actual geologic properties. </p>
+<p>To better assess the influx of planets we're finding, a number of different categorizations exist for ... With radius and mass alone "we can see compositions ranging from rocky (like Earth and Venus) to gas-rich (like Jupiter and Saturn)".</p>
 
-<p>Since this dataset does not provide existing classifications of planets, I will be performing unsupervised learning.</p>
+<p>I Since this dataset does not provide existing classifications of planets, I will be performing unsupervised learning.</p>
 
 <p>With this in mind I will be conducting a k-means algoirthm using the features of exoplanet radius and exoplanet mass alone using <code>scikit-learn</code>.</p>
 
