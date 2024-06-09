@@ -35,6 +35,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
   <tr>
     <td width=150><strong>Project GitHub</strong></td>
     <td> <strong><a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main" target="_blank">GitHub Repo - exoplanet-viz-cluster</a></strong> </td>
+  </tr>
 </table>
 
 <div style="height: 20px;"></div>
