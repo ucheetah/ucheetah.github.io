@@ -53,7 +53,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 <h3 align="center">Data collection and cleaning</h3> 
 <div style="height: 20px;"></div>
 
-<p>I will work with the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank"> Planetary Systems</a></strong> dataset from the NASA exoplanets archive, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. The dataset records data on each of the 5638 confirmed exoplanets.</p>
+<p>I will work with the <em><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank"> Planetary Systems</a></em> dataset from the NASA exoplanets archive, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. The dataset contains records of all 5638 confirmed exoplanets.</p>
 
 <figure style="text-align: center;">
    <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">
@@ -62,14 +62,16 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
 
-You may consult my notebook for the full process. To query this data I've used used SQL and Python's <strong><code>requests</code></strong> to grab from the NASA's <strong>Table Access Protocol (TAP)</strong> (essentially NASA's API). Because there were so many to chose from I extracted <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters to explore. After some basic pre-processing here's an unvarnished look at our raw data:
+You may consult my notebook for the full process. I've queried data from NASA's <strong>Table Access Protocol (TAP)</strong> using SQL and Python's <strong><code>requests</code></strong> package. I extracted <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters of interesst. After some basic pre-processing here's an unvarnished look at our raw data:
+
 
 <div style="height: 10px;"></div>
-<p align="center">
+<figure style="text-align: center;">
   <a href="/assets/img/exoplanet-raw-table.png" target="_blank">
   <img src="/assets/img/exoplanet-raw-table.png"  width="600" alt="Exoplanet raw dataset">
   </a>
-</p>
+  <figcaption> <em>Planetary Systems</em> dataset shown in interactive notebook. </figcaption> 
+</figure>
 <div style="height: 10px;"></div>
 
 Here's a preliminary summary of this data (note that 25%, 50% and 75% refer to percentiles): 
