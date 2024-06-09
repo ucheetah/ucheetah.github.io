@@ -52,7 +52,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 <h3 align="center">Data collection and cleaning</h3> 
 <div style="height: 20px;"></div>
 
-<p>I will work with the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank"> Planetary Systems</a></strong> dataset from the NASA exoplanets archive, a collaboration between Caltech and NASA under its Exoplanet Exploration Program.From the parameter table documentation for this dataset I chose a small set of values from the dataset that are likely to be of biggest interest. </p>
+<p>I will work with the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank"> Planetary Systems</a></strong> dataset from the NASA exoplanets archive, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. The dataset records data on each of the 5638 confirmed exoplanets.</p>
 
 <div style="height: 10px;"></div>
 
@@ -64,7 +64,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 </figure>
 <div style="height: 10px;"></div>
 
-You may consult my notebook for the full process. To query this data I've used used SQL and Python's <strong><code>requests</code></strong>s to grab from the NASA's <strong>Table Access Protocol (TAP)</strong> (essentially NASA's API). I've extracted the following features:
+You may consult my notebook for the full process. To query this data I've used used SQL and Python's <strong><code>requests</code></strong> to grab from the NASA's <strong>Table Access Protocol (TAP)</strong> (essentially NASA's API). I've extracted the following features:
 
 <ul>
   <li><strong>Planet name</strong> as <code>pl_name</code></li>
@@ -75,7 +75,7 @@ You may consult my notebook for the full process. To query this data I've used u
   <li><strong>Discovery year</strong> as <code>disc_year</code></li>
 </ul>
 
-After removing the first few columns we obtain a preliminary look at our first data points.
+After removing the first few columns we obtain a preliminary summary of the data. Note that 25%, 50% and 75% refer to percentiles: 
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -87,8 +87,7 @@ After removing the first few columns we obtain a preliminary look at our first d
 
 <strong>Observation(s):</strong>
 <ul>
-  <li>There are 5638 confirmed exoplanets.</li>
-  <li>Exoplanet science is still in it's infancy - the first planet was found in 1992.</li>
+  <li>The first exoplanet was found in 1992. - Exoplanet science is still in it's infancy</li>
   <li>There is a remarkable diversity in planet characteristics - distance (4 to 25k light years), mass (0.4 to 10k times Earth's mass) and radius (0.3 to 77.3 times Earth's radius).</li>
 </ul>
 With this first glimpse let's dive in deeper.
@@ -105,13 +104,14 @@ With this first glimpse let's dive in deeper.
 
 
 
-
+<div style="height: 20px;"></div>
 <h3 align="center">Visualization and Analysis</h3>
 <div style="height: 20px;"></div>
 Next I'll visualize the data. I'll only be showing outputs, for pre-processing details and graph construction consult my notebook and/or scripts. 
 
 I've used <strong><code>matplotlib</code></strong> and <strong><code>seaborn</code></strong>. I wanted to challenge the notion that these packages lack in complexity or aesthetic quality by developing graphs that still feel dynamic and engaging, and employ lesser-used tools such as 3D graphs, matplotlib tables and stylesheets.
 
+<div style="height: 20px;"></div>
 <h4>Discovery method</h4>
 <div style="height: 20px;"></div>
 
