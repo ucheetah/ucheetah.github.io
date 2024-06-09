@@ -19,7 +19,7 @@ This project peers into exoplanet science through the lens of data. I grab from 
 
 <table align="center">
   <tr>
-    <td align="center"><strong> Goals </strong> </td>
+    <td align="center"><strong> Project Goals </strong> </td>
     <td>
     Query and clean data from NASA exoplanet archive; perform exploratory data analysis and visualize planet features; and employ k-means clustering comparing groups to existing exoplanet classifications.
     </td>
@@ -35,6 +35,10 @@ This project peers into exoplanet science through the lens of data. I grab from 
   <tr>
     <td><strong>Project GitHub</strong></td>
     <td> <a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main" target="_blank">GitHub Repo - exoplanet-viz-cluster</a> </td>
+  </tr>
+    <tr>
+    <td><strong>Personal Goals</strong></td>
+    <td> Practice communicating insights from a complex scientific domain. Enhance visualization techniques and aesthetic sensibility. Work with unsupervised learning methodologies. Hone GitHub workflow. Create this website.</td>
   </tr>
 </table>
 
