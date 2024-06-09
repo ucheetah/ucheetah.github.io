@@ -15,7 +15,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 <p>This project peers into exoplanet science through the lens of data. I grab a dataset from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">NASA exoplanets archive</a></strong> on which I'll explore, visualize and perform unsupervised learning through a k-means clustering algorithm.</p>
 
 <h3 align="center"> Project summary</h3>
-<div style="height: 10px;"></div>
+<div style="height: 20px;"></div>
 
 <table align="center">
   <tr>
@@ -54,7 +54,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 
 <p>I will work with the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank"> Planetary Systems</a></strong> dataset from the NASA exoplanets archive, a collaboration between Caltech and NASA under its Exoplanet Exploration Program.From the parameter table documentation for this dataset I chose a small set of values from the dataset that are likely to be of biggest interest. </p>
 
-<div style="height: 20px;"></div>
+<div style="height: 10px;"></div>
 
 <figure style="text-align: center;">
    <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">
@@ -62,7 +62,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
     </a>
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
-<div style="height: 20px;"></div>
+<div style="height: 10px;"></div>
 
 You may consult my notebook for the full process. To query this data I've used used SQL and Python's <strong><code>requests</code></strong>s to grab from the NASA's <strong>Table Access Protocol (TAP)</strong> (essentially NASA's API). I've extracted the following features:
 
