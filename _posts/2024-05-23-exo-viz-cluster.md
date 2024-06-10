@@ -402,12 +402,9 @@ These appear to contain a large amount of relatively moderately-sized planets. A
 <h4>Questioning our existing categorizations</h4>
 <div style="height: 20px;"></div>
 
-<p>Expanding on this last point, there's criticism to be had on the way in which we base planet categorizations on known objects in our Solar System. This in essence a type of heliocentrism; we group planets in the Universe based on historical observations and our local knowledge of the Universe, not fundamental qualities possessed by planets. In this sense, there a fundamental astronomical difference between a Sub-Neptune and a Super-Neptune aside from it's relative size to Neptune? There is reason to take issues with these groups on scientific grounds. </p>
+<p>Expanding on this last point, there's criticism to be had about the way we categorize planets based on known objects in our Solar System. This is essentially a form of heliocentrism; we classify planets in the Universe according to historical observations and our local understanding, rather than their fundamental qualities. For example, is there a fundamental astronomical difference between a Sub-Neptune and a Super-Neptune aside from their relative size to Neptune? There is scientific reason to question the validity of these classifications.</p>
 
-
-Super-Earths or Sub-Neptunes, we base planets on our
-Classifying a planet based on the ones in our Solar System doesn't lead to categories that actually reflect statistical trends in the universe. Our current categorizations don' take into account the vast diversity in planets that exceed Jupiter's size. On a level deeper, the idea of what a planet even is is a political matter among astronomists.
-
+<p>With that criticism in mind, it is important to recognize that a machine learning classification algorithm may struggle to accurately categorize groups when the categories themselves are not centered on the true qualities exhibited by the members. I do believe this is what's likely to have occurred here.</p>
 
 <div style="height: 20px;"></div>
 <hr>
@@ -420,13 +417,13 @@ If worked has piqued your interest on exoplanet science, here are a few resource
 
 <ul>
   <li>
-    <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank"> How to create custom tables</a></strong> - great tutorials on custom tables.
+    <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank"> How to create custom tables</a></strong> - Great tutorials on custom tables.
   </li>
 <li>
-<strong><a href="https://matplotlib.org/stable/users/explain/customizing.html" target="_blank">Customizing Matplotlib with style sheets and rcParams</a></strong> -  Great demo on customizing style with Matplotlib.
+<strong><a href="https://matplotlib.org/stable/users/explain/customizing.html" target="_blank">Customizing Matplotlib with style sheets and rcParams</a></strong> - Comprehensive from the source demo on customizing Matplotlib style.
 </li>
 <li>
-<strong><a href="https://python-graph-gallery.com/lollipop-plot/">Lollipop chart | The Python Graph Gallery</a></strong> - Short intro to lollipop plot - great to avoid <a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern">Moiré patterns</a>
+<strong><a href="https://python-graph-gallery.com/lollipop-plot/">Lollipop chart | The Python Graph Gallery</a></strong> - Short intro to lollipop plot smart barplot alternative to avoid <a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern">Moiré patterns</a>
 </li>
 </ul>
 
