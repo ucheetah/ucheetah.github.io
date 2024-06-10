@@ -10,7 +10,6 @@ projects_title: Home
 
 # User settings
 user_description_appendix: |
-  Follow along and connect with me if our passions align!
   
   <b>Credits:</b>
     - Site taken from **Louis Rassaby**'s GitHub [**Jekyll**](https://github.com/lrassaby/lrassaby.github.io). It's hosted for free on [**GitHub Pages**](https://pages.github.com/). It's open source, so if you like it, fork it on [GitHub](https://github.com/lrassaby/lrassaby.github.io).
@@ -36,9 +35,9 @@ author: Keanu Uchida
 author_title: 
 author_photo: author_photo2.jpeg
 user_description_short: |
-  Learning and growth are eternal. Hoping to document some of that journey here. 
+  Recent Physics and Philosophy grad from the University of Toronto who's passionate about data science and software.
   
-  Recent Physics and Philosophy grad from the University of Toronto. Passionate about data science and data analysis and corners where the creative meets the analytic. 
+  Into the cracks where the creative meets the analytic. 
   
   I also love to dance.
 
