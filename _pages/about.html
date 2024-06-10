@@ -11,8 +11,10 @@ permalink: /about/
         </div>
     </section>
     <section class="about-body">
+    <div style="text-align: center;">
         {{ site.user_description_short | markdownify }}
-        {{ site.user_description_appendix | markdownify }}
+    </div>
+    {{ site.user_description_appendix | markdownify }}
     </section>
   </div> <!-- End About Container -->
 </div> <!-- End Small Wrapper -->
