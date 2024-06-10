@@ -38,6 +38,15 @@ custom_excerpt: Peering into exoplanet science through the lens of data. I grab 
     <td> <strong><a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main" target="_blank">GitHub Repo - exoplanet-viz-cluster</a></strong> </td>
   </tr>
 </table>
+
+
+
+
+
+
+
+
+<div style="height: 20px;"></div>
 <hr>
 <div style="height: 20px;"></div>
 <h3 align="center"> Background</h3>
@@ -49,6 +58,18 @@ custom_excerpt: Peering into exoplanet science through the lens of data. I grab 
 
 <p>This project investigates the existing record on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that give big picture takeaways. Lastly I'll conduct <strong>unsupervised learning</strong> - a k-means clustering algorithm - on the data and compare it to existing exoplanet classifications.</p>
 
+
+
+
+
+
+
+
+
+
+
+
+<div style="height: 20px;"></div>
 <hr>
 <div style="height: 20px;"></div>
 <h3 align="center">Data collection and cleaning</h3> 
@@ -63,9 +84,9 @@ custom_excerpt: Peering into exoplanet science through the lens of data. I grab 
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
 
-I've chosen to extract <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters of interest. I've queried this data from NASA's <strong>Table Access Protocol (TAP)</strong> using SQL and Python's <strong><code>requests</code></strong> package; consult my notebook for the full process. 
+I've chosen to extract <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters of interest. I've queried this data from NASA's <strong>Table Access Protocol (TAP)</strong> using SQL and Python's <strong><code>requests</code></strong> package and conducted some basic pre-processing; consult my notebook for the full process. 
 
-Following some basic pre-processing here's an first impression of the data:
+Here's a first impression of the data:
 
 <div style="height: 10px;"></div>
 <figure style="text-align: center;">
@@ -103,6 +124,7 @@ With this first glimpse let's dive in deeper.
 
 
 
+<div style="height: 20px;"></div>
 
 <hr>
 
