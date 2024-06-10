@@ -5,6 +5,7 @@ date: 2024-05-23
 tags: [projects, tech, data science, visualization, machine learning, kmeans]
 image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
+custom_excerpt: Peering into exoplanet science through the lens of data. I grab a dataset from the NASA exoplanets archive on which I'll explore, visualize and perform unsupervised learning through a k-means clustering algorithm.
 ---
 
 <p align="center"> <em> This post and projects marks the beginning of my new personal website. I'll be sharing ideas and creations in data science that drive me. My first project was created purely out my curiosity for astronomical science and to, as always, hone my skills as a data scientist.</em> </p>
@@ -63,7 +64,6 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 </figure>
 
 You may consult my notebook for the full process. I've queried data from NASA's <strong>Table Access Protocol (TAP)</strong> using SQL and Python's <strong><code>requests</code></strong> package. I extracted <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters of interesst. After some basic pre-processing here's an unvarnished look at our raw data:
-
 
 <div style="height: 10px;"></div>
 <figure style="text-align: center;">
