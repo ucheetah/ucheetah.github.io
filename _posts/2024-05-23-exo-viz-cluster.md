@@ -157,10 +157,10 @@ Next I look at exoplanet distance from Earth; I've generated a histogram - techn
 
 <strong>Observation(s):</strong>
 <ul>
-  <li> Clear decrease in exoplanets as the distance increases. This is unsurprising and likely due to observational limits.</li>
-  <li> Highest concentration of planets are within the first 2000 light years.</li>
-  <li> Planets drop significantly around 4000 light years. Very few exoplanets found beyond 6000 years.</li>
-  <li> Remarkably a small number of planets are accessed beyond 10,000 light years (Recall that one light year is 9,461,000,000,000 km)</li>
+  <li> Clear decrease in exoplanets as the distance increases. Unsurprising and likely due to observational limits.</li>
+  <li> Highest concentration of planets within the first 2000 light years.</li>
+  <li> Planets drop significantly around 4000 light years. Very few exoplanets beyond 6000 years.</li>
+  <li> Remarkably a small number of planets are accessed beyond 8,000 light years (Recall that one light year is 9,461,000,000,000 km)</li>
 </ul>
 
 <p> We can also better evaluate the distribution of planets as a whole through a cumulative distribution function:</p>
@@ -183,7 +183,7 @@ Next I look at exoplanet distance from Earth; I've generated a histogram - techn
 <h4> Planet mass and radius </h4>
 
 <div style="height: 20px;"></div>
-Observing the disparity of planet size and mass can allow us to create a better demographic picture of the planets in our observed universe. Next we will take a look at exoplanet radius and mass. The following is a scatterplot of mass and radius. Note that the scatterplot colors are defined in terms of mass, and the mass is in a logarithmic scale.
+Now I'll track radius and mass. This scatterplot compares mass and radius. Mass is also describe with hue.
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -196,13 +196,10 @@ Observing the disparity of planet size and mass can allow us to create a better 
 <strong>Observation(s):</strong>
 
 <ul>
-<li> Linear relationship between planet mass and the log of planet radius.</li>
-<li> Appear to be two main groups of data, one with smaller radius and mass, another with larger.</li>
-<li> A few outliers on the ends.</li>
-<li> radius and mass appear to correlate.</li>
-<li> Significant fluctuations in planet mass and radius - the heaviest planet is 10000x heavier than Earth. This may be understood by the fact that mass increases exponentially with respect to radius. </li>
+<li> Apparent linear relationship between log of planet mass and planet radius.</li>
+<li> Appears to be two clumps of data, one with smaller radius and mass, another with larger.</li>
+<li> Some outliers with very large mass and radii.</li>
 </ul>
-<div style="height: 20px;"></div>
 
 However planets differ greatly in their compositions and densities so we would expect there to be quite a bit of fluctuation. 
 
