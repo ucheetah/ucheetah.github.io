@@ -74,7 +74,7 @@ You may consult my notebook for the full process. I've queried data from NASA's 
 </figure>
 <div style="height: 10px;"></div>
 
-Here's a preliminary summary of this data. The table lists counts of each column (counts below 5638 indicates missing data), minimum and maximum values, and 25th, 50th and 75th percentiles: 
+Here's a preliminary summary of this data. The table includes counts of each feature (counts below 5638 indicate missing data), minimum and maximum values, and  25th, 50th and 75th percentiles: 
 
 <div style="height: 10px;"></div>
 <p align="center">
@@ -157,12 +157,13 @@ Next I look at exoplanet distance from Earth; I've generated a histogram - techn
 
 <strong>Observation(s):</strong>
 <ul>
-  <li> More planets have been found closer to Earth - unsurprising.</li>
-  <li> Still a sizable number of planets found up to 4000 light years away.</li>
-  <li> Remarkably, a small number of planets have still been been accessed at 10,000 light years away (Recall that one light year is 9,461,000,000,000 km!)</li>
+  <li> Clear decrease in exoplanets as the distance increases. This is unsurprising and likely due to observational limits.</li>
+  <li> Highest concentration of planets are within the first 2000 light years.</li>
+  <li> Planets drop significantly around 4000 light years. Very few exoplanets found beyond 6000 years.</li>
+  <li> Remarkably a small number of planets are accessed beyond 10,000 light years (Recall that one light year is 9,461,000,000,000 km)</li>
 </ul>
 
-<p> We can also better evaluate show the distribution of planets behaves as a whole through a cumulative distribution function:</p>
+<p> We can also better evaluate the distribution of planets as a whole through a cumulative distribution function:</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -175,15 +176,8 @@ Next I look at exoplanet distance from Earth; I've generated a histogram - techn
 <strong>Observation(s):</strong>
 <ul>
   <li> Close to 90% of known exoplanets are within the ten thousand light year range. </li>
-  <li> In the CDF we notice a highly asymptotic behavior - small number as the distance surpasses 4000 light years. </li>
+  <li> The growth slows down as we move beyond 4000 light years,. </li>
 </ul>
-<div style="height: 20px;"></div>
-
-Unsurprisingly known planets taper off with distance. This is likely due to a few reasons:
-- perhaps there is a significant drop in measurement devices.
-- sampling bias - closer planets are given more priority
-- there are less planers further - unlikely
-
 <div style="height: 20px;"></div>
 
 <h4> Planet mass and radius </h4>
