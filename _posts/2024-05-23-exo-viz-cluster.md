@@ -143,7 +143,7 @@ Next I'll visualize the data. I'll only be showing outputs. I've used <strong><c
   <li>The <strong>microlensing</strong> method tracks distorsions of light as large exoplanets pass in front of a star.</li>
 </ul>
 
-<p>I've tracked the evolution in exoplanet discoveries since the first in 1992. Along the lines of observational cosmologist <strong><a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">Chris Impey</a></strong>'s perspective, the rapid discovery of exoplanets is comparable to the explosive growth of internet technology during the Dotcom bubble, and that growth is on full display:</p> 
+<p>I've tracked the evolution in exoplanet discoveries since the first in 1992:</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -159,11 +159,13 @@ Next I'll visualize the data. I'll only be showing outputs. I've used <strong><c
   <li>The transit method is clearly the most successful discovery method.</li>
 </ul>
 
+<p>Observational cosmologist <strong><a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">Chris Impey</a></strong> claimed that the rapid discovery of exoplanets is comparable to the explosive growth of internet technology during the Dotcom bubble. Here that growth is on full display.</p> 
+
 <div style="height: 20px;"></div>
 <h4>Distance from Earth</h4>
 <div style="height: 20px;"></div>
 
-Next I look at exoplanet distance from Earth; I've generated a histogram - technically a lollipop plot - tracking this metric:
+Next I look at exoplanet distance from Earth; I've generated a histogram (technically a lollipop plot) tracking this metric:
 
 <div style="height: 20px;"></div>
 
