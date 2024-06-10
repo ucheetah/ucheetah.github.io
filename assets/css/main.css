@@ -680,6 +680,12 @@ pre code{border:0;padding-right:0;padding-left:0}
   box-sizing: border-box; 
 }
 
+.about-header .author-image-container img {
+    border-style: none;
+    height: 100%; /* Use 100% to fill the container height */
+    width: 100%; /* Use 100% to fill the container width */
+}
+
 .contact-links{
   margin:0;
   padding:0;
