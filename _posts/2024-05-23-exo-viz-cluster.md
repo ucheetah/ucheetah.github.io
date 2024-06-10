@@ -43,11 +43,11 @@ custom_excerpt: Peering into exoplanet science through the lens of data. I grab 
 <h3 align="center"> Background</h3>
 <div style="height: 20px;"></div>
 
-<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. The nine we know well certainly do. But the planets outside our Solar System, extrasolar planets, or more commonly <strong>exoplanets</strong>, tend not to</p>
+<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. The nine we know well certainly do. But the planets outside our Solar System, extrasolar planets, or more commonly <strong>exoplanets</strong>, are simply not accorded the same importance.</p>
 
 <p>I'd argue that this view is changing though. Most astronomers recognize an invaluable prospect that exoplanet science offers - confirming the existence of extraterrestrial life. In fact physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique.</p>
 
-<p>This project investigates the existing data on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering dynamic graphs that give big picture takeaways. Then, I'll conduct <strong>unsupervised learning</strong> - a k-means clustering algorithm - on the data and compare it to existing exoplanet classifications.</p>
+<p>This project investigates the existing record on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that give big picture takeaways. Lastly I'll conduct <strong>unsupervised learning</strong> - a k-means clustering algorithm - on the data and compare it to existing exoplanet classifications.</p>
 
 <div style="height: 20px;"></div>
 
@@ -63,7 +63,9 @@ custom_excerpt: Peering into exoplanet science through the lens of data. I grab 
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
 
-I've queried data from NASA's <strong>Table Access Protocol (TAP)</strong> using SQL and Python's <strong><code>requests</code></strong> package extracting <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters of interest. You may consult my notebook for the full process. After some basic pre-processing here's an first impression of the data:
+I've chosen to extract <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters of interest. I've queried this data from NASA's <strong>Table Access Protocol (TAP)</strong> using SQL and Python's <strong><code>requests</code></strong> package; consult my notebook for the full process. 
+
+Following some basic pre-processing here's an first impression of the data:
 
 <div style="height: 10px;"></div>
 <figure style="text-align: center;">
@@ -74,7 +76,7 @@ I've queried data from NASA's <strong>Table Access Protocol (TAP)</strong> using
 </figure>
 <div style="height: 10px;"></div>
 
-This is a preliminary summary of the data. The table includes <strong>counts</strong> of each feature (counts below 5638 indicate missing data), <strong>minimum</strong> and <strong>maximum values</strong>, and  <strong>25th</strong>, <strong>50th</strong> and <strong>75th percentiles</strong>: 
+Here's a preliminary summary of the data. This table includes <strong>counts</strong> of each feature (counts below 5638 indicate missing data), <strong>minimum</strong> and <strong>maximum values</strong>, and  <strong>25th</strong>, <strong>50th</strong> and <strong>75th percentiles</strong>: 
 
 <div style="height: 10px;"></div>
 <p align="center">
