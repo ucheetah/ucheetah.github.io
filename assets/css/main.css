@@ -649,6 +649,7 @@ pre code{border:0;padding-right:0;padding-left:0}
 .author-box .author-left li a{padding:0}
 
 .author-box .author-img{
+  min-width:150px;
   height:150px;
   border-radius:100%
 }
