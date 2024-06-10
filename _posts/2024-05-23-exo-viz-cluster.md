@@ -129,15 +129,13 @@ With this first glimpse let's dive in deeper.
 <div style="height: 20px;"></div>
 <h3 align="center">Visualization and Analysis</h3>
 <div style="height: 20px;"></div>
-Next I'll visualize the data. I'll only be showing outputs. For pre-processing details and graph construction consult my notebook and/or scripts. 
-
-I've used <strong><code>matplotlib</code></strong> and <strong><code>seaborn</code></strong>. I wanted to challenge the notion that these packages lack in complexity or aesthetic quality by developing graphs that still feel dynamic and engaging, and employing lesser-used tools such as 3D graphs, matplotlib tables and stylesheets.
+Next I'll visualize the data. I'll only be showing outputs. I've used <strong><code>matplotlib</code></strong> and <strong><code>seaborn</code></strong>. I wanted to challenge the notion that these packages lack in complexity or aesthetic quality by developing graphs that still feel dynamic and engaging, and employing lesser-used tools such as 3D graphs, matplotlib tables and stylesheets.
 
 <div style="height: 20px;"></div>
 <h4>Discovery method</h4>
 <div style="height: 20px;"></div>
 
-<p>The discovery of exoplanets in itself is interesting. Since exoplanets are fundamentally harder to detect than other bodies like stars, finding them has required the development of complex methods using fine-grained spectroscopic data:</p>
+<p>Since exoplanets are fundamentally harder to detect than other bodies like stars, finding them has required the development of complex methods using fine-grained spectroscopic data:</p>
 
 <ul>
   <li>The <strong>transit method</strong> tracks the shift in light as an exoplanet crosses a visible star, creating a "mini-eclipse" with the Earth.</li>
