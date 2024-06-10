@@ -227,19 +227,20 @@ Now I'll track radius and mass. This scatterplot compares mass and radius. Mass 
 
 However planets differ greatly in their compositions and densities so we would expect there to be quite a bit of fluctuation. 
 
+
+
+
+
+
+
+
+
+
+
+
 <div style="height: 20px;"></div>
-
-
-
-
-
-
-
-
-
-
-
-
+<hr>
+<div style="height: 20px;"></div>
 
 
 
@@ -410,7 +411,9 @@ Super-Earths or Sub-Neptunes, we base planets on our
 Classifying a planet based on the ones in our Solar System doesn't lead to categories that actually reflect statistical trends in the universe. Our current categorizations don' take into account the vast diversity in planets that exceed Jupiter's size. On a level deeper, the idea of what a planet even is is a political matter among astronomists.
 
 
-
+<div style="height: 20px;"></div>
+<hr>
+<div style="height: 20px;"></div>
 
 <h3 align="center">Resources</h3>
 <div style="height: 20px;"></div>
