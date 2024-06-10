@@ -681,10 +681,12 @@ pre code{border:0;padding-right:0;padding-left:0}
 }
 
 .about-header .author-image-container img {
-    border-style: none;
     height: 100%; /* Use 100% to fill the container height */
     width: 100%; /* Use 100% to fill the container width */
+    border-radius:100%
 }
+
+
 
 .contact-links{
   margin:0;
