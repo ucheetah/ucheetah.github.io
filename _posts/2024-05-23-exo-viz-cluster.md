@@ -414,7 +414,7 @@ These appear to contain a large amount of relatively moderately-sized planets. A
 <div style="height: 20px;"></div>
 
 If worked has piqued your interest on exoplanet science, here are a few resources I appreciate to keep reading on the matter:
-
+<div style="height: 10px;"></div>
 <ul>
   <li>
     <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank"> How to create custom tables</a></strong> - Great tutorials on custom tables.
