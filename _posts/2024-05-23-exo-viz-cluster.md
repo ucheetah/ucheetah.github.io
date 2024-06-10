@@ -109,8 +109,7 @@ Here's a preliminary summary of the data including <strong>counts</strong> of ea
 <ul>
   <li>Exoplanet science is young - the first exoplanet was found in 1992. Interestingly though, only an exoplanet discovery three years later would snatch a <a href="https://www.insidescience.org/news/all-exoplanets-came-1995">Nobel Prize (it's always political)</a>
 </li>
-  <li>There is a surreal amount of diversity in planet characteristics - planets from 4 to 25k light years, 0.4 to 10k times Earth's mass and 0.3 to 77.3 times Earth's radius (R&oplus;
-).</li>
+  <li>There is a surreal amount of diversity in planet characteristics - planets from 4 to 25k light years, 0.4 to 10k times Earth's mass and 0.3 to 77.3 times Earth's radius (from now on R&oplus;).</li>
 </ul>
 With this first glimpse let's dive in deeper.
 
@@ -246,19 +245,22 @@ However planets differ greatly in their compositions and densities so we would e
 <h3 align="center"> Machine Learning Classification</h3>
 <div style="height: 20px;"></div>
 
-<p>To better assess the influx of planets we're finding, a number of different categorizations exist for ... With radius and mass alone "we can see compositions ranging from rocky (like Earth and Venus) to gas-rich (like Jupiter and Saturn)".</p>
+To better assess the influx of planets that are discovered, various categorizations exist. When considering size for example we often hear of these classifications, which are not standardized but used widely:
 
-<p>We group data based on their features in to a number of categories. We call it unsupervised because have no prior data on how to categorize the data. This method is most powerful when we do not have existing data to train the model on how to classify</p>
+<ul>
+  <li>super-Earths (1.0–1.75 Earth Radius (R&oplus;))</li>
+  <li>sub-Neptunes (1.75–3.5 R&oplus;)</li>
+  <li>sub-Jovians (3.5–6.0 R&oplus;)</li>
+  <li>Jovians (6–14.3 R&oplus;)</li>
+</ul>
 
-<p>I Since this dataset does not provide existing classifications of planets, I will be performing unsupervised learning.</p>
-
-<p>With this in mind I will be conducting a k-means algoirthm using the features of exoplanet radius and exoplanet mass alone using <code>scikit-learn</code>.</p>
+<p>For my machine learning applications, I aim to replicate these classifications using our exoplanet data. This involves unsupervised learning, where the model doesn't rely on labeled training data for the classifications we're trying to create. I'll be employing a k-means clustering algorithm, which, for any number k, groups the data based on select features - in this case, mass and radius - and returns k clusters based on their similarities. This analysis will be implemented using <code>scikit-learn</code>. The intricate details of the algorithm will be beyond the scope of this project.</p>
 
 <div style="height: 20px;"></div>
 <h4> Silhouette score calculation</h4>
 <div style="height: 20px;"></div>
 
-<p> To determine the number of categories (clusters) we want to develop, we will use the <strong>silhouette score</strong> method. You may consult my script for a better understanding of this method. High scores indicate good clustering results, bad scores indicate bad results.</p>
+<p> To determine the number of categories (clusters) we want to model, we will use the <strong>silhouette score</strong> method. High scores indicate good grouping results, bad scores indicate bad grouping</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -270,15 +272,15 @@ However planets differ greatly in their compositions and densities so we would e
 
 <strong>Observation(s): </strong>
 <ul>
-<li>Clearly the most favorable score is 4, so we will divide our exoplanet data into four categories in attempts to match them with existing categories.</li>
+<li>Clearly the most favorable score is four. We will divide our exoplanets in attempts to match them with existing categories.</li>
 </ul>
 <div style="height: 20px;"></div>
 
 <div style="height: 20px;"></div>
-<h4> Apply k-means clustering</h4>
+<h4> Apply k-means clustering algorithm</h4>
 <div style="height: 20px;"></div>
 
-We run a kmeans model using scikit learn and add the clusters it has generate to our data. In the following graph we display those results, with each cluster differing in color and 
+We run a k-means model using scikit-learn and add the generated clusters to our data. Here is a scatterplot displaying the results. Colors represent differen clusters, centroids (<strong><code>+</code></strong>) represent mean values of each cluster.
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -290,9 +292,10 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 <div style="height: 20px;"></div>
 <strong>Observation(s):</strong>
 <ul>
-<li>Clearly the most favorable score is 4, so we will divide our exoplanet data into four categories in attempts to match them with existing categories.</li>
+<li>Clusters 1 and 2 appear to be well classed, representing planets with small radius/mass and medium radius/mass, respectively.</li>
+<li>Clusters 3 and 4 are in the similar vicinity but span very wide ranges of radius, which could be suspect.</li>
 </ul>
-
+Adding distance as a third dimension:
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -382,6 +385,8 @@ These appear to contain a large amount of relatively moderately-sized planets. A
     </div>
     <div class="half-table">
         <!-- Content for the right half goes here -->
+      <br>
+      <br>
         <p>Most likely these are: </p>
       <ul>
         <li><strong>Super-Jupiters</strong> given their clear superior size to Jupiter.</li>
