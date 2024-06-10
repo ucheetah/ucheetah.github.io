@@ -14,8 +14,7 @@ user_description_appendix: |
   <hr>
   <strong>Credits:</strong>
   <ul>
-  <li>This site was taken from Louis Rassaby's GitHub [Jekyll][jekyll], and it's hosted for free on [GitHub Pages][gh-pages]. It's open source, so if
-  you like it, fork it on [GitHub][github] and make your own version.</li>
+  <li>This site was taken from Louis Rassaby's GitHub <a href="https://github.com/lrassaby/lrassaby.github.io">Jekyll</a>, and it's hosted for free on <a href="https://pages.github.com/">GitHub Pages</a>. It's open source, so if you like it, fork it on <a href="https://github.com/lrassaby/lrassaby.github.io">GitHub</a> and make your own version.</li>
   <li> Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp"> Eucalyp </a> from <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a></li>
   <li> Profle sketch by Louis Sobol </li>
   </ul>
