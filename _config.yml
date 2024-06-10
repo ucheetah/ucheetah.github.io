@@ -10,9 +10,10 @@ projects_title: Home
 
 # User settings
 user_description_appendix: |
-
+  Follow along and connect with me if our passions align!
+  <hr>
   This site was taken from Louis Rassaby's GitHub [Jekyll][jekyll], and it's hosted for free on [GitHub Pages][gh-pages]. It's open source, so if
-  you like it, feel free to fork it on [GitHub][github] and make your own version.
+  you like it, fork it on [GitHub][github] and make your own version.
 
   [github]: https://github.com/lrassaby/lrassaby.github.io
   [gh-pages]: https://pages.github.com/
@@ -34,7 +35,7 @@ relevant_tags: ['projects', 'tech']
 author: Keanu Uchida
 author_title: Data 
 author_photo: author_photo2.jpeg
-user_description_short: Learning and growth are eternal - hoping to document some of that journey here. Recent Physics and Philosophy grad from the University of Toronto. Passionate about data science and data analysis. Always finding corners where the creative meets the analytic. I also love to dance. Follow along and connect with me if our passions align.
+user_description_short: Learning and growth are eternal - hoping to document some of that journey here. Recent Physics and Philosophy grad from the University of Toronto. Passionate about data science and data analysis. Always finding corners where the creative meets the analytic. I also love to dance.
 
 ## Disqus
 # disqus_identifier: rassaby
