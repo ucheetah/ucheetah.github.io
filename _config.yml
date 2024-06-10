@@ -10,7 +10,6 @@ projects_title: Home
 
 # User settings
 user_description_appendix: |
-  Latest projects and ideas.
 
   This site was taken from Louis Rassaby's GitHub [Jekyll][jekyll], and it's hosted for free on [GitHub Pages][gh-pages]. It's open source, so if
   you like it, feel free to fork it on [GitHub][github] and make your own version.
@@ -20,6 +19,7 @@ user_description_appendix: |
   [jekyll]: https://jekyllrb.com
 
   <div> Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp"> Eucalyp </a> from <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a></div>
+  <div> Profle sketch by Louis Sobol 
 
 
 email: kblairuchida@gmail.com
