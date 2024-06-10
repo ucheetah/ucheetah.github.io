@@ -143,7 +143,7 @@ I've used <strong><code>matplotlib</code></strong> and <strong><code>seaborn</co
 <h4>Distance from Earth</h4>
 <div style="height: 20px;"></div>
 
-We next track exoplanet distance from Earth; I've generated a histogram (lollipop plot) tracking exoplanets respective to their distance from Earth:
+Next I look at exoplanet distance from Earth; I've generated a histogram - technically a lollipop plot - tracking this metric:
 
 <div style="height: 20px;"></div>
 
@@ -157,12 +157,12 @@ We next track exoplanet distance from Earth; I've generated a histogram (lollipo
 
 <strong>Observation(s):</strong>
 <ul>
-  <li> More planets have been closer to Earth.</li>
-  <li> Fairly consistent amount of planets found to 3500 light years away.</li>
-  <li> Remarkably, a small number of planets have still been been accessed at 10,000 light years away. Recall, one light year is 9,461,000,000,000 km!</li>
+  <li> More planets have been found closer to Earth - unsurprising.</li>
+  <li> Still a sizable number of planets found up to 4000 light years away.</li>
+  <li> Remarkably, a small number of planets have still been been accessed at 10,000 light years away (Recall that one light year is 9,461,000,000,000 km!)</li>
 </ul>
 
-<p> We can also better evaluate the distribution of planets as a whole through a cumulative distribution function (CDF):</p>
+<p> We can also better evaluate show the distribution of planets behaves as a whole through a cumulative distribution function:</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
