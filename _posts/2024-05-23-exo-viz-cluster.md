@@ -45,9 +45,9 @@ custom_excerpt: Peering into exoplanet science through the lens of data. I grab 
 
 <p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. The nine we know well certainly do. But the planets outside our Solar System, extrasolar planets, or more commonly <strong>exoplanets</strong>, tend not to</p>
 
-<p>I would argue that this view is changing though. Most astronomers recognize something invaluable that exoplanet offers offers - confirming the existence of extraterrestrial life. Many physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique.</p>
+<p>I'd argue that this view is changing though. Most astronomers recognize an invaluable prospect that exoplanet science offers - confirming the existence of extraterrestrial life. In fact physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique.</p>
 
-<p>This project investigates the existing data on exoplanets. I'll <strong>perform exploratory data analysis</strong> on an exoplanet dataset provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that are dynamic and give big picture takeaways. Then, I'll <strong>conduct unsupervised learning</strong> - a k-means clustering algorithm - on the data and compare it to existing exoplanet classifications.</p>
+<p>This project investigates the existing data on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering dynamic graphs that give big picture takeaways. Then, I'll conduct <strong>unsupervised learning</strong> - a k-means clustering algorithm - on the data and compare it to existing exoplanet classifications.</p>
 
 <div style="height: 20px;"></div>
 
