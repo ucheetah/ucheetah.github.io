@@ -63,7 +63,7 @@ custom_excerpt: Peering into exoplanet science through the lens of data. I grab 
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
 
-You may consult my notebook for the full process. I've queried data from NASA's <strong>Table Access Protocol (TAP)</strong> using SQL and Python's <strong><code>requests</code></strong> package. I extracted <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters of interesst. After some basic pre-processing here's an unvarnished look at our raw data:
+I've queried data from NASA's <strong>Table Access Protocol (TAP)</strong> using SQL and Python's <strong><code>requests</code></strong> package extracting <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters of interest. You may consult my notebook for the full process. After some basic pre-processing here's an first impression of the data:
 
 <div style="height: 10px;"></div>
 <figure style="text-align: center;">
@@ -74,7 +74,7 @@ You may consult my notebook for the full process. I've queried data from NASA's 
 </figure>
 <div style="height: 10px;"></div>
 
-Here's a preliminary summary of this data. The table includes counts of each feature (counts below 5638 indicate missing data), minimum and maximum values, and  25th, 50th and 75th percentiles: 
+This is a preliminary summary of the data. The table includes <strong>counts</strong> of each feature (counts below 5638 indicate missing data), <strong>minimum</strong> and <strong>maximum values</strong>, and  <strong>25th</strong>, <strong>50th</strong> and <strong>75th percentiles</strong>: 
 
 <div style="height: 10px;"></div>
 <p align="center">
