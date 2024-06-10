@@ -671,8 +671,8 @@ pre code{border:0;padding-right:0;padding-left:0}
 .about-header:after{content:"";display:block;height:1px;width:80px;background-color:#311e3e;margin:2em auto}
 
 .about-header .author-image-container{
-  width:120px;
-  height:120px;
+  width:200px;
+  height:200px;
   border-radius:100%;
   overflow:hidden;
   margin:0 auto 30px
