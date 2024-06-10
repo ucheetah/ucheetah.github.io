@@ -417,24 +417,16 @@ Classifying a planet based on the ones in our Solar System doesn't lead to categ
 <div style="height: 20px;"></div>
 
 If worked has piqued your interest on exoplanet science, here are a few resources I appreciate to keep reading on the matter:
-<ul>
-<li>
-  
-</li>
-</ul>
 
 <ul>
   <li>
-    The format of these tables is drawn from <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank"> How to create custom tables</a></strong>.
+    <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank"> How to create custom tables</a></strong> - great tutorials on custom tables.
   </li>
 <li>
-<strong><a href="https://matplotlib.org/stable/users/explain/customizing.html" target="_blank">Customizing Matplotlib with style sheets and rcParams</a></strong> - Sometimes direct from the source is best. Great demo on customizing sheets and understanding the underlying rcParams function in Matplotlib, which I used to make my own style sheet.
+<strong><a href="https://matplotlib.org/stable/users/explain/customizing.html" target="_blank">Customizing Matplotlib with style sheets and rcParams</a></strong> -  Great demo on customizing style with Matplotlib.
 </li>
 <li>
-<strong><a href="https://python-graph-gallery.com/lollipop-plot/">Lollipop chart | Python & Matplotlib examples | The Python Graph Gallery</a></strong> - Short intro to lollipop plots. This was my first time using one; usually they're used for barplots (categorical data) but they can also be appropriate for histograms given the context. Great to avoid <a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern">Moiré patterns</a>
-</li>
-<li>
-<strong><a href="https://jekyllrb.com/docs/github-pages/">GitHub Pages</a></strong> - Glad I made my website using GitHub Pages. It's a great middle-ground between full out website creation from scratch and simpler options with little room for personalization.
+<strong><a href="https://python-graph-gallery.com/lollipop-plot/">Lollipop chart | The Python Graph Gallery</a></strong> - Short intro to lollipop plot - great to avoid <a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern">Moiré patterns</a>
 </li>
 </ul>
 
