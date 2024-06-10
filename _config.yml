@@ -11,13 +11,11 @@ projects_title: Home
 # User settings
 user_description_appendix: |
   Follow along and connect with me if our passions align!
-  <hr>
-  <strong>Credits:</strong>
-  <ul style="display: inline; color: #311E3E;">
-    <li>This site was taken from Louis Rassaby's GitHub <a href="https://github.com/lrassaby/lrassaby.github.io">Jekyll</a>, and it's hosted for free on <a href="https://pages.github.com/">GitHub Pages</a>. It's open source, so if you like it, fork it on <a href="https://github.com/lrassaby/lrassaby.github.io">GitHub</a> and make your own version.</li>
-    <li> Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp"> Eucalyp </a> from <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a></li>
-    <li> Profle sketch by Louis Sobol </li>
-  </ul>
+  ---
+  **Credits:**
+    - This site was taken from Louis Rassaby's GitHub [Jekyll](https://github.com/lrassaby/lrassaby.github.io), and it's hosted for free on [GitHub Pages](https://pages.github.com/). It's open source, so if you like it, fork it on [GitHub](https://github.com/lrassaby/lrassaby.github.io).
+    - Icons made by [Eucalyp](https://www.flaticon.com/authors/eucalyp) from [Flaticon](https://www.flaticon.com/).
+    - Profile sketch by Louis Sobol.
   
 
   [github]: https://github.com/lrassaby/lrassaby.github.io
