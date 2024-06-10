@@ -75,7 +75,7 @@ custom_excerpt: Peering into exoplanet science through the lens of data. I grab 
 <h3 align="center">Data collection and cleaning</h3> 
 <div style="height: 20px;"></div>
 
-<p>I will work with the <em><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank"> Planetary Systems</a></em> dataset from the NASA exoplanets archive, a collaboration between Caltech and NASA under its Exoplanet Exploration Program. The dataset contains records of all 5638 confirmed exoplanets.</p>
+<p>I will work with the <em><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank"> Planetary Systems</a></em> dataset, which contains records of all 5638 confirmed exoplanets, provided by the NASA exoplanets archive. The archive is a collaboration between Caltech and NASA under its Exoplanet Exploration Program.</p>
 
 <figure style="text-align: center;">
    <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">
@@ -95,7 +95,7 @@ I've chosen to extract <strong>planet radius</strong>, <strong>planet mass</stro
 </figure>
 <div style="height: 10px;"></div>
 
-Here's a preliminary summary of the data. This table includes <strong>counts</strong> of each feature (counts below 5638 indicate missing data), <strong>minimum</strong> and <strong>maximum values</strong>, and  <strong>25th</strong>, <strong>50th</strong> and <strong>75th percentiles</strong>: 
+Here's a preliminary summary of the data including <strong>counts</strong> of each feature (counts below 5638 indicate missing data), <strong>minimum</strong> and <strong>maximum values</strong>, and  <strong>25th</strong>, <strong>50th</strong> and <strong>75th percentiles</strong>: 
 
 <div style="height: 10px;"></div>
 <p align="center">
