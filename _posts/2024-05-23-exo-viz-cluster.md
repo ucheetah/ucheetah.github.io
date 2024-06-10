@@ -38,7 +38,7 @@ custom_excerpt: Peering into exoplanet science through the lens of data. I grab 
     <td> <strong><a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main" target="_blank">GitHub Repo - exoplanet-viz-cluster</a></strong> </td>
   </tr>
 </table>
-
+<hr>
 <div style="height: 20px;"></div>
 <h3 align="center"> Background</h3>
 <div style="height: 20px;"></div>
@@ -49,8 +49,8 @@ custom_excerpt: Peering into exoplanet science through the lens of data. I grab 
 
 <p>This project investigates the existing record on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that give big picture takeaways. Lastly I'll conduct <strong>unsupervised learning</strong> - a k-means clustering algorithm - on the data and compare it to existing exoplanet classifications.</p>
 
+<hr>
 <div style="height: 20px;"></div>
-
 <h3 align="center">Data collection and cleaning</h3> 
 <div style="height: 20px;"></div>
 
@@ -104,7 +104,7 @@ With this first glimpse let's dive in deeper.
 
 
 
-
+<hr>
 
 <div style="height: 20px;"></div>
 <h3 align="center">Visualization and Analysis</h3>
