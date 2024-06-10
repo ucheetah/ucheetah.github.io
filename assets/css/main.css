@@ -675,7 +675,7 @@ pre code{border:0;padding-right:0;padding-left:0}
   height:200px;
   border-radius:100%;
   overflow:hidden;
-  margin:0 auto 30px
+  margin:0 auto 30px;
   border: 5px solid #000; 
   box-sizing: border-box; 
 }
