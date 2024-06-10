@@ -56,7 +56,7 @@ custom_excerpt: Peering into exoplanet science through the lens of data. I grab 
 
 <p>I'd argue that this view is changing though. Most astronomers recognize an invaluable prospect that exoplanet science offers - confirming the existence of extraterrestrial life. In fact physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique.</p>
 
-<p>This project investigates the existing record on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that give big picture takeaways. Lastly I'll conduct <strong>unsupervised learning</strong> - a k-means clustering algorithm - on the data and compare it to existing exoplanet classifications.</p>
+<p>This project investigates the existing record on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that give big picture takeaways. Lastly I'll conduct <strong>unsupervised learning</strong> - a k-means clustering algorithm - on the data and compare it to existing exoplanet classifications. For the full technical process consult my GitHub repository.</p>
 
 
 
@@ -84,9 +84,7 @@ custom_excerpt: Peering into exoplanet science through the lens of data. I grab 
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
 
-I've chosen to extract <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters of interest. I've queried this data from NASA's <strong>Table Access Protocol (TAP)</strong> using SQL and Python's <strong><code>requests</code></strong> package and conducted some basic pre-processing; consult my notebook for the full process. 
-
-Here's a first impression of the data:
+I've chosen to extract <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters of interest. I've queried this data from NASA's <strong>Table Access Protocol (TAP)</strong> using SQL and Python's <strong><code>requests</code></strong> package and conducted some basic pre-processing. Here's a first impression of the data:
 
 <div style="height: 10px;"></div>
 <figure style="text-align: center;">
