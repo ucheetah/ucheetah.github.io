@@ -123,7 +123,7 @@ I've used <strong><code>matplotlib</code></strong> and <strong><code>seaborn</co
   <li>The <strong>microlensing</strong> method tracks distorsions of light as large exoplanets pass in front of a star.</li>
 </ul>
 
-<p>I've tracked the evolution in exoplanet discoveries since the first in 1992. Along the lines of observational cosmologist <strong><a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">Chris Impey's</a></strong> perspective, the rapid discovery of exoplanets is comparable to the explosive growth of internet technology during the Dotcom bubble, and that growth is on full display:</p> 
+<p>I've tracked the evolution in exoplanet discoveries since the first in 1992. Along the lines of observational cosmologist <strong><a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">Chris Impey</a></strong>'s perspective, the rapid discovery of exoplanets is comparable to the explosive growth of internet technology during the Dotcom bubble, and that growth is on full display:</p> 
 
 <div style="height: 20px;"></div>
 <p align="center">
