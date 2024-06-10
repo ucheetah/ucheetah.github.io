@@ -109,7 +109,8 @@ Here's a preliminary summary of the data including <strong>counts</strong> of ea
 <ul>
   <li>Exoplanet science is young - the first exoplanet was found in 1992. Interestingly though, only an exoplanet discovery three years later would snatch a <a href="https://www.insidescience.org/news/all-exoplanets-came-1995">Nobel Prize (it's always political)</a>
 </li>
-  <li>There is a surreal amount of diversity in planet characteristics - planets from 4 to 25k light years, 0.4 to 10k times Earth's mass and 0.3 to 77.3 times Earth's radius.</li>
+  <li>There is a surreal amount of diversity in planet characteristics - planets from 4 to 25k light years, 0.4 to 10k times Earth's mass and 0.3 to 77.3 times Earth's radius (R&oplus;
+).</li>
 </ul>
 With this first glimpse let's dive in deeper.
 
@@ -205,7 +206,7 @@ Next I look at exoplanet distance from Earth; I've generated a histogram (techni
 <h4> Planet mass and radius </h4>
 
 <div style="height: 20px;"></div>
-Now I'll track radius and mass. This scatterplot compares mass and radius. Mass is also describe with hue.
+Now I'll track radius and mass. This scatterplot compares mass and radius. Mass is also described with hue.
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -314,7 +315,7 @@ We run a kmeans model using scikit learn and add the clusters it has generate to
 Let's take a look at how our clusters compared to existing exoplanet groupings.
 <div style="height: 20px;"></div>
 
-<h4 align="center">Cluster 1: Super-Earths, Sub-Neptunes and Super-Neptunes</h4>
+<h5 align="center">Cluster 1: Super-Earths, Sub-Neptunes and Super-Neptunes</h5>
 <div class="container-table">
     <div class="half-table">
         <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
@@ -333,7 +334,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 
 <div style="height: 20px;"></div>
 
-<h4 align="center">Cluster 2: Super-Neptunes/Super-Jupiters</h4>
+<h5 align="center">Cluster 2: Super-Neptunes/Super-Jupiters</h5>
 <div class="container-table">
     <div class="half-table">
         <a href="/assets/img/2024-05-24-exoplanets-H2.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H2.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
@@ -351,7 +352,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 These appear to contain a large amount of relatively moderately-sized planets. A large number of planets can be found in this categorization.
 <div style="height: 20px;"></div>
 
-<h4 align="center">Cluster 3: Super-Jupiters and Brown-Dwarfs </h4>
+<h5 align="center">Cluster 3: Super-Jupiters and Brown-Dwarfs </h5>
 <div class="container-table">
     <div class="half-table">
         <!-- Image for the right half goes here -->
@@ -372,7 +373,7 @@ These appear to contain a large amount of relatively moderately-sized planets. A
 
 <div style="height: 20px;"></div>
 
-<h4 align="center">Cluster 4: Super-Jupiters</h4>
+<h5 align="center">Cluster 4: Super-Jupiters</h5>
 
 <div class="container-table">
     <div class="half-table">
