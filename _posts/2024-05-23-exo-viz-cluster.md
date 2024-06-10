@@ -315,10 +315,10 @@ Adding distance as a third dimension:
 <h4>Cluster Analysis</h4>
 <div style="height: 20px;"></div>
 
-Let's take a look at how our clusters compared to existing exoplanet groupings.
+Let's look closer at each group and how each cluster fares to existing exoplanet groupings.
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 1: Super-Earths, Sub-Neptunes and Super-Neptunes</h5>
+<h5 align="center">Cluster 1: Super-Earths, Sub-Neptunes, and Super-Neptunes</h5>
 <div class="container-table">
     <div class="half-table">
         <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
@@ -337,7 +337,7 @@ Let's take a look at how our clusters compared to existing exoplanet groupings.
 
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 2: Super-Neptunes/Super-Jupiters</h5>
+<h5 align="center">Cluster 2: Super-Neptunes and Super-Jupiters</h5>
 <div class="container-table">
     <div class="half-table">
         <a href="/assets/img/2024-05-24-exoplanets-H2.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H2.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
@@ -363,6 +363,7 @@ These appear to contain a large amount of relatively moderately-sized planets. A
     </div>
   <div class="half-table">
         <!-- Content for the left half goes here -->
+    <br>
        <p>This cluster contains exoplanets with enormous masses and radii. These could be:</p>
     <ul>
       <li><strong>Super-Jupiters</strong> given their clear superior size to Jupiter.</li>
@@ -372,7 +373,7 @@ These appear to contain a large amount of relatively moderately-sized planets. A
 </div>
 <div style="height: 20px;"></div>
 
-<p>Brown dwarfs are particularly fascinating because they lie in an area of classification between planets and stars by exhibiting properties of both. Usually brown dwarfs are born like stars, large enough to collapse under their own gravity, but usually fail to become large enough to sustain the nuclear fusion of hydrogen. For this reason they're often a hotly debated topic in terms of classification.</p>
+<p><strong>Brown dwarfs</strong> are  fascinating because they lie in an area of classification between planets and stars, exhibiting properties of both. Usually they're born like stars, large enough to collapse under their own gravity, but failling to sustain the nuclear fusion of hydrogen. For this reason it's a matter of debate whether they're "proper" planets. These do appear to have been succintly identified by the model.</p>
 
 <div style="height: 20px;"></div>
 
@@ -387,6 +388,7 @@ These appear to contain a large amount of relatively moderately-sized planets. A
         <!-- Content for the right half goes here -->
       <br>
       <br>
+      <br>
         <p>Most likely these are: </p>
       <ul>
         <li><strong>Super-Jupiters</strong> given their clear superior size to Jupiter.</li>
@@ -395,7 +397,7 @@ These appear to contain a large amount of relatively moderately-sized planets. A
 </div>
 <div style="height: 20px;"></div>
 
-<p>I would also take note the amount of range in this cluster, like cluster three. I would be surprised to expect Planets with radii of 3 and 35 to share many inherent qualities. This also appears to fall into the Super-Jupiter category. The maximum just touches on the Brown-Dwarf category. So these may be considered as Super-Jupiters.</p>
+<p>I would note the wide range here; planets with radii of 3 to 40 are grouped together. It's surprising to expect these planets to share many inherent qualities. In terms of mass these planets would be Super Jupiters, but there's reason to be suspicious of this cluster.</p>
 
 <h3>Reflection and final observations</h3>
 <p>A few points in </p>
