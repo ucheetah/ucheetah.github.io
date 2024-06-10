@@ -8,7 +8,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 custom_excerpt: Peering into exoplanet science through the lens of data. I grab a dataset from the NASA exoplanets archive on which I'll explore, visualize and perform unsupervised learning through a k-means clustering algorithm.
 ---
 
-<p align="center"> <em> This post and projects marks the beginning of my new personal website. I'll be sharing ideas and creations in data science that drive me. My first project was created purely out my curiosity for astronomical science and to, as always, hone my skills as a data scientist.</em> </p>
+<p align="center"> <em> This post and projects marks the beginning of my new personal website. Learning is eternal, hoping to document some of that journey here. My first project was inspired by curiosity for astronomy and a goal to continue honing my data science skills.</em> </p>
 
 <hr>
 <div style="height: 20px;"></div>
