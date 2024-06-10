@@ -12,7 +12,7 @@ projects_title: Home
 user_description_appendix: |
   Follow along and connect with me if our passions align!
   
-  **Credits:**
+  Credits:
     - This site was taken from Louis Rassaby's GitHub [Jekyll](https://github.com/lrassaby/lrassaby.github.io), and it's hosted for free on [GitHub Pages](https://pages.github.com/). It's open source, so if you like it, fork it on [GitHub](https://github.com/lrassaby/lrassaby.github.io).
     - Icons made by [Eucalyp](https://www.flaticon.com/authors/eucalyp) from [Flaticon](https://www.flaticon.com/).
     - Profile sketch by Louis Sobol.
@@ -24,7 +24,7 @@ user_description_appendix: |
 
 
 email: kblairuchida@gmail.com
-linkedin: 
+linkedin: https://www.linkedin.com/in/keanu-uchida/
 github: ucheetah
 
 relevant_tags: ['projects', 'tech']
@@ -33,7 +33,7 @@ relevant_tags: ['projects', 'tech']
 # music_resume_url:
 
 author: Keanu Uchida
-author_title: Data 
+author_title: 
 author_photo: author_photo2.jpeg
 user_description_short: *Learning and growth are eternal* - hoping to document some of that journey here. Recent Physics and Philosophy grad from the University of Toronto. Passionate about data science and data analysis. Always finding corners where the creative meets the analytic. I also love to dance.
 
