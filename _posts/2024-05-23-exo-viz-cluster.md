@@ -245,16 +245,16 @@ However planets differ greatly in their compositions and densities so we would e
 <h3 align="center"> Machine Learning Classification</h3>
 <div style="height: 20px;"></div>
 
-To better assess the influx of planets that are discovered, various categorizations exist. When considering size for example we often hear of these classifications, which are not standardized but used widely:
+<p>To better assess the influx of planets that are discovered, various categorizations exist. When considering size for example we often hear of these classifications, which are not standardized but used widely:</p>
 
 <ul>
-  <li>super-Earths (1.0–1.75 Earth Radius (R&oplus;))</li>
-  <li>sub-Neptunes (1.75–3.5 R&oplus;)</li>
-  <li>sub-Jovians (3.5–6.0 R&oplus;)</li>
-  <li>Jovians (6–14.3 R&oplus;)</li>
+  <li><strong>super-Earths</strong> (1.0–1.75 Earth Radius (R&oplus;))</li>
+  <li><strong>sub-Neptunes</strong> (1.75–3.5 R&oplus;)</li>
+  <li><strong>sub-Jovians</strong> (3.5–6.0 R&oplus;)</li>
+  <li><strong>Jovians</strong> (6–14.3 R&oplus;)</li>
 </ul>
 
-<p>For my machine learning applications, I aim to replicate these classifications using our exoplanet data. This involves unsupervised learning, where the model doesn't rely on labeled training data for the classifications we're trying to create. I'll be employing a k-means clustering algorithm, which, for any number k, groups the data based on select features - in this case, mass and radius - and returns k clusters based on their similarities. This analysis will be implemented using <code>scikit-learn</code>. The intricate details of the algorithm will be beyond the scope of this project.</p>
+<p>For my machine learning applications, I aim to replicate these classifications using our exoplanet data. This involves <strong>unsupervised learning</strong>, where the model doesn't rely on labeled training data for the classifications we're trying to create. I'll be employing a <strong>k-means clustering</strong> algorithm, which, for any number k, groups the data based on select features - in this case, mass and radius - and returns k clusters based on their similarities. This analysis will be implemented using <code>scikit-learn</code>. The intricate details of the algorithm will be beyond the scope of this project.</p>
 
 <div style="height: 20px;"></div>
 <h4> Silhouette score calculation</h4>
