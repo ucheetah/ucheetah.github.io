@@ -316,7 +316,7 @@ Adding distance as a third dimension:
 
 <strong>Observation(s):</strong>
 <ul>
-<li>There doesn't appear to be a strong correlation between mass/radius and distance. This makes sense - we wouldn't expect planet characteristics to depend on their distance from Earth.</li>
+<li>No strong correlation between mass/radius and distance. Expected - we wouldn't expect planet characteristics to depend on their distance from Earth.</li>
 </ul>
 
 <div style="height: 20px;"></div>
@@ -337,12 +337,12 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
         <!-- Content for the left half goes here -->
       <p>These likely contain:</p>
         <ul>
-          <li><strong>Super-Earths</strong>, 1-10x Earth mass.</li>
-          <li><strong>Sub-Neptune></strong>, less than 3.88 R&oplus; (Neptune's radius). </li>
-          <li><strong>Super-Neptune</strong> 2-6x R&oplus; and 10-50x Earth mass.</li>
+          <li><strong>Super-Earths</strong>, 1-10x M&oplus.</li>
+          <li><strong>Sub-Neptune</strong>, less than 3.88x R&oplus; (Neptune's radius). </li>
+          <li><strong>Super-Neptune</strong> 2-6x R&oplus; and 10-50x M&oplus.</li>
         </ul>
       <br>
-      Large cluster with enormous range in mass (0.2-1000x Earth mass).
+      Large cluster with enormous range in mass (0.2-1000x M&oplus).
     </div>
 </div>
 
@@ -358,8 +358,8 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
         <!-- Content for the right half goes here -->
        <p>These likely contain:</p>
        <ul>
-         <li><strong>Super Jupiters</strong>: over 318x Earth mass (1.5x Jupiter mass).</li>
-         <li><strong>Super Neptunes</strong>: 10-20x Earth mass.</li>
+         <li><strong>Super Jupiters</strong>: over 318x M&oplus (1.5x Jupiter mass).</li>
+         <li><strong>Super Neptunes</strong>: 10-20x M&oplus.</li>
          <li><strong>Jovians</strong> 6–14.3x R&oplus;</li>
        </ul>   
       <br>
