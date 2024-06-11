@@ -9,7 +9,7 @@ custom_excerpt: Peering into exoplanet science through the lens of data. I grab 
 est_time: 10 min read
 ---
 
-<p align="center"> <em> This post and projects marks the beginning of my new personal website. Learning is eternal, hoping to document some of that journey here. My first project was inspired by curiosity for astronomy and a goal to continue honing my data science skills.</em> </p>
+<p align="center"> <em> This project marks the beginning of my new personal website. Learning is eternal, hoping to document some of that journey here. My first project was inspired by curiosity for astronomy and a goal to always keep honing my data science skills.</em> </p>
 
 <hr>
 <div style="height: 20px;"></div>
@@ -87,14 +87,12 @@ est_time: 10 min read
 
 I've chosen to extract <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters of interest. I've queried this data from NASA's <strong>Table Access Protocol (TAP)</strong> using SQL and Python's <strong><code>requests</code></strong> package and conducted some basic pre-processing. Here's a first impression of the data:
 
-<div style="height: 10px;"></div>
 <figure style="text-align: center;">
   <a href="/assets/img/exoplanet-raw-table.png" target="_blank">
   <img src="/assets/img/exoplanet-raw-table.png"  width="600" alt="Exoplanet raw dataset">
   </a>
   <figcaption> <em>Planetary Systems</em> dataset shown in interactive notebook. </figcaption> 
 </figure>
-<div style="height: 10px;"></div>
 
 Here's a preliminary summary of the data including <strong>counts</strong> of each feature (counts below 5638 indicate missing data), <strong>minimum</strong> and <strong>maximum values</strong>, and  <strong>25th</strong>, <strong>50th</strong> and <strong>75th percentiles</strong>: 
 
@@ -403,30 +401,46 @@ These appear to contain a large amount of relatively moderately-sized planets. A
 
 <p>I would note the wide range here; planets with radii of 3 to 40 are grouped together. It's surprising to expect these planets to share many inherent qualities. In terms of mass these planets would be Super Jupiters, but there's reason to be suspicious of this cluster.</p>
 
-<h3>Reflection and final observations</h3>
-<p>A few points in </p>
+<p>Some reflections on the machine learning portion:</p>
 <ul>
-  <li><strong>Some relevant patterns, no neat classifications</strong> - Aside from the very-large brown dwarfs, no cluster created distinct categories.</li>
-  <li><strong>Clustering could have benefited from more features</strong> - Adding features exoplanet orbitals or host star tempearture and size could have siphoned off clearer groups</li>
-  <li><strong>Clustering is difficult for badly defined categories</strong> - There are some quntitative metrics for planet categories, but most exoplanets do not fit into neat categories.</li>
+  <li><strong>Some relevant patterns, no neat classifications</strong> - Aside from the very-large brown dwarfs, no cluster was a perfect categories.</li>
+  <li><strong>Clustering could have benefited from more features</strong> - Adding features like orbitals or host star characteristics could perhaps have siphoned off clearer groups</li>
+  <li><strong>Clustering is difficult for badly defined categories</strong> - We could have difficulty because of flaws inherent in exoplanet characterization.</li>
 </ul>
 
-<h4>Questioning our existing categorizations</h4>
-<div style="height: 20px;"></div>
+<p>Expanding on this, we often categorize planets based on known objects in our Solar System, which is a form of heliocentrism. We classify planets according to our historical observations and local understanding, rather than their fundamental qualities. For instance, is there a fundamental astronomical difference between a Sub-Neptune and a Super-Neptune aside from their size relative to Neptune? There is scientific reason to question the validity of these classifications.</p>
 
-<p>Expanding on this last point, there's criticism to be had about the way we categorize planets based on known objects in our Solar System. This is essentially a form of heliocentrism; we classify planets in the Universe according to historical observations and our local understanding, rather than their fundamental qualities. For example, is there a fundamental astronomical difference between a Sub-Neptune and a Super-Neptune aside from their relative size to Neptune? There is scientific reason to question the validity of these classifications.</p>
-
-<p>With that criticism in mind, it is important to recognize that a machine learning classification algorithm may struggle to accurately categorize groups when the categories themselves are not centered on the true qualities exhibited by the members. I do believe this is what's likely to have occurred here.</p>
+<p>Considering this, a machine learning classification algorithm may struggle to accurately categorize groups when the categories themselves are not based on the fundamental qualities of the members. I do believe that this is most likely what's occurred here.</p>
 
 <div style="height: 20px;"></div>
 <hr>
 <div style="height: 20px;"></div>
 
+<h3 align="center"> Reflection and final thoughts </h3>
+<p>I had fun with this project particularly reflecting best on how to represent exoplanet science in a way that felt compelling. I think that the thrill of data visualization in particular is being able to take complexity and deliver insights that are tangible, and even stimulate curiosity in people they didn't know they had. Data scientists tend to get enthralled in the complexity of our work, and sometimes forget the power that lies in the bridge of communication we're able to create with our skills. I feel like this project challenged me in this particular way.</p>
+  
+<p>I believe that the machine learning portion could have explored other categorization methods or gone into more depth, but I also think that the categorization issue from the end is limiting. What consists in a good categorization becomes subjective at a certain point.</p>
+
+
+<div style="height: 20px;"></div>
+<hr>
+<div style="height: 20px;"></div>
+
+
 <h3 align="center">Resources</h3>
 <div style="height: 20px;"></div>
 
-If worked has piqued your interest on exoplanet science, here are a few resources I appreciate to keep reading on the matter:
+If worked has piqued your interest on exoplanet science, here are a few resources I've enjoyed in creating this project:
 <div style="height: 10px;"></div>
+<ul>
+<li> </li>
+
+  <a href="https://astrobiology.com/2023/05/discovery-of-69-new-exoplanets-using-machine-learning.html" target="_blank">Discovery of 69 New Exoplanets Using Machine Learning</a> - Incredible use of a deep learning algorihm called ExoMiner and the technique multiplicity to identify new planets.
+<li><a href="https://webbtelescope.org/contents/articles/webbs-impact-on-exoplanet-research" target="_blank">Webb's Impact on Exoplanet Research</a> - Dives in to the to-be-seen impact of the James Webb Space Telescope on exoplanet science, which introduced novel exoplanet detection techniques into the fold.</li>
+<li><a href="https://www.explore-exoplanets.eu" target="_blank">Explore exoplanets: The knowledge server - Exoplanets</a> - A very complete and rich exoplanet learning hub.</li>
+</ul>
+
+Some technical resources I found helpful for this work:
 <ul>
   <li>
     <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank"> How to create custom tables</a></strong> - Great tutorials on custom tables.
