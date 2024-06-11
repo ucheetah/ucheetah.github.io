@@ -260,13 +260,15 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
   <li><strong>Jovians</strong> -Planets near Jupiter's size (6–14.3 R&oplus;)</li>
 </ul>
 
-<p>For my machine learning applications, I aim to replicate these classifications using our exoplanet data. This involves <strong>unsupervised learning</strong>, where the model doesn't rely on labeled training data for the classifications we're trying to create. I'll be employing a <strong>k-means clustering</strong> algorithm, which, for any number k, groups the data based on select features - in this case, mass and radius - and returns k clusters based on their similarities. I'll do this using <code>scikit-learn</code>. The intricate complexities of the algorithm is not something I'll explain here.</p>
+<p>For my machine learning applications, I aim to replicate these classifications using our exoplanet data. This involves <strong>unsupervised learning</strong>, where the model doesn't rely on labeled training data for the classifications we're trying to create. 
+  
+<p>I'll employ a <strong>k-means clustering</strong> algorithm, which, for any number k, groups the data based on select features - in this case, mass and radius - and returns k clusters based on their similarities. I'll do this using <code>scikit-learn</code>. The intricate complexities of the algorithm is not something I'll touch on here.</p>
 
 <div style="height: 20px;"></div>
 <h4> Silhouette score calculation</h4>
 <div style="height: 20px;"></div>
 
-<p>To determine the number of categories (clusters) is best to model, I'll use the <strong>silhouette score method</strong>. This tests the algorithm on different groupings (one group, two groups,...) and attributes to each a score based on how well the algorithm will generate members that are alike. High scores indicate good grouping results, low scores indicate ineffective groupings.</p>
+<p>I'll use the <strong>silhouette score method</strong> to determine the number of categories (clusters) that's best to model, . This tests the algorithm on different groupings (one group, two groups,...) and attributes to each a score based on how well the algorithm will generate members that are alike. High scores indicate good grouping results, low scores indicate ineffective groupings.</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -280,13 +282,14 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 <ul>
 <li>Clearly the most favorable score is four.</li>
 </ul>
-<div style="height: 20px;"></div>
 
 <div style="height: 20px;"></div>
 <h4> Apply k-means clustering algorithm</h4>
 <div style="height: 20px;"></div>
 
-Based on the silhouette method, I ran a k-means model on the exoplanet data generating four clusters. Here's a scatterplot displaying the results. Colors represent different clusters, centroids (<strong><code>+</code></strong>) represent mean values of each cluster.
+<p>Based on the silhouette method, I ran a k-means model on the exoplanet data generating four clusters.</p>
+
+<p>Here's a scatterplot displaying the results. Colors represent different clusters, centroids (<strong><code>+</code></strong>) represent mean values of each cluster.</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -313,7 +316,7 @@ Adding distance as a third dimension:
 
 <strong>Observation(s):</strong>
 <ul>
-<li>There doesn't appear to be a strong correlation between mass/radius and distance. This makes sense - we wouldn't expect composition and components of the planets to depend on their distance from Earth.</li>
+<li>There doesn't appear to be a strong correlation between mass/radius and distance. This makes sense - we wouldn't expect planet characteristics to depend on their distance from Earth.</li>
 </ul>
 
 <div style="height: 20px;"></div>
@@ -380,7 +383,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
       <li><strong>Super-Jupiters</strong> given their clear superior size to Jupiter.</li>
       <li> <strong>Brown-Dwarfs</strong>, whose tend to have a mass-to-Earth ratio between 4,000 to 25,000. In fact, the the entire cluster falls in this regime.</li>
     </ul>
-    <br>
+    <div style="height: 10px;"></div>
     The model appears to have identified all the brown-dwarfs.
     </div>
 </div>
@@ -409,7 +412,8 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 </div>
 <div style="height: 20px;"></div>
 
-<p>Some reflections on the machine learning portion:</p>
+<h5>Analysis of machine learning</h5>
+<p>Some reflections on the clustering process:</p>
 <ul>
   <li><strong>Some relevant patterns, no neat classifications</strong> - Aside from the very-large brown dwarfs, no cluster was a perfect categories.</li>
   <li><strong>Clustering could have benefited from more features</strong> - Adding features like orbitals or host star characteristics could perhaps have siphoned off clearer groups</li>
@@ -417,7 +421,9 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 </ul>
 <div style="height: 20px;"></div>
 
-<p>Expanding on this, it's clear that we tend to designate mass and radius-based categorizations of planets based on our own Solar System rather than the fundamental qualities of planets. It's essentially a form of <a href="https://www.britannica.com/science/heliocentrism">heliocentrim</a>. Is there a fundamental difference between a Sub-Neptune and a Super-Neptune aside from their size relative to Neptune? What warrants defining planets thousands of light years from our Solar System in terms of Neptune? The same can be asked for any other category.</p>
+<p>Expanding on this, it's clear that we tend to designate mass and radius-based categorizations of planets based on our own Solar System rather than the fundamental qualities of planets. It's essentially a form of <strong><a href="https://www.britannica.com/science/heliocentrism" target="_blank">heliocentrim</a></strong>.</p>
+
+<p><em align="center">Is there a fundamental difference between a Sub-Neptune and a Super-Neptune aside from their size relative to Neptune? What warrants defining planets thousands of light years from our Solar System in terms of Neptune?</em></p>
 
 <p>Considering this, a machine learning classification algorithm may struggle to accurately categorize groups when the categories themselves are not based on the fundamental characteristics of the members. I do believe that this is most likely what's occurred here.</p>
 
@@ -426,11 +432,11 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 <h3 align="center"> Closing thoughts </h3>
 <div style="height: 20px;"></div>
 
-<p>What I enjoyed most about this project was reflecting on how to best represent exoplanet science through data science in a way that felt compelling. I think that the thrill of data visualization in particular is being able to take complexity and deliver insights that are tangible, and even stimulate curiosity in people they didn't know they had.</p>
+<p>This project really challenged me to reflect on how to best represent exoplanet science through data science in a way that felt compelling. I think that the thrill of data visualization in particular is being able to take complexity and deliver insights that are tangible, and even stimulate curiosity in people they didn't know they had.</p>
   
-<p>As data scientists we tend to get enthralled in the complexity of our work, and sometimes forget the power that lies in the bridge of communication we're able to create with our skills. I feel like this project challenged me in this particular way.</p>
+<p>As data scientists we tend to get enthralled in the complexity of our work, and sometimes forget the power that lies in the bridge of communication we're able to create with our skills. This project prompted me to push against that urge in a sense.</p>
   
-<p>I believe that the machine learning portion could have explored other categorization methods or gone into more depth, but I also think that the categorization issue from the end is limiting. What consists in a good categorization becomes subjective at a certain point.</p>
+<p>I believe that the machine learning portion could have explored other categorization methods or gone into more depth, but I also think that the categorization issue from the end is limiting. What consists in a good categorization becomes subjective at a certain point. P</p>
 
 <h4>Resources</h4>
 <div style="height: 20px;"></div>
@@ -452,7 +458,10 @@ Some technical resources I found helpful for this work:
 <strong><a href="https://matplotlib.org/stable/users/explain/customizing.html" target="_blank">Customizing Matplotlib with style sheets and rcParams</a></strong> - Comprehensive from the source demo on customizing Matplotlib style.
 </li>
 <li>
-<strong><a href="https://python-graph-gallery.com/lollipop-plot/">Lollipop chart | The Python Graph Gallery</a></strong> - Short intro to lollipop plot smart barplot alternative to avoid <a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern">Moiré patterns</a>
+<strong><a href="https://python-graph-gallery.com/lollipop-plot/">Lollipop chart | The Python Graph Gallery</a></strong> - Short intro to lollipop plot smart barplot alternative to avoid <strong><a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern">Moiré patterns</a></strong>
+</li>
+<li>
+  
 </li>
 </ul>
 
