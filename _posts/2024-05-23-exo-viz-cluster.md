@@ -9,7 +9,7 @@ custom_excerpt: Peering into exoplanet science through the lens of data. I grab 
 est_time: 10 min read
 ---
 
-<p align="center"> <em> This project marks the beginning of my new personal website. Learning is eternal: hoping to document some of that journey here. My first project was inspired out of my curiosity for astronomy and a goal to continue honing my data science skills.</em> </p>
+<p align="center"> <em> This project marks the beginning of my new personal website. Learning is eternal: hoping to document some of that journey here. My first project was inspired out of my curiosity for astronomy and the perpetual goal of honing my skills in data science.</em> </p>
 
 <hr>
 <div style="height: 20px;"></div>
