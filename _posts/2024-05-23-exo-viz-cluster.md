@@ -254,10 +254,10 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 <p>Various categorizations have been created by astronomists since the first exoplanet discovery in 1992. When considering size, for instance, we often hear of these widely-used classifications:</p>
 
 <ul>
-  <li><strong>Super-Earths</strong> (1.0–1.75 R&oplus;): Planets larger than Earth</li>
-  <li><strong>Sub-Neptunes</strong> (1.75–3.5 R&oplus;): Planets smaller than Neptune</li>
-  <li><strong>Sub-Jovians</strong> (3.5–6.0 R&oplus;): Planets smaller than Jupiter</li>
-  <li><strong>Jovians</strong> (6–14.3 R&oplus;): Planets near Jupiter's size</li>
+  <li><strong>Super-Earths</strong> (1.0–1.75 R&oplus;) - Planets larger than Earth</li>
+  <li><strong>Sub-Neptunes</strong> (1.75–3.5 R&oplus;) - Planets smaller than Neptune</li>
+  <li><strong>Sub-Jovians</strong> (3.5–6.0 R&oplus;) - Planets smaller than Jupiter</li>
+  <li><strong>Jovians</strong> (6–14.3 R&oplus;) - Planets near Jupiter's size</li>
 </ul>
 
 <p>For my machine learning applications, I aim to replicate these classifications using our exoplanet data. This involves <strong>unsupervised learning</strong>, where the model doesn't rely on labeled training data for the classifications we're trying to create. 
