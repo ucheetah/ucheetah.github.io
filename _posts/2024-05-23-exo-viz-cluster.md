@@ -192,7 +192,7 @@ Next I track exoplanet distance from Earth:
   <li> Very few exoplanets beyond 6,000 years, but remarkably a small number of planets accessed beyond 8,000 light years.</li>
 </ul>
 
-<p> I'll also evaluate the planet distribution using a cumulative distribution function, which indicates to us the probability ($y$) that an exoplanet will be found at a distance less than or equal to some value ($x$) from Earth:</p>
+<p> I'll also evaluate the planet distribution using a cumulative distribution function, which indicates to us the probability (<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi></math>) that an exoplanet will be found at a distance less than or equal to some value (<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi></math>) from Earth:</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
