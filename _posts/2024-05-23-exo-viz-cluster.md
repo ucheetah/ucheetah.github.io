@@ -57,7 +57,7 @@ est_time: 10 min read
 
 <p>I'd argue that this view is changing, though. Most astronomers recognize an invaluable prospect that exoplanet science offers - confirming the existence of extraterrestrial life. In fact physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique.</p>
 
-<p>This project investigates the existing record on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that give big picture takeaways. Lastly I'll conduct <strong>unsupervised machine learning</strong> - a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm - on the data and compare it to existing exoplanet classifications. For the full technical process consult my GitHub repository.</p>
+<p>This project investigates the existing record on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that give big picture takeaways. Lastly I'll conduct <strong>unsupervised machine learning</strong> using a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm on the data and compare it to existing exoplanet classifications. For the full technical process consult my GitHub repository.</p>
 
 
 
@@ -249,7 +249,7 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 
 <h3 align="center"> Machine Learning Classification</h3>
 <div style="height: 20px;"></div>
-<p>With some greater insight under our belt, I'll apply a machine learning model to our data, categorizing them into distnct groups using clustering.</p>
+<p>With some greater insight under our belt, I'll apply a machine learning model to our data, categorizing them into distinct groups using clustering.</p>
   
 <p>Various categorizations have been created by astronomists since the first exoplanet discovery in 1992. When considering size, for instance, we often hear of these widely-used classifications:</p>
 
@@ -262,7 +262,7 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 
 <p>For my machine learning applications, I aim to replicate these classifications using our exoplanet data. This involves <strong>unsupervised learning</strong>, where the model doesn't rely on labeled training data for the classifications we're trying to create. 
   
-<p>I'll employ a <strong><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering</strong> algorithm, which for any number <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math> groups the data based on select features - in this case, mass and radius - and returns <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math> clusters based on their similarities. I'll do this using <code>scikit-learn</code>. I won't touch on the complexities of the algorithm itself here.</p>
+<p>I'll employ a <strong><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="bold"><mi>k</mi></mstyle></math>-means clustering</strong> algorithm, which for any number <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math> groups the data based on select features - in this case, mass and radius - and returns <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math> clusters based on their similarities. I'll do this using <code>scikit-learn</code>. I won't touch on the complexities of the algorithm itself here.</p>
 
 <div style="height: 20px;"></div>
 <h4> Silhouette score calculation</h4>
