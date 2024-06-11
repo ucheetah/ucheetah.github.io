@@ -337,12 +337,12 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
         <!-- Content for the left half goes here -->
       <p>These likely contain:</p>
         <ul>
-          <li><strong>Super-Earths</strong>, 1-10x M&oplus;.</li>
-          <li><strong>Sub-Neptune</strong>, less than 3.88x R&oplus; (Neptune's radius). </li>
-          <li><strong>Super-Neptune</strong> 2-6x R&oplus; and 10-50x M&oplus;.</li>
+          <li><strong>Super-Earths</strong>, 1-10 times M&oplus;.</li>
+          <li><strong>Sub-Neptune</strong>, less than 3.88 times R&oplus; (Neptune's radius). </li>
+          <li><strong>Super-Neptune</strong> 2-6 times R&oplus; and 10-50 times M&oplus;.</li>
         </ul>
       <div style="height: 10px;"></div>
-      Large cluster with enormous range in mass (0.2-1000x M&oplus;).
+      Large cluster with enormous range in mass (0.2-1000 times M&oplus;).
     </div>
 </div>
 
@@ -358,9 +358,9 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
         <!-- Content for the right half goes here -->
        <p>These likely contain:</p>
        <ul>
-         <li><strong>Super Jupiters</strong>: over 318x M&oplus; (1.5x Jupiter mass).</li>
-         <li><strong>Super Neptunes</strong>: 10-20x M&oplus;.</li>
-         <li><strong>Jovians</strong> 6–14.3x R&oplus;</li>
+         <li><strong>Super Jupiters</strong>: over 318 times M&oplus; (1.5 times Jupiter mass).</li>
+         <li><strong>Super Neptunes</strong>: 10-20 times M&oplus;.</li>
+         <li><strong>Jovians</strong> 6–14.3 times R&oplus;</li>
        </ul>   
       <div style="height: 10px;"></div>
        <p>This is the largest cluster. It's also the cluster with the smallest spread of values. Relatively few outliers.</p>
