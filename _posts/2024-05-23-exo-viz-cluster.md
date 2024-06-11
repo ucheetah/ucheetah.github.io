@@ -85,7 +85,7 @@ est_time: 10 min read
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
 
-I've chosen to extract <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters of interest. 
+I've grabbed <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters of interest. 
 
 I've queried this data from NASA's <strong>Table Access Protocol (TAP)</strong> using SQL and Python's <strong><code>requests</code></strong> package and conducted some basic pre-processing. A quick peek at the data gives us:
 
@@ -96,7 +96,7 @@ I've queried this data from NASA's <strong>Table Access Protocol (TAP)</strong> 
   <figcaption> <em>Planetary Systems</em> dataset shown in interactive notebook. </figcaption> 
 </figure>
 
-Here's a more comprehensive summary of the data including <strong>counts</strong> of each feature (counts below 5638 indicate missing data), <strong>minimum</strong> and <strong>maximum values</strong>, and  <strong>25th</strong>, <strong>50th</strong> and <strong>75th percentiles</strong>: 
+Here's a more comprehensive summary of the data, including <strong>counts</strong> of each feature (counts below 5638 indicate missing data), <strong>minimum</strong> and <strong>maximum values</strong>, and  <strong>25th</strong>, <strong>50th</strong> and <strong>75th percentiles</strong>: 
 
 <div style="height: 10px;"></div>
 <p align="center">
