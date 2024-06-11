@@ -6,7 +6,7 @@ tags: [projects, tech, data science, visualization, machine learning, kmeans]
 image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 custom_excerpt: Peering into exoplanet science through the lens of data. I grab a dataset from the NASA exoplanets archive on which I'll explore, visualize and perform unsupervised learning through a k-means clustering algorithm.
-est_time: 10 mins
+est_time: 10 min read
 ---
 
 <p align="center"> <em> This post and projects marks the beginning of my new personal website. Learning is eternal, hoping to document some of that journey here. My first project was inspired by curiosity for astronomy and a goal to continue honing my data science skills.</em> </p>
@@ -110,9 +110,14 @@ Here's a preliminary summary of the data including <strong>counts</strong> of ea
 <ul>
   <li>Exoplanet science is young - the first exoplanet was found in 1992. Interestingly though, only an exoplanet discovery three years later would snatch a <a href="https://www.insidescience.org/news/all-exoplanets-came-1995">Nobel Prize (it's always political)</a>
 </li>
-  <li>There is a surreal amount of diversity in planet characteristics - planets from 4 to 25k light years, 0.4 to 10k times Earth's mass and 0.3 to 77.3 times Earth's radius (from now on R&oplus;).</li>
+  <li>There is a surreal amount of diversity in planet characteristics - planets range from
+  <ul>
+    <li>4 to 25,000 light years away</li>
+    <li>0.4 to 10,000 times Earth's mass</li>
+    <li>0.3 to 77.3 times Earth's radius (from now on R&oplus;)</li>
+  </ul>
 </ul>
-With this first glimpse let's dive in deeper.
+With this first glimpse let's dive in deeper with visualizations.
 
 
 
@@ -158,7 +163,7 @@ Next I'll visualize the data. I'll only be showing outputs. I've used <strong><c
 <strong> Observations </strong>
 <ul>
   <li>Obvious uptick in findings over the past decade.</li>
-  <li>2016 saw a near-doubling of exoplanets, owed to the <strong><a href="https://www.jpl.nasa.gov/missions/kepler" target="_blank">Kepler Space Telescope Mission</a></strong>, the miost </li>
+  <li>2016 saw a near-doubling of exoplanets, owed to the <strong><a href="https://www.jpl.nasa.gov/missions/kepler" target="_blank">Kepler Space Telescope Mission</a></strong>, the most successful exoplanet mission to date.</li>
   <li>Transit method is clearly most successful.</li>
 </ul>
 
