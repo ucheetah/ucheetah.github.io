@@ -156,7 +156,6 @@ Next I'll visualize the data. I'll only be showing outputs. I've used <strong><c
   </a>
 <div style="height: 20px;"></div>
 
-  
 
 <strong> Observations </strong>
 <ul>
@@ -164,8 +163,8 @@ Next I'll visualize the data. I'll only be showing outputs. I've used <strong><c
   <li>2016 saw a near-doubling of exoplanets, owed to the <strong><a href="https://www.jpl.nasa.gov/missions/kepler" target="_blank">Kepler Space Telescope Mission</a></strong>, the most successful exoplanet mission to date.</li>
   <li>Transit method is clearly most successful.</li>
 </ul>
-
-<p>Observational cosmologist <strong><a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">Chris Impey</a></strong> claimed that the rapid discovery of exoplanets is comparable to the explosive growth of internet technology during the Dotcom bubble. Here that growth is on full display.</p> 
+  <br>
+<p>Observational cosmologist <strong><a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">Chris Impey</a></strong> observed that the rapid discovery of exoplanets is comparable to the explosive growth of internet technology during the Dotcom bubble. Here that growth is on full display.</p> 
 
 <div style="height: 20px;"></div>
 <h4>Distance from Earth</h4>
@@ -262,7 +261,7 @@ This has given us a fairly good sense of the ensemble based on what I've grabbed
 <h4> Silhouette score calculation</h4>
 <div style="height: 20px;"></div>
 
-<p>To determine the number of categories (clusters) is best to model, I'll use the <strong>silhouette score method</strong>. This tests the algorithm on different groupings (one group, two groups,...) and attributes to each a score based on how well the algorithm will generate members that are alike. High scores indicate good grouping results, bad scores indicate ineffective groupings</p>
+<p>To determine the number of categories (clusters) is best to model, I'll use the <strong>silhouette score method</strong>. This tests the algorithm on different groupings (one group, two groups,...) and attributes to each a score based on how well the algorithm will generate members that are alike. High scores indicate good grouping results, low scores indicate ineffective groupings.</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -309,7 +308,7 @@ Adding distance as a third dimension:
 
 <strong>Observation(s):</strong>
 <ul>
-<li>There doesn't appear to be a strong correlation between mass/radius and distance. This makes sense - we wouldn't expect composition and components of the planets to depend on their distance from Earth</li>
+<li>There doesn't appear to be a strong correlation between mass/radius and distance. This makes sense - we wouldn't expect composition and components of the planets to depend on their distance from Earth.</li>
 </ul>
 
 <div style="height: 20px;"></div>
