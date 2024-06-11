@@ -6,6 +6,7 @@ tags: [projects, tech, data science, visualization, machine learning, kmeans]
 image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
 custom_excerpt: Peering into exoplanet science through the lens of data. I grab a dataset from the NASA exoplanets archive on which I'll explore, visualize and perform unsupervised learning through a k-means clustering algorithm.
+est_time: 10 mins
 ---
 
 <p align="center"> <em> This post and projects marks the beginning of my new personal website. Learning is eternal, hoping to document some of that journey here. My first project was inspired by curiosity for astronomy and a goal to continue honing my data science skills.</em> </p>
