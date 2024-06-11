@@ -334,6 +334,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
           <li><strong>Sub-Neptune></strong>, less than 3.88 R&oplus; (Neptune's radius). </li>
           <li><strong>Super-Neptune</strong> 2-6x R&oplus; and 10-50x Earth mass.</li>
         </ul>
+      <br>
       Large cluster with enormous range in mass (0.2-1000x Earth mass).
     </div>
 </div>
@@ -355,7 +356,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
          <li><strong>Jovians</strong> 6–14.3x R&oplus;</li>
        </ul>   
       <br>
-       <p>This is the largest cluster.</p>
+       <p>This is the largest cluster. It's also the cluster with the smallest spread of values. Relatively few outliers.</p>
     </div>
 </div>
 
