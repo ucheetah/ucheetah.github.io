@@ -262,7 +262,7 @@ This has given us a fairly good sense of the ensemble based on what I've grabbed
 <h4> Silhouette score calculation</h4>
 <div style="height: 20px;"></div>
 
-<p>To determine the number of categories (clusters) is best to model, I'll use the <strong>silhouette score method</strong>. This tests the algorithm on different groupings (one group, two groups,...) and attributes to each a score based on how well the algorithm will generate members that are alike. High scores indicate good grouping results, bad scores indicate bad grouping</p>
+<p>To determine the number of categories (clusters) is best to model, I'll use the <strong>silhouette score method</strong>. This tests the algorithm on different groupings (one group, two groups,...) and attributes to each a score based on how well the algorithm will generate members that are alike. High scores indicate good grouping results, bad scores indicate ineffective groupings</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
