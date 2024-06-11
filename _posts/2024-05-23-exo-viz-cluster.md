@@ -320,7 +320,7 @@ Adding distance as a third dimension:
 Let's look closer at each group and how each cluster fares to existing exoplanet groupings.
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 1: Super-Earths, Sub-Neptunes, and Super-Neptunes</h5>
+<h5 align="center">Cluster 1</h5>
 <div class="container-table">
     <div class="half-table">
         <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
@@ -339,7 +339,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 2: Super-Neptunes and Super-Jupiters</h5>
+<h5 align="center">Cluster 2</h5>
 <div class="container-table">
     <div class="half-table">
         <a href="/assets/img/2024-05-24-exoplanets-H2.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H2.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
@@ -357,7 +357,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 These appear to contain a large amount of relatively moderately-sized planets. A large number of planets can be found in this categorization.
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 3: Super-Jupiters and Brown-Dwarfs </h5>
+<h5 align="center">Cluster 3</h5>
 <div class="container-table">
     <div class="half-table">
         <!-- Image for the right half goes here -->
@@ -375,11 +375,11 @@ These appear to contain a large amount of relatively moderately-sized planets. A
 </div>
 <div style="height: 20px;"></div>
 
-<p><strong>Brown dwarfs</strong> are  fascinating because they lie in an area of classification between planets and stars, exhibiting properties of both. Usually they're born like stars, large enough to collapse under their own gravity, but failling to sustain the nuclear fusion of hydrogen. For this reason it's a matter of debate whether they're "proper" planets. These do appear to have been succintly identified by the model.</p>
+<p><strong>Brown dwarfs</strong> are  fascinating because they lie in an area of classification between planets and stars, exhibiting properties of both. Usually they're born like stars, but fail to sustain the nuclear fusion of hydrogen. So it's a matter of debate whether they're "proper" planets. These appear to have been succintly identified by the model.</p>
 
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 4: Super-Jupiters</h5>
+<h5 align="center">Cluster 4</h5>
 
 <div class="container-table">
     <div class="half-table">
