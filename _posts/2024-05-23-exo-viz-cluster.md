@@ -402,7 +402,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
     </div>
     <div class="half-table">
         <!-- Content for the right half goes here -->
-        <p>Most These likely contain: </p>
+        <p>Most likely these contain: </p>
       <ul>
         <li><strong>Super-Jupiters</strong> given their clear superior size to Jupiter.</li>
       </ul>
