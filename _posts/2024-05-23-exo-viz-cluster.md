@@ -166,7 +166,7 @@ Next I'll visualize the data. I'll only be showing outputs created using <strong
   <li>2016 saw a near-doubling of exoplanets, owed to the <strong><a href="https://www.jpl.nasa.gov/missions/kepler" target="_blank">Kepler Space Telescope Mission</a></strong>, the most successful exoplanet mission to date.</li>
   <li>Transit method is clearly most successful.</li>
 </ul>
-  <br>
+<div style="height: 10px;"></div>
 <p>Observational cosmologist <strong><a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">Chris Impey</a></strong> observed that the rapid discovery of exoplanets is comparable to the explosive growth of internet technology during the Dotcom bubble. Here that growth is on full display.</p> 
 
 <div style="height: 20px;"></div>
@@ -254,7 +254,7 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 <p>Various categorizations have been created by astronomists since the first exoplanet discovery in 1992. When considering size, for instance, we often hear of these classifications, which are not standardized but used widely:</p>
 
 <ul>
-  <li><strong>Super-Earths</strong> (1.0–1.75 Earth Radius (R&oplus;)): Planets larger than Earth</li>
+  <li><strong>Super-Earths</strong> (1.0–1.75 R&oplus;): Planets larger than Earth</li>
   <li><strong>Sub-Neptunes</strong> (1.75–3.5 R&oplus;): Planets smaller than Neptune</li>
   <li><strong>Sub-Jovians</strong> (3.5–6.0 R&oplus;): Planets smaller than Jupiter</li>
   <li><strong>Jovians</strong> (6–14.3 R&oplus;): Planets near Jupiter's size</li>
