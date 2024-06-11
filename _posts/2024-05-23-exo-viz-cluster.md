@@ -321,13 +321,14 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 <div style="height: 20px;"></div>
 
 <h5 align="center">Cluster 1</h5>
+<p align="center">Smaller planets.</p>
 <div class="container-table">
     <div class="half-table">
         <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
     <div class="half-table">
         <!-- Content for the left half goes here -->
-      <p>This cluster appears to host planets from at least two groups</p>
+      <p>These likely contain:</p>
         <ul>
           <li><strong>Super-Earths</strong>, strictly defined as twice the size of Earth and up to 10 times its mass.</li>
           <li><strong>Sub-Neptune></strong>, planets smaller than Neptune's radius (3.88 Earth radius) even though it may have a larger mass. </li>
@@ -340,13 +341,14 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 <div style="height: 20px;"></div>
 
 <h5 align="center">Cluster 2</h5>
+<p align="center">Medium-sized planets</p>
 <div class="container-table">
     <div class="half-table">
         <a href="/assets/img/2024-05-24-exoplanets-H2.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H2.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
     <div class="half-table">
         <!-- Content for the right half goes here -->
-       <p>Most probably these contain:</p>
+       <p>These likely contain:</p>
        <ul>
          <li><strong>Super Jupiters</strong>: A Super-Jupiter has a mass exceeding that of Jupiter, typically greater than 1.5 times Jupiter's mass (approximately 1.9 x 10^27 kg).</li>
          <li><strong>Super Neptunes</strong>: A Super-Neptune has mass ranging from about 10 to 20 times that of Earth, larger than Neptune but less massive than Super Jupiters.</li>
@@ -358,6 +360,7 @@ These appear to contain a large amount of relatively moderately-sized planets. A
 <div style="height: 20px;"></div>
 
 <h5 align="center">Cluster 3</h5>
+<p align="center">Huge masses and radii.</p>
 <div class="container-table">
     <div class="half-table">
         <!-- Image for the right half goes here -->
@@ -366,7 +369,7 @@ These appear to contain a large amount of relatively moderately-sized planets. A
   <div class="half-table">
         <!-- Content for the left half goes here -->
     <br>
-       <p>This cluster contains exoplanets with enormous masses and radii. These could be:</p>
+       <p>These likely contain:</p>
     <ul>
       <li><strong>Super-Jupiters</strong> given their clear superior size to Jupiter.</li>
       <li> <strong>Brown-Dwarfs</strong>, whose tend to have a mass-to-Earth ratio between 4,000 to 25,000. In fact, the the entire cluster falls in this regime.</li>
@@ -374,13 +377,13 @@ These appear to contain a large amount of relatively moderately-sized planets. A
     </div>
 </div>
 <div style="height: 20px;"></div>
-
+ 
 <p><strong>Brown dwarfs</strong> are  fascinating because they lie in an area of classification between planets and stars, exhibiting properties of both. Usually they're born like stars, but fail to sustain the nuclear fusion of hydrogen. So it's a matter of debate whether they're "proper" planets. These appear to have been succintly identified by the model.</p>
 
 <div style="height: 20px;"></div>
 
 <h5 align="center">Cluster 4</h5>
-
+<p align="center">Also huge masses and radii.</p>
 <div class="container-table">
     <div class="half-table">
         <!-- Image for the left half goes here -->
@@ -391,7 +394,7 @@ These appear to contain a large amount of relatively moderately-sized planets. A
       <br>
       <br>
       <br>
-        <p>Most likely these are: </p>
+        <p>Most These likely contain: </p>
       <ul>
         <li><strong>Super-Jupiters</strong> given their clear superior size to Jupiter.</li>
       </ul>
