@@ -32,7 +32,7 @@ est_time: 10 min read
   </tr>
   <tr>
     <td width=150><strong>Techniques and skills</strong></td>
-    <td>Data querying, data cleaning, missing value detection/outlier handling, visualization, machine learning, unsupervised learning, k-means clustering, communicating scientific insights, </td>
+    <td>Data querying, data cleaning, missing value detection, outlier handling, visualization, machine learning, unsupervised learning, k-means clustering </td>
   </tr>
   <tr>
     <td width=150><strong>Project GitHub</strong></td>
@@ -53,7 +53,7 @@ est_time: 10 min read
 <h3 align="center"> Background</h3>
 <div style="height: 20px;"></div>
 
-<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. The nine we know well certainly do (well, eight since the <strong><a href="https://neildegrassetyson.com/essays/2007-06-plutos-requiem/" target="_blank">Pluto debacle</a></strong>). But the planets outside our Solar System, extrasolar planets, or more commonly <strong>exoplanets</strong>, are simply not accorded the same status</p>
+<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. The nine we know well certainly do (well, eight since the <strong><a href="https://neildegrassetyson.com/essays/2007-06-plutos-requiem/" target="_blank">Pluto debacle</a></strong>). But the planets outside our Solar System, extrasolar planets, or more commonly <strong>exoplanets</strong>, are simply not accorded the same status.</p>
 
 <p>I'd argue that this view is changing, though. Most astronomers recognize an invaluable prospect that exoplanet science offers - confirming the existence of extraterrestrial life. In fact physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique.</p>
 
@@ -108,7 +108,7 @@ Here's a more comprehensive summary of the data, including <strong>counts</stron
 
 <strong>Observation(s):</strong>
 <ul>
-  <li>Exoplanet science is young - the first exoplanet was found in 1992. Interestingly though, only the researchers behind an exoplanet discovery three years later would snatch a <strong><a href="https://www.insidescience.org/news/all-exoplanets-came-1995" target="_blank">Nobel Prize</a></strong> (it's always political)
+  <li>Exoplanet science is young - the first exoplanet was found in 1992. Interestingly though, only the researchers behind an exoplanet discovery three years later would snatch a <strong><a href="https://www.insidescience.org/news/all-exoplanets-came-1995" target="_blank">Nobel Prize</a></strong> (it's always political).
 </li>
   <li>There is a surreal amount of diversity in planet characteristics - these range from
   <ul>
@@ -192,7 +192,7 @@ Next I track exoplanet distance from Earth:
   <li> Very few exoplanets beyond 6,000 years, but remarkably a small number of planets accessed beyond 8,000 light years.</li>
 </ul>
 
-<p> I'll also evaluate the planet distribution using a cumulative distribution function:</p>
+<p> I'll also evaluate the planet distribution using a cumulative distribution function, which indicates to us the probability ($y$) that an exoplanet will be found at a distance less than or equal to some value ($x$) from Earth:</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -204,6 +204,7 @@ Next I track exoplanet distance from Earth:
 
 <strong>Observation(s):</strong>
 <ul>
+  <li> For example, about 60% of known planets can be found within 2,000 light years from Earth.</li>
   <li> About 90% of exoplanets are within the 10,000 light year range. </li>
   <li> Growth slows down past 4,000 light years. </li>
 </ul>
