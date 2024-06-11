@@ -407,37 +407,32 @@ These appear to contain a large amount of relatively moderately-sized planets. A
   <li><strong>Clustering could have benefited from more features</strong> - Adding features like orbitals or host star characteristics could perhaps have siphoned off clearer groups</li>
   <li><strong>Clustering is difficult for badly defined categories</strong> - We could have difficulty because of flaws inherent in exoplanet characterization.</li>
 </ul>
+<div style="height: 20px;"></div>
 
 <p>Expanding on this, we often categorize planets based on known objects in our Solar System, which is a form of heliocentrism. We classify planets according to our historical observations and local understanding, rather than their fundamental qualities. For instance, is there a fundamental astronomical difference between a Sub-Neptune and a Super-Neptune aside from their size relative to Neptune? There is scientific reason to question the validity of these classifications.</p>
 
 <p>Considering this, a machine learning classification algorithm may struggle to accurately categorize groups when the categories themselves are not based on the fundamental qualities of the members. I do believe that this is most likely what's occurred here.</p>
 
 <div style="height: 20px;"></div>
-<hr>
+
+<h3 align="center"> Closing thoughts </h3>
 <div style="height: 20px;"></div>
 
-<h3 align="center"> Reflection and final thoughts </h3>
-<p>I had fun with this project particularly reflecting best on how to represent exoplanet science in a way that felt compelling. I think that the thrill of data visualization in particular is being able to take complexity and deliver insights that are tangible, and even stimulate curiosity in people they didn't know they had. Data scientists tend to get enthralled in the complexity of our work, and sometimes forget the power that lies in the bridge of communication we're able to create with our skills. I feel like this project challenged me in this particular way.</p>
+<p>What I enjoyed most about this project was reflecting on how to best represent exoplanet science through data science in a way that felt compelling. I think that the thrill of data visualization in particular is being able to take complexity and deliver insights that are tangible, and even stimulate curiosity in people they didn't know they had.</p>
+  
+<p>As data scientists we tend to get enthralled in the complexity of our work, and sometimes forget the power that lies in the bridge of communication we're able to create with our skills. I feel like this project challenged me in this particular way.</p>
   
 <p>I believe that the machine learning portion could have explored other categorization methods or gone into more depth, but I also think that the categorization issue from the end is limiting. What consists in a good categorization becomes subjective at a certain point.</p>
 
-
-<div style="height: 20px;"></div>
-<hr>
-<div style="height: 20px;"></div>
-
-
-<h3 align="center">Resources</h3>
+<h4>Resources</h4>
 <div style="height: 20px;"></div>
 
 If worked has piqued your interest on exoplanet science, here are a few resources I've enjoyed in creating this project:
 <div style="height: 10px;"></div>
 <ul>
-<li> </li>
-
-  <a href="https://astrobiology.com/2023/05/discovery-of-69-new-exoplanets-using-machine-learning.html" target="_blank">Discovery of 69 New Exoplanets Using Machine Learning</a> - Incredible use of a deep learning algorihm called ExoMiner and the technique multiplicity to identify new planets.
-<li><a href="https://webbtelescope.org/contents/articles/webbs-impact-on-exoplanet-research" target="_blank">Webb's Impact on Exoplanet Research</a> - Dives in to the to-be-seen impact of the James Webb Space Telescope on exoplanet science, which introduced novel exoplanet detection techniques into the fold.</li>
-<li><a href="https://www.explore-exoplanets.eu" target="_blank">Explore exoplanets: The knowledge server - Exoplanets</a> - A very complete and rich exoplanet learning hub.</li>
+<li><strong><a href="https://astrobiology.com/2023/05/discovery-of-69-new-exoplanets-using-machine-learning.html" target="_blank"></strong>Discovery of 69 New Exoplanets Using Machine Learning</a> - Incredible use of a deep learning algorithm called ExoMiner and the technique multiplicity to identify new planets.</li>
+<li><strong><a href="https://webbtelescope.org/contents/articles/webbs-impact-on-exoplanet-research" target="_blank"></strong>Webb's Impact on Exoplanet Research</a> - Dives in to the to-be-seen impact of the James Webb Space Telescope on exoplanet science, which introduced novel exoplanet detection techniques into the fold.</li>
+<li><strong><a href="https://www.explore-exoplanets.eu" target="_blank">Explore exoplanets: The knowledge server - Exoplanets</a></strong> - A very complete and rich exoplanet learning hub.</li>
 </ul>
 
 Some technical resources I found helpful for this work:
