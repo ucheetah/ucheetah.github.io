@@ -230,8 +230,8 @@ Now I'll track radius and mass with a scatterplot. Each dot is an exoplanet. Mas
 <li> Two major groups, one with smaller radius and mass, another with larger.</li>
 <li> A few outliers with very large mass and radii.</li>
 </ul>
-
-This has given us a fairly good sense of the ensemble based on what I've grabbed. The exploration could be endless of course, but I'll now shift to the machine learning portion. 
+<br>
+These graphs have given us a fairly good sense of the ensemble based on what I've grabbed. The exploration could be endless of course, but I'll now shift to the machine learning portion. 
 
 
 
