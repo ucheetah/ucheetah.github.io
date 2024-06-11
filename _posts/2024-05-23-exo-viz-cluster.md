@@ -435,6 +435,9 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
   
 <p>I believe that the machine learning portion could have explored other categorization methods or gone into more depth, but I also think that the categorization issue from the end is limiting. What consists in a good categorization becomes subjective at a certain point.</p>
 
+<div style="height: 20px;"></div>
+<hr>
+<div style="height: 20px;"></div>
 <h4>Resources</h4>
 <div style="height: 20px;"></div>
 
