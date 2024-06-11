@@ -430,8 +430,8 @@ These appear to contain a large amount of relatively moderately-sized planets. A
 If worked has piqued your interest on exoplanet science, here are a few resources I've enjoyed in creating this project:
 <div style="height: 10px;"></div>
 <ul>
-<li><strong><a href="https://astrobiology.com/2023/05/discovery-of-69-new-exoplanets-using-machine-learning.html" target="_blank"></strong>Discovery of 69 New Exoplanets Using Machine Learning</a> - Incredible use of a deep learning algorithm called ExoMiner and the technique multiplicity to identify new planets.</li>
-<li><strong><a href="https://webbtelescope.org/contents/articles/webbs-impact-on-exoplanet-research" target="_blank"></strong>Webb's Impact on Exoplanet Research</a> - Dives in to the to-be-seen impact of the James Webb Space Telescope on exoplanet science, which introduced novel exoplanet detection techniques into the fold.</li>
+<li><strong><a href="https://astrobiology.com/2023/05/discovery-of-69-new-exoplanets-using-machine-learning.html" target="_blank">Discovery of 69 New Exoplanets Using Machine Learning</a></strong> - Incredible use of a deep learning algorithm called ExoMiner and the technique multiplicity to identify new planets.</li>
+<li><strong><a href="https://webbtelescope.org/contents/articles/webbs-impact-on-exoplanet-research" target="_blank">Webb's Impact on Exoplanet Research</a></strong> - Dives in to the to-be-seen impact of the James Webb Space Telescope on exoplanet science, which introduced novel exoplanet detection techniques into the fold.</li>
 <li><strong><a href="https://www.explore-exoplanets.eu" target="_blank">Explore exoplanets: The knowledge server - Exoplanets</a></strong> - A very complete and rich exoplanet learning hub.</li>
 </ul>
 
