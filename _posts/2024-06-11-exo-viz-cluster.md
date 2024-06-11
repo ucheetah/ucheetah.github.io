@@ -431,7 +431,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 
 <p>I think that the thrill with data visualization in particular is being able to take complexity and deliver insights that are tangible, and hopefully stimulate curiosity in people they didn't know they had. Obviously it just scratched the surface, but this work challenged me to reflect on representing a scientific domain through data science in a way that felt compelling. </p>
   
-<p>As data scientists we tend to get enthralled in the complexity of our work, and sometimes forget the power that lies in the bridge of communication we're able to create with our skills. This project prompted me to push against that urge, in a sense.</p>
+<p>As data scientists we tend to get enthralled in the complexity of our work, and sometimes forget the power that lies in the bridges of communication we're able to create with our skills. This project allowed me to tap into this practice.</p>
   
 <p>I believe that the machine learning portion could have explored other categorization methods or gone into more depth, but I also think that the categorization issue from the end is limiting. What consists in a good categorization becomes subjective at a certain point.</p>
 
