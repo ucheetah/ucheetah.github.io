@@ -147,7 +147,7 @@ Next I'll visualize the data. I'll only be showing outputs created using <strong
 <ul>
   <li>The <strong>transit method</strong> tracks the shift in light as an exoplanet crosses a visible star, creating a "mini-eclipse" with the Earth.</li>
   <li>The <strong>radial velocity method</strong> tracks shifts in a star's motion due to the gravitational pull of an orbiting exoplanet.</li>
-  <li>The <strong>microlensing</strong> method tracks distorsions of light as large exoplanets pass in front of a star.</li>
+  <li>The <strong>microlensing</strong> method tracks distortions of light as large exoplanets pass in front of a star.</li>
 </ul>
 
 <p>I've tracked the evolution in exoplanet discoveries since the first in 1992:</p>
@@ -251,7 +251,7 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 <div style="height: 20px;"></div>
 <p>With some greater insight under our belt, I'll apply a machine learning model to our data, categorizing them into distinct groups using clustering.</p>
   
-<p>Various categorizations have been created by astronomists since the first exoplanet discovery in 1992. When considering size, for instance, we often hear of these widely-used classifications:</p>
+<p>Various categorizations have been created by astronomers since the first exoplanet discovery in 1992. When considering size, for instance, we often hear of these widely-used classifications:</p>
 
 <ul>
   <li><strong>Super-Earths</strong> (1.0–1.75 R&oplus;) - Planets larger than Earth</li>
@@ -265,10 +265,10 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 <p>I'll employ a <strong><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="bold"><mi>k</mi></mstyle></math>-means clustering</strong> algorithm, which for any number <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math> groups the data based on select features - in this case, mass and radius - and returns <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math> clusters based on their similarities. I'll do this using <strong><code>scikit-learn</code></strong>. I won't touch on the complexities of the algorithm itself here.</p>
 
 <div style="height: 20px;"></div>
-<h4> Silhouette score calculation</h4>
+<h4> Silhouette Score calculation</h4>
 <div style="height: 20px;"></div>
 
-<p>I'll use the <strong>silhouette score method</strong> to determine the number of categories (clusters) that's best to model. This method tests the algorithm on different groupings (one group, two groups,...) and attributes to each a score based on how well the algorithm will generate members that are alike. High scores indicate good grouping results, low scores indicate ineffective groupings.</p>
+<p>I'll use the <strong>Silhouette Score Method</strong> to determine the number of categories (clusters) that's best to model. This method tests the algorithm on different groupings (one group, two groups,...) and attributes to each a score based on how well the algorithm will generate members that are alike. High scores indicate good grouping results, low scores indicate ineffective groupings.</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -280,14 +280,14 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 
 <strong>Observation(s): </strong>
 <ul>
-<li>Clearly the most favorable score is four.</li>
+<li>Clearly, the most favorable score is four.</li>
 </ul>
 
 <div style="height: 20px;"></div>
 <h4> Apply <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm</h4>
 <div style="height: 20px;"></div>
 
-<p>Based on the silhouette method, I ran a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means model on the exoplanet data generating four clusters.</p>
+<p>Based on the Silhouette Method, I ran a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means model on the exoplanet data generating four clusters.</p>
 
 <p>Here's a scatterplot displaying the results. Colors represent different clusters, <strong>centroids (<code>+</code>)</strong> represent the mean values of each cluster.</p>
 
