@@ -250,10 +250,10 @@ This has given us a fairly good sense of the ensemble based on what I've grabbed
 <p>To better assess the influx of planets that are discovered, various categorizations exist. When considering size, for instance, we often hear of these classifications, which are not standardized but used widely:</p>
 
 <ul>
-  <li><strong>Super-Earths</strong> (1.0–1.75 Earth Radius (R&oplus;))</li>
-  <li><strong>Sub-Neptunes</strong> (1.75–3.5 R&oplus;)</li>
-  <li><strong>Sub-Jovians</strong> (3.5–6.0 R&oplus;)</li>
-  <li><strong>Jovians</strong> (6–14.3 R&oplus;)</li>
+  <li><strong>Super-Earths</strong> - Planets larger than Earth (1.0–1.75 Earth Radius (R&oplus;))</li>
+  <li><strong>Sub-Neptunes</strong> - Planets smaller than Neptune (1.75–3.5 R&oplus;)</li>
+  <li><strong>Sub-Jovians</strong> - Planets smaller than Jupiter (3.5–6.0 R&oplus;)</li>
+  <li><strong>Jovians</strong> -Planets near Jupiter's size (6–14.3 R&oplus;)</li>
 </ul>
 
 <p>For my machine learning applications, I aim to replicate these classifications using our exoplanet data. This involves <strong>unsupervised learning</strong>, where the model doesn't rely on labeled training data for the classifications we're trying to create. I'll be employing a <strong>k-means clustering</strong> algorithm, which, for any number k, groups the data based on select features - in this case, mass and radius - and returns k clusters based on their similarities. I'll do this using <code>scikit-learn</code>. The intricate complexities of the algorithm is not something I'll explain here.</p>
@@ -330,9 +330,9 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
         <!-- Content for the left half goes here -->
       <p>These likely contain:</p>
         <ul>
-          <li><strong>Super-Earths</strong>, strictly defined as twice the size of Earth and up to 10 times its mass.</li>
-          <li><strong>Sub-Neptune></strong>, planets smaller than Neptune's radius (3.88 Earth radius) even though it may have a larger mass. </li>
-            <li><strong>Super-Neptune</strong> includes planets around 2 to 6 Earth radii and 10 to 50 Earth masses.</li>
+          <li><strong>Super-Earths</strong>, 1-10x Earth mass.</li>
+          <li><strong>Sub-Neptune></strong>, less than 3.88 R&oplus; (Neptune's radius). </li>
+          <li><strong>Super-Neptune</strong> 2-6x R&oplus; and 10-50x Earth mass.</li>
         </ul>
     </div>
 </div>
@@ -350,13 +350,14 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
         <!-- Content for the right half goes here -->
        <p>These likely contain:</p>
        <ul>
-         <li><strong>Super Jupiters</strong>: A Super-Jupiter has a mass exceeding that of Jupiter, typically greater than 1.5 times Jupiter's mass (approximately 1.9 x 10^27 kg).</li>
-         <li><strong>Super Neptunes</strong>: A Super-Neptune has mass ranging from about 10 to 20 times that of Earth, larger than Neptune but less massive than Super Jupiters.</li>
+         <li><strong>Super Jupiters</strong>: over 318x Earth mass (1.5x Jupiter mass).</li>
+         <li><strong>Super Neptunes</strong>: 10-20x Earth mass.</li>
+         <li><strong>Jovians</strong> 6–14.3x R&oplus;</li>
        </ul>   
     </div>
 </div>
 
-These appear to contain a large amount of relatively moderately-sized planets. A large number of planets can be found in this categorization.
+It's a very large cluster of moderately-sized planets.
 <div style="height: 20px;"></div>
 
 <h5 align="center">Cluster 3</h5>
