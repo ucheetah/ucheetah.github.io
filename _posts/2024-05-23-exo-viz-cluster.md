@@ -262,7 +262,7 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 
 <p>For my machine learning applications, I aim to replicate these classifications using our exoplanet data. This involves <strong>unsupervised learning</strong>, where the model doesn't rely on labeled training data for the classifications we're trying to create. 
   
-<p>I'll employ a <strong><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="bold"><mi>k</mi></mstyle></math>-means clustering</strong> algorithm, which for any number <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math> groups the data based on select features - in this case, mass and radius - and returns <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math> clusters based on their similarities. I'll do this using <code>scikit-learn</code>. I won't touch on the complexities of the algorithm itself here.</p>
+<p>I'll employ a <strong><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="bold"><mi>k</mi></mstyle></math>-means clustering</strong> algorithm, which for any number <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math> groups the data based on select features - in this case, mass and radius - and returns <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math> clusters based on their similarities. I'll do this using <strong><code>scikit-learn</code></strong>. I won't touch on the complexities of the algorithm itself here.</p>
 
 <div style="height: 20px;"></div>
 <h4> Silhouette score calculation</h4>
