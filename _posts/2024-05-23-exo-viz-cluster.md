@@ -167,7 +167,7 @@ Next I'll visualize the data. I'll only be showing outputs created using <strong
   <li>Transit method is clearly most successful.</li>
 </ul>
 <div style="height: 10px;"></div>
-<p>Observational cosmologist <strong><a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">Chris Impey</a></strong> observed that the rapid discovery of exoplanets is comparable to the explosive growth of internet technology during the Dotcom bubble. Here that growth is on full display.</p> 
+<p>Observational cosmologist <strong><a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">Chris Impey</a></strong> observed that the rapid discovery of exoplanets is comparable to the explosive growth of internet technology during the Dotcom bubble. Above that growth is on full display.</p> 
 
 <div style="height: 20px;"></div>
 <h4>Distance from Earth</h4>
