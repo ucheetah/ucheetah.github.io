@@ -53,7 +53,7 @@ est_time: 10 min read
 <h3 align="center"> Background</h3>
 <div style="height: 20px;"></div>
 
-<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. The nine we know well certainly do (well, eight since the <strong><a href="https://neildegrassetyson.com/essays/2007-06-plutos-requiem/" target="_blank">Pluto debacle</a></strong>). But the planets outside our Solar System, extrasolar planets, or more commonly <strong>exoplanets</strong>, are simply not accorded the same status.</p>
+<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. While we're accustomed to the nine in the Solar System (well, eight since the <strong><a href="https://neildegrassetyson.com/essays/2007-06-plutos-requiem/" target="_blank">Pluto debacle</a></strong>), <strong>exoplanets</strong> - planets outside our Solar System - don't enjoy the same level of recognition</p>
 
 <p>I'd argue that this view is changing, though. Most astronomers recognize an invaluable prospect that exoplanet science offers - confirming the existence of extraterrestrial life. In fact physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique.</p>
 
@@ -407,7 +407,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
         <li><strong>Super-Jupiters</strong> given their clear superior size to Jupiter.</li>
       </ul>
       <br>
-      Reason to be suspciious of the wide radius range of 3 to 40. But the cluster is smaller and there could be outliers.
+      Reason to be suspicious of the wide radius range of 3 to 40. This cluster is smaller though, and outliers could throw off our analysis.
     </div>
 </div>
 <div style="height: 20px;"></div>
