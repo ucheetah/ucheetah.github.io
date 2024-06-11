@@ -251,7 +251,7 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 <div style="height: 20px;"></div>
 <p>With some greater insight under our belt, I'll apply a machine learning model to our data, categorizing them into distnct groups using clustering.</p>
   
-<p>Various categorizations have been created by astronomists since the first exoplanet discovery in 1992. When considering size, for instance, we often hear of these classifications, which are not standardized but used widely:</p>
+<p>Various categorizations have been created by astronomists since the first exoplanet discovery in 1992. When considering size, for instance, we often hear of these widely-used classifications:</p>
 
 <ul>
   <li><strong>Super-Earths</strong> (1.0–1.75 R&oplus;): Planets larger than Earth</li>
