@@ -317,7 +317,7 @@ Adding distance as a third dimension:
 <h4>Cluster Analysis</h4>
 <div style="height: 20px;"></div>
 
-Let's look closer at each group and how each cluster fares to existing exoplanet groupings.
+Let's look closer at each group and how each cluster fares to existing exoplanet groupings:
 <div style="height: 20px;"></div>
 
 <h5 align="center">Cluster 1</h5>
@@ -354,6 +354,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
          <li><strong>Super Neptunes</strong>: 10-20x Earth mass.</li>
          <li><strong>Jovians</strong> 6–14.3x R&oplus;</li>
        </ul>   
+      <br>
        <p>This is the largest cluster.</p>
     </div>
 </div>
@@ -369,12 +370,12 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
     </div>
   <div class="half-table">
         <!-- Content for the left half goes here -->
-    <br>
-       <p>These likely contain:</p>
+    <p>These likely contain:</p>
     <ul>
       <li><strong>Super-Jupiters</strong> given their clear superior size to Jupiter.</li>
       <li> <strong>Brown-Dwarfs</strong>, whose tend to have a mass-to-Earth ratio between 4,000 to 25,000. In fact, the the entire cluster falls in this regime.</li>
     </ul>
+    <br>
     The model appears to have identified all the brown-dwarfs.
     </div>
 </div>
@@ -397,7 +398,8 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
       <ul>
         <li><strong>Super-Jupiters</strong> given their clear superior size to Jupiter.</li>
       </ul>
-      Reason to be suspciious of the wide radius range of 3 to 40.
+      <br>
+      Reason to be suspciious of the wide radius range of 3 to 40. But the cluster is smaller and there could be outliers.
     </div>
 </div>
 <div style="height: 20px;"></div>
