@@ -112,9 +112,9 @@ Here's a more comprehensive summary of the data, including <strong>counts</stron
 </li>
   <li>There is a surreal amount of diversity in planet characteristics - these range from
   <ul>
-    <li>4-25,000 light years away</li>
-    <li>0.4-10,000x Earth's mass (from now on M&oplus;)</li>
-    <li>0.3-77.3x Earth's radius (from now on R&oplus;)</li>
+    <li>4 to 25,000 light years away</li>
+    <li>0.4 to 10,000 times Earth's mass (M&oplus;)</li>
+    <li>0.3 to 77.3 times Earth's radius (R&oplus;)</li>
   </ul>
   </li>
 </ul>
