@@ -412,9 +412,9 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 </ul>
 <div style="height: 20px;"></div>
 
-<p>Expanding on this, we often categorize planets based on known objects in our Solar System, which is a form of heliocentrism. We classify planets according to our historical observations and local understanding, rather than their fundamental qualities. For instance, is there a fundamental astronomical difference between a Sub-Neptune and a Super-Neptune aside from their size relative to Neptune? There is scientific reason to question the validity of these classifications.</p>
+<p>Expanding on this, it's clear that we tend to designate mass and radius-based categorizations of planets based on our own Solar System rather than the fundamental qualities of planets. It's essentially a form of <a href="https://www.britannica.com/science/heliocentrism">heliocentrim</a>. Is there a fundamental difference between a Sub-Neptune and a Super-Neptune aside from their size relative to Neptune? What warrants defining planets thousands of light years from our Solar System in terms of Neptune? The same can be asked for any other category.</p>
 
-<p>Considering this, a machine learning classification algorithm may struggle to accurately categorize groups when the categories themselves are not based on the fundamental qualities of the members. I do believe that this is most likely what's occurred here.</p>
+<p>Considering this, a machine learning classification algorithm may struggle to accurately categorize groups when the categories themselves are not based on the fundamental characteristics of the members. I do believe that this is most likely what's occurred here.</p>
 
 <div style="height: 20px;"></div>
 
