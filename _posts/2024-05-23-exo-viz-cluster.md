@@ -445,6 +445,8 @@ If worked has piqued your interest on exoplanet science, here are a few resource
 <div style="height: 10px;"></div>
 <ul>
 <li><strong><a href="https://astrobiology.com/2023/05/discovery-of-69-new-exoplanets-using-machine-learning.html" target="_blank">Discovery of 69 New Exoplanets Using Machine Learning</a></strong> - Incredible usage of a deep learning algorithm called ExoMiner and the technique of multiplicity to identify new planets.</li>
+  <li><strong><a href="https://www.astronomy.com/science/chinas-ambitious-plan-to-find-the-first-earth-2-0/" target="_blank">China's Ambitious Plan to Find the First Earth 2.0</a>
+</strong> - A look into China's efforts to launch a new telescope in 2026 that will devote itself to finding a habitable Earth-like exoplanet</li>
 <li><strong><a href="https://webbtelescope.org/contents/articles/webbs-impact-on-exoplanet-research" target="_blank">Webb's Impact on Exoplanet Research</a></strong> - Dives in to the to-be-seen impact of the James Webb Space Telescope on exoplanet science, which introduced novel exoplanet detection techniques into the fold.</li>
 <li><strong><a href="https://www.explore-exoplanets.eu" target="_blank">Explore exoplanets: The knowledge server - Exoplanets</a></strong> - A very complete and rich EU-based exoplanet learning hub.</li>
 </ul>
