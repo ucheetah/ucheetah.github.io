@@ -153,11 +153,13 @@ Next I'll visualize the data. I'll only be showing outputs. I've used <strong><c
   </a>
 <div style="height: 20px;"></div>
 
+  
+
 <strong> Observations </strong>
 <ul>
-  <li>There's a clear increase in discoveries over the past decade.</li>
-  <li>Some years, such as 2016, have seen enormous numbers of exoplanet discoveries. </li>
-  <li>The transit method is clearly the most successful discovery method.</li>
+  <li>Significant uptick in findings over the past decade.</li>
+  <li>2016 saw a near-doubling of exoplanets, owed to the <strong><a href="https://www.jpl.nasa.gov/missions/kepler" target="_blank">Kepler Space Telescope Mission</a></strong>, the miost </li>
+  <li>Transit method is clearly most successful.</li>
 </ul>
 
 <p>Observational cosmologist <strong><a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">Chris Impey</a></strong> claimed that the rapid discovery of exoplanets is comparable to the explosive growth of internet technology during the Dotcom bubble. Here that growth is on full display.</p> 
@@ -180,10 +182,9 @@ Next I look at exoplanet distance from Earth; I've generated a histogram (techni
 
 <strong>Observation(s):</strong>
 <ul>
-  <li> Clear decrease in exoplanets as the distance increases. Unsurprising and likely due to observational limits.</li>
-  <li> Highest concentration of planets within the first 2000 light years.</li>
-  <li> Planets drop significantly around 4000 light years. Very few exoplanets beyond 6000 years.</li>
-  <li> Remarkably a small number of planets are accessed beyond 8,000 light years (Recall that one light year is 9,461,000,000,000 km)</li>
+  <li> Clear decrease in exoplanets with distance. Unsurprising and likely due to observational limits.</li>
+  <li> Highest concentration within the first 2,000 light years.</li>
+  <li> Very few exoplanets beyond 6,000 years, however remarkably a small number of planets are accessed beyond 8,000 light years.</li>
 </ul>
 
 <p> We can also better evaluate the distribution of planets as a whole through a cumulative distribution function:</p>
@@ -198,15 +199,15 @@ Next I look at exoplanet distance from Earth; I've generated a histogram (techni
 
 <strong>Observation(s):</strong>
 <ul>
-  <li> Close to 90% of known exoplanets are within the ten thousand light year range. </li>
-  <li> The growth slows down as we move beyond 4000 light years,. </li>
+  <li> Close to 90% of exoplanets are within the 10,000 light year range. </li>
+  <li> Growth slows down past 4,000 light years. </li>
 </ul>
 <div style="height: 20px;"></div>
 
 <h4> Planet mass and radius </h4>
 
 <div style="height: 20px;"></div>
-Now I'll track radius and mass. This scatterplot compares mass and radius. Mass is also described with hue.
+Now I'll track radius and mass with a scatterplot. Mass is also described with hue.
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -220,12 +221,9 @@ Now I'll track radius and mass. This scatterplot compares mass and radius. Mass 
 
 <ul>
 <li> Apparent linear relationship between log of planet mass and planet radius.</li>
-<li> Appears to be two clumps of data, one with smaller radius and mass, another with larger.</li>
-<li> Some outliers with very large mass and radii.</li>
+<li> Two major groups, one with smaller radius and mass, another with larger.</li>
+<li> A few outliers with very large mass and radii.</li>
 </ul>
-
-However planets differ greatly in their compositions and densities so we would expect there to be quite a bit of fluctuation. 
-
 
 
 
