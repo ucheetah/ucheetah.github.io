@@ -18,6 +18,7 @@ layout: default
                     <div class="page-date"><time datetime="{{page.date}}">{{page.date | date: '%b %d, %Y'}}</time>
                         {% if page.est_time %}
                         <span class="est-time"> - {{ page.est_time }}</span>
+                        {% endif %}
                     </div>
                     <div class="page-links">
                     {% if page.github %}
