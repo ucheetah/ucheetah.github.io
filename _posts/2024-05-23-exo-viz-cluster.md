@@ -334,7 +334,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
           <li><strong>Sub-Neptune></strong>, less than 3.88 R&oplus; (Neptune's radius). </li>
           <li><strong>Super-Neptune</strong> 2-6x R&oplus; and 10-50x Earth mass.</li>
         </ul>
-      Large cluster with enormous range in mass.
+      Large cluster with enormous range in mass (0.2-1000x Earth mass).
     </div>
 </div>
 
