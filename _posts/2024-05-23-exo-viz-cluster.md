@@ -459,10 +459,7 @@ Some technical resources and tools I found helpful for this work:
 </li>
   <li><strong><a href="https://projects.susielu.com/viz-palette" target="_blank">Viz Palette</a></strong> - Outstanding and flexible palette tool to pick and test out your color schemes.</li>
 <li>
-<strong><a href="https://python-graph-gallery.com/lollipop-plot/">Lollipop chart | The Python Graph Gallery</a></strong> - Short intro to lollipop plot smart barplot alternative to avoid <strong><a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern">Moiré patterns</a></strong>
-</li>
-<li>
-  
+<strong><a href="https://python-graph-gallery.com/lollipop-plot/" target="_blank">Lollipop chart | The Python Graph Gallery</a></strong> - Short intro to lollipop plot smart barplot alternative to avoid <strong><a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern" target="_blank">Moiré patterns</a></strong>
 </li>
 </ul>
 
