@@ -157,7 +157,7 @@ Next I'll visualize the data. I'll only be showing outputs. I've used <strong><c
 
 <strong> Observations </strong>
 <ul>
-  <li>Significant uptick in findings over the past decade.</li>
+  <li>Obvious uptick in findings over the past decade.</li>
   <li>2016 saw a near-doubling of exoplanets, owed to the <strong><a href="https://www.jpl.nasa.gov/missions/kepler" target="_blank">Kepler Space Telescope Mission</a></strong>, the miost </li>
   <li>Transit method is clearly most successful.</li>
 </ul>
@@ -184,10 +184,10 @@ Next I track exoplanet distance from Earth:
 <ul>
   <li> Clear decrease in exoplanets with distance. Unsurprising and likely due to observational limits.</li>
   <li> Highest concentration within the first 2,000 light years.</li>
-  <li> Very few exoplanets beyond 6,000 years, however remarkably a small number of planets are accessed beyond 8,000 light years.</li>
+  <li> Very few exoplanets beyond 6,000 years, but remarkably a small number of planets accessed beyond 8,000 light years.</li>
 </ul>
 
-<p> We can also evaluate the planet distribution using a cumulative distribution function:</p>
+<p> I'll also evaluate the planet distribution using a cumulative distribution function:</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -199,7 +199,7 @@ Next I track exoplanet distance from Earth:
 
 <strong>Observation(s):</strong>
 <ul>
-  <li> Close to 90% of exoplanets are within the 10,000 light year range. </li>
+  <li> About 90% of exoplanets are within the 10,000 light year range. </li>
   <li> Growth slows down past 4,000 light years. </li>
 </ul>
 <div style="height: 20px;"></div>
@@ -225,7 +225,7 @@ Now I'll track radius and mass with a scatterplot. Mass is also described with h
 <li> A few outliers with very large mass and radii.</li>
 </ul>
 
-This has given us a fairly good sense of the ensemble based on what we've grabbed. The exploration could be endless but I'll shift to machine learning. 
+This has given us a fairly good sense of the ensemble based on what I've grabbed. The exploration could be endless of course, but I'll now shift to the machine learning portion. 
 
 
 
@@ -244,7 +244,7 @@ This has given us a fairly good sense of the ensemble based on what we've grabbe
 <h3 align="center"> Machine Learning Classification</h3>
 <div style="height: 20px;"></div>
 
-<p>To better assess the influx of planets that are discovered, various categorizations exist. When considering size for example we often hear of these classifications, which are not standardized but used widely:</p>
+<p>To better assess the influx of planets that are discovered, various categorizations exist. When considering size, for instance, we often hear of these classifications, which are not standardized but used widely:</p>
 
 <ul>
   <li><strong>Super-Earths</strong> (1.0–1.75 Earth Radius (R&oplus;))</li>
@@ -259,7 +259,7 @@ This has given us a fairly good sense of the ensemble based on what we've grabbe
 <h4> Silhouette score calculation</h4>
 <div style="height: 20px;"></div>
 
-<p> To determine the number of categories (clusters) we want to model, we will use the <strong>silhouette score</strong> method. This tests the algorithm on different groupings (one, two,...) and attributes to each a score. High scores indicate good grouping results, bad scores indicate bad grouping</p>
+<p> To determine the number of categories (clusters) is best to model, I'll use the <strong>silhouette score</strong> method. This tests the algorithm on different groupings (one, two,...) and attributes to each a score. High scores indicate good grouping results, bad scores indicate bad grouping</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -271,7 +271,7 @@ This has given us a fairly good sense of the ensemble based on what we've grabbe
 
 <strong>Observation(s): </strong>
 <ul>
-<li>Clearly the most favorable score is four. We will divide our exoplanets in attempts to match them with existing categories.</li>
+<li>Clearly the most favorable score is four.</li>
 </ul>
 <div style="height: 20px;"></div>
 
@@ -279,7 +279,7 @@ This has given us a fairly good sense of the ensemble based on what we've grabbe
 <h4> Apply k-means clustering algorithm</h4>
 <div style="height: 20px;"></div>
 
-I ran a k-means model on the exoplanet data, generating four clusters. Here is a scatterplot displaying the results. Colors represent different clusters, centroids (<strong><code>+</code></strong>) represent mean values of each cluster.
+Based on the silhouette method, I ran a k-means model on the exoplanet data generating four clusters. Here's a scatterplot displaying the results. Colors represent different clusters, centroids (<strong><code>+</code></strong>) represent mean values of each cluster.
 
 <div style="height: 20px;"></div>
 <p align="center">
