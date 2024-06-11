@@ -449,7 +449,7 @@ If worked has piqued your interest on exoplanet science, here are a few resource
 <li><strong><a href="https://www.explore-exoplanets.eu" target="_blank">Explore exoplanets: The knowledge server - Exoplanets</a></strong> - A very complete and rich exoplanet learning hub.</li>
 </ul>
 <div style="height: 10px;"></div>
-Some technical resources I found helpful for this work:
+Some technical resources and tools I found helpful for this work:
 <ul>
   <li>
     <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank"> How to create custom tables</a></strong> - Great tutorials on custom tables.
@@ -457,6 +457,7 @@ Some technical resources I found helpful for this work:
 <li>
 <strong><a href="https://matplotlib.org/stable/users/explain/customizing.html" target="_blank">Customizing Matplotlib with style sheets and rcParams</a></strong> - Comprehensive from the source demo on customizing Matplotlib style.
 </li>
+  <li><strong><a href="https://projects.susielu.com/viz-palette" target="_blank">Viz Palette</a></strong> - Outstanding and flexible palette tool to pick and test out your color schemes.</li>
 <li>
 <strong><a href="https://python-graph-gallery.com/lollipop-plot/">Lollipop chart | The Python Graph Gallery</a></strong> - Short intro to lollipop plot smart barplot alternative to avoid <strong><a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern">Moiré patterns</a></strong>
 </li>
