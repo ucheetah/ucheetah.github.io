@@ -108,7 +108,7 @@ Here's a more comprehensive summary of the data including <strong>counts</strong
 
 <strong>Observation(s):</strong>
 <ul>
-  <li>Exoplanet science is young - the first exoplanet was found in 1992. Interestingly though, only an exoplanet discovery three years later would snatch a <strong><a href="https://www.insidescience.org/news/all-exoplanets-came-1995">Nobel Prize</a></strong> (it's always political)
+  <li>Exoplanet science is young - the first exoplanet was found in 1992. Interestingly though, only the researchers behind an exoplanet discovery three years later would snatch a <strong><a href="https://www.insidescience.org/news/all-exoplanets-came-1995" target="_blank">Nobel Prize</a></strong> (it's always political)
 </li>
   <li>There is a surreal amount of diversity in planet characteristics - these range from
   <ul>
