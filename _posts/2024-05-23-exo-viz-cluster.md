@@ -321,7 +321,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 <div style="height: 20px;"></div>
 
 <h5 align="center">Cluster 1</h5>
-<p align="center">Smaller planets.</p>
+<strong><p align="center">Smaller planets</p></strong>
 <div class="container-table">
     <div class="half-table">
         <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
@@ -341,7 +341,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 <div style="height: 20px;"></div>
 
 <h5 align="center">Cluster 2</h5>
-<p align="center">Medium-sized planets</p>
+<strong><p align="center">Medium-sized planets</p></strong>
 <div class="container-table">
     <div class="half-table">
         <a href="/assets/img/2024-05-24-exoplanets-H2.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H2.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
@@ -361,7 +361,7 @@ It's a very large cluster of moderately-sized planets.
 <div style="height: 20px;"></div>
 
 <h5 align="center">Cluster 3</h5>
-<p align="center">Huge masses and radii.</p>
+<strong><p align="center">Large and massive planets</p></strong>
 <div class="container-table">
     <div class="half-table">
         <!-- Image for the right half goes here -->
@@ -384,7 +384,7 @@ It's a very large cluster of moderately-sized planets.
 <div style="height: 20px;"></div>
 
 <h5 align="center">Cluster 4</h5>
-<p align="center">Also huge masses and radii.</p>
+<strong><p align="center">Also large and massive planets</p></strong>
 <div class="container-table">
     <div class="half-table">
         <!-- Image for the left half goes here -->
