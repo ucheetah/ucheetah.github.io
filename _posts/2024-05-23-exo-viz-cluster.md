@@ -213,7 +213,7 @@ Next I track exoplanet distance from Earth:
 <h4> Planet mass and radius </h4>
 
 <div style="height: 20px;"></div>
-Now I'll track radius and mass with a scatterplot. Mass is also described with hue.
+Now I'll track radius and mass with a scatterplot. Each dot is an exoplanet. Mass is also described with color.
 
 <div style="height: 20px;"></div>
 <p align="center">
