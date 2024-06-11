@@ -57,7 +57,7 @@ est_time: 10 min read
 
 <p>I'd argue that this view is changing, though. Most astronomers recognize an invaluable prospect that exoplanet science offers - confirming the existence of extraterrestrial life. In fact physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique.</p>
 
-<p>This project investigates the existing record on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that give big picture takeaways. Lastly I'll conduct <strong>unsupervised machine learning</strong> using a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm on the data and compare it to existing exoplanet classifications. For the full technical process consult my GitHub repository.</p>
+<p>This project investigates the existing record on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering big picture takeaways. Lastly I'll conduct <strong>unsupervised machine learning</strong> using a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm on the data and compare it to existing exoplanet classifications. For the full technical process consult my GitHub repository.</p>
 
 
 
