@@ -337,12 +337,12 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
         <!-- Content for the left half goes here -->
       <p>These likely contain:</p>
         <ul>
-          <li><strong>Super-Earths</strong>, 1-10x M&oplus.</li>
+          <li><strong>Super-Earths</strong>, 1-10x M&oplus;.</li>
           <li><strong>Sub-Neptune</strong>, less than 3.88x R&oplus; (Neptune's radius). </li>
-          <li><strong>Super-Neptune</strong> 2-6x R&oplus; and 10-50x M&oplus.</li>
+          <li><strong>Super-Neptune</strong> 2-6x R&oplus; and 10-50x M&oplus;.</li>
         </ul>
-      <br>
-      Large cluster with enormous range in mass (0.2-1000x M&oplus).
+      <div style="height: 10px;"></div>
+      Large cluster with enormous range in mass (0.2-1000x M&oplus;).
     </div>
 </div>
 
@@ -358,11 +358,11 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
         <!-- Content for the right half goes here -->
        <p>These likely contain:</p>
        <ul>
-         <li><strong>Super Jupiters</strong>: over 318x M&oplus (1.5x Jupiter mass).</li>
-         <li><strong>Super Neptunes</strong>: 10-20x M&oplus.</li>
+         <li><strong>Super Jupiters</strong>: over 318x M&oplus; (1.5x Jupiter mass).</li>
+         <li><strong>Super Neptunes</strong>: 10-20x M&oplus;.</li>
          <li><strong>Jovians</strong> 6–14.3x R&oplus;</li>
        </ul>   
-      <br>
+      <div style="height: 10px;"></div>
        <p>This is the largest cluster. It's also the cluster with the smallest spread of values. Relatively few outliers.</p>
     </div>
 </div>
@@ -389,7 +389,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 </div>
 <div style="height: 20px;"></div>
  
-<p><strong>Brown dwarfs</strong> are  fascinating because they lie in an area of classification between planets and stars, exhibiting properties of both. Usually they're born like stars, but fail to sustain the nuclear fusion of hydrogen. So it's a matter of debate whether they're "proper" planets.</p>
+<p><strong>Brown dwarfs</strong> are  fascinating because they lie in an area of classification between planets and stars, exhibiting properties of both. Usually they're born like stars, but fail to sustain the nuclear fusion of hydrogen; whether they're 'proper' planets is a matter of debate.</p>
 
 <div style="height: 20px;"></div>
 
@@ -406,7 +406,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
       <ul>
         <li><strong>Super-Jupiters</strong> given their clear superior size to Jupiter.</li>
       </ul>
-      <br>
+      <div style="height: 10px;"></div>
       Reason to be suspicious of the wide radius range of 3 to 40. This cluster is smaller though, and outliers could throw off our analysis.
     </div>
 </div>
