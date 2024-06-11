@@ -412,7 +412,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 </div>
 <div style="height: 20px;"></div>
 
-<p>Some reflections on the process as a whole having considered each cluster:</p>
+<p>Having considered each cluster, some reflections:</p>
 <ul>
   <li><strong>Some relevant patterns, no neat classifications</strong> - Aside from the very-large brown dwarfs, no cluster was a perfect categories.</li>
   <li><strong>Clustering could have benefited from more features</strong> - Adding features like orbitals or host star characteristics could perhaps have siphoned off clearer groups</li>
