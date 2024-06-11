@@ -249,8 +249,9 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 
 <h3 align="center"> Machine Learning Classification</h3>
 <div style="height: 20px;"></div>
-
-<p>To better assess the influx of planets that are discovered, various categorizations exist. When considering size, for instance, we often hear of these classifications, which are not standardized but used widely:</p>
+<p>In this sections I'll apply a machine learning model to our data, categorizing them into distnct groups using clustering. 
+  
+<p>Various categorizations have been created by astronomists since the first exoplanet discovery in 1992. When considering size, for instance, we often hear of these classifications, which are not standardized but used widely:</p>
 
 <ul>
   <li><strong>Super-Earths</strong> - Planets larger than Earth (1.0–1.75 Earth Radius (R&oplus;))</li>
@@ -258,7 +259,7 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
   <li><strong>Sub-Jovians</strong> - Planets smaller than Jupiter (3.5–6.0 R&oplus;)</li>
   <li><strong>Jovians</strong> -Planets near Jupiter's size (6–14.3 R&oplus;)</li>
 </ul>
-<br>
+
 <p>For my machine learning applications, I aim to replicate these classifications using our exoplanet data. This involves <strong>unsupervised learning</strong>, where the model doesn't rely on labeled training data for the classifications we're trying to create. I'll be employing a <strong>k-means clustering</strong> algorithm, which, for any number k, groups the data based on select features - in this case, mass and radius - and returns k clusters based on their similarities. I'll do this using <code>scikit-learn</code>. The intricate complexities of the algorithm is not something I'll explain here.</p>
 
 <div style="height: 20px;"></div>
