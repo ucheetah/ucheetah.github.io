@@ -5,7 +5,7 @@ date: 2024-05-23
 tags: [projects, tech, data science, visualization, machine learning, kmeans]
 image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
-custom_excerpt: Peering into exoplanet science through the lens of data. I grab a dataset from the NASA exoplanets archive on which I'll explore, visualize and perform unsupervised learning through a k-means clustering algorithm.
+custom_excerpt: Peering into exoplanet science through the lens of data. I grab a dataset from the NASA exoplanets archive on which I'll explore, visualize and perform unsupervised learning through a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm.
 est_time: 10 min read
 ---
 
@@ -14,7 +14,7 @@ est_time: 10 min read
 <hr>
 <div style="height: 20px;"></div>
 
-<p>This project peers into exoplanet science through the lens of data. I grab a dataset from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">NASA exoplanets archive</a></strong> on which I'll explore, visualize and perform unsupervised learning through a k-means clustering algorithm.</p>
+<p>This project peers into exoplanet science through the lens of data. I grab a dataset from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">NASA exoplanets archive</a></strong> on which I'll explore, visualize and perform unsupervised learning through a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm.</p>
 
 <h3 align="center"> Project summary</h3>
 <div style="height: 20px;"></div>
@@ -23,7 +23,7 @@ est_time: 10 min read
   <tr>
     <td align="center" width=150><strong> Project Goals </strong> </td>
     <td>
-    Query and clean data from NASA exoplanet archive; perform exploratory data analysis and visualize planet features; and employ k-means clustering comparing groups to existing exoplanet classifications.
+    Query and clean data from NASA exoplanet archive; perform exploratory data analysis and visualize planet features; and employ <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering comparing groups to existing exoplanet classifications.
     </td>
   </tr>
   <tr>
@@ -32,7 +32,7 @@ est_time: 10 min read
   </tr>
   <tr>
     <td width=150><strong>Techniques and skills</strong></td>
-    <td>Data querying, data cleaning, missing value detection, outlier handling, visualization, machine learning, unsupervised learning, k-means clustering </td>
+    <td>Data querying, data cleaning, missing value detection, outlier handling, visualization, machine learning, unsupervised learning, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering </td>
   </tr>
   <tr>
     <td width=150><strong>Project GitHub</strong></td>
@@ -57,7 +57,7 @@ est_time: 10 min read
 
 <p>I'd argue that this view is changing, though. Most astronomers recognize an invaluable prospect that exoplanet science offers - confirming the existence of extraterrestrial life. In fact physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique.</p>
 
-<p>This project investigates the existing record on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that give big picture takeaways. Lastly I'll conduct <strong>unsupervised machine learning</strong> - a k-means clustering algorithm - on the data and compare it to existing exoplanet classifications. For the full technical process consult my GitHub repository.</p>
+<p>This project investigates the existing record on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that give big picture takeaways. Lastly I'll conduct <strong>unsupervised machine learning</strong> - a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm - on the data and compare it to existing exoplanet classifications. For the full technical process consult my GitHub repository.</p>
 
 
 
@@ -262,7 +262,7 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 
 <p>For my machine learning applications, I aim to replicate these classifications using our exoplanet data. This involves <strong>unsupervised learning</strong>, where the model doesn't rely on labeled training data for the classifications we're trying to create. 
   
-<p>I'll employ a <strong>k-means clustering</strong> algorithm, which, for any number k, groups the data based on select features - in this case, mass and radius - and returns k clusters based on their similarities. I'll do this using <code>scikit-learn</code>. The intricate complexities of the algorithm is not something I'll touch on here.</p>
+<p>I'll employ a <strong><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering</strong> algorithm, which, for any number k, groups the data based on select features - in this case, mass and radius - and returns k clusters based on their similarities. I'll do this using <code>scikit-learn</code>. The intricate complexities of the algorithm is not something I'll touch on here.</p>
 
 <div style="height: 20px;"></div>
 <h4> Silhouette score calculation</h4>
@@ -284,10 +284,10 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 </ul>
 
 <div style="height: 20px;"></div>
-<h4> Apply k-means clustering algorithm</h4>
+<h4> Apply <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm</h4>
 <div style="height: 20px;"></div>
 
-<p>Based on the silhouette method, I ran a k-means model on the exoplanet data generating four clusters.</p>
+<p>Based on the silhouette method, I ran a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means model on the exoplanet data generating four clusters.</p>
 
 <p>Here's a scatterplot displaying the results. Colors represent different clusters, centroids (<strong><code>+</code></strong>) represent mean values of each cluster.</p>
 
