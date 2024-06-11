@@ -57,7 +57,7 @@ est_time: 10 mins
 
 <p>I'd argue that this view is changing though. Most astronomers recognize an invaluable prospect that exoplanet science offers - confirming the existence of extraterrestrial life. In fact physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique.</p>
 
-<p>This project investigates the existing record on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that give big picture takeaways. Lastly I'll conduct <strong>unsupervised learning</strong> - a k-means clustering algorithm - on the data and compare it to existing exoplanet classifications. For the full technical process consult my GitHub repository.</p>
+<p>This project investigates the existing record on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that give big picture takeaways. Lastly I'll conduct an <strong>unsupervised machine learning</strong> - a k-means clustering algorithm - on the data and compare it to existing exoplanet classifications. For the full technical process consult my GitHub repository.</p>
 
 
 
@@ -80,7 +80,7 @@ est_time: 10 mins
 
 <figure style="text-align: center;">
    <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">
-      <img src="/assets/img/nasa_exoplanet_homepage.png" width = "550" alt="NASA Homepage">
+      <img src="/assets/img/nasa_exoplanet_homepage.png" width = "400" alt="NASA Homepage">
     </a>
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
@@ -168,7 +168,7 @@ Next I'll visualize the data. I'll only be showing outputs. I've used <strong><c
 <h4>Distance from Earth</h4>
 <div style="height: 20px;"></div>
 
-Next I look at exoplanet distance from Earth; I've generated a histogram (technically a lollipop plot) tracking this metric:
+Next I track exoplanet distance from Earth:
 
 <div style="height: 20px;"></div>
 
@@ -187,7 +187,7 @@ Next I look at exoplanet distance from Earth; I've generated a histogram (techni
   <li> Very few exoplanets beyond 6,000 years, however remarkably a small number of planets are accessed beyond 8,000 light years.</li>
 </ul>
 
-<p> We can also better evaluate the distribution of planets as a whole through a cumulative distribution function:</p>
+<p> We can also evaluate the planet distribution using a cumulative distribution function:</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -225,7 +225,7 @@ Now I'll track radius and mass with a scatterplot. Mass is also described with h
 <li> A few outliers with very large mass and radii.</li>
 </ul>
 
-
+This has given us a fairly good sense of the ensemble based on what we've grabbed. The exploration could be endless but I'll shift to machine learning. 
 
 
 
@@ -247,19 +247,19 @@ Now I'll track radius and mass with a scatterplot. Mass is also described with h
 <p>To better assess the influx of planets that are discovered, various categorizations exist. When considering size for example we often hear of these classifications, which are not standardized but used widely:</p>
 
 <ul>
-  <li><strong>super-Earths</strong> (1.0–1.75 Earth Radius (R&oplus;))</li>
-  <li><strong>sub-Neptunes</strong> (1.75–3.5 R&oplus;)</li>
-  <li><strong>sub-Jovians</strong> (3.5–6.0 R&oplus;)</li>
+  <li><strong>Super-Earths</strong> (1.0–1.75 Earth Radius (R&oplus;))</li>
+  <li><strong>Sub-Neptunes</strong> (1.75–3.5 R&oplus;)</li>
+  <li><strong>Sub-Jovians</strong> (3.5–6.0 R&oplus;)</li>
   <li><strong>Jovians</strong> (6–14.3 R&oplus;)</li>
 </ul>
 
-<p>For my machine learning applications, I aim to replicate these classifications using our exoplanet data. This involves <strong>unsupervised learning</strong>, where the model doesn't rely on labeled training data for the classifications we're trying to create. I'll be employing a <strong>k-means clustering</strong> algorithm, which, for any number k, groups the data based on select features - in this case, mass and radius - and returns k clusters based on their similarities. This analysis will be implemented using <code>scikit-learn</code>. The intricate details of the algorithm will be beyond the scope of this project.</p>
+<p>For my machine learning applications, I aim to replicate these classifications using our exoplanet data. This involves <strong>unsupervised learning</strong>, where the model doesn't rely on labeled training data for the classifications we're trying to create. I'll be employing a <strong>k-means clustering</strong> algorithm, which, for any number k, groups the data based on select features - in this case, mass and radius - and returns k clusters based on their similarities. I'll do this using <code>scikit-learn</code>. The intricate complexities of the algorithm is not something I'll explain here.</p>
 
 <div style="height: 20px;"></div>
 <h4> Silhouette score calculation</h4>
 <div style="height: 20px;"></div>
 
-<p> To determine the number of categories (clusters) we want to model, we will use the <strong>silhouette score</strong> method. High scores indicate good grouping results, bad scores indicate bad grouping</p>
+<p> To determine the number of categories (clusters) we want to model, we will use the <strong>silhouette score</strong> method. This tests the algorithm on different groupings (one, two,...) and attributes to each a score. High scores indicate good grouping results, bad scores indicate bad grouping</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -279,7 +279,7 @@ Now I'll track radius and mass with a scatterplot. Mass is also described with h
 <h4> Apply k-means clustering algorithm</h4>
 <div style="height: 20px;"></div>
 
-We run a k-means model using scikit-learn and add the generated clusters to our data. Here is a scatterplot displaying the results. Colors represent differen clusters, centroids (<strong><code>+</code></strong>) represent mean values of each cluster.
+I ran a k-means model on the exoplanet data, generating four clusters. Here is a scatterplot displaying the results. Colors represent different clusters, centroids (<strong><code>+</code></strong>) represent mean values of each cluster.
 
 <div style="height: 20px;"></div>
 <p align="center">
