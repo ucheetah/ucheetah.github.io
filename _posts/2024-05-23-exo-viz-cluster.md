@@ -301,7 +301,7 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 <div style="height: 20px;"></div>
 <strong>Observation(s):</strong>
 <ul>
-<li>Clusters 1 and 2 appear to be well classed, representing planets with small radius/mass and medium radius/mass, respectively.</li>
+<li>Clusters 1 and 2 appear to be well categorized, representing planets with small radius/mass and medium radius/mass, respectively.</li>
 <li>Clusters 3 and 4 are in the similar vicinity but span very wide ranges of radius, which could be suspect.</li>
 </ul>
 Adding distance as a third dimension:
