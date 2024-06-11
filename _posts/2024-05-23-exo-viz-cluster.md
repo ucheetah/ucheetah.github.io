@@ -421,11 +421,9 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 </ul>
 <div style="height: 20px;"></div>
 
-<p>Expanding on this, it's clear that we tend to designate mass and radius-based categorizations of planets based on our own Solar System rather than the fundamental qualities of planets. It's essentially a form of <strong><a href="https://www.britannica.com/science/heliocentrism" target="_blank">heliocentrim</a></strong>.</p>
+<p>Expanding on this, it's clear that we tend to designate mass and radius-based categorizations of planets based on our own Solar System rather than the fundamental qualities of planets. It's essentially a form of <strong><a href="https://www.britannica.com/science/heliocentrism" target="_blank">heliocentrim</a></strong>. What differentiates a Sub-Neptune and a Super-Neptune aside from their size relative to Neptune? Categorizing planets thousands of light years away in this matter is nearly unscientific.</p>
 
-<p><em align="center">Is there a fundamental difference between a Sub-Neptune and a Super-Neptune aside from their size relative to Neptune? What warrants defining planets thousands of light years from our Solar System in terms of Neptune?</em></p>
-
-<p>Considering this, a machine learning classification algorithm may struggle to accurately categorize groups when the categories themselves are not based on the fundamental characteristics of the members. I do believe that this is most likely what's occurred here.</p>
+<p>The ramifications of bad groupings is that a machine learning classification algorithm may struggle to accurately categorize groups when the categories themselves are not based on the fundamental characteristics of the members. I do believe that this is most likely what's occurred here and for that reason there's a threshold to the success that can be achieved using this approach.</p>
 
 <div style="height: 20px;"></div>
 
@@ -436,7 +434,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
   
 <p>As data scientists we tend to get enthralled in the complexity of our work, and sometimes forget the power that lies in the bridge of communication we're able to create with our skills. This project prompted me to push against that urge in a sense.</p>
   
-<p>I believe that the machine learning portion could have explored other categorization methods or gone into more depth, but I also think that the categorization issue from the end is limiting. What consists in a good categorization becomes subjective at a certain point. P</p>
+<p>I believe that the machine learning portion could have explored other categorization methods or gone into more depth, but I also think that the categorization issue from the end is limiting. What consists in a good categorization becomes subjective at a certain point.</p>
 
 <h4>Resources</h4>
 <div style="height: 20px;"></div>
@@ -444,18 +442,18 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 If worked has piqued your interest on exoplanet science, here are a few resources I've enjoyed in creating this project:
 <div style="height: 10px;"></div>
 <ul>
-<li><strong><a href="https://astrobiology.com/2023/05/discovery-of-69-new-exoplanets-using-machine-learning.html" target="_blank">Discovery of 69 New Exoplanets Using Machine Learning</a></strong> - Incredible use of a deep learning algorithm called ExoMiner and the technique multiplicity to identify new planets.</li>
+<li><strong><a href="https://astrobiology.com/2023/05/discovery-of-69-new-exoplanets-using-machine-learning.html" target="_blank">Discovery of 69 New Exoplanets Using Machine Learning</a></strong> - Incredible usage of a deep learning algorithm called ExoMiner and the technique of multiplicity to identify new planets.</li>
 <li><strong><a href="https://webbtelescope.org/contents/articles/webbs-impact-on-exoplanet-research" target="_blank">Webb's Impact on Exoplanet Research</a></strong> - Dives in to the to-be-seen impact of the James Webb Space Telescope on exoplanet science, which introduced novel exoplanet detection techniques into the fold.</li>
-<li><strong><a href="https://www.explore-exoplanets.eu" target="_blank">Explore exoplanets: The knowledge server - Exoplanets</a></strong> - A very complete and rich exoplanet learning hub.</li>
+<li><strong><a href="https://www.explore-exoplanets.eu" target="_blank">Explore exoplanets: The knowledge server - Exoplanets</a></strong> - A very complete and rich EU-based exoplanet learning hub.</li>
 </ul>
 <div style="height: 10px;"></div>
 Some technical resources and tools I found helpful for this work:
 <ul>
   <li>
-    <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank"> How to create custom tables</a></strong> - Great tutorials on custom tables.
+    <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank"> How to create custom tables</a></strong> - Great tutorials on creating custom tables.
   </li>
 <li>
-<strong><a href="https://matplotlib.org/stable/users/explain/customizing.html" target="_blank">Customizing Matplotlib with style sheets and rcParams</a></strong> - Comprehensive from the source demo on customizing Matplotlib style.
+<strong><a href="https://matplotlib.org/stable/users/explain/customizing.html" target="_blank">Customizing Matplotlib with style sheets and rcParams</a></strong> - Comprehensive from-the-source demo on customizing Matplotlib style.
 </li>
   <li><strong><a href="https://projects.susielu.com/viz-palette" target="_blank">Viz Palette</a></strong> - Outstanding and flexible palette tool to pick and test out your color schemes.</li>
 <li>
