@@ -85,7 +85,9 @@ est_time: 10 min read
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
 </figure>
 
-I've chosen to extract <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters of interest. I've queried this data from NASA's <strong>Table Access Protocol (TAP)</strong> using SQL and Python's <strong><code>requests</code></strong> package and conducted some basic pre-processing. Here's a first impression of the data:
+I've chosen to extract <strong>planet radius</strong>, <strong>planet mass</strong>, <strong>distance from Earth</strong>, <strong>discovery method</strong> and <strong>discovery year</strong> as parameters of interest. 
+
+I've queried this data from NASA's <strong>Table Access Protocol (TAP)</strong> using SQL and Python's <strong><code>requests</code></strong> package and conducted some basic pre-processing. A quick peek at the data gives us:
 
 <figure style="text-align: center;">
   <a href="/assets/img/exoplanet-raw-table.png" target="_blank">
@@ -94,7 +96,7 @@ I've chosen to extract <strong>planet radius</strong>, <strong>planet mass</stro
   <figcaption> <em>Planetary Systems</em> dataset shown in interactive notebook. </figcaption> 
 </figure>
 
-Here's a preliminary summary of the data including <strong>counts</strong> of each feature (counts below 5638 indicate missing data), <strong>minimum</strong> and <strong>maximum values</strong>, and  <strong>25th</strong>, <strong>50th</strong> and <strong>75th percentiles</strong>: 
+Here's a more comprehensive summary of the data including <strong>counts</strong> of each feature (counts below 5638 indicate missing data), <strong>minimum</strong> and <strong>maximum values</strong>, and  <strong>25th</strong>, <strong>50th</strong> and <strong>75th percentiles</strong>: 
 
 <div style="height: 10px;"></div>
 <p align="center">
@@ -106,14 +108,15 @@ Here's a preliminary summary of the data including <strong>counts</strong> of ea
 
 <strong>Observation(s):</strong>
 <ul>
-  <li>Exoplanet science is young - the first exoplanet was found in 1992. Interestingly though, only an exoplanet discovery three years later would snatch a <a href="https://www.insidescience.org/news/all-exoplanets-came-1995">Nobel Prize (it's always political)</a>
+  <li>Exoplanet science is young - the first exoplanet was found in 1992. Interestingly though, only an exoplanet discovery three years later would snatch a <strong><a href="https://www.insidescience.org/news/all-exoplanets-came-1995">Nobel Prize</a></strong> (it's always political)
 </li>
-  <li>There is a surreal amount of diversity in planet characteristics - planets range from
+  <li>There is a surreal amount of diversity in planet characteristics - these range from
   <ul>
-    <li>4 to 25,000 light years away</li>
-    <li>0.4 to 10,000 times Earth's mass</li>
-    <li>0.3 to 77.3 times Earth's radius (from now on R&oplus;)</li>
+    <li>4-25,000 light years away</li>
+    <li>0.4-10,000x Earth's mass (from now on M&oplus;)</li>
+    <li>0.3-77.3x Earth's radius (from now on R&oplus;)</li>
   </ul>
+  </li>
 </ul>
 With this first glimpse let's dive in deeper with visualizations.
 
@@ -133,7 +136,7 @@ With this first glimpse let's dive in deeper with visualizations.
 <div style="height: 20px;"></div>
 <h3 align="center">Visualization and Analysis</h3>
 <div style="height: 20px;"></div>
-Next I'll visualize the data. I'll only be showing outputs. I've used <strong><code>matplotlib</code></strong> and <strong><code>seaborn</code></strong>. I wanted to challenge the notion that these packages lack in complexity or aesthetic quality by developing graphs that still feel dynamic and engaging, and employing lesser-used tools such as 3D graphs, matplotlib tables and stylesheets.
+Next I'll visualize the data. I'll only be showing outputs created using <strong><code>matplotlib</code></strong> and <strong><code>seaborn</code></strong>. I wanted to challenge the notion that these packages lack in complexity or aesthetic quality by developing graphs that still feel dynamic, and employing lesser-used tools such as 3D graphs, matplotlib tables and stylesheets.
 
 <div style="height: 20px;"></div>
 <h4>Discovery method</h4>
@@ -184,7 +187,7 @@ Next I track exoplanet distance from Earth:
 
 <strong>Observation(s):</strong>
 <ul>
-  <li> Clear decrease in exoplanets with distance. Unsurprising and likely due to observational limits.</li>
+  <li> Clear decrease in exoplanet findings with distance. Unsurprising and likely due to observational limits.</li>
   <li> Highest concentration within the first 2,000 light years.</li>
   <li> Very few exoplanets beyond 6,000 years, but remarkably a small number of planets accessed beyond 8,000 light years.</li>
 </ul>
