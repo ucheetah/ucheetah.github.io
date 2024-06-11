@@ -289,7 +289,7 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 
 <p>Based on the silhouette method, I ran a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means model on the exoplanet data generating four clusters.</p>
 
-<p>Here's a scatterplot displaying the results. Colors represent different clusters, centroids (<strong><code>+</code></strong>) represent mean values of each cluster.</p>
+<p>Here's a scatterplot displaying the results. Colors represent different clusters, <strong>centroids (<code>+</code>)</strong> represent the mean values of each cluster.</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
