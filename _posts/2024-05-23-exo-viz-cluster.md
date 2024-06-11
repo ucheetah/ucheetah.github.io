@@ -262,13 +262,13 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 
 <p>For my machine learning applications, I aim to replicate these classifications using our exoplanet data. This involves <strong>unsupervised learning</strong>, where the model doesn't rely on labeled training data for the classifications we're trying to create. 
   
-<p>I'll employ a <strong><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering</strong> algorithm, which, for any number <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>, groups the data based on select features - in this case, mass and radius - and returns <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math> clusters based on their similarities. I'll do this using <code>scikit-learn</code>. The intricate complexities of the algorithm is not something I'll touch on here.</p>
+<p>I'll employ a <strong><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering</strong> algorithm, which for any number <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math> groups the data based on select features - in this case, mass and radius - and returns <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math> clusters based on their similarities. I'll do this using <code>scikit-learn</code>. I won't touch on the complexities of the algorithm itself here.</p>
 
 <div style="height: 20px;"></div>
 <h4> Silhouette score calculation</h4>
 <div style="height: 20px;"></div>
 
-<p>I'll use the <strong>silhouette score method</strong> to determine the number of categories (clusters) that's best to model, . This tests the algorithm on different groupings (one group, two groups,...) and attributes to each a score based on how well the algorithm will generate members that are alike. High scores indicate good grouping results, low scores indicate ineffective groupings.</p>
+<p>I'll use the <strong>silhouette score method</strong> to determine the number of categories (clusters) that's best to model. This method tests the algorithm on different groupings (one group, two groups,...) and attributes to each a score based on how well the algorithm will generate members that are alike. High scores indicate good grouping results, low scores indicate ineffective groupings.</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
