@@ -55,9 +55,9 @@ est_time: 10 min read
 
 <p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. The nine we know well certainly do (well, eight since the <strong><a href="https://neildegrassetyson.com/essays/2007-06-plutos-requiem/" target="_blank">Pluto debacle</a></strong>). But the planets outside our Solar System, extrasolar planets, or more commonly <strong>exoplanets</strong>, are simply not accorded the same status</p>
 
-<p>I'd argue that this view is changing though. Most astronomers recognize an invaluable prospect that exoplanet science offers - confirming the existence of extraterrestrial life. In fact physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique.</p>
+<p>I'd argue that this view is changing, though. Most astronomers recognize an invaluable prospect that exoplanet science offers - confirming the existence of extraterrestrial life. In fact physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique.</p>
 
-<p>This project investigates the existing record on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that give big picture takeaways. Lastly I'll conduct an <strong>unsupervised machine learning</strong> - a k-means clustering algorithm - on the data and compare it to existing exoplanet classifications. For the full technical process consult my GitHub repository.</p>
+<p>This project investigates the existing record on exoplanets. I'll perform <strong>exploratory data analysis</strong> on exoplanet data provided by NASA. I will then <strong>visualize</strong> this data with the goal of rendering graphs that give big picture takeaways. Lastly I'll conduct <strong>unsupervised machine learning</strong> - a k-means clustering algorithm - on the data and compare it to existing exoplanet classifications. For the full technical process consult my GitHub repository.</p>
 
 
 
