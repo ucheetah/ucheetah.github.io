@@ -255,19 +255,19 @@ This has given us a fairly good sense of the ensemble based on what I've grabbed
   <li><strong>Sub-Jovians</strong> - Planets smaller than Jupiter (3.5–6.0 R&oplus;)</li>
   <li><strong>Jovians</strong> -Planets near Jupiter's size (6–14.3 R&oplus;)</li>
 </ul>
-
+<br>
 <p>For my machine learning applications, I aim to replicate these classifications using our exoplanet data. This involves <strong>unsupervised learning</strong>, where the model doesn't rely on labeled training data for the classifications we're trying to create. I'll be employing a <strong>k-means clustering</strong> algorithm, which, for any number k, groups the data based on select features - in this case, mass and radius - and returns k clusters based on their similarities. I'll do this using <code>scikit-learn</code>. The intricate complexities of the algorithm is not something I'll explain here.</p>
 
 <div style="height: 20px;"></div>
 <h4> Silhouette score calculation</h4>
 <div style="height: 20px;"></div>
 
-<p> To determine the number of categories (clusters) is best to model, I'll use the <strong>silhouette score</strong> method. This tests the algorithm on different groupings (one, two,...) and attributes to each a score. High scores indicate good grouping results, bad scores indicate bad grouping</p>
+<p>To determine the number of categories (clusters) is best to model, I'll use the <strong>silhouette score method</strong>. This tests the algorithm on different groupings (one group, two groups,...) and attributes to each a score based on how well the algorithm will generate members that are alike. High scores indicate good grouping results, bad scores indicate bad grouping</p>
 
 <div style="height: 20px;"></div>
 <p align="center">
   <a href="/assets/img/2024-05-24-exoplanets-G.svg" target="_blank">
-  <img src="/assets/img/2024-05-24-exoplanets-G.svg" width="800" alt="Graph G" style="border: 3px solid #573259; border-radius: 3px;">
+  <img src="/assets/img/2024-05-24-exoplanets-G.svg" width="550" alt="Graph G" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
 <div style="height: 20px;"></div>
