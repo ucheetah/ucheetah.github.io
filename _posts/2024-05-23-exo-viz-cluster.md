@@ -334,9 +334,9 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
           <li><strong>Sub-Neptune></strong>, less than 3.88 R&oplus; (Neptune's radius). </li>
           <li><strong>Super-Neptune</strong> 2-6x R&oplus; and 10-50x Earth mass.</li>
         </ul>
+      Large cluster with enormous range in mass.
     </div>
 </div>
-<p>This appears to be an extremely large collection of exoplanets, particularly with respect to mass from 0.2 to 1000 times Earth's mass. They include most planets under 10 radius, but that includes a wide-range of planets.</p>
 
 <div style="height: 20px;"></div>
 
@@ -354,10 +354,10 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
          <li><strong>Super Neptunes</strong>: 10-20x Earth mass.</li>
          <li><strong>Jovians</strong> 6–14.3x R&oplus;</li>
        </ul>   
+       <p>This is the largest cluster.</p>
     </div>
 </div>
 
-It's a very large cluster of moderately-sized planets.
 <div style="height: 20px;"></div>
 
 <h5 align="center">Cluster 3</h5>
@@ -375,11 +375,12 @@ It's a very large cluster of moderately-sized planets.
       <li><strong>Super-Jupiters</strong> given their clear superior size to Jupiter.</li>
       <li> <strong>Brown-Dwarfs</strong>, whose tend to have a mass-to-Earth ratio between 4,000 to 25,000. In fact, the the entire cluster falls in this regime.</li>
     </ul>
+    The model appears to have identified all the brown-dwarfs.
     </div>
 </div>
 <div style="height: 20px;"></div>
  
-<p><strong>Brown dwarfs</strong> are  fascinating because they lie in an area of classification between planets and stars, exhibiting properties of both. Usually they're born like stars, but fail to sustain the nuclear fusion of hydrogen. So it's a matter of debate whether they're "proper" planets. These appear to have been succintly identified by the model.</p>
+<p><strong>Brown dwarfs</strong> are  fascinating because they lie in an area of classification between planets and stars, exhibiting properties of both. Usually they're born like stars, but fail to sustain the nuclear fusion of hydrogen. So it's a matter of debate whether they're "proper" planets.</p>
 
 <div style="height: 20px;"></div>
 
@@ -392,18 +393,14 @@ It's a very large cluster of moderately-sized planets.
     </div>
     <div class="half-table">
         <!-- Content for the right half goes here -->
-      <br>
-      <br>
-      <br>
         <p>Most These likely contain: </p>
       <ul>
         <li><strong>Super-Jupiters</strong> given their clear superior size to Jupiter.</li>
       </ul>
+      Reason to be suspciious of the wide radius range of 3 to 40.
     </div>
 </div>
 <div style="height: 20px;"></div>
-
-<p>I would note the wide range here; planets with radii of 3 to 40 are grouped together. It's surprising to expect these planets to share many inherent qualities. In terms of mass these planets would be Super Jupiters, but there's reason to be suspicious of this cluster.</p>
 
 <p>Some reflections on the machine learning portion:</p>
 <ul>
