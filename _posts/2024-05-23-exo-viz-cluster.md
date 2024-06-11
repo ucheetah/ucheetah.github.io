@@ -414,8 +414,8 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 
 <p>Having considered each cluster, some reflections:</p>
 <ul>
-  <li><strong>Some relevant patterns, no neat classifications</strong> - Aside from the very-large brown dwarfs, no cluster was a perfect categories.</li>
-  <li><strong>Clustering could have benefited from more features</strong> - Adding features like orbitals or host star characteristics could perhaps have siphoned off clearer groups</li>
+  <li><strong>Some relevant patterns, no neat classifications</strong> - Aside from the very-large brown dwarfs, no cluster was a perfect category.</li>
+  <li><strong>Clustering could have benefited from more features</strong> - Adding features like orbitals or host star characteristics could have siphoned off clearer groups.</li>
   <li><strong>Clustering is difficult for badly defined categories</strong> - We could have difficulty because of flaws inherent in exoplanet characterization.</li>
 </ul>
 <div style="height: 20px;"></div>
