@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Worlds Beyond - Visualizing and Clustering NASA Exoplanet Data
-date: 2024-05-23
+date: 2024-06-11
 tags: [projects, tech, data science, visualization, machine learning, kmeans]
 image: 2024-05-24-exoplanets-cover.png
 github: https://github.com/ucheetah/exoplanet-viz-cluster
@@ -446,7 +446,7 @@ If worked has piqued your interest on exoplanet science, here are a few resource
 <ul>
 <li><strong><a href="https://astrobiology.com/2023/05/discovery-of-69-new-exoplanets-using-machine-learning.html" target="_blank">Discovery of 69 New Exoplanets Using Machine Learning</a></strong> - Incredible usage of a deep learning algorithm called ExoMiner and the technique of multiplicity to identify new planets.</li>
   <li><strong><a href="https://www.astronomy.com/science/chinas-ambitious-plan-to-find-the-first-earth-2-0/" target="_blank">China's Ambitious Plan to Find the First Earth 2.0</a>
-</strong> - A look into China's efforts to launch a new telescope in 2026 that will devote itself to finding a habitable Earth-like exoplanet</li>
+</strong> - A look into China's efforts to launch a new telescope in 2026 that will devote itself to finding a habitable Earth-like exoplanet.</li>
 <li><strong><a href="https://webbtelescope.org/contents/articles/webbs-impact-on-exoplanet-research" target="_blank">Webb's Impact on Exoplanet Research</a></strong> - Dives in to the to-be-seen impact of the James Webb Space Telescope on exoplanet science, which introduced novel exoplanet detection techniques into the fold.</li>
 <li><strong><a href="https://www.explore-exoplanets.eu" target="_blank">Explore exoplanets: The knowledge server - Exoplanets</a></strong> - A very complete and rich EU-based exoplanet learning hub.</li>
 </ul>
@@ -461,7 +461,7 @@ Some technical resources and tools I found helpful for this work:
 </li>
   <li><strong><a href="https://projects.susielu.com/viz-palette" target="_blank">Viz Palette</a></strong> - Outstanding and flexible palette tool to pick and test out your color schemes.</li>
 <li>
-<strong><a href="https://python-graph-gallery.com/lollipop-plot/" target="_blank">Lollipop chart | The Python Graph Gallery</a></strong> - Short intro to lollipop plot smart barplot alternative to avoid <strong><a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern" target="_blank">Moiré patterns</a></strong>
+<strong><a href="https://python-graph-gallery.com/lollipop-plot/" target="_blank">Lollipop chart | The Python Graph Gallery</a></strong> - Short intro to lollipop plot smart barplot alternative to avoid <a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern" target="_blank">Moiré patterns</a>.
 </li>
 </ul>
 
