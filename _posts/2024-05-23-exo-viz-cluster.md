@@ -189,7 +189,7 @@ Next I track exoplanet distance from Earth:
 <ul>
   <li> Clear decrease in exoplanet findings with distance. Unsurprising and likely due to observational limits.</li>
   <li> Highest concentration within the first 2,000 light years.</li>
-  <li> Very few exoplanets beyond 6,000 years, but remarkably a small number of planets accessed beyond 8,000 light years.</li>
+  <li> Very few exoplanets beyond 6,000 light years, but remarkably a small number of planets accessed beyond 8,000 light years.</li>
 </ul>
 
 <p> I'll also evaluate the planet distribution using a cumulative distribution function, which indicates to us the probability (<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi></math>) that an exoplanet will be found at a distance less than or equal to some value (<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi></math>) from Earth:</p>
@@ -205,7 +205,7 @@ Next I track exoplanet distance from Earth:
 <strong>Observation(s):</strong>
 <ul>
   <li> For example, about 60% of known planets can be found within 2,000 light years from Earth.</li>
-  <li> About 90% of exoplanets are within the 10,000 light year range. </li>
+  <li> About 90% of exoplanets exist within the 10,000 light year range. </li>
   <li> Growth slows down past 4,000 light years. </li>
 </ul>
 <div style="height: 20px;"></div>
@@ -213,7 +213,7 @@ Next I track exoplanet distance from Earth:
 <h4> Planet mass and radius </h4>
 
 <div style="height: 20px;"></div>
-Now I'll track radius and mass with a scatterplot. Each dot is an exoplanet. Mass is also described with color.
+Now I'll track radius and mass with a scatterplot, where each dot is an exoplanet. Note that mass (<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi></math>) is on a logarithmic scale and also described with color:
 
 <div style="height: 20px;"></div>
 <p align="center">
@@ -226,8 +226,8 @@ Now I'll track radius and mass with a scatterplot. Each dot is an exoplanet. Mas
 <strong>Observation(s):</strong>
 
 <ul>
-<li> Apparent linear relationship between log of planet mass and planet radius.</li>
-<li> Two major groups, one with smaller radius and mass, another with larger.</li>
+<li> Apparent linear relationship between <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>log</mi></math> of planet mass and planet radius.</li>
+<li> Two major groups: smaller vs. moderate radius and mass</li>
 <li> A few outliers with very large mass and radii.</li>
 </ul>
 <br>
@@ -249,20 +249,20 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 
 <h3 align="center"> Machine Learning Classification</h3>
 <div style="height: 20px;"></div>
-<p>In this sections I'll apply a machine learning model to our data, categorizing them into distnct groups using clustering. 
+<p>With some greater insight under our belt, I'll apply a machine learning model to our data, categorizing them into distnct groups using clustering.</p>
   
 <p>Various categorizations have been created by astronomists since the first exoplanet discovery in 1992. When considering size, for instance, we often hear of these classifications, which are not standardized but used widely:</p>
 
 <ul>
-  <li><strong>Super-Earths</strong> - Planets larger than Earth (1.0–1.75 Earth Radius (R&oplus;))</li>
-  <li><strong>Sub-Neptunes</strong> - Planets smaller than Neptune (1.75–3.5 R&oplus;)</li>
-  <li><strong>Sub-Jovians</strong> - Planets smaller than Jupiter (3.5–6.0 R&oplus;)</li>
-  <li><strong>Jovians</strong> -Planets near Jupiter's size (6–14.3 R&oplus;)</li>
+  <li><strong>Super-Earths</strong> (1.0–1.75 Earth Radius (R&oplus;)): Planets larger than Earth</li>
+  <li><strong>Sub-Neptunes</strong> (1.75–3.5 R&oplus;): Planets smaller than Neptune</li>
+  <li><strong>Sub-Jovians</strong> (3.5–6.0 R&oplus;): Planets smaller than Jupiter</li>
+  <li><strong>Jovians</strong> (6–14.3 R&oplus;): Planets near Jupiter's size</li>
 </ul>
 
 <p>For my machine learning applications, I aim to replicate these classifications using our exoplanet data. This involves <strong>unsupervised learning</strong>, where the model doesn't rely on labeled training data for the classifications we're trying to create. 
   
-<p>I'll employ a <strong><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering</strong> algorithm, which, for any number k, groups the data based on select features - in this case, mass and radius - and returns k clusters based on their similarities. I'll do this using <code>scikit-learn</code>. The intricate complexities of the algorithm is not something I'll touch on here.</p>
+<p>I'll employ a <strong><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering</strong> algorithm, which, for any number <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>, groups the data based on select features - in this case, mass and radius - and returns <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math> clusters based on their similarities. I'll do this using <code>scikit-learn</code>. The intricate complexities of the algorithm is not something I'll touch on here.</p>
 
 <div style="height: 20px;"></div>
 <h4> Silhouette score calculation</h4>
