@@ -9,7 +9,7 @@ custom_excerpt: Peering into exoplanet science through the lens of data. I grab 
 est_time: 10 min read
 ---
 
-<p align="center"> <em> This project marks the beginning of my new personal website. Learning is eternal: hoping to document some of that journey here. My first project was inspired out of my curiosity for astronomy and the perpetual goal of honing my skills in data science.</em> </p>
+<p align="center"> <em> This project marks the beginning of my new personal website. Learning is eternal: hoping to document some of that journey here. My first project was created out of my curiosity for astronomy and the perpetual goal of honing my skills in data science.</em> </p>
 
 <hr>
 <div style="height: 20px;"></div>
@@ -20,22 +20,23 @@ est_time: 10 min read
 <div style="height: 20px;"></div>
 
 <table align="center">
+  <caption> Project Summary </caption>
   <tr>
-    <td align="center" width=150><strong> Project Goals </strong> </td>
+    <th style="text-align:center;" width=150 scope="row"><strong> Project Goals </strong> </th>
     <td>
     Query and clean data from NASA exoplanet archive; perform exploratory data analysis and visualize planet features; and employ <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering comparing groups to existing exoplanet classifications.
     </td>
   </tr>
   <tr>
-    <td width=150><strong>Languages</strong></td>
+    <th width=150 scope="row"><strong>Languages</strong></th>
     <td>Python (pandas, numpy, matplotlib, seaborn, scikit-learn), SQL (one humble query)</td>
   </tr>
   <tr>
-    <td width=150><strong>Techniques and skills</strong></td>
+    <th width=150 scope="row"><strong>Techniques and skills</strong></th>
     <td>Data querying, data cleaning, missing value detection, outlier handling, visualization, machine learning, unsupervised learning, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering </td>
   </tr>
   <tr>
-    <td width=150><strong>Project GitHub</strong></td>
+    <th width=150 scope="row"><strong>Project GitHub</strong></th>
     <td> <u><a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main" target="blank">GitHub Repo - exoplanet-viz-cluster</a></u> </td>
   </tr>
 </table>
