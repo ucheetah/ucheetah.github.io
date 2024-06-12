@@ -14,7 +14,7 @@ est_time: 10 min read
 <hr>
 <div style="height: 20px;"></div>
 
-<p>This project peers into exoplanet science through the lens of data. I grab a dataset from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">NASA exoplanets archive</a></strong> on which I'll explore, visualize and perform unsupervised learning through a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm.</p>
+<p>This project peers into exoplanet science through the lens of data. I grab a dataset from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="blank">NASA exoplanets archive</a></strong> on which I'll explore, visualize and perform unsupervised learning through a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm.</p>
 
 <h3 align="center"> Project summary</h3>
 <div style="height: 20px;"></div>
@@ -36,7 +36,7 @@ est_time: 10 min read
   </tr>
   <tr>
     <td width=150><strong>Project GitHub</strong></td>
-    <td> <strong><a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main" target="_blank">GitHub Repo - exoplanet-viz-cluster</a></strong> </td>
+    <td> <strong><a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main" target="blank">GitHub Repo - exoplanet-viz-cluster</a></strong> </td>
   </tr>
 </table>
 
@@ -53,7 +53,7 @@ est_time: 10 min read
 <h3 align="center"> Background</h3>
 <div style="height: 20px;"></div>
 
-<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. While we're accustomed to the nine in our Solar System (well, eight since the <strong><a href="https://neildegrassetyson.com/essays/2007-06-plutos-requiem/" target="_blank">Pluto debacle</a></strong>), <strong>exoplanets</strong> - planets outside our Solar System - don't enjoy the same level of recognition</p>
+<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. While we're accustomed to the nine in our Solar System (well, eight since the <strong><a href="https://neildegrassetyson.com/essays/2007-06-plutos-requiem/" target="blank">Pluto debacle</a></strong>), <strong>exoplanets</strong> - planets outside our Solar System - don't enjoy the same level of recognition</p>
 
 <p>I'd argue that this view is changing, though. Most astronomers recognize an invaluable prospect that exoplanet science offers - confirming the existence of extraterrestrial life. In fact physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique.</p>
 
@@ -76,10 +76,10 @@ est_time: 10 min read
 <h3 align="center">Data collection and cleaning</h3> 
 <div style="height: 20px;"></div>
 
-<p>I will work with the <em><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="_blank"> Planetary Systems</a></em> dataset, which contains records of all 5638 confirmed exoplanets, provided by the NASA exoplanets archive. The archive is a collaboration between Caltech and NASA under its Exoplanet Exploration Program.</p>
+<p>I will work with the <em><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="blank"> Planetary Systems</a></em> dataset, which contains records of all 5638 confirmed exoplanets, provided by the NASA exoplanets archive. The archive is a collaboration between Caltech and NASA under its Exoplanet Exploration Program.</p>
 
 <figure style="text-align: center;">
-   <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="_blank">
+   <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="blank">
       <img src="/assets/img/nasa_exoplanet_homepage.png" width = "400" alt="NASA Homepage">
     </a>
       <figcaption>NASA Exoplanet Archive Website</figcaption> 
@@ -90,7 +90,7 @@ I've grabbed <strong>planet radius</strong>, <strong>planet mass</strong>, <stro
 I've queried this data from NASA's <strong>Table Access Protocol (TAP)</strong> using SQL and Python's <strong><code>requests</code></strong> package and conducted some basic pre-processing. A quick peek at the data gives us:
 
 <figure style="text-align: center;">
-  <a href="/assets/img/exoplanet-raw-table.png" target="_blank">
+  <a href="/assets/img/exoplanet-raw-table.png" target="blank">
   <img src="/assets/img/exoplanet-raw-table.png"  width="600" alt="Exoplanet raw dataset">
   </a>
   <figcaption> <em>Planetary Systems</em> dataset shown in interactive notebook. </figcaption> 
@@ -100,7 +100,7 @@ Here's a more comprehensive summary of the data, including <strong>counts</stron
 
 <div style="height: 10px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-C.svg" target="_blank">
+  <a href="/assets/img/2024-05-24-exoplanets-C.svg" target="blank">
   <img src="/assets/img/2024-05-24-exoplanets-C.svg"  width="600" alt="Graph C">
   </a>
 </p>
@@ -108,7 +108,7 @@ Here's a more comprehensive summary of the data, including <strong>counts</stron
 
 <strong>Observation(s):</strong>
 <ul>
-  <li>Exoplanet science is young - the first exoplanet was found in 1992. Interestingly though, only the researchers behind an exoplanet discovery three years later would snatch a <strong><a href="https://www.insidescience.org/news/all-exoplanets-came-1995" target="_blank">Nobel Prize</a></strong> (it's always political).
+  <li>Exoplanet science is young - the first exoplanet was found in 1992. Interestingly though, only the researchers behind an exoplanet discovery three years later would snatch a <strong><a href="https://www.insidescience.org/news/all-exoplanets-came-1995" target="blank">Nobel Prize</a></strong> (it's always political).
 </li>
   <li>There is a surreal amount of diversity in planet characteristics - these range from
   <ul>
@@ -154,7 +154,7 @@ Next I'll visualize the data. I'll only be showing outputs created using <strong
 
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-J.svg" target="_blank">
+  <a href="/assets/img/2024-05-24-exoplanets-J.svg" target="blank">
   <img src="/assets/img/2024-05-24-exoplanets-J.svg" width="850" alt="Graph J" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 <div style="height: 20px;"></div>
@@ -163,11 +163,11 @@ Next I'll visualize the data. I'll only be showing outputs created using <strong
 <strong> Observations </strong>
 <ul>
   <li>Obvious uptick in findings over the past decade.</li>
-  <li>2016 saw a near-doubling of exoplanets, owed to the <strong><a href="https://www.jpl.nasa.gov/missions/kepler" target="_blank">Kepler Space Telescope Mission</a></strong>, the most successful exoplanet mission to date.</li>
+  <li>2016 saw a near-doubling of exoplanets, owed to the <strong><a href="https://www.jpl.nasa.gov/missions/kepler" target="blank">Kepler Space Telescope Mission</a></strong>, the most successful exoplanet mission to date.</li>
   <li>Transit method is clearly most successful.</li>
 </ul>
 <div style="height: 10px;"></div>
-<p>Observational cosmologist <strong><a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="_blank">Chris Impey</a></strong> observed that the rapid discovery of exoplanets is comparable to the explosive growth of internet technology during the Dotcom bubble. Above that growth is on full display.</p> 
+<p>Observational cosmologist <strong><a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="blank">Chris Impey</a></strong> observed that the rapid discovery of exoplanets is comparable to the explosive growth of internet technology during the Dotcom bubble. Above that growth is on full display.</p> 
 
 <div style="height: 20px;"></div>
 <h4>Distance from Earth</h4>
@@ -179,7 +179,7 @@ Next I track exoplanet distance from Earth:
 
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-D.svg" target="_blank">
+  <a href="/assets/img/2024-05-24-exoplanets-D.svg" target="blank">
   <img src="/assets/img/2024-05-24-exoplanets-D.svg" width="850" alt="Graph D" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
@@ -196,7 +196,7 @@ Next I track exoplanet distance from Earth:
 
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-E.svg" target="_blank">
+  <a href="/assets/img/2024-05-24-exoplanets-E.svg" target="blank">
   <img src="/assets/img/2024-05-24-exoplanets-E.svg" width="850" alt="Graph E" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
@@ -217,7 +217,7 @@ Now I'll track radius and mass with a scatterplot, where each dot is an exoplane
 
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-F.svg" target="_blank">
+  <a href="/assets/img/2024-05-24-exoplanets-F.svg" target="blank">
   <img src="/assets/img/2024-05-24-exoplanets-F.svg" width="850" alt="Graph F" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
@@ -272,7 +272,7 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-G.svg" target="_blank">
+  <a href="/assets/img/2024-05-24-exoplanets-G.svg" target="blank">
   <img src="/assets/img/2024-05-24-exoplanets-G.svg" width="550" alt="Graph G" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
@@ -293,7 +293,7 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-H.svg" target="_blank">
+  <a href="/assets/img/2024-05-24-exoplanets-H.svg" target="blank">
   <img src="/assets/img/2024-05-24-exoplanets-H.svg" width="850" alt="Graph H" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
@@ -308,7 +308,7 @@ Adding distance as a third dimension:
 
 <div style="height: 20px;"></div>
 <p align="center">
-  <a href="/assets/img/2024-05-24-exoplanets-I.png" target="_blank">
+  <a href="/assets/img/2024-05-24-exoplanets-I.png" target="blank">
   <img src="/assets/img/2024-05-24-exoplanets-I.png" width="700" alt="Graph I" style="border: 3px solid #573259; border-radius: 3px;">
   </a>
 </p>
@@ -331,7 +331,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 <strong><p align="center">Smaller planets</p></strong>
 <div class="container-table">
     <div class="half-table">
-        <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
+        <a href="/assets/img/2024-05-24-exoplanets-H1.svg" target="blank"><img src="/assets/img/2024-05-24-exoplanets-H1.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
     <div class="half-table">
         <!-- Content for the left half goes here -->
@@ -352,7 +352,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 <strong><p align="center">Medium-sized planets</p></strong>
 <div class="container-table">
     <div class="half-table">
-        <a href="/assets/img/2024-05-24-exoplanets-H2.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H2.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
+        <a href="/assets/img/2024-05-24-exoplanets-H2.svg" target="blank"><img src="/assets/img/2024-05-24-exoplanets-H2.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
     <div class="half-table">
         <!-- Content for the right half goes here -->
@@ -374,7 +374,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 <div class="container-table">
     <div class="half-table">
         <!-- Image for the right half goes here -->
-        <a href="/assets/img/2024-05-24-exoplanets-H3.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H3.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
+        <a href="/assets/img/2024-05-24-exoplanets-H3.svg" target="blank"><img src="/assets/img/2024-05-24-exoplanets-H3.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
   <div class="half-table">
         <!-- Content for the left half goes here -->
@@ -398,7 +398,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 <div class="container-table">
     <div class="half-table">
         <!-- Image for the left half goes here -->
-        <a href="/assets/img/2024-05-24-exoplanets-H4.svg" target="_blank"><img src="/assets/img/2024-05-24-exoplanets-H4.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
+        <a href="/assets/img/2024-05-24-exoplanets-H4.svg" target="blank"><img src="/assets/img/2024-05-24-exoplanets-H4.svg" width="500" style="border: 3px solid #573259; border-radius: 3px;"></a>
     </div>
     <div class="half-table">
         <!-- Content for the right half goes here -->
@@ -420,7 +420,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 </ul>
 <div style="height: 20px;"></div>
 
-<p>Expanding on this, it's clear that we tend to designate mass and radius-based categorizations of planets based on our own Solar System rather than the fundamental qualities of planets. It's essentially a form of <strong><a href="https://www.britannica.com/science/heliocentrism" target="_blank">heliocentrism</a></strong>. What differentiates a Sub-Neptune and a Super-Neptune aside from their size relative to Neptune? Categorizing planets thousands of light years away in this matter could be argued as unscientific.</p>
+<p>Expanding on this, it's clear that we tend to designate mass and radius-based categorizations of planets based on our own Solar System rather than the fundamental qualities of planets. It's essentially a form of <strong><a href="https://www.britannica.com/science/heliocentrism" target="blank">heliocentrism</a></strong>. What differentiates a Sub-Neptune and a Super-Neptune aside from their size relative to Neptune? Categorizing planets thousands of light years away in this matter could be argued as unscientific.</p>
 
 <p>The ramifications of bad groupings is that a machine learning classification algorithm may struggle to accurately categorize groups when the categories themselves are not based on the fundamental characteristics of the members. I do believe that this is most likely what's occurred here and for that reason there's a threshold to the success that can be achieved using this approach.</p>
 
@@ -444,24 +444,24 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 If worked has piqued your interest on exoplanet science, here are a few resources I've enjoyed in creating this project:
 <div style="height: 10px;"></div>
 <ul>
-<li><strong><a href="https://astrobiology.com/2023/05/discovery-of-69-new-exoplanets-using-machine-learning.html" target="_blank">Discovery of 69 New Exoplanets Using Machine Learning</a></strong> - Incredible usage of a deep learning algorithm called ExoMiner and the technique of multiplicity to identify new planets.</li>
-  <li><strong><a href="https://www.astronomy.com/science/chinas-ambitious-plan-to-find-the-first-earth-2-0/" target="_blank">China's Ambitious Plan to Find the First Earth 2.0</a>
+<li><strong><a href="https://astrobiology.com/2023/05/discovery-of-69-new-exoplanets-using-machine-learning.html" target="blank">Discovery of 69 New Exoplanets Using Machine Learning</a></strong> - Incredible usage of a deep learning algorithm called ExoMiner and the technique of multiplicity to identify new planets.</li>
+  <li><strong><a href="https://www.astronomy.com/science/chinas-ambitious-plan-to-find-the-first-earth-2-0/" target="blank">China's Ambitious Plan to Find the First Earth 2.0</a>
 </strong> - A look into China's efforts to launch a new telescope in 2026 that will devote itself to finding a habitable Earth-like exoplanet.</li>
-<li><strong><a href="https://webbtelescope.org/contents/articles/webbs-impact-on-exoplanet-research" target="_blank">Webb's Impact on Exoplanet Research</a></strong> - Dives in to the to-be-seen impact of the James Webb Space Telescope on exoplanet science, which introduced novel exoplanet detection techniques into the fold.</li>
-<li><strong><a href="https://www.explore-exoplanets.eu" target="_blank">Explore exoplanets: The knowledge server - Exoplanets</a></strong> - A very complete and rich EU-based exoplanet learning hub.</li>
+<li><strong><a href="https://webbtelescope.org/contents/articles/webbs-impact-on-exoplanet-research" target="blank">Webb's Impact on Exoplanet Research</a></strong> - Dives in to the to-be-seen impact of the James Webb Space Telescope on exoplanet science, which introduced novel exoplanet detection techniques into the fold.</li>
+<li><strong><a href="https://www.explore-exoplanets.eu" target="blank">Explore exoplanets: The knowledge server - Exoplanets</a></strong> - A very complete and rich EU-based exoplanet learning hub.</li>
 </ul>
 <div style="height: 10px;"></div>
 Some technical resources and tools I found helpful for this work:
 <ul>
   <li>
-    <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="_blank"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="_blank"> How to create custom tables</a></strong> - Great tutorials on creating custom tables.
+    <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="blank"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="blank"> How to create custom tables</a></strong> - Great tutorials on creating custom tables.
   </li>
 <li>
-<strong><a href="https://matplotlib.org/stable/users/explain/customizing.html" target="_blank">Customizing Matplotlib with style sheets and rcParams</a></strong> - Comprehensive from-the-source demo on customizing Matplotlib style.
+<strong><a href="https://matplotlib.org/stable/users/explain/customizing.html" target="blank">Customizing Matplotlib with style sheets and rcParams</a></strong> - Comprehensive from-the-source demo on customizing Matplotlib style.
 </li>
-  <li><strong><a href="https://projects.susielu.com/viz-palette" target="_blank">Viz Palette</a></strong> - Outstanding and flexible palette tool to pick and test out your color schemes.</li>
+  <li><strong><a href="https://projects.susielu.com/viz-palette" target="blank">Viz Palette</a></strong> - Outstanding and flexible palette tool to pick and test out your color schemes.</li>
 <li>
-<strong><a href="https://python-graph-gallery.com/lollipop-plot/" target="_blank">Lollipop chart | The Python Graph Gallery</a></strong> - Short intro to lollipop plot smart barplot alternative to avoid <a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern" target="_blank">Moiré patterns</a>.
+<strong><a href="https://python-graph-gallery.com/lollipop-plot/" target="blank">Lollipop chart | The Python Graph Gallery</a></strong> - Short intro to lollipop plot smart barplot alternative to avoid <a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern" target="blank">Moiré patterns</a>.
 </li>
 </ul>
 
