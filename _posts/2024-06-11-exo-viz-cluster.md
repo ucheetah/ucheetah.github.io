@@ -14,7 +14,7 @@ est_time: 10 min read
 <hr>
 <div style="height: 20px;"></div>
 
-<p>This project peers into exoplanet science through the lens of data. I grab a dataset from the <strong><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="blank">NASA exoplanets archive</a></strong> on which I'll explore, visualize and perform unsupervised learning through a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm.</p>
+<p>This project peers into exoplanet science through the lens of data. I grab a dataset from the <u><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="blank">NASA exoplanets archive</a></u> on which I'll explore, visualize and perform unsupervised learning through a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm.</p>
 
 <h3 align="center"> Project summary</h3>
 <div style="height: 20px;"></div>
@@ -36,7 +36,7 @@ est_time: 10 min read
   </tr>
   <tr>
     <td width=150><strong>Project GitHub</strong></td>
-    <td> <strong><a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main" target="blank">GitHub Repo - exoplanet-viz-cluster</a></strong> </td>
+    <td> <u><a href="https://github.com/ucheetah/exoplanet-viz-cluster/tree/main" target="blank">GitHub Repo - exoplanet-viz-cluster</a></u> </td>
   </tr>
 </table>
 
@@ -53,7 +53,7 @@ est_time: 10 min read
 <h3 align="center"> Background</h3>
 <div style="height: 20px;"></div>
 
-<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. While we're accustomed to the nine in our Solar System (well, eight since the <strong><a href="https://neildegrassetyson.com/essays/2007-06-plutos-requiem/" target="blank">Pluto debacle</a></strong>), <strong>exoplanets</strong> - planets outside our Solar System - don't enjoy the same level of recognition</p>
+<p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. While we're accustomed to the nine in our Solar System (well, eight since the <u><a href="https://neildegrassetyson.com/essays/2007-06-plutos-requiem/" target="blank">Pluto debacle</a></u>), <strong>exoplanets</strong> - planets outside our Solar System - don't enjoy the same level of recognition</p>
 
 <p>I'd argue that this view is changing, though. Most astronomers recognize an invaluable prospect that exoplanet science offers - confirming the existence of extraterrestrial life. In fact physicists claim that we're guaranteed to find life beyond our Solar System given enough searching and the genuine unlikelihood that life on Earth is unique.</p>
 
@@ -76,7 +76,7 @@ est_time: 10 min read
 <h3 align="center">Data collection and cleaning</h3> 
 <div style="height: 20px;"></div>
 
-<p>I will work with the <em><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="blank"> Planetary Systems</a></em> dataset, which contains records of all 5638 confirmed exoplanets, provided by the NASA exoplanets archive. The archive is a collaboration between Caltech and NASA under its Exoplanet Exploration Program.</p>
+<p>I will work with the <u><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="blank"> Planetary Systems</a></u> dataset, which contains records of all 5638 confirmed exoplanets, provided by the NASA exoplanets archive. The archive is a collaboration between Caltech and NASA under its Exoplanet Exploration Program.</p>
 
 <figure style="text-align: center;">
    <a href = "https://exoplanetarchive.ipac.caltech.edu/index.html" target="blank">
@@ -108,7 +108,7 @@ Here's a more comprehensive summary of the data, including <strong>counts</stron
 
 <strong>Observation(s):</strong>
 <ul>
-  <li>Exoplanet science is young - the first exoplanet was found in 1992. Interestingly though, only the researchers behind an exoplanet discovery three years later would snatch a <strong><a href="https://www.insidescience.org/news/all-exoplanets-came-1995" target="blank">Nobel Prize</a></strong> (it's always political).
+  <li>Exoplanet science is young - the first exoplanet was found in 1992. Interestingly though, only the researchers behind an exoplanet discovery three years later would snatch a <u><a href="https://www.insidescience.org/news/all-exoplanets-came-1995" target="blank">Nobel Prize</a></u> (it's always political).
 </li>
   <li>There is a surreal amount of diversity in planet characteristics - these range from
   <ul>
@@ -163,11 +163,11 @@ Next I'll visualize the data. I'll only be showing outputs created using <strong
 <strong> Observations </strong>
 <ul>
   <li>Obvious uptick in findings over the past decade.</li>
-  <li>2016 saw a near-doubling of exoplanets, owed to the <strong><a href="https://www.jpl.nasa.gov/missions/kepler" target="blank">Kepler Space Telescope Mission</a></strong>, the most successful exoplanet mission to date.</li>
+  <li>2016 saw a near-doubling of exoplanets, owed to the <u><a href="https://www.jpl.nasa.gov/missions/kepler" target="blank">Kepler Space Telescope Mission</a></u>, the most successful exoplanet mission to date.</li>
   <li>Transit method is clearly most successful.</li>
 </ul>
 <div style="height: 10px;"></div>
-<p>Observational cosmologist <strong><a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="blank">Chris Impey</a></strong> observed that the rapid discovery of exoplanets is comparable to the explosive growth of internet technology during the Dotcom bubble. Above that growth is on full display.</p> 
+<p>Observational cosmologist <u><a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="blank">Chris Impey</a></u> observed that the rapid discovery of exoplanets is comparable to the explosive growth of internet technology during the Dotcom bubble. Above that growth is on full display.</p> 
 
 <div style="height: 20px;"></div>
 <h4>Distance from Earth</h4>
@@ -444,24 +444,24 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 If worked has piqued your interest on exoplanet science, here are a few resources I've enjoyed in creating this project:
 <div style="height: 10px;"></div>
 <ul>
-<li><strong><a href="https://astrobiology.com/2023/05/discovery-of-69-new-exoplanets-using-machine-learning.html" target="blank">Discovery of 69 New Exoplanets Using Machine Learning</a></strong> - Incredible usage of a deep learning algorithm called ExoMiner and the technique of multiplicity to identify new planets.</li>
-  <li><strong><a href="https://www.astronomy.com/science/chinas-ambitious-plan-to-find-the-first-earth-2-0/" target="blank">China's Ambitious Plan to Find the First Earth 2.0</a>
-</strong> - A look into China's efforts to launch a new telescope in 2026 that will devote itself to finding a habitable Earth-like exoplanet.</li>
-<li><strong><a href="https://webbtelescope.org/contents/articles/webbs-impact-on-exoplanet-research" target="blank">Webb's Impact on Exoplanet Research</a></strong> - Dives in to the to-be-seen impact of the James Webb Space Telescope on exoplanet science, which introduced novel exoplanet detection techniques into the fold.</li>
-<li><strong><a href="https://www.explore-exoplanets.eu" target="blank">Explore exoplanets: The knowledge server - Exoplanets</a></strong> - A very complete and rich EU-based exoplanet learning hub.</li>
+<li><u><a href="https://astrobiology.com/2023/05/discovery-of-69-new-exoplanets-using-machine-learning.html" target="blank">Discovery of 69 New Exoplanets Using Machine Learning</a></u> - Incredible usage of a deep learning algorithm called ExoMiner and the technique of multiplicity to identify new planets.</li>
+  <li><u><a href="https://www.astronomy.com/science/chinas-ambitious-plan-to-find-the-first-earth-2-0/" target="blank">China's Ambitious Plan to Find the First Earth 2.0</a>
+</u> - A look into China's efforts to launch a new telescope in 2026 that will devote itself to finding a habitable Earth-like exoplanet.</li>
+<li><u><a href="https://webbtelescope.org/contents/articles/webbs-impact-on-exoplanet-research" target="blank">Webb's Impact on Exoplanet Research</a></u> - Dives in to the to-be-seen impact of the James Webb Space Telescope on exoplanet science, which introduced novel exoplanet detection techniques into the fold.</li>
+<li><u><a href="https://www.explore-exoplanets.eu" target="blank">Explore exoplanets: The knowledge server - Exoplanets</a></u> - A very complete and rich EU-based exoplanet learning hub.</li>
 </ul>
 <div style="height: 10px;"></div>
 Some technical resources and tools I found helpful for this work:
 <ul>
   <li>
-    <strong><a href="https://www.sonofacorner.com/beautiful-tables/" target="blank"> Beautiful Tables in Matplotlib, a Tutorial</a></strong> and <strong><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="blank"> How to create custom tables</a></strong> - Great tutorials on creating custom tables.
+    <u><a href="https://www.sonofacorner.com/beautiful-tables/" target="blank"> Beautiful Tables in Matplotlib, a Tutorial</a></u> and <u><a href="https://matplotlib.org/matplotblog/posts/how-to-create-custom-tables/?ref=sonofacorner.com" target="blank"> How to create custom tables</a></u> - Great tutorials on creating custom tables.
   </li>
 <li>
-<strong><a href="https://matplotlib.org/stable/users/explain/customizing.html" target="blank">Customizing Matplotlib with style sheets and rcParams</a></strong> - Comprehensive from-the-source demo on customizing Matplotlib style.
+<u><a href="https://matplotlib.org/stable/users/explain/customizing.html" target="blank">Customizing Matplotlib with style sheets and rcParams</a></u> - Comprehensive from-the-source demo on customizing Matplotlib style.
 </li>
-  <li><strong><a href="https://projects.susielu.com/viz-palette" target="blank">Viz Palette</a></strong> - Outstanding and flexible palette tool to pick and test out your color schemes.</li>
+  <li><u><a href="https://projects.susielu.com/viz-palette" target="blank">Viz Palette</a></u> - Outstanding and flexible palette tool to pick and test out your color schemes.</li>
 <li>
-<strong><a href="https://python-graph-gallery.com/lollipop-plot/" target="blank">Lollipop chart | The Python Graph Gallery</a></strong> - Short intro to lollipop plot smart barplot alternative to avoid <a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern" target="blank">Moiré patterns</a>.
+<u><a href="https://python-graph-gallery.com/lollipop-plot/" target="blank">Lollipop chart | The Python Graph Gallery</a></u> - Short intro to lollipop plot smart barplot alternative to avoid <u><a href="https://en.wikipedia.org/wiki/Moir%C3%A9_pattern" target="blank">Moiré patterns</a></u>.
 </li>
 </ul>
 
