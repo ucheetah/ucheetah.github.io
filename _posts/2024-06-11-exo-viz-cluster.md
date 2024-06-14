@@ -8,7 +8,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 custom_excerpt: Peering into exoplanet science through the lens of data. I grab a dataset from the NASA exoplanets archive on which I'll explore, visualize and perform unsupervised learning through a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm.
 est_time: 10 min read
 ---
-<h1 class="visually-hidden">Visualizing and Clustering NASA Exoplanet Data</h1>
+<h1 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">Visualizing and Clustering NASA Exoplanet Data</h1>
 
 <p align="center"> <em> This project marks the beginning of my new personal website. Learning is eternal: hoping to document some of that journey here. My first project was created out of my curiosity for astronomy and the perpetual goal of honing my skills in data science.</em> </p>
 
@@ -440,7 +440,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 <div style="height: 20px;"></div>
 <hr>
 <div style="height: 20px;"></div>
-<h2 style="font-size:0.6rem">Resources</h2>
+<h2 style="font-size:0.6rem;">Resources</h2>
 <div style="height: 20px;"></div>
 
 If worked has piqued your interest on exoplanet science, here are a few resources I've enjoyed in creating this project:
