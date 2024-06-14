@@ -8,6 +8,7 @@ github: https://github.com/ucheetah/exoplanet-viz-cluster
 custom_excerpt: Peering into exoplanet science through the lens of data. I grab a dataset from the NASA exoplanets archive on which I'll explore, visualize and perform unsupervised learning through a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm.
 est_time: 10 min read
 ---
+<h1 class="visually-hidden">Visualizing and Clustering NASA Exoplanet Data</h1>
 
 <p align="center"> <em> This project marks the beginning of my new personal website. Learning is eternal: hoping to document some of that journey here. My first project was created out of my curiosity for astronomy and the perpetual goal of honing my skills in data science.</em> </p>
 
@@ -16,7 +17,7 @@ est_time: 10 min read
 
 <p>This project peers into exoplanet science through the lens of data. I grab a dataset from the <u><a href="https://exoplanetarchive.ipac.caltech.edu/index.html" target="blank">NASA exoplanets archive</a></u> on which I'll explore, visualize and perform unsupervised learning through a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm.</p>
 
-<h3 align="center"> Project summary</h3>
+<h2 align="center"> Project summary</h2>
 <div style="height: 20px;"></div>
 
 <table align="center">
@@ -51,7 +52,7 @@ est_time: 10 min read
 <div style="height: 20px;"></div>
 <hr>
 <div style="height: 20px;"></div>
-<h3 align="center"> Background</h3>
+<h2 align="center"> Background</h2>
 <div style="height: 20px;"></div>
 
 <p>Our popular conception of space is dominated by stars. Understandably though. Not to get poetic, but for as long there's been life on Earth, we've gazed at the night sky. Planets, on the other hand, just don't get the same notoriety. While we're accustomed to the nine in our Solar System (well, eight since the <u><a href="https://neildegrassetyson.com/essays/2007-06-plutos-requiem/" target="blank">Pluto debacle</a></u>), <strong>exoplanets</strong> - planets outside our Solar System - don't enjoy the same level of recognition</p>
@@ -74,7 +75,7 @@ est_time: 10 min read
 <div style="height: 20px;"></div>
 <hr>
 <div style="height: 20px;"></div>
-<h3 align="center">Data collection and cleaning</h3> 
+<h2 align="center">Data collection and cleaning</h2> 
 <div style="height: 20px;"></div>
 
 <p>I will work with the <u><a href="https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html" target="blank"> Planetary Systems</a></u> dataset, which contains records of all 5638 confirmed exoplanets, provided by the NASA exoplanets archive. The archive is a collaboration between Caltech and NASA under its Exoplanet Exploration Program.</p>
@@ -135,12 +136,12 @@ With this first glimpse let's dive in deeper with visualizations.
 <hr>
 
 <div style="height: 20px;"></div>
-<h3 align="center">Visualization and Analysis</h3>
+<h2 align="center">Visualization and Analysis</h2>
 <div style="height: 20px;"></div>
 Next I'll visualize the data. I'll only be showing outputs created using <strong><code>matplotlib</code></strong> and <strong><code>seaborn</code></strong>. I wanted to challenge the notion that these packages lack in complexity or aesthetic quality by developing graphs that still feel dynamic, and employing lesser-used tools such as 3D graphs, matplotlib tables and stylesheets.
 
 <div style="height: 20px;"></div>
-<h4>Discovery method</h4>
+<h3>Discovery method</h3>
 <div style="height: 20px;"></div>
 
 <p>Since exoplanets are fundamentally harder to detect than other bodies like stars, finding them has required the development of complex methods using fine-grained spectroscopic data:</p>
@@ -171,7 +172,7 @@ Next I'll visualize the data. I'll only be showing outputs created using <strong
 <p>Observational cosmologist <u><a href="https://www.youtube.com/watch?v=fbRfJTiQYtA&ab_channel=TheRoyalInstitution" target="blank">Chris Impey</a></u> observed that the rapid discovery of exoplanets is comparable to the explosive growth of internet technology during the Dotcom bubble. Above that growth is on full display.</p> 
 
 <div style="height: 20px;"></div>
-<h4>Distance from Earth</h4>
+<h3>Distance from Earth</h3>
 <div style="height: 20px;"></div>
 
 Next I track exoplanet distance from Earth:
@@ -211,7 +212,7 @@ Next I track exoplanet distance from Earth:
 </ul>
 <div style="height: 20px;"></div>
 
-<h4> Planet mass and radius </h4>
+<h3> Planet mass and radius </h3>
 
 <div style="height: 20px;"></div>
 Now I'll track radius and mass with a scatterplot, where each dot is an exoplanet. Note that mass (<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi></math>) is on a logarithmic scale and also described with color:
@@ -248,7 +249,7 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 
 
 
-<h3 align="center"> Machine Learning Classification</h3>
+<h2 align="center"> Machine Learning Classification</h2>
 <div style="height: 20px;"></div>
 <p>With some greater insight under our belt, I'll apply a machine learning model to our data, categorizing them into distinct groups using clustering.</p>
   
@@ -266,7 +267,7 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 <p>I'll employ a <strong><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="bold"><mi>k</mi></mstyle></math>-means clustering</strong> algorithm, which for any number <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math> groups the data based on select features - in this case, mass and radius - and returns <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math> clusters based on their similarities. I'll do this using <strong><code>scikit-learn</code></strong>. I won't touch on the complexities of the algorithm itself here.</p>
 
 <div style="height: 20px;"></div>
-<h4> Silhouette Score calculation</h4>
+<h3> Silhouette Score calculation</h3>
 <div style="height: 20px;"></div>
 
 <p>I'll use the <strong>Silhouette Score Method</strong> to determine the number of categories (clusters) that's best to model. This method tests the algorithm on different groupings (one group, two groups,...) and attributes to each a score based on how well the algorithm will generate members that are alike. High scores indicate good grouping results, low scores indicate ineffective groupings.</p>
@@ -285,7 +286,7 @@ These graphs have given us a fairly good sense of the ensemble based on what I'v
 </ul>
 
 <div style="height: 20px;"></div>
-<h4> Apply <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm</h4>
+<h3> Apply <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering algorithm</h3>
 <div style="height: 20px;"></div>
 
 <p>Based on the Silhouette Method, I ran a <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means model on the exoplanet data generating four clusters.</p>
@@ -322,13 +323,13 @@ Adding distance as a third dimension:
 
 <div style="height: 20px;"></div>
 
-<h4>Cluster Analysis</h4>
+<h3>Cluster Analysis</h3>
 <div style="height: 20px;"></div>
 
 Let's look closer at each group and how each cluster fares to existing exoplanet groupings:
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 1</h5>
+<h4 align="center">Cluster 1</h4>
 <strong><p align="center">Smaller planets</p></strong>
 <div class="container-table">
     <div class="half-table">
@@ -349,7 +350,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 2</h5>
+<h4 align="center">Cluster 2</h4>
 <strong><p align="center">Medium-sized planets</p></strong>
 <div class="container-table">
     <div class="half-table">
@@ -370,7 +371,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 3</h5>
+<h4 align="center">Cluster 3</h4>
 <strong><p align="center">Large and massive planets</p></strong>
 <div class="container-table">
     <div class="half-table">
@@ -394,7 +395,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 
 <div style="height: 20px;"></div>
 
-<h5 align="center">Cluster 4</h5>
+<h4 align="center">Cluster 4</h4>
 <strong><p align="center">Also large and massive planets</p></strong>
 <div class="container-table">
     <div class="half-table">
@@ -427,7 +428,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 
 <div style="height: 20px;"></div>
 
-<h3 align="center"> Closing thoughts </h3>
+<h2 align="center"> Closing thoughts </h2>
 <div style="height: 20px;"></div>
 
 <p>I think that the thrill with data visualization in particular is being able to take complexity and deliver insights that are tangible, and hopefully stimulate curiosity in people they didn't know they had. Obviously it just scratched the surface, but this work challenged me to reflect on representing a scientific domain through data science in a way that felt compelling. </p>
@@ -439,7 +440,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 <div style="height: 20px;"></div>
 <hr>
 <div style="height: 20px;"></div>
-<h4>Resources</h4>
+<h2 style="font-size:0.6rem">Resources</h2>
 <div style="height: 20px;"></div>
 
 If worked has piqued your interest on exoplanet science, here are a few resources I've enjoyed in creating this project:
