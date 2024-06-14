@@ -10,7 +10,7 @@ est_time: 10 min read
 ---
 <h1 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">Visualizing and Clustering NASA Exoplanet Data</h1>
 
-<p align="center"> <em> This project marks the beginning of my new personal website. Learning is eternal: hoping to document some of that journey here. My first project was created out of my curiosity for astronomy and the perpetual goal of honing my skills in data science.</em> </p>
+<p align="center"> <em> This project marks the beginning of my new personal website. Learning is eternal: hoping to document some of that journey here. This first project was created out of my interest in astronomy and the perpetual goal of honing my skills in data science.</em> </p>
 
 <hr>
 <div style="height: 20px;"></div>
