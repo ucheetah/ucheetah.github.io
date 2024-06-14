@@ -440,7 +440,7 @@ Let's look closer at each group and how each cluster fares to existing exoplanet
 <div style="height: 20px;"></div>
 <hr>
 <div style="height: 20px;"></div>
-<h2 style="font-size:0.6rem;">Resources</h2>
+<h2 style="font-size:16;">Resources</h2>
 <div style="height: 20px;"></div>
 
 If worked has piqued your interest on exoplanet science, here are a few resources I've enjoyed in creating this project:
