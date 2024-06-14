@@ -20,9 +20,9 @@ est_time: 10 min read
 <div style="height: 20px;"></div>
 
 <table align="center">
-  <caption> Project Summary </caption>
+  <caption align="center"> Project Summary </caption>
   <tr>
-    <th style="text-align:center;" width=150 scope="row"><strong> Project Goals </strong> </th>
+    <th width=150 scope="row"><strong> Project Goals </strong> </th>
     <td>
     Query and clean data from NASA exoplanet archive; perform exploratory data analysis and visualize planet features; and employ <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math>-means clustering comparing groups to existing exoplanet classifications.
     </td>
